@@ -9,10 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumerationQuest.Test", "En
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{29FD03BA-050D-4BD4-BA20-FA7440809A0F}"
 	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
 		todo.md = todo.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerationQuest.Demo", "EnumerationQuest.Demo\EnumerationQuest.Demo.csproj", "{83119DFB-E379-42DA-9A94-7F7E21612CFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumerationQuest.Demo", "EnumerationQuest.Demo\EnumerationQuest.Demo.csproj", "{83119DFB-E379-42DA-9A94-7F7E21612CFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
