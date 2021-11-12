@@ -1,0 +1,84 @@
+﻿// EnumerableQuest - Avoids multiple enumeration
+// 
+// Copyright 2021 Pierre Lando
+// 
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+// 
+//    http://www.apache.org/licenses/LICENSE-2.0
+// 
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using EnumerationQuest.Consumers;
+
+#nullable enable
+
+namespace EnumerationQuest
+{
+    public static partial class EnumerationRequests
+    {
+<# foreach (var m in methods) { #>
+        #region <#= m.Name #> <#= string.IsNullOrEmpty(m.Args) ? "" : $"with {m.Args}" #>
+
+<# foreach (var line in m.Doc) { #>
+        /// <#= line #>
+<# } #>
+        /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <param name="source">The sequence for which the result is evaluated.</param>
+        /// <returns>
+        ///     <para>
+        ///         An <see cref="EnumerationRequests1{TSource, TResult1}"/> whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see> evaluate this request.
+        ///     </para>
+        ///     <para>
+        ///         After deconstruction, the result of this request is at the first position.
+        ///     </para>
+        /// </returns>
+        /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
+        public static EnumerationRequests1<TSource, <#= m.TOut #>> Get<#= m.Name #><TSource<#= m.Generics #>>(this IEnumerable<TSource> source<#= m.Params #>) <#= m.Constraints #>
+        {
+            return new EnumerationRequests1<TSource, <#= m.TOut #>>(source, ConsumerFactory.<#= m.Name #><TSource<#= m.Generics #>>(<#= m.Args #>));
+        }
+
+<# foreach (var o in overloads.Where(o => !o.IsLast)) { #>
+<# foreach (var line in m.Doc) { #>
+        /// <#= line #>
+<# } #>
+        /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
+<# for (var i = 1; i <= o.Index; i++) { #>
+        /// <typeparam name="TResult<#= i #>">The result type of the <#= ordinals[i] #> request stored in <paramref name="source"/>.</typeparam>
+<# } #>
+        /// <param name="source">The request holder to which this request is added.</param>
+        /// <returns>
+        ///     <para>
+        ///         An <see cref="EnumerationRequests<#= o.Index + 1 #>{TSource<#= o.CommaTypes #>, TResult<#= o.Index + 1 #>}"/>
+        ///         whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see>
+        ///         evaluate this request and the requests stored in <paramref name="source"/>.
+        ///     </para>
+        ///     <para>
+        ///         After deconstruction, the result of this request is at the <#= ordinals[o.Index + 1] #> position;
+        ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
+        ///     </para>
+        /// </returns>
+        /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
+        public static EnumerationRequests<#= o.Index + 1 #><TSource<#= o.CommaTypes #>, <#= m.TOut #>> And<#= m.Name #><<#= o.TypesComma #>TSource<#= m.Generics #>>(this EnumerationRequests<#= o.Index #><TSource<#= o.CommaTypes #>> source<#= m.Params #>) <#= m.Constraints #>
+        {
+            if (source is null)
+                throw new ArgumentNullException(nameof(source));
+
+            return source.Add(ConsumerFactory.<#= m.Name #><TSource<#= m.Generics #>>(<#= m.Args #>));
+        }
+
+<# } #>
+        #endregion
+
+<# } #>
+    }
+}

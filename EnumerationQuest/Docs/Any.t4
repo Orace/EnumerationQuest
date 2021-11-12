@@ -1,0 +1,31 @@
+<#
+
+var docForAny = new []
+{
+	@"<summary>",
+	@"	<para>",
+	@"		Requests the evaluation of a <see cref=""Boolean""/> that represent whether a sequence contains any element.",
+	@"	</para>",
+	@"	<para>",
+	@"		The result of this request is <see langword=""true""/> if the sequence is not empty; <see langword=""false""/> otherwise.",
+	@"	</para>",
+	@"</summary>",
+	@"<seealso cref=""Enumerable.Any{TSource}(IEnumerable{TSource})""/>",
+};
+
+var docForAnyWithPredicate = new []
+{
+	@"<summary>",
+	@"	<para>",
+	@"		Requests the evaluation of a <see cref=""Boolean""/> that represent whether any element of a sequence satisfy a condition.",
+	@"	</para>",
+	@"	<para>",
+	@"		The result of this request is <see langword=""true""/> it the sequence contains an element that satisfies the condition; <see langword=""false""/> otherwise.",
+	@"	</para>",
+	@"</summary>",
+	@"<param name=""predicate"">A function to test each element for a condition.</param>",
+	@"<seealso cref=""Enumerable.Any{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})""/>",
+	@"<exception cref=""ArgumentNullException""><paramref name=""predicate""/> is <see langword=""null""/>.</exception>",
+};
+
+#>

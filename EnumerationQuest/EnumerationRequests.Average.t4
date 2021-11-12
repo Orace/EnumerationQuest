@@ -1,0 +1,205 @@
+// EnumerableQuest - Avoids multiple enumeration
+// 
+// Copyright 2021 Pierre Lando
+// 
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+// 
+//    http://www.apache.org/licenses/LICENSE-2.0
+// 
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using EnumerationQuest.Consumers;
+
+#nullable enable
+
+namespace EnumerationQuest
+{
+    public static partial class EnumerationRequests
+    {
+<# foreach (var n in numerics) { #>
+        #region Average of <#= n.Type #>
+
+        /// <summary>
+        /// 	<para>
+        /// 		Requests the evaluation of the average of the values in a sequence.
+        /// 	</para>
+        /// 	<para>
+        /// 		The result of this request is the average of the values in the sequence.
+        /// 	</para>
+        /// </summary>
+<# if (n.IsNullable) { #>
+        /// <remarks>
+        /// 	<para>
+        /// 		If the sequence is empty or contains only <see langword="null"/>, the result of this request is <see langword="null"/>.
+        /// 	</para>
+        /// </remarks>
+<# } else { #>
+        /// <remarks>
+        /// 	<para>
+        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        /// 		if the source sequence is empty.
+        /// 	</para>
+        /// </remarks>
+<# } #>
+        /// <returns>
+        ///     <para>
+        ///         An <see cref="EnumerationRequests1{TSource, <#= n.ReturnType #>}"/> whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see> evaluate this request.
+        ///     </para>
+        ///     <para>
+        ///         After deconstruction, the result of this request is at the first position.
+        ///     </para>
+        /// </returns>
+        /// <param name="source">The sequence for which the average is requested.</param>
+        /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
+        /// <seealso cref="Enumerable.Average(IEnumerable{<#= n.Type #>})"/>
+        public static EnumerationRequests1<<#= n.Type #>, <#= n.ReturnType #>> GetAverage(this IEnumerable<<#= n.Type #>> source)
+        {
+            return new EnumerationRequests1<<#= n.Type #>, <#= n.ReturnType #>>(source, ConsumerFactory.AverageOf<#= n.Name #>());
+        }
+
+<# foreach (var o in overloads.Where(o => !o.IsLast)) { #>
+        /// <summary>
+        /// 	<para>
+        /// 		Requests the evaluation of the average of the values in a sequence.
+        /// 	</para>
+        /// 	<para>
+        /// 		The result of this request is the average of the values in the sequence.
+        /// 	</para>
+        /// </summary>
+<# if (n.IsNullable) { #>
+        /// <remarks>
+        /// 	<para>
+        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        /// 	</para>
+        /// </remarks>
+<# } else { #>
+        /// <remarks>
+        /// 	<para>
+        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        /// 	</para>
+        /// </remarks>
+<# } #>
+        /// <returns>
+        ///     <para>
+        ///         An <see cref="EnumerationRequests<#= o.Index + 1 #>{TSource<#= o.CommaTypes #>, TResult<#= o.Index + 1 #>}"/>
+        ///         whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see>
+        ///         evaluate this request and the requests stored in <paramref name="source"/>.
+        ///     </para>
+        ///     <para>
+        ///         After deconstruction, the result of this request is at the <#= ordinals[o.Index + 1] #> position;
+        ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
+        ///     </para>
+        /// </returns>
+        /// <param name="source">The request holder to which this request is added.</param>
+        /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
+        /// <seealso cref="Enumerable.Average(IEnumerable{<#= n.Type #>})"/>
+        public static EnumerationRequests<#= o.Index + 1 #><<#= n.Type #><#= o.CommaTypes #>, <#= n.ReturnType #>> AndAverage<#= o.Types #>(this EnumerationRequests<#= o.Index #><<#= n.Type #><#= o.CommaTypes #>> source)
+        {
+            return source.Add(ConsumerFactory.AverageOf<#= n.Name #>());
+        }
+
+<# } #>
+        #endregion
+
+<# } #>
+<# foreach (var n in numerics) { #>
+        #region Average of <#= n.Type #> with selector
+
+        /// <summary>
+        /// 	<para>
+        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
+        /// 	</para>
+        /// 	<para>
+        /// 		The result of this request is the average of transformed objects from the sequence.
+        /// 	</para>
+        /// </summary>
+<# if (n.IsNullable) { #>
+        /// <remarks>
+        /// 	<para>
+        /// 		If the sequence is empty or contains only <see langword="null"/>, the result of this request is <see langword="null"/>.
+        /// 	</para>
+        /// </remarks>
+<# } else { #>
+        /// <remarks>
+        /// 	<para>
+        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        /// 		if the source sequence is empty.
+        /// 	</para>
+        /// </remarks>
+<# } #>
+        /// <returns>
+        ///     <para>
+        ///         An <see cref="EnumerationRequests1{TSource, <#= n.ReturnType #>}"/> whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see> evaluate this request.
+        ///     </para>
+        ///     <para>
+        ///         After deconstruction, the result of this request is at the first position.
+        ///     </para>
+        /// </returns>
+        /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <param name="source">The sequence for which the average is requested.</param>
+        /// <param name="selector">A transform function to apply to each element.</param>
+        /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
+        /// <seealso cref="Enumerable.Average(IEnumerable{<#= n.Type #>})"/>
+        public static EnumerationRequests1<TSource, <#= n.ReturnType #>> GetAverage<TSource>(this IEnumerable<TSource> source, Func<TSource, <#= n.Type #>> selector)
+        {
+            return new EnumerationRequests1<TSource, <#= n.ReturnType #>>(source, ConsumerFactory.AverageOf<#= n.Name #>(selector));
+        }
+
+<# foreach (var o in overloads.Where(o => !o.IsLast)) { #>
+        /// <summary>
+        /// 	<para>
+        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
+        /// 	</para>
+        /// 	<para>
+        /// 		The result of this request is the average of transformed objects from the sequence.
+        /// 	</para>
+        /// </summary>
+<# if (n.IsNullable) { #>
+        /// <remarks>
+        /// 	<para>
+        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        /// 	</para>
+        /// </remarks>
+<# } else { #>
+        /// <remarks>
+        /// 	<para>
+        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        /// 	</para>
+        /// </remarks>
+<# } #>
+        /// <returns>
+        ///     <para>
+        ///         An <see cref="EnumerationRequests<#= o.Index + 1 #>{TSource<#= o.CommaTypes #>, TResult<#= o.Index + 1 #>}"/>
+        ///         whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see>
+        ///         evaluate this request and the requests stored in <paramref name="source"/>.
+        ///     </para>
+        ///     <para>
+        ///         After deconstruction, the result of this request is at the <#= ordinals[o.Index + 1] #> position;
+        ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
+        ///     </para>
+        /// </returns>
+        /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <param name="source">The request holder to which this request is added.</param>
+        /// <param name="selector">A transform function to apply to each element.</param>
+        /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
+        /// <seealso cref="Enumerable.Average(IEnumerable{<#= n.Type #>})"/>
+        public static EnumerationRequests<#= o.Index + 1 #><TSource<#= o.CommaTypes #>, <#= n.ReturnType #>> AndAverage<<#= o.TypesComma #>TSource>(this EnumerationRequests<#= o.Index #><TSource<#= o.CommaTypes #>> source, Func<TSource, <#= n.Type #>> selector)
+        {
+            return source.Add(ConsumerFactory.AverageOf<#= n.Name #><TSource>(selector));
+        }
+
+<# } #>
+        #endregion
+
+<# } #>
+    }
+}

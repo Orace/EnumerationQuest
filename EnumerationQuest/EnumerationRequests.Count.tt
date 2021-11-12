@@ -1,0 +1,36 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".g.cs" #>
+<#@ include file="Overloads.t4" #>
+<#@ include file="Docs/Count.t4" #>
+<#
+
+var methods = new[]
+{
+    new
+    {
+        Name = "Count",
+        Args = "",
+        Doc = docForCount,
+        Generics = "",
+        Constraints = "",
+        Params = "",
+        TOut = "int",
+    },
+    new
+    {
+        Name = "Count",
+        Args = "predicate",
+        Doc = docForCountWithPredicate,
+        Generics = "",
+        Constraints = "",
+        Params = ", Func<TSource, bool> predicate",
+        TOut = "int",
+    },
+};
+
+#>
+<#@ include file="EnumerationRequests.t4" #>

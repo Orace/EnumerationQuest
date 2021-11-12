@@ -1,0 +1,402 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>$(MSBuildProjectName).Test</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Consumers\Average.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Average.g.cs</LastGenOutput>
+    </None>
+    <None Update="Consumers\Sum.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Sum.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.Aggregate.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Aggregate.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.All.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.All.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.Any.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Any.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.Average.Decimal.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Average.Decimal.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.Average.Double.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Average.Double.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.Average.Int32.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Average.Int32.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.Average.Int64.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Average.Int64.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.Average.Single.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Average.Single.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.Contains.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Contains.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.Count.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Count.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.DelimitedString.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.DelimitedString.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.ElementAt.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.ElementAt.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.ElementAtOrDefault.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.ElementAtOrDefault.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.ElementsAt.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.ElementsAt.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.First.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.First.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.FirstOrDefault.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.FirstOrDefault.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.IndexOf.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.IndexOf.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.IndicesOf.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.IndicesOf.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.Sum.Decimal.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Sum.Decimal.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.Sum.Double.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Sum.Double.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.Sum.Int32.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Sum.Int32.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.Sum.Int64.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Sum.Int64.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.Sum.Single.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Sum.Single.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.Last.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Last.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.LastOrDefault.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.LastOrDefault.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.LongCount.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.LongCount.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.Max.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Max.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.MaxBy.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.MaxBy.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.MaximumsBy.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.MaximumsBy.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.Min.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Min.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.MinBy.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.MinBy.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.MinimumsBy.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.MinimumsBy.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.SequenceEqual.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.SequenceEqual.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.Single.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Single.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.SingleOrDefault.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.SingleOrDefault.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.Slice.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Slice.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.ToDictionary.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.ToDictionary.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.ToHashSet.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.ToHashSet.g.cs</LastGenOutput>
+    </None>
+    <None Update="EnumerationRequests.ToLookup.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.ToLookup.g.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Consumers\Average.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Average.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Consumers\Sum.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Sum.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Aggregate.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Aggregate.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.All.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.All.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Any.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Any.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Average.Decimal.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Average.Decimal.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Average.Double.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Average.Double.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Average.Int32.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Average.Int32.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Average.Int64.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Average.Int64.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Average.Single.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Average.Single.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Contains.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Contains.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Count.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Count.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.DelimitedString.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.DelimitedString.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.ElementAt.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.ElementAt.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.ElementAtOrDefault.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.ElementAtOrDefault.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.ElementsAt.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.ElementsAt.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.First.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.First.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.FirstOrDefault.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.FirstOrDefault.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.IndexOf.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.IndexOf.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.IndicesOf.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.IndicesOf.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Last.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Last.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.LastOrDefault.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.LastOrDefault.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.LongCount.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.LongCount.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Max.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Max.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.MaxBy.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.MaxBy.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.MaximumsBy.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.MaximumsBy.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Min.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Min.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.MinBy.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.MinBy.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.MinimumsBy.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.MinimumsBy.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.SequenceEqual.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.SequenceEqual.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Single.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Single.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.SingleOrDefault.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.SingleOrDefault.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Slice.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Slice.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Sum.Decimal.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Sum.Decimal.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Sum.Double.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Sum.Double.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Sum.Int32.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Sum.Int32.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Sum.Int64.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Sum.Int64.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Sum.Single.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Sum.Single.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.ToDictionary.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.ToDictionary.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.ToHashSet.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.ToHashSet.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.ToLookup.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.ToLookup.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

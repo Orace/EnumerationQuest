@@ -1,0 +1,52 @@
+﻿<#
+
+var ordinals = new []
+{
+    "zeroth",
+    "first",
+    "second",
+    "third",
+    "fourth",
+    "fifth",
+    "sixth",
+    "seventh",
+    "eighth",
+    "ninth",
+    "tenth",
+    "eleventh",
+    "twelfth",
+    "thirteenth",
+    "fourteenth",
+    "fifteenth",
+    "sixteenth"
+};
+
+var overloadsCount = 16;
+var overloads = Enumerable.Range(1, overloadsCount)
+                          .Select(i => new
+                          {
+                              Index = i,
+                              Types = string.Join(", ", Enumerable.Range(1, i).Select(j => $"TResult{j}"))
+                          })
+                          .Select(o => new
+                          {
+                              Consumers = Enumerable.Range(1, o.Index).Select(j => new
+                              {
+                                  consumer = $"consumer{j}",
+                                  _consumer = $"_consumer{j}",
+                                  result = $"result{j}",
+                                  Result = $"Result{j}",
+                                  sink = $"sink{j}",
+                                  TResult = $"TResult{j}",
+                              }),
+                              IsFirst = (o.Index == 1),
+                              IsLast = (o.Index == overloadsCount),
+                              Index = o.Index,
+                              Indices = Enumerable.Range(1, o.Index).Select(j => j.ToString()),
+                              TupleType = o.Index == 1 ? o.Types : $"({o.Types})",
+                              Types = $"<{o.Types}>",
+                              CommaTypes = ", " + o.Types,
+                              TypesComma = o.Types + ", "
+                          });
+
+#>

@@ -1,0 +1,36 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".g.cs" #>
+<#@ include file="Overloads.t4" #>
+<#@ include file="Docs/MaxBy.t4" #>
+<#
+
+var methods = new[]
+{
+    new
+    {
+        Name = "MaxBy",
+        Args = "keySelector",
+        Doc = docForMaxBy,
+        Generics = ", TKey",
+        Constraints = "",
+        Params = ", Func<TSource, TKey> keySelector",
+        TOut = "TSource?",
+    },
+    new
+    {
+        Name = "MaxBy",
+        Args = "keySelector, comparer",
+        Doc = docForMaxByWithComparer,
+        Generics = ", TKey",
+        Constraints = "",
+        Params = ", Func<TSource, TKey> keySelector, IComparer<TKey> comparer",
+        TOut = "TSource?",
+    },
+};
+
+#>
+<#@ include file="EnumerationRequests.t4" #>

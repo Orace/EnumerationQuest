@@ -1,0 +1,56 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".g.cs" #>
+<#@ include file="Overloads.t4" #>
+<#@ include file="Docs/LastOrDefault.t4" #>
+<#
+
+var methods = new[]
+{
+    new
+    {
+        Name = "LastOrDefault",
+        Args = "",
+        Doc = docForLastOrDefault,
+        Generics = "",
+        Constraints = "",
+        Params = "",
+        TOut = "TSource?",
+    },
+    new
+    {
+        Name = "LastOrDefault",
+        Args = "defaultValue",
+        Doc = docForLastOrDefaultWithDefaultValue,
+        Generics = "",
+        Constraints = "",
+        Params = ", TSource? defaultValue",
+        TOut = "TSource?",
+    },
+    new
+    {
+        Name = "LastOrDefault",
+        Args = "predicate",
+        Doc = docForLastOrDefaultWithPredicate,
+        Generics = "",
+        Constraints = "",
+        Params = ", Func<TSource, bool> predicate",
+        TOut = "TSource?",
+    },
+    new
+    {
+        Name = "LastOrDefault",
+        Args = "predicate, defaultValue",
+        Doc = docForLastOrDefaultWithPredicateAndDefaultValue,
+        Generics = "",
+        Constraints = "",
+        Params = ", Func<TSource, bool> predicate, TSource? defaultValue",
+        TOut = "TSource?",
+    },
+};
+
+#>
+<#@ include file="EnumerationRequests.t4" #>

@@ -1,0 +1,36 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".g.cs" #>
+<#@ include file="Overloads.t4" #>
+<#@ include file="Docs/ElementAtOrDefault.t4" #>
+<#
+
+var methods = new[]
+{
+    new
+    {
+        Name = "ElementAtOrDefault",
+        Args = "index",
+        Doc = docForElementAtOrDefaultWithIndex,
+        Generics = "",
+        Constraints = "",
+        Params = ", Index index",
+        TOut = "TSource?",
+    },
+    new
+    {
+        Name = "ElementAtOrDefault",
+        Args = "index",
+        Doc = docForElementAtOrDefaultWithInt32,
+        Generics = "",
+        Constraints = "",
+        Params = ", int index",
+        TOut = "TSource?",
+    },
+};
+
+#>
+<#@ include file="EnumerationRequests.t4" #>

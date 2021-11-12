@@ -1,0 +1,36 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".g.cs" #>
+<#@ include file="Overloads.t4" #>
+<#@ include file="Docs/Single.t4" #>
+<#
+
+var methods = new[]
+{
+    new
+    {
+        Name = "Single",
+        Args = "",
+        Doc = docForSingle,
+        Generics = "",
+        Constraints = "",
+        Params = "",
+        TOut = "TSource",
+    },
+    new
+    {
+        Name = "Single",
+        Args = "predicate",
+        Doc = docForSingleWithPredicate,
+        Generics = "",
+        Constraints = "",
+        Params = ", Func<TSource, bool> predicate",
+        TOut = "TSource",
+    },
+};
+
+#>
+<#@ include file="EnumerationRequests.t4" #>

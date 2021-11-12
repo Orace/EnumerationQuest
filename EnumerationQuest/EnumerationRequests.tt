@@ -1,0 +1,100 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".g.cs" #>
+<#@ include file="Overloads.t4" #>
+using System;
+using System.Collections.Generic;
+
+#nullable enable
+
+namespace EnumerationQuest
+{
+<# foreach (var o in overloads) { #>
+    /// <summary>
+    ///     Stores enumeration requests on an unique sequence for deferred evaluation.
+    /// </summary>
+    /// <remarks>
+    ///     <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">Deconstruction</see> is used to evaluate the requests.
+    /// </remarks>
+    /// <typeparam name="TSource">The type of the elements of the sequence to enumerate.</typeparam>
+<# for (var i = 1; i <= o.Index; i++) { #>
+    /// <typeparam name="TResult<#= i #>">The type of the result of the <#= ordinals[i] #> request.</typeparam>
+<# } #>
+    public class EnumerationRequests<#= o.Index #><TSource<#= o.CommaTypes #>> : EnumerationRequestsBase
+    {
+        private readonly IEnumerable<TSource> _enumerable;
+<# foreach (var c in o.Consumers) { #>
+        private readonly IEnumerableConsumer<TSource, <#= c.TResult #>> <#= c._consumer #>;
+<# } #>
+
+        internal EnumerationRequests<#= o.Index #>(IEnumerable<TSource> enumerable<# foreach (var c in o.Consumers) { #>, IEnumerableConsumer<TSource, <#= c.TResult #>> <#= c.consumer #><# } #>)
+        {
+            if (enumerable is null) throw new ArgumentNullException(nameof(enumerable));
+<# foreach (var c in o.Consumers) { #>
+            if (<#= c.consumer #> is null) throw new ArgumentNullException(nameof(<#= c.consumer #>));
+<# } #>
+
+            _enumerable = enumerable;
+<# foreach (var c in o.Consumers) { #>
+            <#= c._consumer #> = <#= c.consumer #>;
+<# } #>
+        }
+<# if (!o.IsLast) { #>
+
+        internal EnumerationRequests<#= o.Index + 1 #><TSource<#= o.CommaTypes #>, TResult> Add<TResult>(IEnumerableConsumer<TSource, TResult> consumer)
+        {
+            return new EnumerationRequests<#= o.Index + 1 #><TSource<#= o.CommaTypes #>, TResult>(_enumerable<# foreach (var c in o.Consumers) { #>, <#= c._consumer #><# } #>, consumer);
+        }
+<# } #>
+
+        /// <summary>
+        ///     <para>
+        ///         Evaluates the requests while enumerating the sequence once.<br/>
+        ///         The requests results are returned as <see langword="out"/> arguments.
+        ///     </para>
+        /// </summary>
+        /// <remarks>
+        ///     <para>
+        ///         Each call to this method trigger a new evaluation of the requests and a new enumeration of the sequence.
+        ///     </para>
+<# if (o.Index == 1) { #>
+        ///     <para>
+        ///         This method is not intended to be used. Prefer the Linq equivalent of the unique request stored in this object.
+        ///     </para>
+<# } else { #>
+        ///     <para>
+        ///         This method is not intended to be directly called.
+        ///         <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">Deconstruction</see> is the recommanded way to use this method.
+        ///     </para>
+<# } #>
+        /// </remarks>
+<# for (var i = 1; i <= o.Index; i++) { #>
+        /// <param name="result<#= i #>">When this method returns, contains the result of the <#= ordinals[i] #> request.</param>
+<# } #>
+        public void Deconstruct(<#= string.Join(", ", o.Consumers.Select(c => $"out {c.TResult} {c.result}")) #>)
+        {
+<# foreach (var c in o.Consumers) { #>
+            using var <#= c.sink #> = <#= c._consumer #>.GetSink();
+<# } #>
+
+            Enumerate(_enumerable, <#= string.Join(", ", o.Consumers.Select(c => c.sink)) #>);
+
+            var i = 1;
+            try
+            {
+<# foreach (var c in o.Consumers) { #>
+                <#= c.result #> = <#= c.sink #>.GetResult(); i++;
+<# } #>
+            }
+            catch(Exception e)
+            {
+                throw new EnumerationException($"The evaluation of Item{i} failed", e);
+            }
+        }
+    }
+
+<# } #>
+}

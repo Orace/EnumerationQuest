@@ -1,0 +1,56 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".g.cs" #>
+<#@ include file="Overloads.t4" #>
+<#@ include file="Docs/Min.t4" #>
+<#
+
+var methods = new[]
+{
+    new
+    {
+        Name = "Min",
+        Args = "",
+        Doc = docForMin,
+        Generics = "",
+        Constraints = "",
+        Params = "",
+        TOut = "TSource?",
+    },
+    new
+    {
+        Name = "Min",
+        Args = "comparer",
+        Doc = docForMinWithComparer,
+        Generics = "",
+        Constraints = "",
+        Params = ", IComparer<TSource> comparer",
+        TOut = "TSource?",
+    },
+    new
+    {
+        Name = "Min",
+        Args = "selector",
+        Doc = docForMinWithSelector,
+        Generics = ", TResult",
+        Constraints = "",
+        Params = ", Func<TSource, TResult> selector",
+        TOut = "TResult?",
+    },
+    new
+    {
+        Name = "Min",
+        Args = "selector, comparer",
+        Doc = docForMinWithSelectorAndComparer,
+        Generics = ", TResult",
+        Constraints = "",
+        Params = ", Func<TSource, TResult> selector, IComparer<TResult> comparer",
+        TOut = "TResult?",
+    },
+};
+
+#>
+<#@ include file="EnumerationRequests.t4" #>

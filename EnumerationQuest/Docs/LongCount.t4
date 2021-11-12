@@ -1,0 +1,44 @@
+<#
+
+var docForLongCount = new []
+{
+	@"<summary>",
+	@"	<para>",
+	@"		Requests the evaluation of an <see cref=""Int64""/> that represent the number of elements in a sequence.",
+	@"	</para>",
+	@"	<para>",
+	@"		The result of this request is the number of elements in the sequence.",
+	@"	</para>",
+	@"</summary>",
+	@"<remarks>",
+	@"	<para>",
+	@"		The returned object deconstruction throw <see cref=""OverflowException""/>",
+	@"		if the number of elements in the sequence is larger than <see cref=""Int64.MaxValue""/>.",
+	@"	</para>",
+	@"</remarks>",
+	@"<seealso cref=""Enumerable.LongCount{TSource}(IEnumerable{TSource})""/>",
+};
+
+var docForLongCountWithPredicate = new []
+{
+	@"<summary>",
+	@"	<para>",
+	@"		Requests the evaluation of an <see cref=""Int64""/> that represent the number of elements in a sequence that satisfy a condition.",
+	@"	</para>",
+	@"	<para>",
+	@"		The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.",
+	@"	</para>",
+	@"</summary>",
+	@"<remarks>",
+	@"	<para>",
+	@"		The returned object deconstruction throw <see cref=""OverflowException""/>",
+	@"		if the number of elements in the sequence that satisfy the condition",
+	@"		is larger than <see cref=""Int64.MaxValue""/>.",
+	@"	</para>",
+	@"</remarks>",
+	@"<param name=""predicate"">A function to test each element for a condition.</param>",
+	@"<seealso cref=""Enumerable.LongCount{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})""/>",
+	@"<exception cref=""ArgumentNullException""><paramref name=""predicate""/> is <see langword=""null""/>.</exception>",
+};
+
+#>

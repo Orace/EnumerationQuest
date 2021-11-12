@@ -1,0 +1,36 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".g.cs" #>
+<#@ include file="Overloads.t4" #>
+<#@ include file="Docs/IndicesOf.t4" #>
+<#
+
+var methods = new[]
+{
+    new
+    {
+        Name = "IndicesOf",
+        Args = "value",
+        Doc = docForIndicesOf,
+        Generics = "",
+        Constraints = "",
+        Params = ", TSource value",
+        TOut = "List<int>",
+    },
+    new
+    {
+        Name = "IndicesOf",
+        Args = "value, comparer",
+        Doc = docForIndicesOfWithComparer,
+        Generics = "",
+        Constraints = "",
+        Params = ", TSource value, IEqualityComparer<TSource> comparer",
+        TOut = "List<int>",
+    },
+};
+
+#>
+<#@ include file="EnumerationRequests.t4" #>

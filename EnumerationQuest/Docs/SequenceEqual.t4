@@ -1,0 +1,43 @@
+<#
+
+var docForSequenceEqual = new []
+{
+	@"<summary>",
+	@"	<para>",
+	@"		Requests the evaluation of the equality of two sequences by comparing their elements.",
+	@"	</para>",
+	@"	<para>",
+	@"		The result of this request is <see langword=""true""/> if the two sequences are of equal length",
+	@"		and their corresponding elements are equal; otherwise, <see langword=""false""/>.",
+	@"	</para>",
+	@"</summary>",
+	@"<remarks>",
+	@"	<para>",
+	@"		<see cref=""EqualityComparer{TSource}.Default"">EqualityComparer&lt;<typeparamref name=""TSource""/>&gt;.Default</see> is used to compare elements.",
+	@"	</para>",
+	@"</remarks>",
+	@"<param name=""other"">An <see cref=""IEnumerable{TSource}""/> to compare the original sequence to.</param>",
+	@"<seealso cref=""Enumerable.SequenceEqual{TSource}(IEnumerable{TSource}, IEnumerable{TSource})""/>",
+	@"<exception cref=""ArgumentNullException""><paramref name=""other""/> is <see langword=""null""/>.</exception>",
+};
+
+var docForSequenceEqualWithComparer = new []
+{
+	@"<summary>",
+	@"	<para>",
+	@"		Requests the evaluation of the equality of two sequences by comparing their elements,",
+	@"      using the specified <see cref=""IEqualityComparer{TSource}""/>.",
+	@"	</para>",
+	@"	<para>",
+	@"		The result of this request is <see langword=""true""/> if the two sequences are of equal length",
+	@"		and their corresponding elements compare equal according to <paramref name=""comparer""/>; otherwise, <see langword=""false""/>.",
+	@"	</para>",
+	@"</summary>",
+	@"<param name=""other"">An <see cref=""IEnumerable{TSource}""/> to compare the original sequence to.</param>",
+	@"<param name=""comparer"">An <see cref=""IEqualityComparer{TSource}""/> of <typeparamref name=""TSource""/> to compare the elements of both sequences.</param>",
+	@"<seealso cref=""Enumerable.SequenceEqual{TSource}(IEnumerable{TSource}, IEnumerable{TSource}, IEqualityComparer{TSource})""/>",
+	@"<exception cref=""ArgumentNullException""><paramref name=""other""/> is <see langword=""null""/>.</exception>",
+	@"<exception cref=""ArgumentNullException""><paramref name=""comparer""/> is <see langword=""null""/>.</exception>",
+};
+
+#>

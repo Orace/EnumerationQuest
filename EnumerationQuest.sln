@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumerationQuest", "EnumerationQuest\EnumerationQuest.csproj", "{1D9ABFB2-AAF9-4D1D-9FAB-F841A74232E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumerationQuest.Test", "EnumerationQuest.Test\EnumerationQuest.Test.csproj", "{0CAA8BBF-A40C-4661-9946-CA0A350BF9D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{29FD03BA-050D-4BD4-BA20-FA7440809A0F}"
+	ProjectSection(SolutionItems) = preProject
+		todo.md = todo.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerationQuest.Demo", "EnumerationQuest.Demo\EnumerationQuest.Demo.csproj", "{83119DFB-E379-42DA-9A94-7F7E21612CFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D9ABFB2-AAF9-4D1D-9FAB-F841A74232E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9ABFB2-AAF9-4D1D-9FAB-F841A74232E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9ABFB2-AAF9-4D1D-9FAB-F841A74232E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9ABFB2-AAF9-4D1D-9FAB-F841A74232E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CAA8BBF-A40C-4661-9946-CA0A350BF9D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CAA8BBF-A40C-4661-9946-CA0A350BF9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CAA8BBF-A40C-4661-9946-CA0A350BF9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CAA8BBF-A40C-4661-9946-CA0A350BF9D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83119DFB-E379-42DA-9A94-7F7E21612CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83119DFB-E379-42DA-9A94-7F7E21612CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83119DFB-E379-42DA-9A94-7F7E21612CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83119DFB-E379-42DA-9A94-7F7E21612CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAE2183E-DC48-4028-99E3-0A2E4EC7E5F8}
+	EndGlobalSection
+EndGlobal
