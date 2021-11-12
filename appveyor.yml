@@ -1,0 +1,12 @@
+version: '{build}'
+image: Visual Studio 2019
+before_build:
+- nuget restore
+- choco install opencover.portable
+- choco install codecov
+build:
+  project: EnumerationQuest.sln
+  verbosity: minimal
+test_script:
+- OpenCover.Console.exe -register -output:"coverage.xml" -target:"dotnet.exe" -targetargs:"test" -filter:"+[EnumerationQuest*]* -[EnumerationQuest.Demo*]* -[EnumerationQuest.Test*]*"
+- codecov -f "coverage.xml"
