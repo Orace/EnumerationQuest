@@ -17,7 +17,7 @@
 using System.Collections.Generic;
 using NUnit.Framework;
 
-namespace EnumerationQuest.Test
+namespace EnumerationQuest.Tests
 {
     public class EnumerationRequestsTests
     {

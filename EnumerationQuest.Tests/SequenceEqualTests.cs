@@ -20,7 +20,7 @@ using System.Linq;
 using Moq;
 using NUnit.Framework;
 
-namespace EnumerationQuest.Test
+namespace EnumerationQuest.Tests
 {
     public class SequenceEqualTests
     {

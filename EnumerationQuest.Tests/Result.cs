@@ -17,7 +17,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace EnumerationQuest.Test
+namespace EnumerationQuest.Tests
 {
     public abstract class Result : IEquatable<Result>
     {

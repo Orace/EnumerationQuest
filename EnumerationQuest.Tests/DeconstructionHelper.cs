@@ -14,7 +14,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-namespace EnumerationQuest.Test
+namespace EnumerationQuest.Tests
 {
     public static class DeconstructionHelper
     {

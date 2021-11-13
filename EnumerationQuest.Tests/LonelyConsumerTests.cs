@@ -20,7 +20,7 @@ using System.Linq;
 using Castle.DynamicProxy.Internal;
 using NUnit.Framework;
 
-namespace EnumerationQuest.Test
+namespace EnumerationQuest.Tests
 {
     public class LonelyConsumerTests
     {

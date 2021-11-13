@@ -5,10 +5,11 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumerationQuest", "EnumerationQuest\EnumerationQuest.csproj", "{1D9ABFB2-AAF9-4D1D-9FAB-F841A74232E0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumerationQuest.Test", "EnumerationQuest.Test\EnumerationQuest.Test.csproj", "{0CAA8BBF-A40C-4661-9946-CA0A350BF9D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumerationQuest.Tests", "EnumerationQuest.Tests\EnumerationQuest.Tests.csproj", "{0CAA8BBF-A40C-4661-9946-CA0A350BF9D6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{29FD03BA-050D-4BD4-BA20-FA7440809A0F}"
 	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
 		README.md = README.md
 		todo.md = todo.md
 	EndProjectSection

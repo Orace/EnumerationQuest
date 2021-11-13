@@ -19,7 +19,7 @@ using System.Collections.Generic;
 using System.Linq;
 using NUnit.Framework;
 
-namespace EnumerationQuest.Test
+namespace EnumerationQuest.Tests
 {
     public class FirstOrDefaultTests
     {
