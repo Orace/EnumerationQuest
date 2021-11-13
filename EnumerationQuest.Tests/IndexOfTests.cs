@@ -22,7 +22,7 @@ using NUnit.Framework;
 
 namespace EnumerationQuest.Tests
 {
-    public class IndexOf
+    public class IndexOfTests
     {
         [TestCaseSource(nameof(IndexOfTestCases))]
         public Result IndexOfTest(IEnumerable<int> source, int value)
