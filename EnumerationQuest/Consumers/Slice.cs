@@ -100,7 +100,10 @@ namespace EnumerationQuest.Consumers
 
         public bool AcceptNext(TSource element)
         {
-            if (_index >= _endIndex || _result is null)
+            if (_result is null)
+                return false;
+
+            if (_index >= _endIndex)
                 return false;
 
             if (_index >= _startIndex)

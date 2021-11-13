@@ -101,7 +101,7 @@ namespace EnumerationQuest.Consumers
             if (_areSequenceEqual)
                 _areSequenceEqual = !_enumerator.MoveNext();
 
-            _enumerator?.Dispose();
+            _enumerator.Dispose();
             _enumerator = null;
 
             return _areSequenceEqual;

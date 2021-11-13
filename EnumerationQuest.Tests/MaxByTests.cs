@@ -58,6 +58,8 @@ namespace EnumerationQuest.Tests
             yield return new TestCaseData("", "", null, IdOf<string>()) { ExpectedResult = Result.FromException<ArgumentNullException>(), TestName = "Null reference type source throw" };
             yield return new TestCaseData("", "", Enumerable.Empty<string>(), IdOf<string>()) { ExpectedResult = Result.FromValue<string?>(null), TestName = "Empty reference type source return null" };
             yield return new TestCaseData("", "", new[] { "X" }, IdOf<string>()) { ExpectedResult = Result.FromValue("X"), TestName = "One item source" };
+            yield return new TestCaseData("", "", new[] { "A" }, ToNull<string>()) { ExpectedResult = Result.FromValue<string?>("A"), TestName = "One item to null" };
+            yield return new TestCaseData("", "", new[] { null, "A" }, IdOf<string>()) { ExpectedResult = Result.FromValue<string?>("A"), TestName = "Null then value" };
             yield return new TestCaseData("", "", new string?[] { null, null }, IdOf<string>()) { ExpectedResult = Result.FromValue<string?>(null), TestName = "Only nulls" };
             yield return new TestCaseData("", "", new[] { "X", "A", null, "B" }, IdOf<string>()) { ExpectedResult = Result.FromValue("X"), TestName = "Max is first" };
             yield return new TestCaseData("", "", new[] { "A", "X", null, "B" }, IdOf<string>()) { ExpectedResult = Result.FromValue("X"), TestName = "Max is in the middle" };
@@ -110,6 +112,8 @@ namespace EnumerationQuest.Tests
             yield return new TestCaseData("", "", null, IdOf<string>(), c) { ExpectedResult = Result.FromException<ArgumentNullException>(), TestName = "Null reference type source throw" };
             yield return new TestCaseData("", "", Enumerable.Empty<string>(), IdOf<string>(), c) { ExpectedResult = Result.FromValue<string?>(null), TestName = "Empty reference type source return null" };
             yield return new TestCaseData("", "", new[] { "X" }, IdOf<string>(), c) { ExpectedResult = Result.FromValue("X"), TestName = "One item source" };
+            yield return new TestCaseData("", "", new [] { "A" }, ToNull<string>(), c) { ExpectedResult = Result.FromValue<string?>("A"), TestName = "One item to null" };
+            yield return new TestCaseData("", "", new [] { null, "A" }, IdOf<string>(), c) { ExpectedResult = Result.FromValue<string?>("A"), TestName = "Null then value" };
             yield return new TestCaseData("", "", new string?[] { null, null }, IdOf<string>(), c) { ExpectedResult = Result.FromValue<string?>(null), TestName = "Only nulls" };
             yield return new TestCaseData("", "", new[] { "X", "A", null, "B" }, IdOf<string>(), c) { ExpectedResult = Result.FromValue("X"), TestName = "Max is first" };
             yield return new TestCaseData("", "", new[] { "A", "X", null, "B" }, IdOf<string>(), c) { ExpectedResult = Result.FromValue("X"), TestName = "Max is in the middle" };
@@ -135,7 +139,8 @@ namespace EnumerationQuest.Tests
         }
         
         private static Func<T, T> IdOf<T>() => t => t;
-        private static Func<T, T> ThrowSelector<T>() => t => throw new Exception();
+        private static Func<T, T> ThrowSelector<T>() => _ => throw new Exception();
+        private static Func<T, T?> ToNull<T>() where T : class => t => null;
 
         private class EqualsMock : IComparable<EqualsMock>
         {
