@@ -94,8 +94,10 @@ namespace EnumerationQuest.Consumers
             }
 
             var key = _keySelector(element);
+            if (key is null)
+                return true;
 
-            if (_comparer.Compare(key, _bestKey!) > 0)
+            if (_bestKey is null || _comparer.Compare(key, _bestKey) > 0)
             {
                 _bestKey = key;
                 _result = element;
