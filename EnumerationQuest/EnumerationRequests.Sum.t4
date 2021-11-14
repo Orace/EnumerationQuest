@@ -15,6 +15,7 @@
 // limitations under the License.
 
 using System;
+using System.Linq;
 using System.Collections.Generic;
 using EnumerationQuest.Consumers;
 
@@ -48,7 +49,7 @@ namespace EnumerationQuest
         /// </remarks>
         /// <returns>
         ///     <para>
-        ///         An <see cref="EnumerationRequests1{TSource, <#= n.Type #>}"/> whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see> evaluate this request.
+        ///         An <see cref="EnumerationRequests1{TSource, TResult}"/> whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see> evaluate this request.
         ///     </para>
         ///     <para>
         ///         After deconstruction, the result of this request is at the first position.
@@ -93,6 +94,9 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+<# for (var i = 1; i <= o.Index; i++) { #>
+        /// <typeparam name="TResult<#= i #>">The result type of the <#= ordinals[i] #> request stored in <paramref name="source"/>.</typeparam>
+<# } #>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{<#= n.Type #>})"/>
@@ -129,7 +133,7 @@ namespace EnumerationQuest
         /// </remarks>
         /// <returns>
         ///     <para>
-        ///         An <see cref="EnumerationRequests1{TSource, <#= n.Type #>}"/> whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see> evaluate this request.
+        ///         An <see cref="EnumerationRequests1{TSource, TResult}"/> whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see> evaluate this request.
         ///     </para>
         ///     <para>
         ///         After deconstruction, the result of this request is at the first position.
@@ -177,6 +181,9 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+<# for (var i = 1; i <= o.Index; i++) { #>
+        /// <typeparam name="TResult<#= i #>">The result type of the <#= ordinals[i] #> request stored in <paramref name="source"/>.</typeparam>
+<# } #>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>

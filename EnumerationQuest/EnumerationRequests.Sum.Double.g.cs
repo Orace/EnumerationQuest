@@ -15,6 +15,7 @@
 // limitations under the License.
 
 using System;
+using System.Linq;
 using System.Collections.Generic;
 using EnumerationQuest.Consumers;
 
@@ -41,7 +42,7 @@ namespace EnumerationQuest
         /// </remarks>
         /// <returns>
         ///     <para>
-        ///         An <see cref="EnumerationRequests1{TSource, double}"/> whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see> evaluate this request.
+        ///         An <see cref="EnumerationRequests1{TSource, TResult}"/> whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see> evaluate this request.
         ///     </para>
         ///     <para>
         ///         After deconstruction, the result of this request is at the first position.
@@ -79,6 +80,7 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double})"/>
@@ -111,6 +113,8 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double})"/>
@@ -143,6 +147,9 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double})"/>
@@ -175,6 +182,10 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double})"/>
@@ -207,6 +218,11 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double})"/>
@@ -239,6 +255,12 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double})"/>
@@ -271,6 +293,13 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double})"/>
@@ -303,6 +332,14 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double})"/>
@@ -335,6 +372,15 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double})"/>
@@ -367,6 +413,16 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double})"/>
@@ -399,6 +455,17 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double})"/>
@@ -431,6 +498,18 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult12">The result type of the twelfth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double})"/>
@@ -463,6 +542,19 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult12">The result type of the twelfth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult13">The result type of the thirteenth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double})"/>
@@ -495,6 +587,20 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult12">The result type of the twelfth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult13">The result type of the thirteenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult14">The result type of the fourteenth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double})"/>
@@ -527,6 +633,21 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult12">The result type of the twelfth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult13">The result type of the thirteenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult14">The result type of the fourteenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult15">The result type of the fifteenth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double})"/>
@@ -558,7 +679,7 @@ namespace EnumerationQuest
         /// </remarks>
         /// <returns>
         ///     <para>
-        ///         An <see cref="EnumerationRequests1{TSource, double?}"/> whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see> evaluate this request.
+        ///         An <see cref="EnumerationRequests1{TSource, TResult}"/> whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see> evaluate this request.
         ///     </para>
         ///     <para>
         ///         After deconstruction, the result of this request is at the first position.
@@ -600,6 +721,7 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double?})"/>
@@ -636,6 +758,8 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double?})"/>
@@ -672,6 +796,9 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double?})"/>
@@ -708,6 +835,10 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double?})"/>
@@ -744,6 +875,11 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double?})"/>
@@ -780,6 +916,12 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double?})"/>
@@ -816,6 +958,13 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double?})"/>
@@ -852,6 +1001,14 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double?})"/>
@@ -888,6 +1045,15 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double?})"/>
@@ -924,6 +1090,16 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double?})"/>
@@ -960,6 +1136,17 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double?})"/>
@@ -996,6 +1183,18 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult12">The result type of the twelfth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double?})"/>
@@ -1032,6 +1231,19 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult12">The result type of the twelfth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult13">The result type of the thirteenth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double?})"/>
@@ -1068,6 +1280,20 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult12">The result type of the twelfth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult13">The result type of the thirteenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult14">The result type of the fourteenth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double?})"/>
@@ -1104,6 +1330,21 @@ namespace EnumerationQuest
         ///         and the results of the requests stored in <paramref name="source"/> are at their respective positions.
         ///     </para>
         /// </returns>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult12">The result type of the twelfth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult13">The result type of the thirteenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult14">The result type of the fourteenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult15">The result type of the fifteenth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Sum(IEnumerable{double?})"/>
@@ -1131,7 +1372,7 @@ namespace EnumerationQuest
         /// </remarks>
         /// <returns>
         ///     <para>
-        ///         An <see cref="EnumerationRequests1{TSource, double}"/> whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see> evaluate this request.
+        ///         An <see cref="EnumerationRequests1{TSource, TResult}"/> whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see> evaluate this request.
         ///     </para>
         ///     <para>
         ///         After deconstruction, the result of this request is at the first position.
@@ -1172,6 +1413,7 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1206,6 +1448,8 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1240,6 +1484,9 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1274,6 +1521,10 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1308,6 +1559,11 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1342,6 +1598,12 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1376,6 +1638,13 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1410,6 +1679,14 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1444,6 +1721,15 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1478,6 +1764,16 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1512,6 +1808,17 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1546,6 +1853,18 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult12">The result type of the twelfth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1580,6 +1899,19 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult12">The result type of the twelfth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult13">The result type of the thirteenth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1614,6 +1946,20 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult12">The result type of the twelfth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult13">The result type of the thirteenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult14">The result type of the fourteenth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1648,6 +1994,21 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult12">The result type of the twelfth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult13">The result type of the thirteenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult14">The result type of the fourteenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult15">The result type of the fifteenth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1680,7 +2041,7 @@ namespace EnumerationQuest
         /// </remarks>
         /// <returns>
         ///     <para>
-        ///         An <see cref="EnumerationRequests1{TSource, double?}"/> whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see> evaluate this request.
+        ///         An <see cref="EnumerationRequests1{TSource, TResult}"/> whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see> evaluate this request.
         ///     </para>
         ///     <para>
         ///         After deconstruction, the result of this request is at the first position.
@@ -1725,6 +2086,7 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1763,6 +2125,8 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1801,6 +2165,9 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1839,6 +2206,10 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1877,6 +2248,11 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1915,6 +2291,12 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1953,6 +2335,13 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -1991,6 +2380,14 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -2029,6 +2426,15 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -2067,6 +2473,16 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -2105,6 +2521,17 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -2143,6 +2570,18 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult12">The result type of the twelfth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -2181,6 +2620,19 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult12">The result type of the twelfth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult13">The result type of the thirteenth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -2219,6 +2671,20 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult12">The result type of the twelfth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult13">The result type of the thirteenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult14">The result type of the fourteenth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
@@ -2257,6 +2723,21 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult1">The result type of the first request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult2">The result type of the second request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult3">The result type of the third request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult4">The result type of the fourth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult5">The result type of the fifth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult6">The result type of the sixth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult7">The result type of the seventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult8">The result type of the eighth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult9">The result type of the ninth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult10">The result type of the tenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult11">The result type of the eleventh request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult12">The result type of the twelfth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult13">The result type of the thirteenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult14">The result type of the fourteenth request stored in <paramref name="source"/>.</typeparam>
+        /// <typeparam name="TResult15">The result type of the fifteenth request stored in <paramref name="source"/>.</typeparam>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>

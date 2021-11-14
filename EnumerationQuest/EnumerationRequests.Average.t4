@@ -52,7 +52,7 @@ namespace EnumerationQuest
 <# } #>
         /// <returns>
         ///     <para>
-        ///         An <see cref="EnumerationRequests1{TSource, <#= n.ReturnType #>}"/> whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see> evaluate this request.
+        ///         An <see cref="EnumerationRequests1{TSource, TResult}"/> whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see> evaluate this request.
         ///     </para>
         ///     <para>
         ///         After deconstruction, the result of this request is at the first position.
@@ -100,6 +100,9 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <param name="source">The request holder to which this request is added.</param>
+<# for (var i = 1; i <= o.Index; i++) { #>
+        /// <typeparam name="TResult<#= i #>">The result type of the <#= ordinals[i] #> request stored in <paramref name="source"/>.</typeparam>
+<# } #>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         /// <seealso cref="Enumerable.Average(IEnumerable{<#= n.Type #>})"/>
         public static EnumerationRequests<#= o.Index + 1 #><<#= n.Type #><#= o.CommaTypes #>, <#= n.ReturnType #>> AndAverage<#= o.Types #>(this EnumerationRequests<#= o.Index #><<#= n.Type #><#= o.CommaTypes #>> source)
@@ -138,7 +141,7 @@ namespace EnumerationQuest
 <# } #>
         /// <returns>
         ///     <para>
-        ///         An <see cref="EnumerationRequests1{TSource, <#= n.ReturnType #>}"/> whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see> evaluate this request.
+        ///         An <see cref="EnumerationRequests1{TSource, TResult}"/> whose <see href="https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types">deconstruction</see> evaluate this request.
         ///     </para>
         ///     <para>
         ///         After deconstruction, the result of this request is at the first position.
@@ -188,6 +191,9 @@ namespace EnumerationQuest
         ///     </para>
         /// </returns>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
+<# for (var i = 1; i <= o.Index; i++) { #>
+        /// <typeparam name="TResult<#= i #>">The result type of the <#= ordinals[i] #> request stored in <paramref name="source"/>.</typeparam>
+<# } #>
         /// <param name="source">The request holder to which this request is added.</param>
         /// <param name="selector">A transform function to apply to each element.</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
