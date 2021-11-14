@@ -28,19 +28,19 @@ namespace EnumerationQuest
         #region ElementsAt with indices
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the elements at specified indices in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the elements at specified indices in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
-        /// 		if <paramref name="indices"/> values are not increasing.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
+        ///     if <paramref name="indices"/> values are not increasing.
+        ///   </para>
         /// </remarks>
         /// <param name="indices">The increasing sequence of zero-based indices of the elements to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -62,19 +62,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the elements at specified indices in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the elements at specified indices in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
-        /// 		if <paramref name="indices"/> values are not increasing.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
+        ///     if <paramref name="indices"/> values are not increasing.
+        ///   </para>
         /// </remarks>
         /// <param name="indices">The increasing sequence of zero-based indices of the elements to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -103,19 +103,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the elements at specified indices in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the elements at specified indices in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
-        /// 		if <paramref name="indices"/> values are not increasing.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
+        ///     if <paramref name="indices"/> values are not increasing.
+        ///   </para>
         /// </remarks>
         /// <param name="indices">The increasing sequence of zero-based indices of the elements to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -145,19 +145,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the elements at specified indices in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the elements at specified indices in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
-        /// 		if <paramref name="indices"/> values are not increasing.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
+        ///     if <paramref name="indices"/> values are not increasing.
+        ///   </para>
         /// </remarks>
         /// <param name="indices">The increasing sequence of zero-based indices of the elements to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -188,19 +188,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the elements at specified indices in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the elements at specified indices in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
-        /// 		if <paramref name="indices"/> values are not increasing.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
+        ///     if <paramref name="indices"/> values are not increasing.
+        ///   </para>
         /// </remarks>
         /// <param name="indices">The increasing sequence of zero-based indices of the elements to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -232,19 +232,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the elements at specified indices in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the elements at specified indices in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
-        /// 		if <paramref name="indices"/> values are not increasing.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
+        ///     if <paramref name="indices"/> values are not increasing.
+        ///   </para>
         /// </remarks>
         /// <param name="indices">The increasing sequence of zero-based indices of the elements to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -277,19 +277,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the elements at specified indices in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the elements at specified indices in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
-        /// 		if <paramref name="indices"/> values are not increasing.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
+        ///     if <paramref name="indices"/> values are not increasing.
+        ///   </para>
         /// </remarks>
         /// <param name="indices">The increasing sequence of zero-based indices of the elements to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -323,19 +323,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the elements at specified indices in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the elements at specified indices in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
-        /// 		if <paramref name="indices"/> values are not increasing.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
+        ///     if <paramref name="indices"/> values are not increasing.
+        ///   </para>
         /// </remarks>
         /// <param name="indices">The increasing sequence of zero-based indices of the elements to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -370,19 +370,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the elements at specified indices in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the elements at specified indices in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
-        /// 		if <paramref name="indices"/> values are not increasing.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
+        ///     if <paramref name="indices"/> values are not increasing.
+        ///   </para>
         /// </remarks>
         /// <param name="indices">The increasing sequence of zero-based indices of the elements to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -418,19 +418,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the elements at specified indices in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the elements at specified indices in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
-        /// 		if <paramref name="indices"/> values are not increasing.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
+        ///     if <paramref name="indices"/> values are not increasing.
+        ///   </para>
         /// </remarks>
         /// <param name="indices">The increasing sequence of zero-based indices of the elements to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -467,19 +467,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the elements at specified indices in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the elements at specified indices in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
-        /// 		if <paramref name="indices"/> values are not increasing.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
+        ///     if <paramref name="indices"/> values are not increasing.
+        ///   </para>
         /// </remarks>
         /// <param name="indices">The increasing sequence of zero-based indices of the elements to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -517,19 +517,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the elements at specified indices in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the elements at specified indices in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
-        /// 		if <paramref name="indices"/> values are not increasing.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
+        ///     if <paramref name="indices"/> values are not increasing.
+        ///   </para>
         /// </remarks>
         /// <param name="indices">The increasing sequence of zero-based indices of the elements to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -568,19 +568,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the elements at specified indices in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the elements at specified indices in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
-        /// 		if <paramref name="indices"/> values are not increasing.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
+        ///     if <paramref name="indices"/> values are not increasing.
+        ///   </para>
         /// </remarks>
         /// <param name="indices">The increasing sequence of zero-based indices of the elements to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -620,19 +620,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the elements at specified indices in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the elements at specified indices in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
-        /// 		if <paramref name="indices"/> values are not increasing.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
+        ///     if <paramref name="indices"/> values are not increasing.
+        ///   </para>
         /// </remarks>
         /// <param name="indices">The increasing sequence of zero-based indices of the elements to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -673,19 +673,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the elements at specified indices in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the elements at specified indices in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
-        /// 		if <paramref name="indices"/> values are not increasing.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
+        ///     if <paramref name="indices"/> values are not increasing.
+        ///   </para>
         /// </remarks>
         /// <param name="indices">The increasing sequence of zero-based indices of the elements to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -727,19 +727,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the elements at specified indices in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the elements at specified indices in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> which contains the elements at the specified positions of the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
-        /// 		if <paramref name="indices"/> values are not increasing.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if an element of <paramref name="indices"/> is outside the bounds of the sequence or,
+        ///     if <paramref name="indices"/> values are not increasing.
+        ///   </para>
         /// </remarks>
         /// <param name="indices">The increasing sequence of zero-based indices of the elements to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>

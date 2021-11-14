@@ -28,17 +28,17 @@ namespace EnumerationQuest
         #region IndicesOf with value
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the occurrences in the sequence of the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the occurrences in the sequence of the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any occurence of <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any occurence of <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -59,17 +59,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the occurrences in the sequence of the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the occurrences in the sequence of the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any occurence of <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any occurence of <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -97,17 +97,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the occurrences in the sequence of the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the occurrences in the sequence of the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any occurence of <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any occurence of <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -136,17 +136,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the occurrences in the sequence of the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the occurrences in the sequence of the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any occurence of <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any occurence of <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -176,17 +176,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the occurrences in the sequence of the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the occurrences in the sequence of the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any occurence of <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any occurence of <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -217,17 +217,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the occurrences in the sequence of the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the occurrences in the sequence of the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any occurence of <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any occurence of <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -259,17 +259,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the occurrences in the sequence of the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the occurrences in the sequence of the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any occurence of <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any occurence of <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -302,17 +302,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the occurrences in the sequence of the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the occurrences in the sequence of the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any occurence of <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any occurence of <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -346,17 +346,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the occurrences in the sequence of the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the occurrences in the sequence of the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any occurence of <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any occurence of <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -391,17 +391,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the occurrences in the sequence of the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the occurrences in the sequence of the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any occurence of <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any occurence of <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -437,17 +437,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the occurrences in the sequence of the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the occurrences in the sequence of the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any occurence of <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any occurence of <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -484,17 +484,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the occurrences in the sequence of the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the occurrences in the sequence of the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any occurence of <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any occurence of <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -532,17 +532,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the occurrences in the sequence of the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the occurrences in the sequence of the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any occurence of <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any occurence of <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -581,17 +581,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the occurrences in the sequence of the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the occurrences in the sequence of the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any occurence of <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any occurence of <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -631,17 +631,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the occurrences in the sequence of the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the occurrences in the sequence of the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any occurence of <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any occurence of <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -682,17 +682,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the occurrences in the sequence of the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the occurrences in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the occurrences in the sequence of the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any occurence of <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any occurence of <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -738,18 +738,18 @@ namespace EnumerationQuest
         #region IndicesOf with value, comparer
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the elements in the sequence equals to the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the elements in the sequence equals to the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any element equal to <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any element equal to <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -772,18 +772,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the elements in the sequence equals to the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the elements in the sequence equals to the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any element equal to <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any element equal to <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -813,18 +813,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the elements in the sequence equals to the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the elements in the sequence equals to the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any element equal to <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any element equal to <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -855,18 +855,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the elements in the sequence equals to the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the elements in the sequence equals to the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any element equal to <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any element equal to <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -898,18 +898,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the elements in the sequence equals to the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the elements in the sequence equals to the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any element equal to <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any element equal to <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -942,18 +942,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the elements in the sequence equals to the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the elements in the sequence equals to the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any element equal to <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any element equal to <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -987,18 +987,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the elements in the sequence equals to the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the elements in the sequence equals to the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any element equal to <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any element equal to <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -1033,18 +1033,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the elements in the sequence equals to the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the elements in the sequence equals to the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any element equal to <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any element equal to <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -1080,18 +1080,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the elements in the sequence equals to the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the elements in the sequence equals to the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any element equal to <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any element equal to <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -1128,18 +1128,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the elements in the sequence equals to the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the elements in the sequence equals to the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any element equal to <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any element equal to <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -1177,18 +1177,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the elements in the sequence equals to the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the elements in the sequence equals to the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any element equal to <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any element equal to <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -1227,18 +1227,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the elements in the sequence equals to the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the elements in the sequence equals to the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any element equal to <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any element equal to <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -1278,18 +1278,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the elements in the sequence equals to the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the elements in the sequence equals to the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any element equal to <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any element equal to <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -1330,18 +1330,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the elements in the sequence equals to the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the elements in the sequence equals to the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any element equal to <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any element equal to <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -1383,18 +1383,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the elements in the sequence equals to the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the elements in the sequence equals to the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any element equal to <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any element equal to <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -1437,18 +1437,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
-        /// 		the zero-based indices of the elements in the sequence equals to the specified object.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based indices of the elements in a sequence equals to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{T}"/> of <see cref="Int32"/> which contains
+        ///     the zero-based indices of the elements in the sequence equals to the specified object.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 		If the sequence do not contains any element equal to <paramref name="value"/>,
-        /// 		the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
+        ///     If the sequence do not contains any element equal to <paramref name="value"/>,
+        ///     the result of the request is an empty <see cref="List{T}"/> of <see cref="Int32"/>.
         /// </remarks>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>

@@ -28,18 +28,18 @@ namespace EnumerationQuest
         #region Average of double
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -58,17 +58,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -90,17 +90,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -122,17 +122,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -154,17 +154,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -186,17 +186,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -218,17 +218,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -250,17 +250,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -282,17 +282,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -314,17 +314,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -346,17 +346,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -378,17 +378,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -410,17 +410,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -442,17 +442,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -474,17 +474,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -506,17 +506,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -542,17 +542,17 @@ namespace EnumerationQuest
         #region Average of double?
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -571,17 +571,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -603,17 +603,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -635,17 +635,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -667,17 +667,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -699,17 +699,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -731,17 +731,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -763,17 +763,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -795,17 +795,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -827,17 +827,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -859,17 +859,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -891,17 +891,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -923,17 +923,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -955,17 +955,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -987,17 +987,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1019,17 +1019,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1055,18 +1055,18 @@ namespace EnumerationQuest
         #region Average of double with selector
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1087,17 +1087,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1121,17 +1121,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1155,17 +1155,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1189,17 +1189,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1223,17 +1223,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1257,17 +1257,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1291,17 +1291,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1325,17 +1325,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1359,17 +1359,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1393,17 +1393,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1427,17 +1427,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1461,17 +1461,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1495,17 +1495,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1529,17 +1529,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1563,17 +1563,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/> if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1601,17 +1601,17 @@ namespace EnumerationQuest
         #region Average of double? with selector
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1632,17 +1632,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1666,17 +1666,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1700,17 +1700,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1734,17 +1734,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1768,17 +1768,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1802,17 +1802,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1836,17 +1836,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1870,17 +1870,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1904,17 +1904,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1938,17 +1938,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1972,17 +1972,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -2006,17 +2006,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -2040,17 +2040,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -2074,17 +2074,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -2108,17 +2108,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the average of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the average of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the average of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the average of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty or contains only object that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>

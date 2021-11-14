@@ -28,29 +28,29 @@ namespace EnumerationQuest
         #region MinBy with keySelector
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TKey}.Default"/> is used to compare keys.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TKey}.Default"/> is used to compare keys.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="keySelector">A function to extract the key for each element.</param>
@@ -73,29 +73,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TKey}.Default"/> is used to compare keys.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TKey}.Default"/> is used to compare keys.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="keySelector">A function to extract the key for each element.</param>
@@ -125,29 +125,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TKey}.Default"/> is used to compare keys.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TKey}.Default"/> is used to compare keys.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="keySelector">A function to extract the key for each element.</param>
@@ -178,29 +178,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TKey}.Default"/> is used to compare keys.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TKey}.Default"/> is used to compare keys.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="keySelector">A function to extract the key for each element.</param>
@@ -232,29 +232,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TKey}.Default"/> is used to compare keys.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TKey}.Default"/> is used to compare keys.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="keySelector">A function to extract the key for each element.</param>
@@ -287,29 +287,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TKey}.Default"/> is used to compare keys.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TKey}.Default"/> is used to compare keys.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="keySelector">A function to extract the key for each element.</param>
@@ -343,29 +343,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TKey}.Default"/> is used to compare keys.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TKey}.Default"/> is used to compare keys.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="keySelector">A function to extract the key for each element.</param>
@@ -400,29 +400,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TKey}.Default"/> is used to compare keys.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TKey}.Default"/> is used to compare keys.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="keySelector">A function to extract the key for each element.</param>
@@ -458,29 +458,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TKey}.Default"/> is used to compare keys.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TKey}.Default"/> is used to compare keys.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="keySelector">A function to extract the key for each element.</param>
@@ -517,29 +517,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TKey}.Default"/> is used to compare keys.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TKey}.Default"/> is used to compare keys.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="keySelector">A function to extract the key for each element.</param>
@@ -577,29 +577,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TKey}.Default"/> is used to compare keys.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TKey}.Default"/> is used to compare keys.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="keySelector">A function to extract the key for each element.</param>
@@ -638,29 +638,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TKey}.Default"/> is used to compare keys.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TKey}.Default"/> is used to compare keys.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="keySelector">A function to extract the key for each element.</param>
@@ -700,29 +700,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TKey}.Default"/> is used to compare keys.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TKey}.Default"/> is used to compare keys.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="keySelector">A function to extract the key for each element.</param>
@@ -763,29 +763,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TKey}.Default"/> is used to compare keys.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TKey}.Default"/> is used to compare keys.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="keySelector">A function to extract the key for each element.</param>
@@ -827,29 +827,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TKey}.Default"/> is used to compare keys.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TKey}.Default"/> is used to compare keys.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="keySelector">A function to extract the key for each element.</param>
@@ -892,29 +892,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TKey}.Default"/> is used to compare keys.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TKey}.Default"/> is used to compare keys.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no key extracted from the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="keySelector">A function to extract the key for each element.</param>
@@ -962,22 +962,22 @@ namespace EnumerationQuest
         #region MinBy with keySelector, comparer
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="comparer">A comparer to compare keys.</param>
@@ -1002,22 +1002,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="comparer">A comparer to compare keys.</param>
@@ -1049,22 +1049,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="comparer">A comparer to compare keys.</param>
@@ -1097,22 +1097,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="comparer">A comparer to compare keys.</param>
@@ -1146,22 +1146,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="comparer">A comparer to compare keys.</param>
@@ -1196,22 +1196,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="comparer">A comparer to compare keys.</param>
@@ -1247,22 +1247,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="comparer">A comparer to compare keys.</param>
@@ -1299,22 +1299,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="comparer">A comparer to compare keys.</param>
@@ -1352,22 +1352,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="comparer">A comparer to compare keys.</param>
@@ -1406,22 +1406,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="comparer">A comparer to compare keys.</param>
@@ -1461,22 +1461,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="comparer">A comparer to compare keys.</param>
@@ -1517,22 +1517,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="comparer">A comparer to compare keys.</param>
@@ -1574,22 +1574,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="comparer">A comparer to compare keys.</param>
@@ -1632,22 +1632,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="comparer">A comparer to compare keys.</param>
@@ -1691,22 +1691,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="comparer">A comparer to compare keys.</param>
@@ -1751,22 +1751,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the value with the minimum key in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the value with the minimum key in a sequence; according to a specified key selector function and key comparer.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the value with the minimum key in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TKey">The type of key to compare elements by.</typeparam>
         /// <param name="comparer">A comparer to compare keys.</param>

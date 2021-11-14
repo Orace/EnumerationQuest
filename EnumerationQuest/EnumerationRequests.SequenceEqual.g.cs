@@ -28,18 +28,18 @@ namespace EnumerationQuest
         #region SequenceEqual with other
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements are equal; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements are equal; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
+        ///   </para>
         /// </remarks>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <seealso cref="Enumerable.SequenceEqual{TSource}(IEnumerable{TSource}, IEnumerable{TSource})"/>
@@ -61,18 +61,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements are equal; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements are equal; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
+        ///   </para>
         /// </remarks>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <seealso cref="Enumerable.SequenceEqual{TSource}(IEnumerable{TSource}, IEnumerable{TSource})"/>
@@ -101,18 +101,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements are equal; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements are equal; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
+        ///   </para>
         /// </remarks>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <seealso cref="Enumerable.SequenceEqual{TSource}(IEnumerable{TSource}, IEnumerable{TSource})"/>
@@ -142,18 +142,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements are equal; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements are equal; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
+        ///   </para>
         /// </remarks>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <seealso cref="Enumerable.SequenceEqual{TSource}(IEnumerable{TSource}, IEnumerable{TSource})"/>
@@ -184,18 +184,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements are equal; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements are equal; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
+        ///   </para>
         /// </remarks>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <seealso cref="Enumerable.SequenceEqual{TSource}(IEnumerable{TSource}, IEnumerable{TSource})"/>
@@ -227,18 +227,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements are equal; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements are equal; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
+        ///   </para>
         /// </remarks>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <seealso cref="Enumerable.SequenceEqual{TSource}(IEnumerable{TSource}, IEnumerable{TSource})"/>
@@ -271,18 +271,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements are equal; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements are equal; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
+        ///   </para>
         /// </remarks>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <seealso cref="Enumerable.SequenceEqual{TSource}(IEnumerable{TSource}, IEnumerable{TSource})"/>
@@ -316,18 +316,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements are equal; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements are equal; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
+        ///   </para>
         /// </remarks>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <seealso cref="Enumerable.SequenceEqual{TSource}(IEnumerable{TSource}, IEnumerable{TSource})"/>
@@ -362,18 +362,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements are equal; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements are equal; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
+        ///   </para>
         /// </remarks>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <seealso cref="Enumerable.SequenceEqual{TSource}(IEnumerable{TSource}, IEnumerable{TSource})"/>
@@ -409,18 +409,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements are equal; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements are equal; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
+        ///   </para>
         /// </remarks>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <seealso cref="Enumerable.SequenceEqual{TSource}(IEnumerable{TSource}, IEnumerable{TSource})"/>
@@ -457,18 +457,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements are equal; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements are equal; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
+        ///   </para>
         /// </remarks>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <seealso cref="Enumerable.SequenceEqual{TSource}(IEnumerable{TSource}, IEnumerable{TSource})"/>
@@ -506,18 +506,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements are equal; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements are equal; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
+        ///   </para>
         /// </remarks>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <seealso cref="Enumerable.SequenceEqual{TSource}(IEnumerable{TSource}, IEnumerable{TSource})"/>
@@ -556,18 +556,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements are equal; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements are equal; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
+        ///   </para>
         /// </remarks>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <seealso cref="Enumerable.SequenceEqual{TSource}(IEnumerable{TSource}, IEnumerable{TSource})"/>
@@ -607,18 +607,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements are equal; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements are equal; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
+        ///   </para>
         /// </remarks>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <seealso cref="Enumerable.SequenceEqual{TSource}(IEnumerable{TSource}, IEnumerable{TSource})"/>
@@ -659,18 +659,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements are equal; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements are equal; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
+        ///   </para>
         /// </remarks>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <seealso cref="Enumerable.SequenceEqual{TSource}(IEnumerable{TSource}, IEnumerable{TSource})"/>
@@ -712,18 +712,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements are equal; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements are equal; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default">EqualityComparer&lt;<typeparamref name="TSource"/>&gt;.Default</see> is used to compare elements.
+        ///   </para>
         /// </remarks>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <seealso cref="Enumerable.SequenceEqual{TSource}(IEnumerable{TSource}, IEnumerable{TSource})"/>
@@ -770,14 +770,14 @@ namespace EnumerationQuest
         #region SequenceEqual with other, comparer
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements,
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements,
         ///       using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <param name="comparer">An <see cref="IEqualityComparer{TSource}"/> of <typeparamref name="TSource"/> to compare the elements of both sequences.</param>
@@ -801,14 +801,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements,
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements,
         ///       using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <param name="comparer">An <see cref="IEqualityComparer{TSource}"/> of <typeparamref name="TSource"/> to compare the elements of both sequences.</param>
@@ -839,14 +839,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements,
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements,
         ///       using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <param name="comparer">An <see cref="IEqualityComparer{TSource}"/> of <typeparamref name="TSource"/> to compare the elements of both sequences.</param>
@@ -878,14 +878,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements,
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements,
         ///       using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <param name="comparer">An <see cref="IEqualityComparer{TSource}"/> of <typeparamref name="TSource"/> to compare the elements of both sequences.</param>
@@ -918,14 +918,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements,
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements,
         ///       using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <param name="comparer">An <see cref="IEqualityComparer{TSource}"/> of <typeparamref name="TSource"/> to compare the elements of both sequences.</param>
@@ -959,14 +959,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements,
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements,
         ///       using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <param name="comparer">An <see cref="IEqualityComparer{TSource}"/> of <typeparamref name="TSource"/> to compare the elements of both sequences.</param>
@@ -1001,14 +1001,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements,
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements,
         ///       using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <param name="comparer">An <see cref="IEqualityComparer{TSource}"/> of <typeparamref name="TSource"/> to compare the elements of both sequences.</param>
@@ -1044,14 +1044,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements,
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements,
         ///       using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <param name="comparer">An <see cref="IEqualityComparer{TSource}"/> of <typeparamref name="TSource"/> to compare the elements of both sequences.</param>
@@ -1088,14 +1088,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements,
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements,
         ///       using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <param name="comparer">An <see cref="IEqualityComparer{TSource}"/> of <typeparamref name="TSource"/> to compare the elements of both sequences.</param>
@@ -1133,14 +1133,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements,
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements,
         ///       using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <param name="comparer">An <see cref="IEqualityComparer{TSource}"/> of <typeparamref name="TSource"/> to compare the elements of both sequences.</param>
@@ -1179,14 +1179,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements,
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements,
         ///       using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <param name="comparer">An <see cref="IEqualityComparer{TSource}"/> of <typeparamref name="TSource"/> to compare the elements of both sequences.</param>
@@ -1226,14 +1226,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements,
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements,
         ///       using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <param name="comparer">An <see cref="IEqualityComparer{TSource}"/> of <typeparamref name="TSource"/> to compare the elements of both sequences.</param>
@@ -1274,14 +1274,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements,
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements,
         ///       using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <param name="comparer">An <see cref="IEqualityComparer{TSource}"/> of <typeparamref name="TSource"/> to compare the elements of both sequences.</param>
@@ -1323,14 +1323,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements,
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements,
         ///       using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <param name="comparer">An <see cref="IEqualityComparer{TSource}"/> of <typeparamref name="TSource"/> to compare the elements of both sequences.</param>
@@ -1373,14 +1373,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements,
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements,
         ///       using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <param name="comparer">An <see cref="IEqualityComparer{TSource}"/> of <typeparamref name="TSource"/> to compare the elements of both sequences.</param>
@@ -1424,14 +1424,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the equality of two sequences by comparing their elements,
+        ///   <para>
+        ///     Requests the evaluation of the equality of two sequences by comparing their elements,
         ///       using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the two sequences are of equal length
-        /// 		and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
-        /// 	</para>
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the two sequences are of equal length
+        ///     and their corresponding elements compare equal according to <paramref name="comparer"/>; otherwise, <see langword="false"/>.
+        ///   </para>
         /// </summary>
         /// <param name="other">An <see cref="IEnumerable{TSource}"/> to compare the original sequence to.</param>
         /// <param name="comparer">An <see cref="IEqualityComparer{TSource}"/> of <typeparamref name="TSource"/> to compare the elements of both sequences.</param>

@@ -1,4 +1,4 @@
-# EnumerationQuest
+﻿# EnumerationQuest
 Avoids [multiple enumeration](https://www.jetbrains.com/help/resharper/PossibleMultipleEnumeration.html).
 
 [![appveyor](https://ci.appveyor.com/api/projects/status/github/Orace/EnumerationQuest?svg=true)](https://ci.appveyor.com/project/Orace/EnumerationQuest)

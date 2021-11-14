@@ -1,4 +1,4 @@
-| Methods                | Variant                   | Implementation  | Tests   | Documentation | Optimizations |
+﻿| Methods                | Variant                   | Implementation  | Tests   | Documentation | Optimizations |
 |------------------------|---------------------------|-----------------|---------|---------------|---------------|
 | Aggregate              |                           | &check;         | &check; | &check;       |               |
 | Aggregate              | seed                      | &check;         | &check; | &check;       |               |

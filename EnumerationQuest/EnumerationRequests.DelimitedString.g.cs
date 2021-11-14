@@ -28,14 +28,14 @@ namespace EnumerationQuest
         #region DelimitedString with delimiter
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
-        /// 		using the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
+        ///     using the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <seealso cref="String.Join{TSource}(String, IEnumerable{TSource})"/>
@@ -56,14 +56,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
-        /// 		using the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
+        ///     using the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <seealso cref="String.Join{TSource}(String, IEnumerable{TSource})"/>
@@ -91,14 +91,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
-        /// 		using the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
+        ///     using the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <seealso cref="String.Join{TSource}(String, IEnumerable{TSource})"/>
@@ -127,14 +127,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
-        /// 		using the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
+        ///     using the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <seealso cref="String.Join{TSource}(String, IEnumerable{TSource})"/>
@@ -164,14 +164,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
-        /// 		using the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
+        ///     using the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <seealso cref="String.Join{TSource}(String, IEnumerable{TSource})"/>
@@ -202,14 +202,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
-        /// 		using the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
+        ///     using the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <seealso cref="String.Join{TSource}(String, IEnumerable{TSource})"/>
@@ -241,14 +241,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
-        /// 		using the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
+        ///     using the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <seealso cref="String.Join{TSource}(String, IEnumerable{TSource})"/>
@@ -281,14 +281,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
-        /// 		using the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
+        ///     using the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <seealso cref="String.Join{TSource}(String, IEnumerable{TSource})"/>
@@ -322,14 +322,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
-        /// 		using the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
+        ///     using the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <seealso cref="String.Join{TSource}(String, IEnumerable{TSource})"/>
@@ -364,14 +364,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
-        /// 		using the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
+        ///     using the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <seealso cref="String.Join{TSource}(String, IEnumerable{TSource})"/>
@@ -407,14 +407,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
-        /// 		using the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
+        ///     using the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <seealso cref="String.Join{TSource}(String, IEnumerable{TSource})"/>
@@ -451,14 +451,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
-        /// 		using the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
+        ///     using the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <seealso cref="String.Join{TSource}(String, IEnumerable{TSource})"/>
@@ -496,14 +496,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
-        /// 		using the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
+        ///     using the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <seealso cref="String.Join{TSource}(String, IEnumerable{TSource})"/>
@@ -542,14 +542,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
-        /// 		using the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
+        ///     using the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <seealso cref="String.Join{TSource}(String, IEnumerable{TSource})"/>
@@ -589,14 +589,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
-        /// 		using the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
+        ///     using the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <seealso cref="String.Join{TSource}(String, IEnumerable{TSource})"/>
@@ -637,14 +637,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
-        /// 		using the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the elements from a sequence,
+        ///     using the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <seealso cref="String.Join{TSource}(String, IEnumerable{TSource})"/>
@@ -690,14 +690,14 @@ namespace EnumerationQuest
         #region DelimitedString with delimiter, stringSelector
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
-        /// 		using the specified function to transform the elements and the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
+        ///     using the specified function to transform the elements and the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <param name="stringSelector">A transform function to apply to each element.</param>
@@ -720,14 +720,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
-        /// 		using the specified function to transform the elements and the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
+        ///     using the specified function to transform the elements and the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <param name="stringSelector">A transform function to apply to each element.</param>
@@ -757,14 +757,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
-        /// 		using the specified function to transform the elements and the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
+        ///     using the specified function to transform the elements and the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <param name="stringSelector">A transform function to apply to each element.</param>
@@ -795,14 +795,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
-        /// 		using the specified function to transform the elements and the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
+        ///     using the specified function to transform the elements and the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <param name="stringSelector">A transform function to apply to each element.</param>
@@ -834,14 +834,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
-        /// 		using the specified function to transform the elements and the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
+        ///     using the specified function to transform the elements and the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <param name="stringSelector">A transform function to apply to each element.</param>
@@ -874,14 +874,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
-        /// 		using the specified function to transform the elements and the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
+        ///     using the specified function to transform the elements and the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <param name="stringSelector">A transform function to apply to each element.</param>
@@ -915,14 +915,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
-        /// 		using the specified function to transform the elements and the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
+        ///     using the specified function to transform the elements and the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <param name="stringSelector">A transform function to apply to each element.</param>
@@ -957,14 +957,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
-        /// 		using the specified function to transform the elements and the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
+        ///     using the specified function to transform the elements and the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <param name="stringSelector">A transform function to apply to each element.</param>
@@ -1000,14 +1000,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
-        /// 		using the specified function to transform the elements and the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
+        ///     using the specified function to transform the elements and the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <param name="stringSelector">A transform function to apply to each element.</param>
@@ -1044,14 +1044,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
-        /// 		using the specified function to transform the elements and the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
+        ///     using the specified function to transform the elements and the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <param name="stringSelector">A transform function to apply to each element.</param>
@@ -1089,14 +1089,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
-        /// 		using the specified function to transform the elements and the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
+        ///     using the specified function to transform the elements and the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <param name="stringSelector">A transform function to apply to each element.</param>
@@ -1135,14 +1135,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
-        /// 		using the specified function to transform the elements and the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
+        ///     using the specified function to transform the elements and the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <param name="stringSelector">A transform function to apply to each element.</param>
@@ -1182,14 +1182,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
-        /// 		using the specified function to transform the elements and the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
+        ///     using the specified function to transform the elements and the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <param name="stringSelector">A transform function to apply to each element.</param>
@@ -1230,14 +1230,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
-        /// 		using the specified function to transform the elements and the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
+        ///     using the specified function to transform the elements and the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <param name="stringSelector">A transform function to apply to each element.</param>
@@ -1279,14 +1279,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
-        /// 		using the specified function to transform the elements and the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
+        ///     using the specified function to transform the elements and the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <param name="stringSelector">A transform function to apply to each element.</param>
@@ -1329,14 +1329,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
-        /// 		using the specified function to transform the elements and the specified separator between each elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a string that consists of the elements of the sequence
-        /// 		transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="String"/> that is the concatenation of the transformed elements from a sequence,
+        ///     using the specified function to transform the elements and the specified separator between each elements.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a string that consists of the elements of the sequence
+        ///     transformed by the <paramref name="stringSelector"/> function and delimited by the <paramref name="delimiter"/> string.
+        ///   </para>
         /// </summary>
         /// <param name="delimiter">The string to use as a separator.</param>
         /// <param name="stringSelector">A transform function to apply to each element.</param>

@@ -28,22 +28,22 @@ namespace EnumerationQuest
         #region Sum of <#= n.Type #>
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
 <# if (n.IsNullable) { #>
-        /// 	<para>
-        /// 		Values that are <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     Values that are <see langword="null"/> are ignored, hence if the sequence contains only
         ///         <see langword="null"/> values, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
 <# } #>
         /// </remarks>
         /// <returns>
@@ -64,22 +64,22 @@ namespace EnumerationQuest
 
 <# foreach (var o in overloads.Where(o => !o.IsLast)) { #>
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
 <# if (n.IsNullable) { #>
-        /// 	<para>
-        /// 		Values that are <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     Values that are <see langword="null"/> are ignored, hence if the sequence contains only
         ///         <see langword="null"/> values, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
 <# } #>
         /// </remarks>
         /// <returns>
@@ -109,22 +109,22 @@ namespace EnumerationQuest
         #region Sum of <#= n.Type #> with selector
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
 <# if (n.IsNullable) { #>
-        /// 	<para>
-        /// 		Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
         ///         values that are transformed to <see langword="null"/>, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
 <# } #>
         /// </remarks>
         /// <returns>
@@ -147,22 +147,22 @@ namespace EnumerationQuest
 
 <# foreach (var o in overloads.Where(o => !o.IsLast)) { #>
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
 <# if (n.IsNullable) { #>
-        /// 	<para>
-        /// 		Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
         ///         values that are transformed to <see langword="null"/>, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
 <# } #>
         /// </remarks>
         /// <returns>

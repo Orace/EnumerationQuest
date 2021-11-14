@@ -28,18 +28,18 @@ namespace EnumerationQuest
         #region Count 
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
@@ -59,18 +59,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -97,18 +97,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -136,18 +136,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -176,18 +176,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -217,18 +217,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -259,18 +259,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -302,18 +302,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -346,18 +346,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -391,18 +391,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -437,18 +437,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -484,18 +484,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -532,18 +532,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -581,18 +581,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -631,18 +631,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -682,18 +682,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -738,19 +738,19 @@ namespace EnumerationQuest
         #region Count with predicate
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence that satisfy the condition
-        /// 		is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence that satisfy the condition
+        ///     is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -772,19 +772,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence that satisfy the condition
-        /// 		is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence that satisfy the condition
+        ///     is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -813,19 +813,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence that satisfy the condition
-        /// 		is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence that satisfy the condition
+        ///     is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -855,19 +855,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence that satisfy the condition
-        /// 		is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence that satisfy the condition
+        ///     is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -898,19 +898,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence that satisfy the condition
-        /// 		is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence that satisfy the condition
+        ///     is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -942,19 +942,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence that satisfy the condition
-        /// 		is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence that satisfy the condition
+        ///     is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -987,19 +987,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence that satisfy the condition
-        /// 		is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence that satisfy the condition
+        ///     is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -1033,19 +1033,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence that satisfy the condition
-        /// 		is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence that satisfy the condition
+        ///     is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -1080,19 +1080,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence that satisfy the condition
-        /// 		is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence that satisfy the condition
+        ///     is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -1128,19 +1128,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence that satisfy the condition
-        /// 		is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence that satisfy the condition
+        ///     is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -1177,19 +1177,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence that satisfy the condition
-        /// 		is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence that satisfy the condition
+        ///     is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -1227,19 +1227,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence that satisfy the condition
-        /// 		is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence that satisfy the condition
+        ///     is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -1278,19 +1278,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence that satisfy the condition
-        /// 		is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence that satisfy the condition
+        ///     is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -1330,19 +1330,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence that satisfy the condition
-        /// 		is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence that satisfy the condition
+        ///     is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -1383,19 +1383,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence that satisfy the condition
-        /// 		is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence that satisfy the condition
+        ///     is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -1437,19 +1437,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an <see cref="Int32"/> that represent the number of elements in a sequence that satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the number of elements in the sequence that satisfy the condition in the predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="OverflowException"/>
-        /// 		if the number of elements in the sequence that satisfy the condition
-        /// 		is larger than <see cref="Int32.MaxValue"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="OverflowException"/>
+        ///     if the number of elements in the sequence that satisfy the condition
+        ///     is larger than <see cref="Int32.MaxValue"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Count{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>

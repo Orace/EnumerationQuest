@@ -28,18 +28,18 @@ namespace EnumerationQuest
         #region ElementAt with index
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is outside the bounds of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is outside the bounds of the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -60,18 +60,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is outside the bounds of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is outside the bounds of the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -99,18 +99,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is outside the bounds of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is outside the bounds of the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -139,18 +139,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is outside the bounds of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is outside the bounds of the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -180,18 +180,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is outside the bounds of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is outside the bounds of the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -222,18 +222,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is outside the bounds of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is outside the bounds of the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -265,18 +265,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is outside the bounds of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is outside the bounds of the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -309,18 +309,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is outside the bounds of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is outside the bounds of the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -354,18 +354,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is outside the bounds of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is outside the bounds of the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -400,18 +400,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is outside the bounds of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is outside the bounds of the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -447,18 +447,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is outside the bounds of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is outside the bounds of the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -495,18 +495,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is outside the bounds of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is outside the bounds of the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -544,18 +544,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is outside the bounds of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is outside the bounds of the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -594,18 +594,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is outside the bounds of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is outside the bounds of the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -645,18 +645,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is outside the bounds of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is outside the bounds of the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -697,18 +697,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is outside the bounds of the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is outside the bounds of the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Index)"/>
@@ -754,18 +754,18 @@ namespace EnumerationQuest
         #region ElementAt with index
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -786,18 +786,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -825,18 +825,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -865,18 +865,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -906,18 +906,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -948,18 +948,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -991,18 +991,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -1035,18 +1035,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -1080,18 +1080,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -1126,18 +1126,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -1173,18 +1173,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -1221,18 +1221,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -1270,18 +1270,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -1320,18 +1320,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -1371,18 +1371,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -1423,18 +1423,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
-        /// 		if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentOutOfRangeException"/>
+        ///     if <paramref name="index"/> is less than 0 or greater than or equal to the number of elements in the sequence.
+        ///   </para>
         /// </remarks>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAt{TSource}(IEnumerable{TSource}, Int32)"/>

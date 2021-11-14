@@ -28,12 +28,12 @@ namespace EnumerationQuest
         #region Slice with range
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a specified range of contiguous elements from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a specified range of contiguous elements from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
+        ///   </para>
         /// </summary>
         /// <param name="range">The range of elements to return, which has start and end indexes either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.Take{TSource}(IEnumerable{TSource}, Range)"/>
@@ -54,12 +54,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a specified range of contiguous elements from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a specified range of contiguous elements from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
+        ///   </para>
         /// </summary>
         /// <param name="range">The range of elements to return, which has start and end indexes either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.Take{TSource}(IEnumerable{TSource}, Range)"/>
@@ -87,12 +87,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a specified range of contiguous elements from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a specified range of contiguous elements from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
+        ///   </para>
         /// </summary>
         /// <param name="range">The range of elements to return, which has start and end indexes either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.Take{TSource}(IEnumerable{TSource}, Range)"/>
@@ -121,12 +121,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a specified range of contiguous elements from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a specified range of contiguous elements from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
+        ///   </para>
         /// </summary>
         /// <param name="range">The range of elements to return, which has start and end indexes either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.Take{TSource}(IEnumerable{TSource}, Range)"/>
@@ -156,12 +156,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a specified range of contiguous elements from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a specified range of contiguous elements from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
+        ///   </para>
         /// </summary>
         /// <param name="range">The range of elements to return, which has start and end indexes either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.Take{TSource}(IEnumerable{TSource}, Range)"/>
@@ -192,12 +192,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a specified range of contiguous elements from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a specified range of contiguous elements from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
+        ///   </para>
         /// </summary>
         /// <param name="range">The range of elements to return, which has start and end indexes either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.Take{TSource}(IEnumerable{TSource}, Range)"/>
@@ -229,12 +229,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a specified range of contiguous elements from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a specified range of contiguous elements from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
+        ///   </para>
         /// </summary>
         /// <param name="range">The range of elements to return, which has start and end indexes either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.Take{TSource}(IEnumerable{TSource}, Range)"/>
@@ -267,12 +267,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a specified range of contiguous elements from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a specified range of contiguous elements from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
+        ///   </para>
         /// </summary>
         /// <param name="range">The range of elements to return, which has start and end indexes either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.Take{TSource}(IEnumerable{TSource}, Range)"/>
@@ -306,12 +306,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a specified range of contiguous elements from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a specified range of contiguous elements from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
+        ///   </para>
         /// </summary>
         /// <param name="range">The range of elements to return, which has start and end indexes either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.Take{TSource}(IEnumerable{TSource}, Range)"/>
@@ -346,12 +346,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a specified range of contiguous elements from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a specified range of contiguous elements from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
+        ///   </para>
         /// </summary>
         /// <param name="range">The range of elements to return, which has start and end indexes either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.Take{TSource}(IEnumerable{TSource}, Range)"/>
@@ -387,12 +387,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a specified range of contiguous elements from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a specified range of contiguous elements from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
+        ///   </para>
         /// </summary>
         /// <param name="range">The range of elements to return, which has start and end indexes either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.Take{TSource}(IEnumerable{TSource}, Range)"/>
@@ -429,12 +429,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a specified range of contiguous elements from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a specified range of contiguous elements from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
+        ///   </para>
         /// </summary>
         /// <param name="range">The range of elements to return, which has start and end indexes either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.Take{TSource}(IEnumerable{TSource}, Range)"/>
@@ -472,12 +472,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a specified range of contiguous elements from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a specified range of contiguous elements from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
+        ///   </para>
         /// </summary>
         /// <param name="range">The range of elements to return, which has start and end indexes either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.Take{TSource}(IEnumerable{TSource}, Range)"/>
@@ -516,12 +516,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a specified range of contiguous elements from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a specified range of contiguous elements from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
+        ///   </para>
         /// </summary>
         /// <param name="range">The range of elements to return, which has start and end indexes either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.Take{TSource}(IEnumerable{TSource}, Range)"/>
@@ -561,12 +561,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a specified range of contiguous elements from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a specified range of contiguous elements from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
+        ///   </para>
         /// </summary>
         /// <param name="range">The range of elements to return, which has start and end indexes either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.Take{TSource}(IEnumerable{TSource}, Range)"/>
@@ -607,12 +607,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a specified range of contiguous elements from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a specified range of contiguous elements from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is a <see cref="List{TSource}"/> that contains the specified range of elements from the source sequence.
+        ///   </para>
         /// </summary>
         /// <param name="range">The range of elements to return, which has start and end indexes either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.Take{TSource}(IEnumerable{TSource}, Range)"/>

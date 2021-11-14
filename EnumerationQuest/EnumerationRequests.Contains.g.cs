@@ -28,17 +28,17 @@ namespace EnumerationQuest
         #region Contains with value
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource)"/>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
@@ -58,17 +58,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource)"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -95,17 +95,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource)"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -133,17 +133,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource)"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -172,17 +172,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource)"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -212,17 +212,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource)"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -253,17 +253,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource)"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -295,17 +295,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource)"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -338,17 +338,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource)"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -382,17 +382,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource)"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -427,17 +427,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource)"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -473,17 +473,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource)"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -520,17 +520,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource)"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -568,17 +568,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource)"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -617,17 +617,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource)"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -667,17 +667,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="EqualityComparer{TSource}.Default"/> is used to test elements equality.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource)"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -722,12 +722,12 @@ namespace EnumerationQuest
         #region Contains with value, comparer
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="comparer">An equality comparer to compare values.</param>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource, IEqualityComparer{TSource})"/>
@@ -749,12 +749,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="comparer">An equality comparer to compare values.</param>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource, IEqualityComparer{TSource})"/>
@@ -783,12 +783,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="comparer">An equality comparer to compare values.</param>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource, IEqualityComparer{TSource})"/>
@@ -818,12 +818,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="comparer">An equality comparer to compare values.</param>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource, IEqualityComparer{TSource})"/>
@@ -854,12 +854,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="comparer">An equality comparer to compare values.</param>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource, IEqualityComparer{TSource})"/>
@@ -891,12 +891,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="comparer">An equality comparer to compare values.</param>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource, IEqualityComparer{TSource})"/>
@@ -929,12 +929,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="comparer">An equality comparer to compare values.</param>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource, IEqualityComparer{TSource})"/>
@@ -968,12 +968,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="comparer">An equality comparer to compare values.</param>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource, IEqualityComparer{TSource})"/>
@@ -1008,12 +1008,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="comparer">An equality comparer to compare values.</param>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource, IEqualityComparer{TSource})"/>
@@ -1049,12 +1049,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="comparer">An equality comparer to compare values.</param>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource, IEqualityComparer{TSource})"/>
@@ -1091,12 +1091,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="comparer">An equality comparer to compare values.</param>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource, IEqualityComparer{TSource})"/>
@@ -1134,12 +1134,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="comparer">An equality comparer to compare values.</param>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource, IEqualityComparer{TSource})"/>
@@ -1178,12 +1178,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="comparer">An equality comparer to compare values.</param>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource, IEqualityComparer{TSource})"/>
@@ -1223,12 +1223,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="comparer">An equality comparer to compare values.</param>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource, IEqualityComparer{TSource})"/>
@@ -1269,12 +1269,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="comparer">An equality comparer to compare values.</param>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource, IEqualityComparer{TSource})"/>
@@ -1316,12 +1316,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains a specified element by using a specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence contains an element equals to the specified value; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="comparer">An equality comparer to compare values.</param>
         /// <seealso cref="Enumerable.Contains{TSource}(IEnumerable{TSource}, TSource, IEqualityComparer{TSource})"/>

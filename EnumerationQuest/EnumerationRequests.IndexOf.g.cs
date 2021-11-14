@@ -28,13 +28,13 @@ namespace EnumerationQuest
         #region IndexOf with value
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -55,13 +55,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -89,13 +89,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -124,13 +124,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -160,13 +160,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -197,13 +197,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -235,13 +235,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -274,13 +274,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -314,13 +314,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -355,13 +355,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -397,13 +397,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -440,13 +440,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -484,13 +484,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -529,13 +529,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -575,13 +575,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -622,13 +622,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first occurrence in a sequence of the specified object.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first occurrence in the sequence of the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <seealso cref="IList{TSource}.IndexOf(TSource)"/>
@@ -674,14 +674,14 @@ namespace EnumerationQuest
         #region IndexOf with value, comparer
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -704,14 +704,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -741,14 +741,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -779,14 +779,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -818,14 +818,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -858,14 +858,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -899,14 +899,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -941,14 +941,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -984,14 +984,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -1028,14 +1028,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -1073,14 +1073,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -1119,14 +1119,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -1166,14 +1166,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -1214,14 +1214,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -1263,14 +1263,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>
@@ -1313,14 +1313,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
-        /// 		using the specified <see cref="IEqualityComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
-        /// 		if found; otherwise, <c>-1</c>.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the zero-based index of the first element in a sequence equal to the specified object,
+        ///     using the specified <see cref="IEqualityComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the zero-based index of the first element in the sequence equal to the specified object,
+        ///     if found; otherwise, <c>-1</c>.
+        ///   </para>
         /// </summary>
         /// <param name="value">The object to locate in the sequence.</param>
         /// <param name="comparer">An equality comparer to compare values.</param>

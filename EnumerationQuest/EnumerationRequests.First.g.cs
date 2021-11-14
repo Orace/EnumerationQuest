@@ -28,18 +28,18 @@ namespace EnumerationQuest
         #region First 
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the specified sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the specified sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
@@ -59,18 +59,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the specified sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the specified sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -97,18 +97,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the specified sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the specified sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -136,18 +136,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the specified sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the specified sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -176,18 +176,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the specified sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the specified sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -217,18 +217,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the specified sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the specified sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -259,18 +259,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the specified sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the specified sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -302,18 +302,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the specified sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the specified sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -346,18 +346,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the specified sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the specified sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -391,18 +391,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the specified sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the specified sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -437,18 +437,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the specified sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the specified sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -484,18 +484,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the specified sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the specified sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -532,18 +532,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the specified sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the specified sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -581,18 +581,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the specified sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the specified sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -631,18 +631,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the specified sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the specified sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -682,18 +682,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the specified sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the specified sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence is empty.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -738,18 +738,18 @@ namespace EnumerationQuest
         #region First with predicate
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the sequence that passes the test in the specified predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the sequence that passes the test in the specified predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if no element satisfies the condition in <paramref name="predicate"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if no element satisfies the condition in <paramref name="predicate"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -771,18 +771,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the sequence that passes the test in the specified predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the sequence that passes the test in the specified predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if no element satisfies the condition in <paramref name="predicate"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if no element satisfies the condition in <paramref name="predicate"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -811,18 +811,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the sequence that passes the test in the specified predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the sequence that passes the test in the specified predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if no element satisfies the condition in <paramref name="predicate"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if no element satisfies the condition in <paramref name="predicate"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -852,18 +852,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the sequence that passes the test in the specified predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the sequence that passes the test in the specified predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if no element satisfies the condition in <paramref name="predicate"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if no element satisfies the condition in <paramref name="predicate"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -894,18 +894,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the sequence that passes the test in the specified predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the sequence that passes the test in the specified predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if no element satisfies the condition in <paramref name="predicate"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if no element satisfies the condition in <paramref name="predicate"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -937,18 +937,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the sequence that passes the test in the specified predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the sequence that passes the test in the specified predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if no element satisfies the condition in <paramref name="predicate"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if no element satisfies the condition in <paramref name="predicate"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -981,18 +981,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the sequence that passes the test in the specified predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the sequence that passes the test in the specified predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if no element satisfies the condition in <paramref name="predicate"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if no element satisfies the condition in <paramref name="predicate"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1026,18 +1026,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the sequence that passes the test in the specified predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the sequence that passes the test in the specified predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if no element satisfies the condition in <paramref name="predicate"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if no element satisfies the condition in <paramref name="predicate"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1072,18 +1072,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the sequence that passes the test in the specified predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the sequence that passes the test in the specified predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if no element satisfies the condition in <paramref name="predicate"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if no element satisfies the condition in <paramref name="predicate"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1119,18 +1119,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the sequence that passes the test in the specified predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the sequence that passes the test in the specified predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if no element satisfies the condition in <paramref name="predicate"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if no element satisfies the condition in <paramref name="predicate"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1167,18 +1167,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the sequence that passes the test in the specified predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the sequence that passes the test in the specified predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if no element satisfies the condition in <paramref name="predicate"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if no element satisfies the condition in <paramref name="predicate"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1216,18 +1216,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the sequence that passes the test in the specified predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the sequence that passes the test in the specified predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if no element satisfies the condition in <paramref name="predicate"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if no element satisfies the condition in <paramref name="predicate"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1266,18 +1266,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the sequence that passes the test in the specified predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the sequence that passes the test in the specified predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if no element satisfies the condition in <paramref name="predicate"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if no element satisfies the condition in <paramref name="predicate"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1317,18 +1317,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the sequence that passes the test in the specified predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the sequence that passes the test in the specified predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if no element satisfies the condition in <paramref name="predicate"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if no element satisfies the condition in <paramref name="predicate"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1369,18 +1369,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the sequence that passes the test in the specified predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the sequence that passes the test in the specified predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if no element satisfies the condition in <paramref name="predicate"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if no element satisfies the condition in <paramref name="predicate"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1422,18 +1422,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the first element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the first element in the sequence that passes the test in the specified predicate function.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the first element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the first element in the sequence that passes the test in the specified predicate function.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if no element satisfies the condition in <paramref name="predicate"/>.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if no element satisfies the condition in <paramref name="predicate"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.First{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>

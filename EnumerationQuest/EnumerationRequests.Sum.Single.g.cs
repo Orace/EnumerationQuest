@@ -27,17 +27,17 @@ namespace EnumerationQuest
         #region Sum of float
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -56,17 +56,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -88,17 +88,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -120,17 +120,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -152,17 +152,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -184,17 +184,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -216,17 +216,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -248,17 +248,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -280,17 +280,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -312,17 +312,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -344,17 +344,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -376,17 +376,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -408,17 +408,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -440,17 +440,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -472,17 +472,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -504,17 +504,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -540,21 +540,21 @@ namespace EnumerationQuest
         #region Sum of float?
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are <see langword="null"/> are ignored, hence if the sequence contains only
         ///         <see langword="null"/> values, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -573,21 +573,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are <see langword="null"/> are ignored, hence if the sequence contains only
         ///         <see langword="null"/> values, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -609,21 +609,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are <see langword="null"/> are ignored, hence if the sequence contains only
         ///         <see langword="null"/> values, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -645,21 +645,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are <see langword="null"/> are ignored, hence if the sequence contains only
         ///         <see langword="null"/> values, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -681,21 +681,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are <see langword="null"/> are ignored, hence if the sequence contains only
         ///         <see langword="null"/> values, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -717,21 +717,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are <see langword="null"/> are ignored, hence if the sequence contains only
         ///         <see langword="null"/> values, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -753,21 +753,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are <see langword="null"/> are ignored, hence if the sequence contains only
         ///         <see langword="null"/> values, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -789,21 +789,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are <see langword="null"/> are ignored, hence if the sequence contains only
         ///         <see langword="null"/> values, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -825,21 +825,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are <see langword="null"/> are ignored, hence if the sequence contains only
         ///         <see langword="null"/> values, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -861,21 +861,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are <see langword="null"/> are ignored, hence if the sequence contains only
         ///         <see langword="null"/> values, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -897,21 +897,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are <see langword="null"/> are ignored, hence if the sequence contains only
         ///         <see langword="null"/> values, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -933,21 +933,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are <see langword="null"/> are ignored, hence if the sequence contains only
         ///         <see langword="null"/> values, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -969,21 +969,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are <see langword="null"/> are ignored, hence if the sequence contains only
         ///         <see langword="null"/> values, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1005,21 +1005,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are <see langword="null"/> are ignored, hence if the sequence contains only
         ///         <see langword="null"/> values, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1041,21 +1041,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are <see langword="null"/> are ignored, hence if the sequence contains only
         ///         <see langword="null"/> values, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1077,21 +1077,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of the values in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of the values in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of the values in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of the values in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are <see langword="null"/> are ignored, hence if the sequence contains only
         ///         <see langword="null"/> values, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1117,17 +1117,17 @@ namespace EnumerationQuest
         #region Sum of float with selector
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1148,17 +1148,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1182,17 +1182,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1216,17 +1216,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1250,17 +1250,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1284,17 +1284,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1318,17 +1318,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1352,17 +1352,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1386,17 +1386,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1420,17 +1420,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1454,17 +1454,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1488,17 +1488,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1522,17 +1522,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1556,17 +1556,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1590,17 +1590,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1624,17 +1624,17 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1662,21 +1662,21 @@ namespace EnumerationQuest
         #region Sum of float? with selector
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
         ///         values that are transformed to <see langword="null"/>, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1697,21 +1697,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
         ///         values that are transformed to <see langword="null"/>, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1735,21 +1735,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
         ///         values that are transformed to <see langword="null"/>, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1773,21 +1773,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
         ///         values that are transformed to <see langword="null"/>, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1811,21 +1811,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
         ///         values that are transformed to <see langword="null"/>, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1849,21 +1849,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
         ///         values that are transformed to <see langword="null"/>, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1887,21 +1887,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
         ///         values that are transformed to <see langword="null"/>, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1925,21 +1925,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
         ///         values that are transformed to <see langword="null"/>, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -1963,21 +1963,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
         ///         values that are transformed to <see langword="null"/>, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -2001,21 +2001,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
         ///         values that are transformed to <see langword="null"/>, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -2039,21 +2039,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
         ///         values that are transformed to <see langword="null"/>, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -2077,21 +2077,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
         ///         values that are transformed to <see langword="null"/>, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -2115,21 +2115,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
         ///         values that are transformed to <see langword="null"/>, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -2153,21 +2153,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
         ///         values that are transformed to <see langword="null"/>, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -2191,21 +2191,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
         ///         values that are transformed to <see langword="null"/>, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>
@@ -2229,21 +2229,21 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the sum of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the sum of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the sum of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the sum of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If the sequence is empty the result of this request is <c>0</c>.
-        /// 	</para>
-        /// 	<para>
-        /// 		Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
+        ///   <para>
+        ///     If the sequence is empty the result of this request is <c>0</c>.
+        ///   </para>
+        ///   <para>
+        ///     Values that are transformed to <see langword="null"/> are ignored, hence if the sequence contains only
         ///         values that are transformed to <see langword="null"/>, the result of this request is <c>0</c>.
-        /// 	</para>
+        ///   </para>
         /// </remarks>
         /// <returns>
         ///     <para>

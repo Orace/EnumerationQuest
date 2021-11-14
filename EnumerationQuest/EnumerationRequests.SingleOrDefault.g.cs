@@ -28,19 +28,19 @@ namespace EnumerationQuest
         #region SingleOrDefault 
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Single{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
@@ -60,19 +60,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Single{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -99,19 +99,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Single{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -139,19 +139,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Single{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -180,19 +180,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Single{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -222,19 +222,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Single{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -265,19 +265,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Single{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -309,19 +309,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Single{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -354,19 +354,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Single{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -400,19 +400,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Single{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -447,19 +447,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Single{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -495,19 +495,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Single{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -544,19 +544,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Single{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -594,19 +594,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Single{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -645,19 +645,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Single{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -697,19 +697,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Single{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -754,19 +754,19 @@ namespace EnumerationQuest
         #region SingleOrDefault with defaultValue
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <paramref name="defaultValue"/> if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <paramref name="defaultValue"/> if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <param name="defaultValue">The default value to return if the sequence is empty.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, TSource)"/>
@@ -787,19 +787,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <paramref name="defaultValue"/> if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <paramref name="defaultValue"/> if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <param name="defaultValue">The default value to return if the sequence is empty.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, TSource)"/>
@@ -827,19 +827,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <paramref name="defaultValue"/> if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <paramref name="defaultValue"/> if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <param name="defaultValue">The default value to return if the sequence is empty.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, TSource)"/>
@@ -868,19 +868,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <paramref name="defaultValue"/> if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <paramref name="defaultValue"/> if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <param name="defaultValue">The default value to return if the sequence is empty.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, TSource)"/>
@@ -910,19 +910,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <paramref name="defaultValue"/> if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <paramref name="defaultValue"/> if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <param name="defaultValue">The default value to return if the sequence is empty.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, TSource)"/>
@@ -953,19 +953,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <paramref name="defaultValue"/> if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <paramref name="defaultValue"/> if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <param name="defaultValue">The default value to return if the sequence is empty.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, TSource)"/>
@@ -997,19 +997,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <paramref name="defaultValue"/> if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <paramref name="defaultValue"/> if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <param name="defaultValue">The default value to return if the sequence is empty.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, TSource)"/>
@@ -1042,19 +1042,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <paramref name="defaultValue"/> if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <paramref name="defaultValue"/> if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <param name="defaultValue">The default value to return if the sequence is empty.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, TSource)"/>
@@ -1088,19 +1088,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <paramref name="defaultValue"/> if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <paramref name="defaultValue"/> if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <param name="defaultValue">The default value to return if the sequence is empty.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, TSource)"/>
@@ -1135,19 +1135,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <paramref name="defaultValue"/> if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <paramref name="defaultValue"/> if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <param name="defaultValue">The default value to return if the sequence is empty.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, TSource)"/>
@@ -1183,19 +1183,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <paramref name="defaultValue"/> if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <paramref name="defaultValue"/> if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <param name="defaultValue">The default value to return if the sequence is empty.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, TSource)"/>
@@ -1232,19 +1232,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <paramref name="defaultValue"/> if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <paramref name="defaultValue"/> if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <param name="defaultValue">The default value to return if the sequence is empty.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, TSource)"/>
@@ -1282,19 +1282,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <paramref name="defaultValue"/> if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <paramref name="defaultValue"/> if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <param name="defaultValue">The default value to return if the sequence is empty.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, TSource)"/>
@@ -1333,19 +1333,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <paramref name="defaultValue"/> if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <paramref name="defaultValue"/> if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <param name="defaultValue">The default value to return if the sequence is empty.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, TSource)"/>
@@ -1385,19 +1385,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <paramref name="defaultValue"/> if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <paramref name="defaultValue"/> if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <param name="defaultValue">The default value to return if the sequence is empty.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, TSource)"/>
@@ -1438,19 +1438,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element of a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the specified sequence,
-        /// 		or <paramref name="defaultValue"/> if the sequence is empty.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element of a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the specified sequence,
+        ///     or <paramref name="defaultValue"/> if the sequence is empty.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the source sequence contains more than one element.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the source sequence contains more than one element.
+        ///   </para>
         /// </remarks>
         /// <param name="defaultValue">The default value to return if the sequence is empty.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, TSource)"/>
@@ -1496,19 +1496,19 @@ namespace EnumerationQuest
         #region SingleOrDefault with predicate
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1530,19 +1530,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1571,19 +1571,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1613,19 +1613,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1656,19 +1656,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1700,19 +1700,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1745,19 +1745,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1791,19 +1791,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1838,19 +1838,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1886,19 +1886,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1935,19 +1935,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -1985,19 +1985,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -2036,19 +2036,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -2088,19 +2088,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -2141,19 +2141,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -2195,19 +2195,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <see langword="default"/>(<typeparamref name="TSource"/>) if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.SingleOrDefault{TSource}(IEnumerable{TSource}, Func{TSource,Boolean})"/>
@@ -2254,19 +2254,19 @@ namespace EnumerationQuest
         #region SingleOrDefault with predicate, defaultValue
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <paramref name="defaultValue"/> if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <paramref name="defaultValue"/> if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <param name="defaultValue">The default value to return if no element satisfies the condition.</param>
@@ -2289,19 +2289,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <paramref name="defaultValue"/> if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <paramref name="defaultValue"/> if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <param name="defaultValue">The default value to return if no element satisfies the condition.</param>
@@ -2331,19 +2331,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <paramref name="defaultValue"/> if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <paramref name="defaultValue"/> if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <param name="defaultValue">The default value to return if no element satisfies the condition.</param>
@@ -2374,19 +2374,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <paramref name="defaultValue"/> if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <paramref name="defaultValue"/> if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <param name="defaultValue">The default value to return if no element satisfies the condition.</param>
@@ -2418,19 +2418,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <paramref name="defaultValue"/> if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <paramref name="defaultValue"/> if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <param name="defaultValue">The default value to return if no element satisfies the condition.</param>
@@ -2463,19 +2463,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <paramref name="defaultValue"/> if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <paramref name="defaultValue"/> if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <param name="defaultValue">The default value to return if no element satisfies the condition.</param>
@@ -2509,19 +2509,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <paramref name="defaultValue"/> if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <paramref name="defaultValue"/> if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <param name="defaultValue">The default value to return if no element satisfies the condition.</param>
@@ -2556,19 +2556,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <paramref name="defaultValue"/> if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <paramref name="defaultValue"/> if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <param name="defaultValue">The default value to return if no element satisfies the condition.</param>
@@ -2604,19 +2604,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <paramref name="defaultValue"/> if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <paramref name="defaultValue"/> if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <param name="defaultValue">The default value to return if no element satisfies the condition.</param>
@@ -2653,19 +2653,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <paramref name="defaultValue"/> if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <paramref name="defaultValue"/> if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <param name="defaultValue">The default value to return if no element satisfies the condition.</param>
@@ -2703,19 +2703,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <paramref name="defaultValue"/> if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <paramref name="defaultValue"/> if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <param name="defaultValue">The default value to return if no element satisfies the condition.</param>
@@ -2754,19 +2754,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <paramref name="defaultValue"/> if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <paramref name="defaultValue"/> if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <param name="defaultValue">The default value to return if no element satisfies the condition.</param>
@@ -2806,19 +2806,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <paramref name="defaultValue"/> if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <paramref name="defaultValue"/> if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <param name="defaultValue">The default value to return if no element satisfies the condition.</param>
@@ -2859,19 +2859,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <paramref name="defaultValue"/> if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <paramref name="defaultValue"/> if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <param name="defaultValue">The default value to return if no element satisfies the condition.</param>
@@ -2913,19 +2913,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <paramref name="defaultValue"/> if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <paramref name="defaultValue"/> if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <param name="defaultValue">The default value to return if no element satisfies the condition.</param>
@@ -2968,19 +2968,19 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the only element in a sequence that satisfies a specified condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the only element in the sequence that passes the test in the specified predicate function,
-        /// 		or <paramref name="defaultValue"/> if no such element is found.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the only element in a sequence that satisfies a specified condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the only element in the sequence that passes the test in the specified predicate function,
+        ///     or <paramref name="defaultValue"/> if no such element is found.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the number of elements that satisfies the condition in <paramref name="predicate"/> is more than one.
+        ///   </para>
         /// </remarks>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <param name="defaultValue">The default value to return if no element satisfies the condition.</param>

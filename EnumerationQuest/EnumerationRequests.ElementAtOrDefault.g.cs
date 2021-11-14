@@ -28,13 +28,13 @@ namespace EnumerationQuest
         #region ElementAtOrDefault with index
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Index)"/>
@@ -55,13 +55,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Index)"/>
@@ -89,13 +89,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Index)"/>
@@ -124,13 +124,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Index)"/>
@@ -160,13 +160,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Index)"/>
@@ -197,13 +197,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Index)"/>
@@ -235,13 +235,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Index)"/>
@@ -274,13 +274,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Index)"/>
@@ -314,13 +314,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Index)"/>
@@ -355,13 +355,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Index)"/>
@@ -397,13 +397,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Index)"/>
@@ -440,13 +440,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Index)"/>
@@ -484,13 +484,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Index)"/>
@@ -529,13 +529,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Index)"/>
@@ -575,13 +575,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Index)"/>
@@ -622,13 +622,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The index of the element to retrieve, which is either from the beginning or the end of the sequence.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Index)"/>
@@ -674,13 +674,13 @@ namespace EnumerationQuest
         #region ElementAtOrDefault with index
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -701,13 +701,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -735,13 +735,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -770,13 +770,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -806,13 +806,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -843,13 +843,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -881,13 +881,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -920,13 +920,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -960,13 +960,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -1001,13 +1001,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -1043,13 +1043,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -1086,13 +1086,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -1130,13 +1130,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -1175,13 +1175,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -1221,13 +1221,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Int32)"/>
@@ -1268,13 +1268,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the element at a specified index in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the element at the specified position in the sequence or
-        /// 		<see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the element at a specified index in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the element at the specified position in the sequence or
+        ///     <see langword="default"/>(<typeparamref name="TSource"/>) if the index is out of range.
+        ///   </para>
         /// </summary>
         /// <param name="index">The zero-based index of the element to retrieve.</param>
         /// <seealso cref="Enumerable.ElementAtOrDefault{TSource}(IEnumerable{TSource}, Int32)"/>

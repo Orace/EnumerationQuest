@@ -28,18 +28,18 @@ namespace EnumerationQuest
         #region Aggregate with func
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the sequence contains no elements.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the sequence contains no elements.
+        ///   </para>
         /// </remarks>
         /// <param name="func">An accumulator function to be invoked on each element.</param>
         /// <seealso cref="Enumerable.Aggregate{TSource}(IEnumerable{TSource}, Func{TSource, TSource, TSource})"/>
@@ -61,18 +61,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the sequence contains no elements.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the sequence contains no elements.
+        ///   </para>
         /// </remarks>
         /// <param name="func">An accumulator function to be invoked on each element.</param>
         /// <seealso cref="Enumerable.Aggregate{TSource}(IEnumerable{TSource}, Func{TSource, TSource, TSource})"/>
@@ -101,18 +101,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the sequence contains no elements.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the sequence contains no elements.
+        ///   </para>
         /// </remarks>
         /// <param name="func">An accumulator function to be invoked on each element.</param>
         /// <seealso cref="Enumerable.Aggregate{TSource}(IEnumerable{TSource}, Func{TSource, TSource, TSource})"/>
@@ -142,18 +142,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the sequence contains no elements.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the sequence contains no elements.
+        ///   </para>
         /// </remarks>
         /// <param name="func">An accumulator function to be invoked on each element.</param>
         /// <seealso cref="Enumerable.Aggregate{TSource}(IEnumerable{TSource}, Func{TSource, TSource, TSource})"/>
@@ -184,18 +184,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the sequence contains no elements.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the sequence contains no elements.
+        ///   </para>
         /// </remarks>
         /// <param name="func">An accumulator function to be invoked on each element.</param>
         /// <seealso cref="Enumerable.Aggregate{TSource}(IEnumerable{TSource}, Func{TSource, TSource, TSource})"/>
@@ -227,18 +227,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the sequence contains no elements.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the sequence contains no elements.
+        ///   </para>
         /// </remarks>
         /// <param name="func">An accumulator function to be invoked on each element.</param>
         /// <seealso cref="Enumerable.Aggregate{TSource}(IEnumerable{TSource}, Func{TSource, TSource, TSource})"/>
@@ -271,18 +271,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the sequence contains no elements.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the sequence contains no elements.
+        ///   </para>
         /// </remarks>
         /// <param name="func">An accumulator function to be invoked on each element.</param>
         /// <seealso cref="Enumerable.Aggregate{TSource}(IEnumerable{TSource}, Func{TSource, TSource, TSource})"/>
@@ -316,18 +316,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the sequence contains no elements.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the sequence contains no elements.
+        ///   </para>
         /// </remarks>
         /// <param name="func">An accumulator function to be invoked on each element.</param>
         /// <seealso cref="Enumerable.Aggregate{TSource}(IEnumerable{TSource}, Func{TSource, TSource, TSource})"/>
@@ -362,18 +362,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the sequence contains no elements.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the sequence contains no elements.
+        ///   </para>
         /// </remarks>
         /// <param name="func">An accumulator function to be invoked on each element.</param>
         /// <seealso cref="Enumerable.Aggregate{TSource}(IEnumerable{TSource}, Func{TSource, TSource, TSource})"/>
@@ -409,18 +409,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the sequence contains no elements.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the sequence contains no elements.
+        ///   </para>
         /// </remarks>
         /// <param name="func">An accumulator function to be invoked on each element.</param>
         /// <seealso cref="Enumerable.Aggregate{TSource}(IEnumerable{TSource}, Func{TSource, TSource, TSource})"/>
@@ -457,18 +457,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the sequence contains no elements.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the sequence contains no elements.
+        ///   </para>
         /// </remarks>
         /// <param name="func">An accumulator function to be invoked on each element.</param>
         /// <seealso cref="Enumerable.Aggregate{TSource}(IEnumerable{TSource}, Func{TSource, TSource, TSource})"/>
@@ -506,18 +506,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the sequence contains no elements.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the sequence contains no elements.
+        ///   </para>
         /// </remarks>
         /// <param name="func">An accumulator function to be invoked on each element.</param>
         /// <seealso cref="Enumerable.Aggregate{TSource}(IEnumerable{TSource}, Func{TSource, TSource, TSource})"/>
@@ -556,18 +556,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the sequence contains no elements.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the sequence contains no elements.
+        ///   </para>
         /// </remarks>
         /// <param name="func">An accumulator function to be invoked on each element.</param>
         /// <seealso cref="Enumerable.Aggregate{TSource}(IEnumerable{TSource}, Func{TSource, TSource, TSource})"/>
@@ -607,18 +607,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the sequence contains no elements.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the sequence contains no elements.
+        ///   </para>
         /// </remarks>
         /// <param name="func">An accumulator function to be invoked on each element.</param>
         /// <seealso cref="Enumerable.Aggregate{TSource}(IEnumerable{TSource}, Func{TSource, TSource, TSource})"/>
@@ -659,18 +659,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the sequence contains no elements.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the sequence contains no elements.
+        ///   </para>
         /// </remarks>
         /// <param name="func">An accumulator function to be invoked on each element.</param>
         /// <seealso cref="Enumerable.Aggregate{TSource}(IEnumerable{TSource}, Func{TSource, TSource, TSource})"/>
@@ -712,18 +712,18 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="InvalidOperationException"/>
-        /// 		if the sequence contains no elements.
-        /// 	</para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="InvalidOperationException"/>
+        ///     if the sequence contains no elements.
+        ///   </para>
         /// </remarks>
         /// <param name="func">An accumulator function to be invoked on each element.</param>
         /// <seealso cref="Enumerable.Aggregate{TSource}(IEnumerable{TSource}, Func{TSource, TSource, TSource})"/>
@@ -770,13 +770,13 @@ namespace EnumerationQuest
         #region Aggregate with seed, func
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -800,13 +800,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -837,13 +837,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -875,13 +875,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -914,13 +914,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -954,13 +954,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -995,13 +995,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1037,13 +1037,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1080,13 +1080,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1124,13 +1124,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1169,13 +1169,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1215,13 +1215,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1262,13 +1262,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1310,13 +1310,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1359,13 +1359,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1409,13 +1409,13 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1464,14 +1464,14 @@ namespace EnumerationQuest
         #region Aggregate with seed, func, resultSelector
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value,
-        /// 		and the specified function is used to select the result value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the transformed final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value,
+        ///     and the specified function is used to select the result value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the transformed final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1497,14 +1497,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value,
-        /// 		and the specified function is used to select the result value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the transformed final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value,
+        ///     and the specified function is used to select the result value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the transformed final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1537,14 +1537,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value,
-        /// 		and the specified function is used to select the result value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the transformed final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value,
+        ///     and the specified function is used to select the result value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the transformed final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1578,14 +1578,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value,
-        /// 		and the specified function is used to select the result value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the transformed final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value,
+        ///     and the specified function is used to select the result value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the transformed final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1620,14 +1620,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value,
-        /// 		and the specified function is used to select the result value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the transformed final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value,
+        ///     and the specified function is used to select the result value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the transformed final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1663,14 +1663,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value,
-        /// 		and the specified function is used to select the result value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the transformed final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value,
+        ///     and the specified function is used to select the result value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the transformed final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1707,14 +1707,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value,
-        /// 		and the specified function is used to select the result value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the transformed final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value,
+        ///     and the specified function is used to select the result value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the transformed final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1752,14 +1752,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value,
-        /// 		and the specified function is used to select the result value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the transformed final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value,
+        ///     and the specified function is used to select the result value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the transformed final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1798,14 +1798,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value,
-        /// 		and the specified function is used to select the result value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the transformed final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value,
+        ///     and the specified function is used to select the result value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the transformed final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1845,14 +1845,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value,
-        /// 		and the specified function is used to select the result value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the transformed final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value,
+        ///     and the specified function is used to select the result value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the transformed final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1893,14 +1893,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value,
-        /// 		and the specified function is used to select the result value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the transformed final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value,
+        ///     and the specified function is used to select the result value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the transformed final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1942,14 +1942,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value,
-        /// 		and the specified function is used to select the result value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the transformed final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value,
+        ///     and the specified function is used to select the result value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the transformed final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -1992,14 +1992,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value,
-        /// 		and the specified function is used to select the result value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the transformed final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value,
+        ///     and the specified function is used to select the result value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the transformed final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -2043,14 +2043,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value,
-        /// 		and the specified function is used to select the result value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the transformed final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value,
+        ///     and the specified function is used to select the result value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the transformed final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -2095,14 +2095,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value,
-        /// 		and the specified function is used to select the result value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the transformed final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value,
+        ///     and the specified function is used to select the result value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the transformed final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>
@@ -2148,14 +2148,14 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of an accumulator function over a sequence.
-        /// 		The specified seed value is used as the initial accumulator value,
-        /// 		and the specified function is used to select the result value.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the transformed final accumulator value.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of an accumulator function over a sequence.
+        ///     The specified seed value is used as the initial accumulator value,
+        ///     and the specified function is used to select the result value.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the transformed final accumulator value.
+        ///   </para>
         /// </summary>
         /// <typeparam name="TAccumulate">The type of the accumulator value.</typeparam>
         /// <param name="seed">The initial accumulator value.</param>

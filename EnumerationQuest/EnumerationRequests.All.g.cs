@@ -28,12 +28,12 @@ namespace EnumerationQuest
         #region All with predicate
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.All{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -55,12 +55,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.All{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -89,12 +89,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.All{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -124,12 +124,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.All{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -160,12 +160,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.All{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -197,12 +197,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.All{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -235,12 +235,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.All{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -274,12 +274,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.All{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -314,12 +314,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.All{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -355,12 +355,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.All{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -397,12 +397,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.All{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -440,12 +440,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.All{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -484,12 +484,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.All{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -529,12 +529,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.All{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -575,12 +575,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.All{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -622,12 +622,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether all elements of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if every element in the sequence satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.All{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>

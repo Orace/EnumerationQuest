@@ -28,29 +28,29 @@ namespace EnumerationQuest
         #region Min 
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TSource}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TSource}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
@@ -70,29 +70,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TSource}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TSource}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -119,29 +119,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TSource}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TSource}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -169,29 +169,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TSource}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TSource}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -220,29 +220,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TSource}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TSource}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -272,29 +272,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TSource}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TSource}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -325,29 +325,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TSource}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TSource}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -379,29 +379,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TSource}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TSource}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -434,29 +434,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TSource}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TSource}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -490,29 +490,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TSource}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TSource}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -547,29 +547,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TSource}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TSource}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -605,29 +605,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TSource}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TSource}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -664,29 +664,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TSource}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TSource}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -724,29 +724,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TSource}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TSource}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -785,29 +785,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TSource}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TSource}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -847,29 +847,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TSource}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TSource}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence implements the <see cref="IComparable"/> or <see cref="IComparable{TSource}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -914,22 +914,22 @@ namespace EnumerationQuest
         #region Min with comparer
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="comparer">A comparer to compare values.</param>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
@@ -951,22 +951,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="comparer">A comparer to compare values.</param>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
@@ -995,22 +995,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="comparer">A comparer to compare values.</param>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
@@ -1040,22 +1040,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="comparer">A comparer to compare values.</param>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
@@ -1086,22 +1086,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="comparer">A comparer to compare values.</param>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
@@ -1133,22 +1133,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="comparer">A comparer to compare values.</param>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
@@ -1181,22 +1181,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="comparer">A comparer to compare values.</param>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
@@ -1230,22 +1230,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="comparer">A comparer to compare values.</param>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
@@ -1280,22 +1280,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="comparer">A comparer to compare values.</param>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
@@ -1331,22 +1331,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="comparer">A comparer to compare values.</param>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
@@ -1383,22 +1383,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="comparer">A comparer to compare values.</param>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
@@ -1436,22 +1436,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="comparer">A comparer to compare values.</param>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
@@ -1490,22 +1490,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="comparer">A comparer to compare values.</param>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
@@ -1545,22 +1545,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="comparer">A comparer to compare values.</param>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
@@ -1601,22 +1601,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="comparer">A comparer to compare values.</param>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
@@ -1658,22 +1658,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value in the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value in a sequence by using a specified <see cref="IComparer{TSource}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value in the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <param name="comparer">A comparer to compare values.</param>
         /// <seealso cref="Enumerable.Min{TSource}(IEnumerable{TSource})"/>
@@ -1720,29 +1720,29 @@ namespace EnumerationQuest
         #region Min with selector
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TResult}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TResult}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="selector">A transform function to apply to each element.</param>
@@ -1765,29 +1765,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TResult}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TResult}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="selector">A transform function to apply to each element.</param>
@@ -1817,29 +1817,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TResult}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TResult}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="selector">A transform function to apply to each element.</param>
@@ -1870,29 +1870,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TResult}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TResult}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="selector">A transform function to apply to each element.</param>
@@ -1924,29 +1924,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TResult}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TResult}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="selector">A transform function to apply to each element.</param>
@@ -1979,29 +1979,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TResult}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TResult}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="selector">A transform function to apply to each element.</param>
@@ -2035,29 +2035,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TResult}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TResult}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="selector">A transform function to apply to each element.</param>
@@ -2092,29 +2092,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TResult}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TResult}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="selector">A transform function to apply to each element.</param>
@@ -2150,29 +2150,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TResult}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TResult}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="selector">A transform function to apply to each element.</param>
@@ -2209,29 +2209,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TResult}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TResult}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="selector">A transform function to apply to each element.</param>
@@ -2269,29 +2269,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TResult}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TResult}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="selector">A transform function to apply to each element.</param>
@@ -2330,29 +2330,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TResult}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TResult}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="selector">A transform function to apply to each element.</param>
@@ -2392,29 +2392,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TResult}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TResult}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="selector">A transform function to apply to each element.</param>
@@ -2455,29 +2455,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TResult}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TResult}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="selector">A transform function to apply to each element.</param>
@@ -2519,29 +2519,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TResult}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TResult}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="selector">A transform function to apply to each element.</param>
@@ -2584,29 +2584,29 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		<see cref="Comparer{TResult}.Default"/> is used to compare elements.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TResult"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The returned object deconstruction throw <see cref="ArgumentException"/>
-        /// 		if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
-        /// 	</para>
+        ///   <para>
+        ///     <see cref="Comparer{TResult}.Default"/> is used to compare elements.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TResult"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
+        ///   <para>
+        ///     The returned object deconstruction throw <see cref="ArgumentException"/>
+        ///     if no object in the sequence after transformation implements the <see cref="IComparable"/> or <see cref="IComparable{TResult}"/> interface.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="selector">A transform function to apply to each element.</param>
@@ -2654,22 +2654,22 @@ namespace EnumerationQuest
         #region Min with selector, comparer
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="comparer">A comparer to compare values after transformation.</param>
@@ -2694,22 +2694,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="comparer">A comparer to compare values after transformation.</param>
@@ -2741,22 +2741,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="comparer">A comparer to compare values after transformation.</param>
@@ -2789,22 +2789,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="comparer">A comparer to compare values after transformation.</param>
@@ -2838,22 +2838,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="comparer">A comparer to compare values after transformation.</param>
@@ -2888,22 +2888,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="comparer">A comparer to compare values after transformation.</param>
@@ -2939,22 +2939,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="comparer">A comparer to compare values after transformation.</param>
@@ -2991,22 +2991,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="comparer">A comparer to compare values after transformation.</param>
@@ -3044,22 +3044,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="comparer">A comparer to compare values after transformation.</param>
@@ -3098,22 +3098,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="comparer">A comparer to compare values after transformation.</param>
@@ -3153,22 +3153,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="comparer">A comparer to compare values after transformation.</param>
@@ -3209,22 +3209,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="comparer">A comparer to compare values after transformation.</param>
@@ -3266,22 +3266,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="comparer">A comparer to compare values after transformation.</param>
@@ -3324,22 +3324,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="comparer">A comparer to compare values after transformation.</param>
@@ -3383,22 +3383,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="comparer">A comparer to compare values after transformation.</param>
@@ -3443,22 +3443,22 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is the minimum value of transformed objects from the sequence.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of the minimum value of tranformed objects from a sequence by using a specified <see cref="IComparer{TResult}"/>.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is the minimum value of transformed objects from the sequence.
+        ///   </para>
         /// </summary>
         /// <remarks>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
-        /// 		or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
-        /// 	</para>
-        /// 	<para>
-        /// 		If <typeparamref name="TSource"/> is a value type and the source sequence is empty
-        /// 		the returned object deconstruction throw <see cref="InvalidOperationException"/>.
-        /// 	</para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a reference type and the source sequence is empty
+        ///     or contains only values that are transformed to <see langword="null"/>, the result of this request is <see langword="null"/>.
+        ///   </para>
+        ///   <para>
+        ///     If <typeparamref name="TSource"/> is a value type and the source sequence is empty
+        ///     the returned object deconstruction throw <see cref="InvalidOperationException"/>.
+        ///   </para>
         /// </remarks>
         /// <typeparam name="TResult">The type of the value returned by <paramref name="selector"/>.</typeparam>
         /// <param name="comparer">A comparer to compare values after transformation.</param>

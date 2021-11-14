@@ -28,12 +28,12 @@ namespace EnumerationQuest
         #region Any 
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of <paramref name="source"/>.</typeparam>
@@ -53,12 +53,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -85,12 +85,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -118,12 +118,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -152,12 +152,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -187,12 +187,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -223,12 +223,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -260,12 +260,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -298,12 +298,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -337,12 +337,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -377,12 +377,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -418,12 +418,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -460,12 +460,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -503,12 +503,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -547,12 +547,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -592,12 +592,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether a sequence contains any element.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> if the sequence is not empty; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource})"/>
         /// <typeparam name="TSource">The type of the elements of the sequence for which the results are evaluated.</typeparam>
@@ -642,12 +642,12 @@ namespace EnumerationQuest
         #region Any with predicate
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -669,12 +669,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -703,12 +703,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -738,12 +738,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -774,12 +774,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -811,12 +811,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -849,12 +849,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -888,12 +888,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -928,12 +928,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -969,12 +969,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -1011,12 +1011,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -1054,12 +1054,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -1098,12 +1098,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -1143,12 +1143,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -1189,12 +1189,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
@@ -1236,12 +1236,12 @@ namespace EnumerationQuest
         }
 
         /// <summary>
-        /// 	<para>
-        /// 		Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
-        /// 	</para>
-        /// 	<para>
-        /// 		The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
-        /// 	</para>
+        ///   <para>
+        ///     Requests the evaluation of a <see cref="Boolean"/> that represent whether any element of a sequence satisfy a condition.
+        ///   </para>
+        ///   <para>
+        ///     The result of this request is <see langword="true"/> it the sequence contains an element that satisfies the condition; <see langword="false"/> otherwise.
+        ///   </para>
         /// </summary>
         /// <param name="predicate">A function to test each element for a condition.</param>
         /// <seealso cref="Enumerable.Any{TSource}(IEnumerable{TSource}, Func{TSource, Boolean})"/>
