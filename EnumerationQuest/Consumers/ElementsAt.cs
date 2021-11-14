@@ -54,7 +54,6 @@ namespace EnumerationQuest.Consumers
 
             public Sink(IEnumerable<int> indices)
             {
-                _enumerator?.Dispose();
                 _enumerator = indices.GetEnumerator();
 
                 if (_enumerator.MoveNext())

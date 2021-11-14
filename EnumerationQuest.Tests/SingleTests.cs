@@ -54,7 +54,7 @@ namespace EnumerationQuest.Tests
         {
             Assert.Throws<EnumerationException>(() =>
             {
-                var (_, _) = Enumerable.Range(0, 10)
+                var (_, _) = Enumerable.Range(0, 20)
                                        .GetCount()
                                        .AndSingle(v => v % 5 == 4);
             });

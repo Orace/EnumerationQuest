@@ -24,19 +24,20 @@ namespace EnumerationQuest.Tests
     public class SliceTests
     {
         [TestCaseSource(nameof(SliceWithFullConsumerTestCases))]
-        public void SliceWithFullConsumerTest(Range range)
+        public string SliceWithFullConsumerTest(Range range)
         {
-            var (count, yingYang) = Enumerable.Range(0, 20).GetCount().AndSlice(range);
+            var (count, result) = Enumerable.Range(0, 20).GetCount().AndSlice(range);
             Assert.That(count, Is.EqualTo(20));
-            CollectionAssert.AreEqual(yingYang, new[] { 6, 7, 8, 9 });
+            return Format(result);
         }
 
         public static IEnumerable<object> SliceWithFullConsumerTestCases()
         {
-            yield return new TestCaseData(6..10) { TestName = "(From start, From start) with full consumer" };
-            yield return new TestCaseData(6..^10) { TestName = "(From start, From end) with full consumer" };
-            yield return new TestCaseData(^14..10) { TestName = "(From end, From start) with full consumer" };
-            yield return new TestCaseData(^14..^10) { TestName = "(From end, From end) with full consumer" };
+            yield return new TestCaseData(5..5) { ExpectedResult = "", TestName = "Empty range with full consumer" };
+            yield return new TestCaseData(6..10) { ExpectedResult = "6|7|8|9", TestName = "(From start, From start) with full consumer" };
+            yield return new TestCaseData(6..^10) { ExpectedResult = "6|7|8|9", TestName = "(From start, From end) with full consumer" };
+            yield return new TestCaseData(^14..10) { ExpectedResult = "6|7|8|9", TestName = "(From end, From start) with full consumer" };
+            yield return new TestCaseData(^14..^10) { ExpectedResult = "6|7|8|9", TestName = "(From end, From end) with full consumer" };
         }
 
         [TestCaseSource(nameof(SliceTestCases))]

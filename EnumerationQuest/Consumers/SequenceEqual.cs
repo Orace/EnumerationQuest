@@ -60,22 +60,18 @@ namespace EnumerationQuest.Consumers
 
         private class Sink : IEnumerableSink<TSource, bool>
         {
-            private readonly IEnumerable<TSource> _other;
             private readonly IEqualityComparer<TSource> _comparer;
 
-            private bool _areSequenceEqual = true;
             private IEnumerator<TSource>? _enumerator;
 
             public Sink(IEnumerable<TSource> other, IEqualityComparer<TSource> comparer)
             {
-                _other = other;
+                _enumerator = other.GetEnumerator();
                 _comparer = comparer;
             }
 
             public bool AcceptFirst(TSource element)
             {
-                _enumerator?.Dispose();
-                _enumerator = _other.GetEnumerator();
                 return AcceptNext(element);
             }
 
@@ -84,11 +80,13 @@ namespace EnumerationQuest.Consumers
                 if (_enumerator is null)
                     return false;
 
-                if (!_areSequenceEqual)
-                    return false;
-            
-                _areSequenceEqual = _enumerator.MoveNext() && _comparer.Equals(_enumerator.Current, element);
-                return _areSequenceEqual;
+                if (_enumerator.MoveNext() && _comparer.Equals(_enumerator.Current, element))
+                    return true;
+
+                _enumerator.Dispose();
+                _enumerator = null;
+
+                return false;
             }
 
             public void Dispose()
@@ -99,15 +97,14 @@ namespace EnumerationQuest.Consumers
             public bool GetResult()
             {
                 if (_enumerator is null)
-                    return _areSequenceEqual;
+                    return false;
 
-                if (_areSequenceEqual)
-                    _areSequenceEqual = !_enumerator.MoveNext();
+                var result = !_enumerator.MoveNext();
 
                 _enumerator.Dispose();
                 _enumerator = null;
 
-                return _areSequenceEqual;
+                return result;
             }
         }
     }
