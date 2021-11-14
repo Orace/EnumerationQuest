@@ -140,7 +140,7 @@ namespace EnumerationQuest.Tests
 
         private static Func<T, T> IdOf<T>() => t => t;
         private static Func<T, T> ThrowSelector<T>() => _ => throw new Exception();
-        private static Func<T, T?> ToNull<T>() where T : class => t => null;
+        private static Func<T, T?> ToNull<T>() where T : class => _ => null;
 
         private class EqualsMock : IComparable<EqualsMock>
         {

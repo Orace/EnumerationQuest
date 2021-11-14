@@ -127,28 +127,120 @@ namespace EnumerationQuest.Tests
         }
 
         [TestCaseSource(nameof(MaxWithSelectorTestCases))]
-        public Result MaxWithSelectorTest<TSource, TResult>(TSource _0, TResult _1, IEnumerable<TSource> source, Func<TSource, TResult> selector)
+        public Result MaxTest<TSource, TResult>(TSource _0, TResult _1, IEnumerable<TSource> source, Func<TSource, TResult> selector)
         {
             return Result.Evaluate(() => source.GetMax(selector).Deconstruct());
         }
 
         public static IEnumerable<object> MaxWithSelectorTestCases()
         {
-            yield return new TestCaseData(0, "", Enumerable.Range(0, 10), null) { ExpectedResult = Result.FromException<ArgumentNullException>(), TestName = "Null selector throw" };
+            yield return new TestCaseData(0, 0, Enumerable.Empty<int>(), null) { ExpectedResult = Result.FromException<ArgumentNullException>(), TestName = "Null selector throw" };
+            yield return new TestCaseData(0, 0, new[] { 42 }, ThrowSelector<int>()) { ExpectedResult = Result.FromException<Exception>(), TestName = "Actually use the selector" };
 
-            yield return new TestCaseData(0, "", null, Select) { ExpectedResult = Result.FromException<ArgumentNullException>(), TestName = "Null value type source throw" };
-            yield return new TestCaseData(0, "", Enumerable.Empty<int>(), Select) { ExpectedResult = Result.FromException<InvalidOperationException>(), TestName = "Empty value type source throw" };
-            yield return new TestCaseData(0, "", new[] { 42 }, Select) { ExpectedResult = Result.FromValue("42"), TestName = "One item source" };
-            yield return new TestCaseData(0, "", new[] { 42, 0, 1 }, Select) { ExpectedResult = Result.FromValue("42"), TestName = "Max is first" };
-            yield return new TestCaseData(0, "", new[] { 0, 42, 1 }, Select) { ExpectedResult = Result.FromValue("42"), TestName = "Max is in the middle" };
-            yield return new TestCaseData(0, "", new[] { 10, 0, 42 }, Select) { ExpectedResult = Result.FromValue("42"), TestName = "Max is last" };
+            // int
+            yield return new TestCaseData(0, 0, null, IdOf<int>()) { ExpectedResult = Result.FromException<ArgumentNullException>(), TestName = "Null value type source throw" };
+            yield return new TestCaseData(0, 0, Enumerable.Empty<int>(), IdOf<int>()) { ExpectedResult = Result.FromException<InvalidOperationException>(), TestName = "Empty value type source throw" };
+            yield return new TestCaseData(0, 0, new[] { 42 }, IdOf<int>()) { ExpectedResult = Result.FromValue(42), TestName = "One item source" };
+            yield return new TestCaseData(0, 0, new[] { 42, 0, 1 }, IdOf<int>()) { ExpectedResult = Result.FromValue(42), TestName = "Max is first" };
+            yield return new TestCaseData(0, 0, new[] { 0, 42, 1 }, IdOf<int>()) { ExpectedResult = Result.FromValue(42), TestName = "Max is in the middle" };
+            yield return new TestCaseData(0, 0, new[] { 10, 0, 42 }, IdOf<int>()) { ExpectedResult = Result.FromValue(42), TestName = "Max is last" };
 
-            // use provided selector
-            static string ThrowingSelect(int value) => value == 0 ? throw new Exception() : value.ToString("00");
-            yield return new TestCaseData(0, "", new[] { 42, 21, 0 }, (Func<int, string>)ThrowingSelect) { ExpectedResult = Result.FromException<Exception>(), TestName = "Use provided comparer at least as necessary" };
+            // nan. For Enumerable.Max, nan are ignored (while for min they aren't). See: https://codeblog.jonskeet.uk/2011/01/09/reimplementing-linq-to-objects-part-29-min-max/
+            yield return new TestCaseData(0d, 0d, new[] { double.NaN }, IdOf<double>()) { ExpectedResult = Result.FromValue(double.NaN), TestName = "One nan" };
+            yield return new TestCaseData(0d, 0d, new[] { double.NaN, 0 }, IdOf<double>()) { ExpectedResult = Result.FromValue(0d), TestName = "One nan at the beginning" };
+            yield return new TestCaseData(0d, 0d, new[] { 0, double.NaN }, IdOf<double>()) { ExpectedResult = Result.FromValue(0d), TestName = "One nan at the end" };
+            yield return new TestCaseData(0d, 0d, new[] { double.NaN, double.NaN }, IdOf<double>()) { ExpectedResult = Result.FromValue(double.NaN), TestName = "Two nan" };
+            yield return new TestCaseData(0d, 0d, new[] { double.NaN, double.NaN, 0 }, IdOf<double>()) { ExpectedResult = Result.FromValue(0d), TestName = "Two nan, value at the end" };
+            yield return new TestCaseData(0d, 0d, new[] { double.NaN, 0, double.NaN }, IdOf<double>()) { ExpectedResult = Result.FromValue(0d), TestName = "Two nan, value in the middle" };
+            yield return new TestCaseData(0d, 0d, new[] { 0, double.NaN, double.NaN }, IdOf<double>()) { ExpectedResult = Result.FromValue(0d), TestName = "Two nan, value at the beginning" };
+            yield return new TestCaseData(0d, 0d, new[] { double.NaN, double.NaN, double.NaN }, IdOf<double>()) { ExpectedResult = Result.FromValue(double.NaN), TestName = "Three nan" };
+
+            // reference type
+            yield return new TestCaseData("", "", null, IdOf<string>()) { ExpectedResult = Result.FromException<ArgumentNullException>(), TestName = "Null reference type source throw" };
+            yield return new TestCaseData("", "", Enumerable.Empty<string>(), IdOf<string>()) { ExpectedResult = Result.FromValue<string?>(null), TestName = "Empty reference type source return null" };
+            yield return new TestCaseData("", "", new[] { "X" }, IdOf<string>()) { ExpectedResult = Result.FromValue("X"), TestName = "One item source" };
+            yield return new TestCaseData("", "", new[] { "A" }, ToNull<string>()) { ExpectedResult = Result.FromValue<string?>(null), TestName = "One item to null" };
+            yield return new TestCaseData("", "", new[] { null, "A" }, IdOf<string>()) { ExpectedResult = Result.FromValue<string?>("A"), TestName = "Null then value" };
+            yield return new TestCaseData("", "", new string?[] { null, null }, IdOf<string>()) { ExpectedResult = Result.FromValue<string?>(null), TestName = "Only nulls" };
+            yield return new TestCaseData("", "", new[] { "X", "A", null, "B" }, IdOf<string>()) { ExpectedResult = Result.FromValue("X"), TestName = "Max is first" };
+            yield return new TestCaseData("", "", new[] { "A", "X", null, "B" }, IdOf<string>()) { ExpectedResult = Result.FromValue("X"), TestName = "Max is in the middle" };
+            yield return new TestCaseData("", "", new[] { "B", "A", null, "X" }, IdOf<string>()) { ExpectedResult = Result.FromValue("X"), TestName = "Max is last" };
+
+            // many maxima
+            var _ = new EqualsMock("_");
+            var a = new EqualsMock("A");
+            var b = new EqualsMock("B");
+            yield return new TestCaseData(_, _, new[] { a, b }, IdOf<EqualsMock>()) { ExpectedResult = Result.FromValue(a), TestName = "Many maxima" };
         }
 
-        private static Func<int, string> Select { get; } = value => value.ToString("00");
+        [TestCaseSource(nameof(MaxWithSelectorAndComparerTestCases))]
+        public Result MaxWithComparerTest<TSource, TResult>(TSource _0, TResult _1, IEnumerable<TSource> source, Func<TSource, TResult> selector, IComparer<TResult> comparer)
+        {
+            return Result.Evaluate(() => source.GetMax(selector, comparer).Deconstruct());
+        }
+
+        public static IEnumerable<object> MaxWithSelectorAndComparerTestCases()
+        {
+            object c = Comparer<int>.Default;
+
+            yield return new TestCaseData(0, 0, Enumerable.Range(0, 10), null, c) { ExpectedResult = Result.FromException<ArgumentNullException>(), TestName = "Null selector throw" };
+            yield return new TestCaseData(0, 0, Enumerable.Range(0, 10), IdOf<int>(), null) { ExpectedResult = Result.FromException<ArgumentNullException>(), TestName = "Null comparer throw" };
+            yield return new TestCaseData(0, 0, new[] { 42 }, ThrowSelector<int>(), c) { ExpectedResult = Result.FromException<Exception>(), TestName = "Actually use the selector" };
+
+            // int
+            yield return new TestCaseData(0, 0, null, IdOf<int>(), c) { ExpectedResult = Result.FromException<ArgumentNullException>(), TestName = "Null value type source throw" };
+            yield return new TestCaseData(0, 0, Enumerable.Empty<int>(), IdOf<int>(), c) { ExpectedResult = Result.FromException<InvalidOperationException>(), TestName = "Empty value type source throw" };
+            yield return new TestCaseData(0, 0, new[] { 42 }, IdOf<int>(), c) { ExpectedResult = Result.FromValue(42), TestName = "One item source" };
+            yield return new TestCaseData(0, 0, new[] { 42, 0, 1 }, IdOf<int>(), c) { ExpectedResult = Result.FromValue(42), TestName = "Max is first" };
+            yield return new TestCaseData(0, 0, new[] { 0, 42, 1 }, IdOf<int>(), c) { ExpectedResult = Result.FromValue(42), TestName = "Max is in the middle" };
+            yield return new TestCaseData(0, 0, new[] { 10, 0, 42 }, IdOf<int>(), c) { ExpectedResult = Result.FromValue(42), TestName = "Max is last" };
+
+
+            // nan. For Enumerable.Max, nan are ignored (while for min they aren't). See: https://codeblog.jonskeet.uk/2011/01/09/reimplementing-linq-to-objects-part-29-min-max/
+            c = Comparer<double>.Default;
+            yield return new TestCaseData(0d, 0d, new[] { double.NaN }, IdOf<double>(), c) { ExpectedResult = Result.FromValue(double.NaN), TestName = "One nan" };
+            yield return new TestCaseData(0d, 0d, new[] { double.NaN, 0 }, IdOf<double>(), c) { ExpectedResult = Result.FromValue(0d), TestName = "One nan at the beginning" };
+            yield return new TestCaseData(0d, 0d, new[] { 0, double.NaN }, IdOf<double>(), c) { ExpectedResult = Result.FromValue(0d), TestName = "One nan at the end" };
+            yield return new TestCaseData(0d, 0d, new[] { double.NaN, double.NaN }, IdOf<double>(), c) { ExpectedResult = Result.FromValue(double.NaN), TestName = "Two nan" };
+            yield return new TestCaseData(0d, 0d, new[] { double.NaN, double.NaN, 0 }, IdOf<double>(), c) { ExpectedResult = Result.FromValue(0d), TestName = "Two nan, value at the end" };
+            yield return new TestCaseData(0d, 0d, new[] { double.NaN, 0, double.NaN }, IdOf<double>(), c) { ExpectedResult = Result.FromValue(0d), TestName = "Two nan, value in the middle" };
+            yield return new TestCaseData(0d, 0d, new[] { 0, double.NaN, double.NaN }, IdOf<double>(), c) { ExpectedResult = Result.FromValue(0d), TestName = "Two nan, value at the beginning" };
+            yield return new TestCaseData(0d, 0d, new[] { double.NaN, double.NaN, double.NaN }, IdOf<double>(), c) { ExpectedResult = Result.FromValue(double.NaN), TestName = "Three nan" };
+
+            // reference type
+            c = Comparer<string>.Default;
+            yield return new TestCaseData("", "", null, IdOf<string>(), c) { ExpectedResult = Result.FromException<ArgumentNullException>(), TestName = "Null reference type source throw" };
+            yield return new TestCaseData("", "", Enumerable.Empty<string>(), IdOf<string>(), c) { ExpectedResult = Result.FromValue<string?>(null), TestName = "Empty reference type source return null" };
+            yield return new TestCaseData("", "", new[] { "X" }, IdOf<string>(), c) { ExpectedResult = Result.FromValue("X"), TestName = "One item source" };
+            yield return new TestCaseData("", "", new[] { "A" }, ToNull<string>(), c) { ExpectedResult = Result.FromValue<string?>(null), TestName = "One item to null" };
+            yield return new TestCaseData("", "", new[] { null, "A" }, IdOf<string>(), c) { ExpectedResult = Result.FromValue<string?>("A"), TestName = "Null then value" };
+            yield return new TestCaseData("", "", new string?[] { null, null }, IdOf<string>(), c) { ExpectedResult = Result.FromValue<string?>(null), TestName = "Only nulls" };
+            yield return new TestCaseData("", "", new[] { "X", "A", null, "B" }, IdOf<string>(), c) { ExpectedResult = Result.FromValue("X"), TestName = "Max is first" };
+            yield return new TestCaseData("", "", new[] { "A", "X", null, "B" }, IdOf<string>(), c) { ExpectedResult = Result.FromValue("X"), TestName = "Max is in the middle" };
+            yield return new TestCaseData("", "", new[] { "B", "A", null, "X" }, IdOf<string>(), c) { ExpectedResult = Result.FromValue("X"), TestName = "Max is last" };
+
+            // many maxima
+            c = Comparer<EqualsMock>.Default;
+            var _ = new EqualsMock("_");
+            var a = new EqualsMock("A");
+            var b = new EqualsMock("B");
+            yield return new TestCaseData(_, _, new[] { a, b }, IdOf<EqualsMock>(), c) { ExpectedResult = Result.FromValue(a), TestName = "Many maxima" };
+
+            // use provided comparer the good amount of time
+            var mockComparer = new Mock<IComparer<int>>();
+            mockComparer.Setup(e => e.Compare(It.IsAny<int>(), It.IsAny<int>())).Returns<int, int>((x, y) => y - x);
+            c = mockComparer.Object;
+            yield return new TestCaseData(0, 0, new[] { 42, 21, 0 }, IdOf<int>(), c) { ExpectedResult = Result.FromValue(0), TestName = "Use provided comparer" };
+
+            mockComparer = new Mock<IComparer<int>>();
+            mockComparer.SetupSequence(e => e.Compare(It.IsAny<int>(), It.IsAny<int>())).Returns(1).Throws<Exception>();
+            c = mockComparer.Object;
+            yield return new TestCaseData(0, 0, new[] { 42, 21, 0 }, IdOf<int>(), c) { ExpectedResult = Result.FromException<Exception>(), TestName = "Use provided comparer at least as necessary" };
+        }
+
+        private static Func<T, T> IdOf<T>() => t => t;
+        private static Func<T, T> ThrowSelector<T>() => _ => throw new Exception();
+        private static Func<T, T?> ToNull<T>() where T : class => _ => null;
 
         private class EqualsMock : IComparable<EqualsMock>
         {
