@@ -3,6 +3,23 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Pierre Lando</Authors>
+    <Company />
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/Orace/EnumerationQuest</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Orace/EnumerationQuest</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>linq enumerable multiple-enumeration multiple enumeration</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Copyright>Copyright © 2021</Copyright>
+    <Version>1.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <Description>Avoids multiple enumeration.
+
+EnumerationQuest library allows the evaluation of multiple properties of an IEnumerable in a single enumeration.</Description>
   </PropertyGroup>
 
   <ItemGroup>
@@ -179,6 +196,10 @@
     <None Update="EnumerationRequests.ToLookup.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>EnumerationRequests.ToLookup.g.cs</LastGenOutput>
+    </None>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
     </None>
   </ItemGroup>
 

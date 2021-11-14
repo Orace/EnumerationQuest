@@ -6,7 +6,7 @@ Avoids [multiple enumeration](https://www.jetbrains.com/help/resharper/PossibleM
 
 ## Introduction
 
-**EnumerationQuest** library allows you to evaluate multiple properties of an `IEnumerable` in a single enumeration. 
+**EnumerationQuest** library allows the evaluation of multiple properties of an `IEnumerable` in a single enumeration. 
 
 It's as simple as that:
 
