@@ -81,7 +81,10 @@ namespace EnumerationQuest.Consumers
 
             public bool AcceptNext(TSource element)
             {
-                if (!_areSequenceEqual || _enumerator is null)
+                if (_enumerator is null)
+                    return false;
+
+                if (!_areSequenceEqual)
                     return false;
             
                 _areSequenceEqual = _enumerator.MoveNext() && _comparer.Equals(_enumerator.Current, element);

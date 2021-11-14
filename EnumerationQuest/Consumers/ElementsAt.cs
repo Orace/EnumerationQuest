@@ -65,7 +65,7 @@ namespace EnumerationQuest.Consumers
                 }
                 else
                 {
-                    _enumerator?.Dispose();
+                    _enumerator.Dispose();
                     _enumerator = null;
                 }
             }
@@ -91,7 +91,7 @@ namespace EnumerationQuest.Consumers
                     }
                     else
                     {
-                        _enumerator?.Dispose();
+                        _enumerator.Dispose();
                         _enumerator = null;
                         return false;
                     }

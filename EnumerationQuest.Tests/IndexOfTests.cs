@@ -46,6 +46,8 @@ namespace EnumerationQuest.Tests
 
         public static IEnumerable<object> IndexOfWithComparerTestCases()
         {
+            yield return new TestCaseData(Enumerable.Empty<int>(), 69, null) { ExpectedResult = Result.FromException<ArgumentNullException>(), TestName = "Null comparer throw" };
+
             var c = EqualityComparer<int>.Default;
             yield return new TestCaseData(null, 69, c) { ExpectedResult = Result.FromException<ArgumentNullException>(), TestName = "Null source throw" };
             yield return new TestCaseData(Enumerable.Empty<int>(), 69, c) { ExpectedResult = Result.FromValue(-1), TestName = "Empty source" };
