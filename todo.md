@@ -100,13 +100,13 @@
 | Sum                    | int?, selector            | &check;         | &check; | &check;       |               |
 | Sum                    | long?                     | &check;         | &check; | &check;       |               |
 | Sum                    | long?, selector           | &check;         | &check; | &check;       |               |
-| ToDictionary           |                           | &check;         |         |               |               |
-| ToDictionary           | comparer                  | &check;         |         |               |               |
-| ToDictionary           | elementSelector           | &check;         |         |               |               |
-| ToDictionary           | elementSelector, comparer | &check;         |         |               |               |
-| ToHashSet              |                           | &check;         |         |               |               |
-| ToHashSet              | comparer                  | &check;         |         |               |               |
-| ToLookup               |                           | &check;         |         |               |               |
-| ToLookup               | comparer                  | &check;         |         |               |               |
-| ToLookup               | elementSelector           | &check;         |         |               |               |
-| ToLookup               | elementSelector, comparer | &check;         |         |               |               |
+| ToDictionary           |                           |                 |         |               |               |
+| ToDictionary           | comparer                  |                 |         |               |               |
+| ToDictionary           | elementSelector           |                 |         |               |               |
+| ToDictionary           | elementSelector, comparer |                 |         |               |               |
+| ToHashSet              |                           |                 |         |               |               |
+| ToHashSet              | comparer                  |                 |         |               |               |
+| ToLookup               |                           |                 |         |               |               |
+| ToLookup               | comparer                  |                 |         |               |               |
+| ToLookup               | elementSelector           |                 |         |               |               |
+| ToLookup               | elementSelector, comparer |                 |         |               |               |

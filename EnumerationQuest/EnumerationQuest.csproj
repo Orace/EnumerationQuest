@@ -185,19 +185,7 @@ EnumerationQuest library allows the evaluation of multiple properties of an IEnu
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>EnumerationRequests.Slice.g.cs</LastGenOutput>
     </None>
-    <None Update="EnumerationRequests.ToDictionary.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>EnumerationRequests.ToDictionary.g.cs</LastGenOutput>
-    </None>
-    <None Update="EnumerationRequests.ToHashSet.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>EnumerationRequests.ToHashSet.g.cs</LastGenOutput>
-    </None>
-    <None Update="EnumerationRequests.ToLookup.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>EnumerationRequests.ToLookup.g.cs</LastGenOutput>
-    </None>
-    <None Include="..\LICENSE.txt">
+      <None Include="..\LICENSE.txt">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
@@ -402,21 +390,6 @@ EnumerationQuest library allows the evaluation of multiple properties of an IEnu
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>EnumerationRequests.Sum.Single.tt</DependentUpon>
-    </Compile>
-    <Compile Update="EnumerationRequests.ToDictionary.g.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>EnumerationRequests.ToDictionary.tt</DependentUpon>
-    </Compile>
-    <Compile Update="EnumerationRequests.ToHashSet.g.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>EnumerationRequests.ToHashSet.tt</DependentUpon>
-    </Compile>
-    <Compile Update="EnumerationRequests.ToLookup.g.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>EnumerationRequests.ToLookup.tt</DependentUpon>
     </Compile>
   </ItemGroup>
 
