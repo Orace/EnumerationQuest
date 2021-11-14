@@ -48,7 +48,8 @@ namespace EnumerationQuest.Tests
             yield return new TestCaseData(null, EvenPredicate) { ExpectedResult = Result.FromException<ArgumentNullException>(), TestName = "Null source throw" };
             yield return new TestCaseData(Enumerable.Empty<int>(), null) { ExpectedResult = Result.FromException<ArgumentNullException>(), TestName = "Null predicate throw" };
             yield return new TestCaseData(Enumerable.Empty<int>(), EvenPredicate) { ExpectedResult = Result.FromValue(0L), TestName = "Empty source" };
-            yield return new TestCaseData(Enumerable.Range(1, 5), EvenPredicate) { ExpectedResult = Result.FromValue(2L), TestName = "Valid result" };
+            yield return new TestCaseData(Enumerable.Range(0, 5), EvenPredicate) { ExpectedResult = Result.FromValue(3L), TestName = "Valid result with first valid" };
+            yield return new TestCaseData(Enumerable.Range(1, 5), EvenPredicate) { ExpectedResult = Result.FromValue(2L), TestName = "Valid result with first invalid" };
         }
 
         private static Func<int, bool> EvenPredicate { get; } = value => value % 2 == 0;
