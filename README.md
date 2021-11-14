@@ -16,16 +16,16 @@ It's as simple as that:
 
 ## Tell me more
 
-**EnumerationQuest** purpose is to provide the same methods as [LINQ to Objects](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/linq-to-objects)
+**EnumerationQuest** provides the same methods as [LINQ to Objects](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/linq-to-objects)
 to evaluate properties of `IEnumerable`.</br>
-But unlike LINQ, **EnumerationQuest** allow the evaluation of *several* properties *at once*; that's it, in a single enumeration.
+But unlike LINQ, **EnumerationQuest** allows the evaluation of *several* properties *at once*; that's it, in a single enumeration.
 
 To achieve this, **EnumerationQuest** uses fluent pattern to construct an `EnumerationRequests` object.
  - The first method is called on the `IEnumerable` source object with the `Get` prefix.
  - The following ones are called on `EnumerationRequests` object with the `And` prefix.
  - The enumeration and the evaluations are performed at the [deconstruction](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types) of the `EnumerationRequests` object.
 
-*Et voil‡ :*
+*Et voil√† :*
 ```csharp
     var (min, avg, max, count) = e.GetMin()
                                   .AndAverage()
