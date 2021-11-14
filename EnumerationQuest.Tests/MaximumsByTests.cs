@@ -33,7 +33,7 @@ namespace EnumerationQuest.Tests
         public static IEnumerable<object> MaximumsByTestCases()
         {
             yield return new TestCaseData("", "", Enumerable.Empty<string>(), null) { ExpectedResult = Result.FromException<ArgumentNullException>(), TestName = "Null keySelector throw" };
-            yield return new TestCaseData("", "", new[] { "42" }, ThrowSelector<string>()) { ExpectedResult = Result.FromValue("42"), TestName = "Don't use the key selector for one value" };
+            yield return new TestCaseData("", "", new[] { "42" }, ThrowSelector<string>()) { ExpectedResult = Result.FromException<Exception>(), TestName = "Use the key selector for one value" };
             yield return new TestCaseData("", "", new[] { "42", "69" }, ThrowSelector<string>()) { ExpectedResult = Result.FromException<Exception>(), TestName = "Actually use the key selector" };
 
             // int
@@ -84,7 +84,7 @@ namespace EnumerationQuest.Tests
 
             yield return new TestCaseData(0, 0, Enumerable.Empty<int>(), null, c) { ExpectedResult = Result.FromException<ArgumentNullException>(), TestName = "Null keySelector throw" };
             yield return new TestCaseData(0, 0, Enumerable.Empty<int>(), IdOf<int>(), null) { ExpectedResult = Result.FromException<ArgumentNullException>(), TestName = "Null comparer throw" };
-            yield return new TestCaseData(0, 0, new[] { 42 }, ThrowSelector<int>(), c) { ExpectedResult = Result.FromValue("42"), TestName = "Don't use the key selector for one value" };
+            yield return new TestCaseData(0, 0, new[] { 42 }, ThrowSelector<int>(), c) { ExpectedResult = Result.FromException<Exception>(), TestName = "Use the key selector for one value" };
             yield return new TestCaseData(0, 0, new[] { 42, 69 }, ThrowSelector<int>(), c) { ExpectedResult = Result.FromException<Exception>(), TestName = "Actually use the key selector" };
 
             // int

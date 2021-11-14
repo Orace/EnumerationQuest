@@ -44,7 +44,6 @@ namespace EnumerationQuest.Consumers
     internal class MaximumsByConsumer<TSource, TKey> : IEnumerableConsumer<TSource, List<TSource>>
     {
         private readonly Func<TSource, TKey> _keySelector;
-
         private readonly IComparer<TKey> _comparer;
 
         public MaximumsByConsumer(Func<TSource, TKey> keySelector, IComparer<TKey> comparer)
@@ -66,7 +65,6 @@ namespace EnumerationQuest.Consumers
             private readonly IComparer<TKey> _comparer;
 
             private TKey? _bestKey;
-            private bool _isBestKeyDefined;
 
             public Sink(Func<TSource, TKey> keySelector, IComparer<TKey> comparer)
             {
@@ -76,21 +74,13 @@ namespace EnumerationQuest.Consumers
 
             public bool AcceptFirst(TSource element)
             {
+                _bestKey = _keySelector(element);
                 _result.Add(element);
                 return true;
             }
 
             public bool AcceptNext(TSource element)
             {
-                if (_result.Count == 0)
-                    return false;
-
-                if (!_isBestKeyDefined)
-                {
-                    _bestKey = _keySelector(_result[0]);
-                    _isBestKeyDefined = true;
-                }
-
                 var key = _keySelector(element);
 
                 var comparison = (key, _bestKey) switch
