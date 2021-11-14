@@ -180,11 +180,6 @@ namespace EnumerationQuest.Consumers
             {
             }
 
-            public decimal GetContent()
-            {
-                return _sum;
-            }
-
             public decimal GetResult()
             {
                 return _sum;
@@ -263,11 +258,6 @@ namespace EnumerationQuest.Consumers
 
             public void Dispose()
             {
-            }
-
-            public double GetContent()
-            {
-                return _sum;
             }
 
             public double GetResult()
@@ -350,11 +340,6 @@ namespace EnumerationQuest.Consumers
             {
             }
 
-            public float GetContent()
-            {
-                return _sum;
-            }
-
             public float GetResult()
             {
                 return _sum;
@@ -435,11 +420,6 @@ namespace EnumerationQuest.Consumers
             {
             }
 
-            public int GetContent()
-            {
-                return _sum;
-            }
-
             public int GetResult()
             {
                 return _sum;
@@ -518,11 +498,6 @@ namespace EnumerationQuest.Consumers
 
             public void Dispose()
             {
-            }
-
-            public long GetContent()
-            {
-                return _sum;
             }
 
             public long GetResult()

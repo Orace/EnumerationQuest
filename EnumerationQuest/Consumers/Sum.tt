@@ -119,11 +119,6 @@ namespace EnumerationQuest.Consumers
             {
             }
 
-            public <#= n.Type #> GetContent()
-            {
-                return _sum;
-            }
-
             public <#= n.Type #> GetResult()
             {
                 return _sum;
