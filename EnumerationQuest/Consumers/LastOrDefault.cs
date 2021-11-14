@@ -58,45 +58,45 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, TSource?> GetSink()
         {
-            return new LastOrDefaultSink<TSource>(_defaultValue);
-        }
-    }
-
-    internal class LastOrDefaultSink<TSource> : IEnumerableSink<TSource, TSource?>
-    {
-        private TSource? _result;
-
-        public LastOrDefaultSink(TSource? defaultValue)
-        {
-            _result = defaultValue;
+            return new Sink(_defaultValue);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, TSource?>
         {
-            _result = element;
-            return true;
-        }
+            private TSource? _result;
 
-        public bool AcceptNext(TSource element)
-        {
-            _result = element;
-            return true;
-        }
+            public Sink(TSource? defaultValue)
+            {
+                _result = defaultValue;
+            }
 
-        public void Dispose()
-        {
-            _result = default;
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                _result = element;
+                return true;
+            }
 
-        public TSource? GetResult()
-        {
-            return _result;
+            public bool AcceptNext(TSource element)
+            {
+                _result = element;
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public TSource? GetResult()
+            {
+                return _result;
+            }
         }
     }
 
     internal class LastOrDefaultWithPredicateConsumer<TSource> : IEnumerableConsumer<TSource, TSource?>
     {
         private readonly Func<TSource, bool> _predicate;
+
         private readonly TSource? _defaultValue;
 
         public LastOrDefaultWithPredicateConsumer(Func<TSource, bool> predicate, TSource? defaultValue)
@@ -107,43 +107,42 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, TSource?> GetSink()
         {
-            return new LastOrDefaultWithPredicateSink<TSource>(_predicate, _defaultValue);
-        }
-    }
-
-    internal class LastOrDefaultWithPredicateSink<TSource> : IEnumerableSink<TSource, TSource?>
-    {
-        private readonly Func<TSource, bool> _predicate;
-
-        private TSource? _result;
-
-        public LastOrDefaultWithPredicateSink(Func<TSource, bool> predicate, TSource? defaultValue)
-        {
-            _predicate = predicate;
-            _result = defaultValue;
+            return new Sink(_predicate, _defaultValue);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, TSource?>
         {
-            return AcceptNext(element);
-        }
+            private readonly Func<TSource, bool> _predicate;
 
-        public bool AcceptNext(TSource element)
-        {
-            if (_predicate(element))
-                _result = element;
+            private TSource? _result;
 
-            return true;
-        }
+            public Sink(Func<TSource, bool> predicate, TSource? defaultValue)
+            {
+                _predicate = predicate;
+                _result = defaultValue;
+            }
 
-        public void Dispose()
-        {
-            _result = default;
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
 
-        public TSource? GetResult()
-        {
-            return _result;
+            public bool AcceptNext(TSource element)
+            {
+                if (_predicate(element))
+                    _result = element;
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public TSource? GetResult()
+            {
+                return _result;
+            }
         }
     }
 }

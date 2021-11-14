@@ -40,45 +40,45 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, bool> GetSink()
         {
-            return new AllSink<TSource>(_predicate);
-        }
-    }
-
-    internal class AllSink<TSource> : IEnumerableSink<TSource, bool>
-    {
-        private readonly Func<TSource, bool> _predicate;
-
-        private bool _result = true;
-
-        public AllSink(Func<TSource, bool> predicate)
-        {
-            _predicate = predicate;
+            return new Sink(_predicate);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, bool>
         {
-            return AcceptNext(element);
-        }
+            private readonly Func<TSource, bool> _predicate;
 
-        public bool AcceptNext(TSource element)
-        {
-            if (_result is false)
+            private bool _result = true;
+
+            public Sink(Func<TSource, bool> predicate)
+            {
+                _predicate = predicate;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                if (_result is false)
+                    return false;
+
+                if (_predicate(element))
+                    return true;
+
+                _result = false;
                 return false;
+            }
 
-            if (_predicate(element))
-                return true;
+            public void Dispose()
+            {
+            }
 
-            _result = false;
-            return false;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public bool GetResult()
-        {
-            return _result;
+            public bool GetResult()
+            {
+                return _result;
+            }
         }
     }
 }

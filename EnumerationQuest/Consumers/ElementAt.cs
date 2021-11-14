@@ -51,47 +51,46 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, TSource> GetSink()
         {
-            return new ElementAtSink<TSource>(_index);
-        }
-    }
-
-    internal class ElementAtSink<TSource> : IEnumerableSink<TSource, TSource>
-    {
-        private int _index;
-        private TSource? _result;
-
-        public ElementAtSink(int index)
-        {
-            _index = index;
+            return new Sink(_index);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, TSource>
         {
-            return AcceptNext(element);
-        }
+            private int _index;
+            private TSource? _result;
 
-        public bool AcceptNext(TSource element)
-        {
-            if (_index == -1)
+            public Sink(int index)
+            {
+                _index = index;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                if (_index == -1)
+                    return false;
+
+                _index--;
+
+                if (_index != -1)
+                    return true;
+
+                _result = element;
                 return false;
+            }
 
-            _index--;
+            public void Dispose()
+            {
+            }
 
-            if (_index != -1)
-                return true;
-
-            _result = element;
-            return false;
-        }
-
-        public void Dispose()
-        {
-            _result = default;
-        }
-
-        public TSource GetResult()
-        {
-            return _index == -1 ? _result! : throw new ArgumentOutOfRangeException();
+            public TSource GetResult()
+            {
+                return _index == -1 ? _result! : throw new ArgumentOutOfRangeException();
+            }
         }
     }
 
@@ -106,43 +105,42 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, TSource> GetSink()
         {
-            return new ElementAtFromEndSink<TSource>(_index);
-        }
-    }
-
-    internal class ElementAtFromEndSink<TSource> : IEnumerableSink<TSource, TSource>
-    {
-        private readonly int _count;
-        private readonly Queue<TSource> _queue;
-
-        public ElementAtFromEndSink(int count)
-        {
-            _count = count;
-            _queue = new Queue<TSource>(count + 1);
+            return new Sink(_index);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, TSource>
         {
-            return AcceptNext(element);
-        }
+            private readonly int _count;
+            private readonly Queue<TSource> _queue;
 
-        public bool AcceptNext(TSource element)
-        {
-            _queue.Enqueue(element);
-            if (_queue.Count > _count)
-                _queue.Dequeue();
+            public Sink(int count)
+            {
+                _count = count;
+                _queue = new Queue<TSource>(count + 1);
+            }
 
-            return true;
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
 
-        public void Dispose()
-        {
-            _queue.Clear();
-        }
+            public bool AcceptNext(TSource element)
+            {
+                _queue.Enqueue(element);
+                if (_queue.Count > _count)
+                    _queue.Dequeue();
 
-        public TSource GetResult()
-        {
-            return _queue.Count == _count ? _queue.Peek() : throw new ArgumentOutOfRangeException();
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public TSource GetResult()
+            {
+                return _queue.Count == _count ? _queue.Peek() : throw new ArgumentOutOfRangeException();
+            }
         }
     }
 }

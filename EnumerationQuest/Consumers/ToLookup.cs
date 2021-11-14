@@ -76,6 +76,7 @@ namespace EnumerationQuest.Consumers
         where TKey : notnull
     {
         private readonly Func<TSource, TKey> _keySelector;
+
         private readonly IEqualityComparer<TKey> _comparer;
 
         public ToLookupConsumer(Func<TSource, TKey> keySelector, IEqualityComparer<TKey> comparer)
@@ -86,59 +87,51 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, ILookup<TKey, TSource>> GetSink()
         {
-            return new ToLookupSink<TSource, TKey>(_keySelector, _comparer);
-        }
-    }
-
-    internal class ToLookupSink<TSource, TKey> : IEnumerableSink<TSource, ILookup<TKey, TSource>>
-        where TKey : notnull
-    {
-        private readonly Func<TSource, TKey> _keySelector;
-        private readonly IEqualityComparer<TKey> _comparer;
-
-        private Dictionary<TKey, List<TSource>>? _result;
-
-        public ToLookupSink(Func<TSource, TKey> keySelector, IEqualityComparer<TKey> comparer)
-        {
-            _keySelector = keySelector;
-            _comparer = comparer;
+            return new Sink(_keySelector, _comparer);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, ILookup<TKey, TSource>>
         {
-            _result = new Dictionary<TKey, List<TSource>>(_comparer);
-            return AcceptNext(element);
-        }
+            private readonly Dictionary<TKey, List<TSource>> _result;
 
-        public bool AcceptNext(TSource element)
-        {
-            if (_result is null)
-                return false;
+            private readonly Func<TSource, TKey> _keySelector;
 
-            var key = _keySelector(element);
-            if (_result.TryGetValue(key, out var list))
+            public Sink(Func<TSource, TKey> keySelector, IEqualityComparer<TKey> comparer)
             {
-                list.Add(element);
-            }
-            else
-            {
-                list = new List<TSource> { element };
-                _result.Add(key, list);
+                _result = new Dictionary<TKey, List<TSource>>(comparer);
+
+                _keySelector = keySelector;
             }
 
-            return true;
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
 
-        public void Dispose()
-        {
-            _result?.Clear();
-            _result?.TrimExcess();
-            _result = null;
-        }
+            public bool AcceptNext(TSource element)
+            {
+                var key = _keySelector(element);
+                if (_result.TryGetValue(key, out var list))
+                {
+                    list.Add(element);
+                }
+                else
+                {
+                    list = new List<TSource> { element };
+                    _result.Add(key, list);
+                }
 
-        public ILookup<TKey, TSource> GetResult()
-        {
-            return new LookupWrapper<TKey, TSource>(_result ?? new Dictionary<TKey, List<TSource>>());
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public ILookup<TKey, TSource> GetResult()
+            {
+                return new LookupWrapper<TKey, TSource>(_result);
+            }
         }
     }
 
@@ -158,62 +151,55 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, ILookup<TKey, TElement>> GetSink()
         {
-            return new ToLookupWithElementSelectorSink<TSource, TKey, TElement>(_keySelector, _elementSelector, _comparer);
-        }
-    }
-
-    internal class ToLookupWithElementSelectorSink<TSource, TKey, TElement> : IEnumerableSink<TSource, ILookup<TKey, TElement>>
-        where TKey : notnull
-    {
-        private readonly Func<TSource, TKey> _keySelector;
-        private readonly Func<TSource, TElement> _elementSelector;
-        private readonly IEqualityComparer<TKey> _comparer;
-
-        private Dictionary<TKey, List<TElement>>? _result;
-
-        public ToLookupWithElementSelectorSink(Func<TSource, TKey> keySelector, Func<TSource, TElement> elementSelector, IEqualityComparer<TKey> comparer)
-        {
-            _keySelector = keySelector;
-            _elementSelector = elementSelector;
-            _comparer = comparer;
+            return new Sink(_keySelector, _elementSelector, _comparer);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, ILookup<TKey, TElement>>
         {
-            _result = new Dictionary<TKey, List<TElement>>(_comparer);
-            return AcceptNext(element);
-        }
+            private readonly Dictionary<TKey, List<TElement>> _result;
 
-        public bool AcceptNext(TSource element)
-        {
-            if (_result is null)
-                return false;
+            private readonly Func<TSource, TKey> _keySelector;
+            private readonly Func<TSource, TElement> _elementSelector;
 
-            var key = _keySelector(element);
-            var value = _elementSelector(element);
-            if (_result.TryGetValue(key, out var list))
+
+            public Sink(Func<TSource, TKey> keySelector, Func<TSource, TElement> elementSelector, IEqualityComparer<TKey> comparer)
             {
-                list.Add(value);
-            }
-            else
-            {
-                list = new List<TElement> { value };
-                _result.Add(key, list);
+                _result = new Dictionary<TKey, List<TElement>>(comparer);
+
+                _keySelector = keySelector;
+                _elementSelector = elementSelector;
             }
 
-            return true;
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
 
-        public void Dispose()
-        {
-            _result?.Clear();
-            _result?.TrimExcess();
-            _result = null;
-        }
+            public bool AcceptNext(TSource element)
+            {
+                var key = _keySelector(element);
+                var value = _elementSelector(element);
+                if (_result.TryGetValue(key, out var list))
+                {
+                    list.Add(value);
+                }
+                else
+                {
+                    list = new List<TElement> { value };
+                    _result.Add(key, list);
+                }
 
-        public ILookup<TKey, TElement> GetResult()
-        {
-            return new LookupWrapper<TKey, TElement>(_result ?? new Dictionary<TKey, List<TElement>>());
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public ILookup<TKey, TElement> GetResult()
+            {
+                return new LookupWrapper<TKey, TElement>(_result);
+            }
         }
     }
 

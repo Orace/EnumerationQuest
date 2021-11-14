@@ -44,6 +44,7 @@ namespace EnumerationQuest.Consumers
     internal class MinByConsumer<TSource, TKey> : IEnumerableConsumer<TSource, TSource?>
     {
         private readonly Func<TSource, TKey> _keySelector;
+
         private readonly IComparer<TKey> _comparer;
 
         public MinByConsumer(Func<TSource, TKey> keySelector, IComparer<TKey> comparer)
@@ -54,74 +55,71 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, TSource?> GetSink()
         {
-            return new MinBySink<TSource, TKey>(_keySelector, _comparer);
-        }
-    }
-
-    internal class MinBySink<TSource, TKey> : IEnumerableSink<TSource, TSource?>
-    {
-        private readonly Func<TSource, TKey> _keySelector;
-        private readonly IComparer<TKey> _comparer;
-
-        private TKey? _bestKey;
-        private TSource? _result;
-        private int _state;
-
-        public MinBySink(Func<TSource, TKey> keySelector, IComparer<TKey> comparer)
-        {
-            _keySelector = keySelector;
-            _comparer = comparer;
+            return new Sink(_keySelector, _comparer);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, TSource?>
         {
-            _state = 1;
-            _result = element;
+            private readonly Func<TSource, TKey> _keySelector;
+            private readonly IComparer<TKey> _comparer;
 
-            return true;
-        }
+            private TKey? _bestKey;
+            private TSource? _result;
+            private int _state;
 
-        public bool AcceptNext(TSource element)
-        {
-            switch (_state)
+            public Sink(Func<TSource, TKey> keySelector, IComparer<TKey> comparer)
             {
-                case 0:
-                    return false;
-                case 1:
-                    _bestKey = _keySelector(_result!);
-                    _state = 2;
-                    break;
+                _keySelector = keySelector;
+                _comparer = comparer;
             }
 
-            var key = _keySelector(element);
-            if (key is null)
-                return true;
-
-            if (_bestKey is null || _comparer.Compare(key, _bestKey) < 0)
+            public bool AcceptFirst(TSource element)
             {
-                _bestKey = key;
+                _state = 1;
                 _result = element;
+
+                return true;
             }
 
-            return true;
-        }
+            public bool AcceptNext(TSource element)
+            {
+                switch (_state)
+                {
+                    case 0:
+                        return false;
+                    case 1:
+                        _bestKey = _keySelector(_result!);
+                        _state = 2;
+                        break;
+                }
 
-        public void Dispose()
-        {
-            _bestKey = default;
-            _result = default;
-            _state = 0;
-        }
+                var key = _keySelector(element);
+                if (key is null)
+                    return true;
 
-        public TSource? GetResult()
-        {
-            if (_state > 0)
-                return _result;
+                if (_bestKey is null || _comparer.Compare(key, _bestKey) < 0)
+                {
+                    _bestKey = key;
+                    _result = element;
+                }
 
-            if (default(TSource) is null)
-                return default;
+                return true;
+            }
 
-            throw new InvalidOperationException("Sequence was empty");
+            public void Dispose()
+            {
+            }
+
+            public TSource? GetResult()
+            {
+                if (_state > 0)
+                    return _result;
+
+                if (default(TSource) is null)
+                    return default;
+
+                throw new InvalidOperationException("Sequence was empty");
+            }
         }
     }
 }

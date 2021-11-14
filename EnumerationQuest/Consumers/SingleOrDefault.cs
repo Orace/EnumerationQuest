@@ -58,49 +58,49 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, TSource?> GetSink()
         {
-            return new SingleOrDefaultSink<TSource>(_defaultValue);
+            return new Sink(_defaultValue);
         }
-    }
 
-    internal class SingleOrDefaultSink<TSource> : IEnumerableSink<TSource, TSource?>
-    {
-        private bool _hasContent;
-        private TSource? _result;
+        private class Sink : IEnumerableSink<TSource, TSource?>
+        {
+            private bool _hasContent;
+            private TSource? _result;
         
-        public SingleOrDefaultSink(TSource? defaultValue)
-        {
-            _hasContent = true;
-            _result = defaultValue;
-        }
+            public Sink(TSource? defaultValue)
+            {
+                _hasContent = true;
+                _result = defaultValue;
+            }
 
-        public bool AcceptFirst(TSource element)
-        {
-            _result = element;
-            return true;
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                _result = element;
+                return true;
+            }
 
-        public bool AcceptNext(TSource element)
-        {
-            _hasContent = false;
-            _result = default;
+            public bool AcceptNext(TSource element)
+            {
+                _hasContent = false;
+                _result = default;
 
-            return false;
-        }
+                return false;
+            }
 
-        public void Dispose()
-        {
-            _result = default;
-        }
+            public void Dispose()
+            {
+            }
 
-        public TSource? GetResult()
-        {
-            return _hasContent ? _result : throw new InvalidOperationException("The sequence has more than one element");
+            public TSource? GetResult()
+            {
+                return _hasContent ? _result : throw new InvalidOperationException("The sequence has more than one element");
+            }
         }
     }
 
     internal class SingleOrDefaultWithPredicateConsumer<TSource> : IEnumerableConsumer<TSource, TSource?>
     {
         private readonly Func<TSource, bool> _predicate;
+
         private readonly TSource? _defaultValue;
 
         public SingleOrDefaultWithPredicateConsumer(Func<TSource, bool> predicate, TSource? defaultValue)
@@ -111,56 +111,55 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, TSource?> GetSink()
         {
-            return new SingleOrDefaultWithPredicateSink<TSource>(_predicate, _defaultValue);
-        }
-    }
-
-    internal class SingleOrDefaultWithPredicateSink<TSource> : IEnumerableSink<TSource, TSource?>
-    {
-        private readonly Func<TSource, bool> _predicate;
-
-        private int _matchCount;
-        private TSource? _result;
-
-        public SingleOrDefaultWithPredicateSink(Func<TSource, bool> predicate, TSource? defaultValue)
-        {
-            _predicate = predicate;
-            _result = defaultValue;
+            return new Sink(_predicate, _defaultValue);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, TSource?>
         {
-            return AcceptNext(element);
-        }
+            private readonly Func<TSource, bool> _predicate;
 
-        public bool AcceptNext(TSource element)
-        {
-            if (_matchCount > 1)
-                return false;
+            private int _matchCount;
+            private TSource? _result;
 
-            if (!_predicate(element))
-                return true;
-
-            _matchCount++;
-
-            if (_matchCount == 1)
+            public Sink(Func<TSource, bool> predicate, TSource? defaultValue)
             {
-                _result = element;
-                return true;
+                _predicate = predicate;
+                _result = defaultValue;
             }
 
-            _result = default;
-            return false;
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
 
-        public void Dispose()
-        {
-            _result = default;
-        }
+            public bool AcceptNext(TSource element)
+            {
+                if (_matchCount > 1)
+                    return false;
 
-        public TSource? GetResult()
-        {
-            return _matchCount <= 1 ? _result : throw new InvalidOperationException("The sequence has more than one element that match the predicate");
+                if (!_predicate(element))
+                    return true;
+
+                _matchCount++;
+
+                if (_matchCount == 1)
+                {
+                    _result = element;
+                    return true;
+                }
+
+                _result = default;
+                return false;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public TSource? GetResult()
+            {
+                return _matchCount <= 1 ? _result : throw new InvalidOperationException("The sequence has more than one element that match the predicate");
+            }
         }
     }
 }

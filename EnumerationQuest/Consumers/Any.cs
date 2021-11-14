@@ -38,32 +38,32 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<TSource, bool> GetSink()
         {
-            return new AnySink<TSource>();
-        }
-    }
-
-    internal class AnySink<TSource> : IEnumerableSink<TSource, bool>
-    {
-        private bool _result;
-
-        public bool AcceptFirst(TSource element)
-        {
-            _result = true;
-            return false;
+            return new Sink();
         }
 
-        public bool AcceptNext(TSource element)
+        private class Sink : IEnumerableSink<TSource, bool>
         {
-            return false;
-        }
+            private bool _hasAny;
 
-        public void Dispose()
-        {
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                _hasAny = true;
+                return false;
+            }
 
-        public bool GetResult()
-        {
-            return _result;
+            public bool AcceptNext(TSource element)
+            {
+                return false;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public bool GetResult()
+            {
+                return _hasAny;
+            }
         }
     }
 
@@ -78,45 +78,45 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, bool> GetSink()
         {
-            return new AnyWithPredicateSink<TSource>(_predicate);
+            return new Sink(_predicate);
         }
-    }
 
-    internal class AnyWithPredicateSink<TSource> : IEnumerableSink<TSource, bool>
-    {
-        private readonly Func<TSource, bool> _predicate;
-
-        private bool _result;
-
-        public AnyWithPredicateSink(Func<TSource, bool> predicate)
+        private class Sink : IEnumerableSink<TSource, bool>
         {
-            _predicate = predicate;
-        }
+            private readonly Func<TSource, bool> _predicate;
+
+            private bool _hasAny;
+
+            public Sink(Func<TSource, bool> predicate)
+            {
+                _predicate = predicate;
+            }
         
-        public bool AcceptFirst(TSource element)
-        {
-            return AcceptNext(element);
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
 
-        public bool AcceptNext(TSource element)
-        {
-            if (_result)
+            public bool AcceptNext(TSource element)
+            {
+                if (_hasAny)
+                    return false;
+
+                if (!_predicate(element))
+                    return true;
+
+                _hasAny = true;
                 return false;
+            }
 
-            if (!_predicate(element))
-                return true;
+            public void Dispose()
+            {
+            }
 
-            _result = true;
-            return false;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public bool GetResult()
-        {
-            return _result;
+            public bool GetResult()
+            {
+                return _hasAny;
+            }
         }
     }
 }

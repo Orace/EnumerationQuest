@@ -44,6 +44,7 @@ namespace EnumerationQuest.Consumers
     internal class SequenceEqualConsumer<TSource> : IEnumerableConsumer<TSource, bool>
     {
         private readonly IEnumerable<TSource> _other;
+
         private readonly IEqualityComparer<TSource> _comparer;
 
         public SequenceEqualConsumer(IEnumerable<TSource> other, IEqualityComparer<TSource> comparer)
@@ -54,57 +55,57 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, bool> GetSink()
         {
-            return new SequenceEqualSink<TSource>(_other, _comparer);
-        }
-    }
-
-    internal class SequenceEqualSink<TSource> : IEnumerableSink<TSource, bool>
-    {
-        private readonly IEnumerable<TSource> _other;
-        private readonly IEqualityComparer<TSource> _comparer;
-
-        private bool _areSequenceEqual = true;
-        private IEnumerator<TSource>? _enumerator;
-
-        public SequenceEqualSink(IEnumerable<TSource> other, IEqualityComparer<TSource> comparer)
-        {
-            _other = other;
-            _comparer = comparer;
+            return new Sink(_other, _comparer);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, bool>
         {
-            _enumerator?.Dispose();
-            _enumerator = _other.GetEnumerator();
-            return AcceptNext(element);
-        }
+            private readonly IEnumerable<TSource> _other;
+            private readonly IEqualityComparer<TSource> _comparer;
 
-        public bool AcceptNext(TSource element)
-        {
-            if (!_areSequenceEqual || _enumerator is null)
-                return false;
+            private bool _areSequenceEqual = true;
+            private IEnumerator<TSource>? _enumerator;
+
+            public Sink(IEnumerable<TSource> other, IEqualityComparer<TSource> comparer)
+            {
+                _other = other;
+                _comparer = comparer;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                _enumerator?.Dispose();
+                _enumerator = _other.GetEnumerator();
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                if (!_areSequenceEqual || _enumerator is null)
+                    return false;
             
-            _areSequenceEqual = _enumerator.MoveNext() && _comparer.Equals(_enumerator.Current, element);
-            return _areSequenceEqual;
-        }
-
-        public void Dispose()
-        {
-            GetResult();
-        }
-
-        public bool GetResult()
-        {
-            if (_enumerator is null)
+                _areSequenceEqual = _enumerator.MoveNext() && _comparer.Equals(_enumerator.Current, element);
                 return _areSequenceEqual;
+            }
 
-            if (_areSequenceEqual)
-                _areSequenceEqual = !_enumerator.MoveNext();
+            public void Dispose()
+            {
+                GetResult();
+            }
 
-            _enumerator.Dispose();
-            _enumerator = null;
+            public bool GetResult()
+            {
+                if (_enumerator is null)
+                    return _areSequenceEqual;
 
-            return _areSequenceEqual;
+                if (_areSequenceEqual)
+                    _areSequenceEqual = !_enumerator.MoveNext();
+
+                _enumerator.Dispose();
+                _enumerator = null;
+
+                return _areSequenceEqual;
+            }
         }
     }
 }

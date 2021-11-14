@@ -59,52 +59,51 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, TSource> GetSink()
         {
-            return new AggregateSink<TSource>(_func);
-        }
-    }
-
-    internal class AggregateSink<TSource> : IEnumerableSink<TSource, TSource>
-    {
-        private readonly Func<TSource, TSource, TSource> _func;
-
-        private bool _hasContent;
-        private TSource? _state;
-
-        public AggregateSink(Func<TSource, TSource, TSource> func)
-        {
-            _func = func;
+            return new Sink(_func);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, TSource>
         {
-            _state = element;
-            _hasContent = true;
+            private readonly Func<TSource, TSource, TSource> _func;
 
-            return true;
-        }
+            private bool _hasContent;
+            private TSource? _state;
 
-        public bool AcceptNext(TSource element)
-        {
-            _state = _func(_state!, element);
+            public Sink(Func<TSource, TSource, TSource> func)
+            {
+                _func = func;
+            }
 
-            return true;
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                _state = element;
+                _hasContent = true;
 
-        public void Dispose()
-        {
-            _hasContent = false;
-            _state = default;
-        }
+                return true;
+            }
 
-        public TSource GetResult()
-        {
-            return _hasContent ? _state! : throw new InvalidOperationException("Sequence was empty");
+            public bool AcceptNext(TSource element)
+            {
+                _state = _func(_state!, element);
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public TSource GetResult()
+            {
+                return _hasContent ? _state! : throw new InvalidOperationException("Sequence was empty");
+            }
         }
     }
 
     internal class AggregateWithSeedConsumer<TSource, TAccumulate> : IEnumerableConsumer<TSource, TAccumulate>
     {
         private readonly TAccumulate _seed;
+
         private readonly Func<TAccumulate, TSource, TAccumulate> _func;
 
         public AggregateWithSeedConsumer(TAccumulate seed, Func<TAccumulate, TSource, TAccumulate> func)
@@ -115,48 +114,49 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, TAccumulate> GetSink()
         {
-            return new AggregateWithSeedSink<TSource, TAccumulate>(_seed, _func);
+            return new Sink(_seed, _func);
         }
-    }
 
-    internal class AggregateWithSeedSink<TSource, TAccumulate> : IEnumerableSink<TSource, TAccumulate>
-    {
-        private readonly Func<TAccumulate, TSource, TAccumulate> _func;
-
-        private TAccumulate _state;
-
-        public AggregateWithSeedSink(TAccumulate seed, Func<TAccumulate, TSource, TAccumulate> func)
+        private class Sink : IEnumerableSink<TSource, TAccumulate>
         {
-            _state = seed;
-            _func = func;
-        }
+            private readonly Func<TAccumulate, TSource, TAccumulate> _func;
+
+            private TAccumulate _state;
+
+            public Sink(TAccumulate seed, Func<TAccumulate, TSource, TAccumulate> func)
+            {
+                _state = seed;
+                _func = func;
+            }
         
-        public bool AcceptFirst(TSource element)
-        {
-            return AcceptNext(element);
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
 
-        public bool AcceptNext(TSource element)
-        {
-            _state = _func(_state, element);
-            return true;
-        }
+            public bool AcceptNext(TSource element)
+            {
+                _state = _func(_state, element);
+                return true;
+            }
 
-        public void Dispose()
-        {
-            _state = default!;
-        }
+            public void Dispose()
+            {
+            }
 
-        public TAccumulate GetResult()
-        {
-            return _state;
+            public TAccumulate GetResult()
+            {
+                return _state;
+            }
         }
     }
 
     internal class AggregateWithSeedAndResultSelectorConsumer<TSource, TAccumulate, TResult> : IEnumerableConsumer<TSource, TResult>
     {
         private readonly TAccumulate _seed;
+
         private readonly Func<TAccumulate, TSource, TAccumulate> _func;
+
         private readonly Func<TAccumulate, TResult> _resultSelector;
 
         public AggregateWithSeedAndResultSelectorConsumer(TAccumulate seed, Func<TAccumulate, TSource, TAccumulate> func, Func<TAccumulate, TResult> resultSelector)
@@ -168,43 +168,42 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, TResult> GetSink()
         {
-            return new AggregateWithSeedAndResultSelectorSink<TSource, TAccumulate, TResult>(_seed, _func, _resultSelector);
-        }
-    }
-
-    internal class AggregateWithSeedAndResultSelectorSink<TSource, TAccumulate, TResult> : IEnumerableSink<TSource, TResult>
-    {
-        private readonly Func<TAccumulate, TSource, TAccumulate> _func;
-        private readonly Func<TAccumulate, TResult> _resultSelector;
-
-        private TAccumulate _state;
-
-        public AggregateWithSeedAndResultSelectorSink(TAccumulate seed, Func<TAccumulate, TSource, TAccumulate> func, Func<TAccumulate, TResult> resultSelector)
-        {
-            _state = seed;
-            _func = func;
-            _resultSelector = resultSelector;
+            return new Sink(_seed, _func, _resultSelector);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, TResult>
         {
-            return AcceptNext(element);
-        }
+            private readonly Func<TAccumulate, TSource, TAccumulate> _func;
+            private readonly Func<TAccumulate, TResult> _resultSelector;
 
-        public bool AcceptNext(TSource element)
-        {
-            _state = _func(_state, element);
-            return true;
-        }
+            private TAccumulate _state;
 
-        public void Dispose()
-        {
-            _state = default!;
-        }
+            public Sink(TAccumulate seed, Func<TAccumulate, TSource, TAccumulate> func, Func<TAccumulate, TResult> resultSelector)
+            {
+                _state = seed;
+                _func = func;
+                _resultSelector = resultSelector;
+            }
 
-        public TResult GetResult()
-        {
-            return _resultSelector(_state);
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                _state = _func(_state, element);
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public TResult GetResult()
+            {
+                return _resultSelector(_state);
+            }
         }
     }
 }

@@ -41,86 +41,79 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, List<TSource>> GetSink()
         {
-            return new ElementsAtSink<TSource>(_indices);
+            return new Sink(_indices);
         }
-    }
 
-    internal class ElementsAtSink<TSource> : IEnumerableSink<TSource, List<TSource>>
-    {
-        private IEnumerator<int>? _enumerator;
-        private int _index;
-        private int _nextIndex;
-        private List<TSource>? _result;
-
-        public ElementsAtSink(IEnumerable<int> indices)
+        private class Sink : IEnumerableSink<TSource, List<TSource>>
         {
-            _result = new List<TSource>();
+            private readonly List<TSource> _result = new();
 
-            _enumerator?.Dispose();
-            _enumerator = indices.GetEnumerator();
+            private IEnumerator<int>? _enumerator;
+            private int _index;
+            private int _nextIndex;
 
-            if (_enumerator.MoveNext())
-            {
-                _nextIndex = _enumerator.Current;
-                if (_nextIndex < 0)
-                    throw new ArgumentException("The index sequence contains a negative value");
-            }
-            else
+            public Sink(IEnumerable<int> indices)
             {
                 _enumerator?.Dispose();
-                _enumerator = null;
-            }
-        }
+                _enumerator = indices.GetEnumerator();
 
-        public bool AcceptFirst(TSource element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(TSource element)
-        {
-            if (_result is null || _enumerator is null)
-                return false;
-
-            while (_nextIndex == _index)
-            {
-                _result.Add(element);
                 if (_enumerator.MoveNext())
                 {
                     _nextIndex = _enumerator.Current;
-                    if (_nextIndex < _index)
-                        throw new ArgumentException("The index sequence is not in increasing order");
+                    if (_nextIndex < 0)
+                        throw new ArgumentException("The index sequence contains a negative value");
                 }
                 else
                 {
                     _enumerator?.Dispose();
                     _enumerator = null;
-                    return false;
                 }
             }
 
-            _index++;
-            return true;
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
 
-        public void Dispose()
-        {
-            _enumerator?.Dispose();
-            _enumerator = default;
-            _index = default;
-            _nextIndex = default;
-            _result = default;
-        }
+            public bool AcceptNext(TSource element)
+            {
+                if (_enumerator is null)
+                    return false;
 
-        public List<TSource> GetResult()
-        {
-            if (_result is null)
-                throw new InvalidOperationException();
+                while (_nextIndex == _index)
+                {
+                    _result.Add(element);
+                    if (_enumerator.MoveNext())
+                    {
+                        _nextIndex = _enumerator.Current;
+                        if (_nextIndex < _index)
+                            throw new ArgumentException("The index sequence is not in increasing order");
+                    }
+                    else
+                    {
+                        _enumerator?.Dispose();
+                        _enumerator = null;
+                        return false;
+                    }
+                }
 
-            if (_enumerator is not null)
-                throw new ArgumentException("The index sequence contains a value greater or equal than the source sequence length");
+                _index++;
+                return true;
+            }
 
-            return _result;
+            public void Dispose()
+            {
+                _enumerator?.Dispose();
+                _enumerator = default;
+            }
+
+            public List<TSource> GetResult()
+            {
+                if (_enumerator is not null)
+                    throw new ArgumentException("The index sequence contains a value greater or equal than the source sequence length");
+
+                return _result;
+            }
         }
     }
 }

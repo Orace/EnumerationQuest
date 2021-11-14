@@ -38,38 +38,36 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<TSource, TSource> GetSink()
         {
-            return new SingleSink<TSource>();
-        }
-    }
-
-    internal class SingleSink<TSource> : IEnumerableSink<TSource, TSource>
-    {
-        private bool _hasContent;
-        private TSource? _result;
-
-        public bool AcceptFirst(TSource element)
-        {
-            _hasContent = true;
-            _result = element;
-            return true;
+            return new Sink();
         }
 
-        public bool AcceptNext(TSource element)
+        private class Sink: IEnumerableSink<TSource, TSource>
         {
-            _hasContent = false;
-            _result = default;
-            return false;
-        }
+            private bool _hasContent;
+            private TSource? _result;
 
-        public void Dispose()
-        {
-            _hasContent = false;
-            _result = default;
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                _hasContent = true;
+                _result = element;
+                return true;
+            }
 
-        public TSource GetResult()
-        {
-            return _hasContent ? _result! : throw new InvalidOperationException("The sequence has not exactly one element");
+            public bool AcceptNext(TSource element)
+            {
+                _hasContent = false;
+                _result = default;
+                return false;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public TSource GetResult()
+            {
+                return _hasContent ? _result! : throw new InvalidOperationException("The sequence has not exactly one element");
+            }
         }
     }
 
@@ -84,56 +82,54 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, TSource> GetSink()
         {
-            return new SingleWithPredicateSink<TSource>(_predicate);
-        }
-    }
-
-    internal class SingleWithPredicateSink<TSource> : IEnumerableSink<TSource, TSource>
-    {
-        private readonly Func<TSource, bool> _predicate;
-
-        private int _matchCount;
-        private TSource? _result;
-
-        public SingleWithPredicateSink(Func<TSource, bool> predicate)
-        {
-            _predicate = predicate;
+            return new Sink(_predicate);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, TSource>
         {
-            return AcceptNext(element);
-        }
+            private readonly Func<TSource, bool> _predicate;
 
-        public bool AcceptNext(TSource element)
-        {
-            if (_matchCount > 1)
-                return false;
+            private int _matchCount;
+            private TSource? _result;
 
-            if (!_predicate(element))
-                return true;
-
-            _matchCount++;
-
-            if (_matchCount == 1)
+            public Sink(Func<TSource, bool> predicate)
             {
-                _result = element;
-                return true;
+                _predicate = predicate;
             }
 
-            _result = default;
-            return false;
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
 
-        public void Dispose()
-        {
-            _matchCount = 0;
-            _result = default;
-        }
+            public bool AcceptNext(TSource element)
+            {
+                if (_matchCount > 1)
+                    return false;
 
-        public TSource GetResult()
-        {
-            return _matchCount == 1 ? _result! : throw new InvalidOperationException("The sequence has not exactly one element that match the predicate");
+                if (!_predicate(element))
+                    return true;
+
+                _matchCount++;
+
+                if (_matchCount == 1)
+                {
+                    _result = element;
+                    return true;
+                }
+
+                _result = default;
+                return false;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public TSource GetResult()
+            {
+                return _matchCount == 1 ? _result! : throw new InvalidOperationException("The sequence has not exactly one element that match the predicate");
+            }
         }
     }
 }

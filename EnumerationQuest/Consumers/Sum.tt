@@ -51,12 +51,14 @@ namespace EnumerationQuest.Consumers
             return new SumOf<#= n.Name #>Consumer();
         }
 
+<# } #>
+<# foreach (var n in numerics) { #>
         public static IEnumerableConsumer<TSource, <#= n.Type #>> SumOf<#= n.Name #><TSource>(Func<TSource, <#= n.Type #>> selector)
         {
             if (selector is null)
                 throw new ArgumentNullException(nameof(selector));
 
-            return new SumOf<#= n.Name #>Consumer<TSource>(selector);
+            return new SumOf<#= n.Name #>WithSelectorConsumer<TSource>(selector);
         }
 
 <# } #>
@@ -67,151 +69,151 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<<#= n.Type #>, <#= n.Type #>> GetSink()
         {
-            return new SumOf<#= n.Name #>Sink();
+            return new Sink();
         }
+
+<# if (n.IsNullable) { #>
+        private class Sink : IEnumerableSink<<#= n.Type #>, <#= n.Type #>>
+        {
+            private <#= n.SumType #> _sum;
+
+            public bool AcceptFirst(<#= n.Type #> element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(<#= n.Type #> element)
+            {
+                if (element.HasValue)
+                    _sum += element.Value;
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public <#= n.Type #> GetResult()
+            {
+                return _sum;
+            }
+        }
+<# } else { #>
+        private class Sink : IEnumerableSink<<#= n.Type #>, <#= n.Type #>>
+        {
+            private <#= n.SumType #> _sum;
+
+            public bool AcceptFirst(<#= n.Type #> element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(<#= n.Type #> element)
+            {
+                _sum += element;
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public <#= n.Type #> GetContent()
+            {
+                return _sum;
+            }
+
+            public <#= n.Type #> GetResult()
+            {
+                return _sum;
+            }
+        }
+<# } #>
     }
 
-    internal class SumOf<#= n.Name #>Consumer<TSource> : IEnumerableConsumer<TSource, <#= n.Type #>>
+    internal class SumOf<#= n.Name #>WithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, <#= n.Type #>>
     {
         private readonly Func<TSource, <#= n.Type #>> _selector;
 
-        public SumOf<#= n.Name #>Consumer(Func<TSource, <#= n.Type #>> selector)
+        public SumOf<#= n.Name #>WithSelectorConsumer(Func<TSource, <#= n.Type #>> selector)
         {
             _selector = selector;
         }
 
         public IEnumerableSink<TSource, <#= n.Type #>> GetSink()
         {
-            return new SumOf<#= n.Name #>Sink<TSource>(_selector);
+            return new Sink(_selector);
         }
-    }
 
+<# if (n.IsNullable) { #>
+        private class Sink : IEnumerableSink<TSource, <#= n.Type #>>
+        {
+            private readonly Func<TSource, <#= n.Type #>> _selector;
+
+            private <#= n.SumType #> _sum;
+
+            public Sink(Func<TSource, <#= n.Type #>> selector)
+            {
+                _selector = selector;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                var nullable = _selector(element);
+                if (nullable.HasValue)
+                    _sum += nullable.Value;
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public <#= n.Type #> GetResult()
+            {
+                return _sum;
+            }
+        }
+<# } else { #>
+        private class Sink : IEnumerableSink<TSource, <#= n.Type #>>
+        {
+            private readonly Func<TSource, <#= n.Type #>> _selector;
+
+            private <#= n.SumType #> _sum;
+
+            public Sink(Func<TSource, <#= n.Type #>> selector)
+            {
+                _selector = selector;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                _sum += _selector(element);
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public <#= n.Type #> GetResult()
+            {
+                return _sum;
+            }
+        }
 <# } #>
-<# foreach (var n in numerics.Where(n => !n.IsNullable)) { #>
-    internal class SumOf<#= n.Name #>Sink : IEnumerableSink<<#= n.Type #>, <#= n.Type #>>
-    {
-        private <#= n.SumType #> _sum;
-
-        public bool AcceptFirst(<#= n.Type #> element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(<#= n.Type #> element)
-        {
-            _sum += element;
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public <#= n.Type #> GetContent()
-        {
-            return _sum;
-        }
-
-        public <#= n.Type #> GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOf<#= n.Name #>Sink<TSource> : IEnumerableSink<TSource, <#= n.Type #>>
-    {
-        private readonly Func<TSource, <#= n.Type #>> _selector;
-
-        private <#= n.SumType #> _sum;
-
-        public SumOf<#= n.Name #>Sink(Func<TSource, <#= n.Type #>> selector)
-        {
-            _selector = selector;
-        }
-
-        public bool AcceptFirst(TSource element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(TSource element)
-        {
-            _sum += _selector(element);
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public <#= n.Type #> GetResult()
-        {
-            return _sum;
-        }
-    }
-
-<# } #>
-<# foreach (var n in numerics.Where(n => n.IsNullable)) { #>
-    internal class SumOf<#= n.Name #>Sink : IEnumerableSink<<#= n.Type #>, <#= n.Type #>>
-    {
-        private <#= n.SumType #> _sum;
-
-        public bool AcceptFirst(<#= n.Type #> element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(<#= n.Type #> element)
-        {
-            if (element.HasValue)
-                _sum += element.Value;
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public <#= n.Type #> GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOf<#= n.Name #>Sink<TSource> : IEnumerableSink<TSource, <#= n.Type #>>
-    {
-        private readonly Func<TSource, <#= n.Type #>> _selector;
-
-        private <#= n.SumType #> _sum;
-
-        public SumOf<#= n.Name #>Sink(Func<TSource, <#= n.Type #>> selector)
-        {
-            _selector = selector;
-        }
-
-        public bool AcceptFirst(TSource element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(TSource element)
-        {
-            var nullable = _selector(element);
-            if (nullable.HasValue)
-                _sum += nullable.Value;
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public <#= n.Type #> GetResult()
-        {
-            return _sum;
-        }
     }
 
 <# } #>

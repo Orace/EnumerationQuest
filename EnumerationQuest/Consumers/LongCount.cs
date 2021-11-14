@@ -38,37 +38,37 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<TSource, long> GetSink()
         {
-            return new LongCountSink<TSource>();
-        }
-    }
-
-    internal class LongCountSink<TSource> : IEnumerableSink<TSource, long>
-    {
-        private long _count;
-
-        public bool AcceptFirst(TSource element)
-        {
-            _count = 1;
-            return true;
+            return new Sink();
         }
 
-        public bool AcceptNext(TSource element)
+        private class Sink : IEnumerableSink<TSource, long>
         {
-            checked
+            private long _count;
+
+            public bool AcceptFirst(TSource element)
             {
-                _count++;
+                _count = 1;
+                return true;
             }
 
-            return true;
-        }
+            public bool AcceptNext(TSource element)
+            {
+                checked
+                {
+                    _count++;
+                }
 
-        public void Dispose()
-        {
-        }
+                return true;
+            }
 
-        public long GetResult()
-        {
-            return _count;
+            public void Dispose()
+            {
+            }
+
+            public long GetResult()
+            {
+                return _count;
+            }
         }
     }
 
@@ -83,49 +83,49 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, long> GetSink()
         {
-            return new LongCountWithPredicateSink<TSource>(_predicate);
-        }
-    }
-
-    internal class LongCountWithPredicateSink<TSource> : IEnumerableSink<TSource, long>
-    {
-        private readonly Func<TSource, bool> _predicate;
-
-        private long _count;
-
-        public LongCountWithPredicateSink(Func<TSource, bool> predicate)
-        {
-            _predicate = predicate;
+            return new Sink(_predicate);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, long>
         {
-            if (_predicate(element))
-                _count = 1;
+            private readonly Func<TSource, bool> _predicate;
 
-            return true;
-        }
+            private long _count;
 
-        public bool AcceptNext(TSource element)
-        {
-            if (_predicate(element))
+            public Sink(Func<TSource, bool> predicate)
             {
-                checked
-                {
-                    _count++;
-                }
+                _predicate = predicate;
             }
 
-            return true;
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                if (_predicate(element))
+                    _count = 1;
 
-        public void Dispose()
-        {
-        }
+                return true;
+            }
 
-        public long GetResult()
-        {
-            return _count;
+            public bool AcceptNext(TSource element)
+            {
+                if (_predicate(element))
+                {
+                    checked
+                    {
+                        _count++;
+                    }
+                }
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public long GetResult()
+            {
+                return _count;
+            }
         }
     }
 }

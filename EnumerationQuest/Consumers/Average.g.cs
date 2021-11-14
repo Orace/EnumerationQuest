@@ -27,25 +27,9 @@ namespace EnumerationQuest.Consumers
             return new AverageOfDecimalConsumer();
         }
 
-        public static IEnumerableConsumer<TSource, decimal> AverageOfDecimal<TSource>(Func<TSource, decimal> selector)
-        {
-            if (selector is null)
-                throw new ArgumentNullException(nameof(selector));
-
-            return new AverageOfDecimalConsumer<TSource>(selector);
-        }
-
         public static IEnumerableConsumer<double, double> AverageOfDouble()
         {
             return new AverageOfDoubleConsumer();
-        }
-
-        public static IEnumerableConsumer<TSource, double> AverageOfDouble<TSource>(Func<TSource, double> selector)
-        {
-            if (selector is null)
-                throw new ArgumentNullException(nameof(selector));
-
-            return new AverageOfDoubleConsumer<TSource>(selector);
         }
 
         public static IEnumerableConsumer<float, float> AverageOfSingle()
@@ -53,25 +37,9 @@ namespace EnumerationQuest.Consumers
             return new AverageOfSingleConsumer();
         }
 
-        public static IEnumerableConsumer<TSource, float> AverageOfSingle<TSource>(Func<TSource, float> selector)
-        {
-            if (selector is null)
-                throw new ArgumentNullException(nameof(selector));
-
-            return new AverageOfSingleConsumer<TSource>(selector);
-        }
-
         public static IEnumerableConsumer<int, double> AverageOfInt32()
         {
             return new AverageOfInt32Consumer();
-        }
-
-        public static IEnumerableConsumer<TSource, double> AverageOfInt32<TSource>(Func<TSource, int> selector)
-        {
-            if (selector is null)
-                throw new ArgumentNullException(nameof(selector));
-
-            return new AverageOfInt32Consumer<TSource>(selector);
         }
 
         public static IEnumerableConsumer<long, double> AverageOfInt64()
@@ -79,25 +47,9 @@ namespace EnumerationQuest.Consumers
             return new AverageOfInt64Consumer();
         }
 
-        public static IEnumerableConsumer<TSource, double> AverageOfInt64<TSource>(Func<TSource, long> selector)
-        {
-            if (selector is null)
-                throw new ArgumentNullException(nameof(selector));
-
-            return new AverageOfInt64Consumer<TSource>(selector);
-        }
-
         public static IEnumerableConsumer<decimal?, decimal?> AverageOfNullableDecimal()
         {
             return new AverageOfNullableDecimalConsumer();
-        }
-
-        public static IEnumerableConsumer<TSource, decimal?> AverageOfNullableDecimal<TSource>(Func<TSource, decimal?> selector)
-        {
-            if (selector is null)
-                throw new ArgumentNullException(nameof(selector));
-
-            return new AverageOfNullableDecimalConsumer<TSource>(selector);
         }
 
         public static IEnumerableConsumer<double?, double?> AverageOfNullableDouble()
@@ -105,25 +57,9 @@ namespace EnumerationQuest.Consumers
             return new AverageOfNullableDoubleConsumer();
         }
 
-        public static IEnumerableConsumer<TSource, double?> AverageOfNullableDouble<TSource>(Func<TSource, double?> selector)
-        {
-            if (selector is null)
-                throw new ArgumentNullException(nameof(selector));
-
-            return new AverageOfNullableDoubleConsumer<TSource>(selector);
-        }
-
         public static IEnumerableConsumer<float?, float?> AverageOfNullableSingle()
         {
             return new AverageOfNullableSingleConsumer();
-        }
-
-        public static IEnumerableConsumer<TSource, float?> AverageOfNullableSingle<TSource>(Func<TSource, float?> selector)
-        {
-            if (selector is null)
-                throw new ArgumentNullException(nameof(selector));
-
-            return new AverageOfNullableSingleConsumer<TSource>(selector);
         }
 
         public static IEnumerableConsumer<int?, double?> AverageOfNullableInt32()
@@ -131,17 +67,81 @@ namespace EnumerationQuest.Consumers
             return new AverageOfNullableInt32Consumer();
         }
 
+        public static IEnumerableConsumer<long?, double?> AverageOfNullableInt64()
+        {
+            return new AverageOfNullableInt64Consumer();
+        }
+
+        public static IEnumerableConsumer<TSource, decimal> AverageOfDecimal<TSource>(Func<TSource, decimal> selector)
+        {
+            if (selector is null)
+                throw new ArgumentNullException(nameof(selector));
+
+            return new AverageOfDecimalWithSelectorConsumer<TSource>(selector);
+        }
+
+        public static IEnumerableConsumer<TSource, double> AverageOfDouble<TSource>(Func<TSource, double> selector)
+        {
+            if (selector is null)
+                throw new ArgumentNullException(nameof(selector));
+
+            return new AverageOfDoubleWithSelectorConsumer<TSource>(selector);
+        }
+
+        public static IEnumerableConsumer<TSource, float> AverageOfSingle<TSource>(Func<TSource, float> selector)
+        {
+            if (selector is null)
+                throw new ArgumentNullException(nameof(selector));
+
+            return new AverageOfSingleWithSelectorConsumer<TSource>(selector);
+        }
+
+        public static IEnumerableConsumer<TSource, double> AverageOfInt32<TSource>(Func<TSource, int> selector)
+        {
+            if (selector is null)
+                throw new ArgumentNullException(nameof(selector));
+
+            return new AverageOfInt32WithSelectorConsumer<TSource>(selector);
+        }
+
+        public static IEnumerableConsumer<TSource, double> AverageOfInt64<TSource>(Func<TSource, long> selector)
+        {
+            if (selector is null)
+                throw new ArgumentNullException(nameof(selector));
+
+            return new AverageOfInt64WithSelectorConsumer<TSource>(selector);
+        }
+
+        public static IEnumerableConsumer<TSource, decimal?> AverageOfNullableDecimal<TSource>(Func<TSource, decimal?> selector)
+        {
+            if (selector is null)
+                throw new ArgumentNullException(nameof(selector));
+
+            return new AverageOfNullableDecimalWithSelectorConsumer<TSource>(selector);
+        }
+
+        public static IEnumerableConsumer<TSource, double?> AverageOfNullableDouble<TSource>(Func<TSource, double?> selector)
+        {
+            if (selector is null)
+                throw new ArgumentNullException(nameof(selector));
+
+            return new AverageOfNullableDoubleWithSelectorConsumer<TSource>(selector);
+        }
+
+        public static IEnumerableConsumer<TSource, float?> AverageOfNullableSingle<TSource>(Func<TSource, float?> selector)
+        {
+            if (selector is null)
+                throw new ArgumentNullException(nameof(selector));
+
+            return new AverageOfNullableSingleWithSelectorConsumer<TSource>(selector);
+        }
+
         public static IEnumerableConsumer<TSource, double?> AverageOfNullableInt32<TSource>(Func<TSource, int?> selector)
         {
             if (selector is null)
                 throw new ArgumentNullException(nameof(selector));
 
-            return new AverageOfNullableInt32Consumer<TSource>(selector);
-        }
-
-        public static IEnumerableConsumer<long?, double?> AverageOfNullableInt64()
-        {
-            return new AverageOfNullableInt64Consumer();
+            return new AverageOfNullableInt32WithSelectorConsumer<TSource>(selector);
         }
 
         public static IEnumerableConsumer<TSource, double?> AverageOfNullableInt64<TSource>(Func<TSource, long?> selector)
@@ -149,7 +149,7 @@ namespace EnumerationQuest.Consumers
             if (selector is null)
                 throw new ArgumentNullException(nameof(selector));
 
-            return new AverageOfNullableInt64Consumer<TSource>(selector);
+            return new AverageOfNullableInt64WithSelectorConsumer<TSource>(selector);
         }
 
     }
@@ -158,22 +158,35 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<decimal, decimal> GetSink()
         {
-            return new AverageOfDecimalSink();
-        }
-    }
-
-    internal class AverageOfDecimalConsumer<TSource> : IEnumerableConsumer<TSource, decimal>
-    {
-        private readonly Func<TSource, decimal> _selector;
-
-        public AverageOfDecimalConsumer(Func<TSource, decimal> selector)
-        {
-            _selector = selector;
+            return new Sink();
         }
 
-        public IEnumerableSink<TSource, decimal> GetSink()
+        private class Sink : IEnumerableSink<decimal, decimal>
         {
-            return new AverageOfDecimalSink<TSource>(_selector);
+            private int _count;
+            private decimal _sum;
+
+            public bool AcceptFirst(decimal element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(decimal element)
+            {
+                _count++;
+                _sum += element;
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public decimal GetResult()
+            {
+                return _count > 0 ? _sum / _count : throw new InvalidOperationException("Sequence was empty");
+            }
         }
     }
 
@@ -181,22 +194,35 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<double, double> GetSink()
         {
-            return new AverageOfDoubleSink();
-        }
-    }
-
-    internal class AverageOfDoubleConsumer<TSource> : IEnumerableConsumer<TSource, double>
-    {
-        private readonly Func<TSource, double> _selector;
-
-        public AverageOfDoubleConsumer(Func<TSource, double> selector)
-        {
-            _selector = selector;
+            return new Sink();
         }
 
-        public IEnumerableSink<TSource, double> GetSink()
+        private class Sink : IEnumerableSink<double, double>
         {
-            return new AverageOfDoubleSink<TSource>(_selector);
+            private int _count;
+            private double _sum;
+
+            public bool AcceptFirst(double element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(double element)
+            {
+                _count++;
+                _sum += element;
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public double GetResult()
+            {
+                return _count > 0 ? _sum / _count : throw new InvalidOperationException("Sequence was empty");
+            }
         }
     }
 
@@ -204,22 +230,35 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<float, float> GetSink()
         {
-            return new AverageOfSingleSink();
-        }
-    }
-
-    internal class AverageOfSingleConsumer<TSource> : IEnumerableConsumer<TSource, float>
-    {
-        private readonly Func<TSource, float> _selector;
-
-        public AverageOfSingleConsumer(Func<TSource, float> selector)
-        {
-            _selector = selector;
+            return new Sink();
         }
 
-        public IEnumerableSink<TSource, float> GetSink()
+        private class Sink : IEnumerableSink<float, float>
         {
-            return new AverageOfSingleSink<TSource>(_selector);
+            private int _count;
+            private float _sum;
+
+            public bool AcceptFirst(float element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(float element)
+            {
+                _count++;
+                _sum += element;
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public float GetResult()
+            {
+                return _count > 0 ? _sum / _count : throw new InvalidOperationException("Sequence was empty");
+            }
         }
     }
 
@@ -227,22 +266,35 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<int, double> GetSink()
         {
-            return new AverageOfInt32Sink();
-        }
-    }
-
-    internal class AverageOfInt32Consumer<TSource> : IEnumerableConsumer<TSource, double>
-    {
-        private readonly Func<TSource, int> _selector;
-
-        public AverageOfInt32Consumer(Func<TSource, int> selector)
-        {
-            _selector = selector;
+            return new Sink();
         }
 
-        public IEnumerableSink<TSource, double> GetSink()
+        private class Sink : IEnumerableSink<int, double>
         {
-            return new AverageOfInt32Sink<TSource>(_selector);
+            private int _count;
+            private double _sum;
+
+            public bool AcceptFirst(int element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(int element)
+            {
+                _count++;
+                _sum += element;
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public double GetResult()
+            {
+                return _count > 0 ? _sum / _count : throw new InvalidOperationException("Sequence was empty");
+            }
         }
     }
 
@@ -250,22 +302,35 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<long, double> GetSink()
         {
-            return new AverageOfInt64Sink();
-        }
-    }
-
-    internal class AverageOfInt64Consumer<TSource> : IEnumerableConsumer<TSource, double>
-    {
-        private readonly Func<TSource, long> _selector;
-
-        public AverageOfInt64Consumer(Func<TSource, long> selector)
-        {
-            _selector = selector;
+            return new Sink();
         }
 
-        public IEnumerableSink<TSource, double> GetSink()
+        private class Sink : IEnumerableSink<long, double>
         {
-            return new AverageOfInt64Sink<TSource>(_selector);
+            private int _count;
+            private double _sum;
+
+            public bool AcceptFirst(long element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(long element)
+            {
+                _count++;
+                _sum += element;
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public double GetResult()
+            {
+                return _count > 0 ? _sum / _count : throw new InvalidOperationException("Sequence was empty");
+            }
         }
     }
 
@@ -273,22 +338,38 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<decimal?, decimal?> GetSink()
         {
-            return new AverageOfNullableDecimalSink();
-        }
-    }
-
-    internal class AverageOfNullableDecimalConsumer<TSource> : IEnumerableConsumer<TSource, decimal?>
-    {
-        private readonly Func<TSource, decimal?> _selector;
-
-        public AverageOfNullableDecimalConsumer(Func<TSource, decimal?> selector)
-        {
-            _selector = selector;
+            return new Sink();
         }
 
-        public IEnumerableSink<TSource, decimal?> GetSink()
+        private class Sink : IEnumerableSink<decimal?, decimal?>
         {
-            return new AverageOfNullableDecimalSink<TSource>(_selector);
+            private int _count;
+            private decimal _sum;
+
+            public bool AcceptFirst(decimal? element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(decimal? element)
+            {
+                if (element.HasValue)
+                {
+                    _count++;
+                    _sum += element.Value;
+                }
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public decimal? GetResult()
+            {
+                return _count > 0 ? _sum / _count : null;
+            }
         }
     }
 
@@ -296,22 +377,38 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<double?, double?> GetSink()
         {
-            return new AverageOfNullableDoubleSink();
-        }
-    }
-
-    internal class AverageOfNullableDoubleConsumer<TSource> : IEnumerableConsumer<TSource, double?>
-    {
-        private readonly Func<TSource, double?> _selector;
-
-        public AverageOfNullableDoubleConsumer(Func<TSource, double?> selector)
-        {
-            _selector = selector;
+            return new Sink();
         }
 
-        public IEnumerableSink<TSource, double?> GetSink()
+        private class Sink : IEnumerableSink<double?, double?>
         {
-            return new AverageOfNullableDoubleSink<TSource>(_selector);
+            private int _count;
+            private double _sum;
+
+            public bool AcceptFirst(double? element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(double? element)
+            {
+                if (element.HasValue)
+                {
+                    _count++;
+                    _sum += element.Value;
+                }
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public double? GetResult()
+            {
+                return _count > 0 ? _sum / _count : null;
+            }
         }
     }
 
@@ -319,22 +416,38 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<float?, float?> GetSink()
         {
-            return new AverageOfNullableSingleSink();
-        }
-    }
-
-    internal class AverageOfNullableSingleConsumer<TSource> : IEnumerableConsumer<TSource, float?>
-    {
-        private readonly Func<TSource, float?> _selector;
-
-        public AverageOfNullableSingleConsumer(Func<TSource, float?> selector)
-        {
-            _selector = selector;
+            return new Sink();
         }
 
-        public IEnumerableSink<TSource, float?> GetSink()
+        private class Sink : IEnumerableSink<float?, float?>
         {
-            return new AverageOfNullableSingleSink<TSource>(_selector);
+            private int _count;
+            private float _sum;
+
+            public bool AcceptFirst(float? element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(float? element)
+            {
+                if (element.HasValue)
+                {
+                    _count++;
+                    _sum += element.Value;
+                }
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public float? GetResult()
+            {
+                return _count > 0 ? _sum / _count : null;
+            }
         }
     }
 
@@ -342,22 +455,38 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<int?, double?> GetSink()
         {
-            return new AverageOfNullableInt32Sink();
-        }
-    }
-
-    internal class AverageOfNullableInt32Consumer<TSource> : IEnumerableConsumer<TSource, double?>
-    {
-        private readonly Func<TSource, int?> _selector;
-
-        public AverageOfNullableInt32Consumer(Func<TSource, int?> selector)
-        {
-            _selector = selector;
+            return new Sink();
         }
 
-        public IEnumerableSink<TSource, double?> GetSink()
+        private class Sink : IEnumerableSink<int?, double?>
         {
-            return new AverageOfNullableInt32Sink<TSource>(_selector);
+            private int _count;
+            private double _sum;
+
+            public bool AcceptFirst(int? element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(int? element)
+            {
+                if (element.HasValue)
+                {
+                    _count++;
+                    _sum += element.Value;
+                }
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public double? GetResult()
+            {
+                return _count > 0 ? _sum / _count : null;
+            }
         }
     }
 
@@ -365,61 +494,63 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<long?, double?> GetSink()
         {
-            return new AverageOfNullableInt64Sink();
+            return new Sink();
+        }
+
+        private class Sink : IEnumerableSink<long?, double?>
+        {
+            private int _count;
+            private double _sum;
+
+            public bool AcceptFirst(long? element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(long? element)
+            {
+                if (element.HasValue)
+                {
+                    _count++;
+                    _sum += element.Value;
+                }
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public double? GetResult()
+            {
+                return _count > 0 ? _sum / _count : null;
+            }
         }
     }
 
-    internal class AverageOfNullableInt64Consumer<TSource> : IEnumerableConsumer<TSource, double?>
+    internal class AverageOfDecimalWithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, decimal>
     {
-        private readonly Func<TSource, long?> _selector;
+        private readonly Func<TSource, decimal> _selector;
 
-        public AverageOfNullableInt64Consumer(Func<TSource, long?> selector)
+        public AverageOfDecimalWithSelectorConsumer(Func<TSource, decimal> selector)
         {
             _selector = selector;
         }
 
-        public IEnumerableSink<TSource, double?> GetSink()
+        public IEnumerableSink<TSource, decimal> GetSink()
         {
-            return new AverageOfNullableInt64Sink<TSource>(_selector);
-        }
-    }
-
-    internal class AverageOfDecimalSink : IEnumerableSink<decimal, decimal>
-    {
-        private int _count;
-        private decimal _sum;
-
-        public bool AcceptFirst(decimal element)
-        {
-            return AcceptNext(element);
+            return new Sink(_selector);
         }
 
-        public bool AcceptNext(decimal element)
-        {
-            _count++;
-            _sum += element;
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public decimal GetResult()
-        {
-            return _count > 0 ? _sum / _count : throw new InvalidOperationException("Sequence was empty");
-        }
-    }
-
-    internal class AverageOfDecimalSink<TSource> : IEnumerableSink<TSource, decimal>
+    internal class Sink : IEnumerableSink<TSource, decimal>
     {
         private readonly Func<TSource, decimal> _selector;
 
         private int _count;
         private decimal _sum;
 
-        public AverageOfDecimalSink(Func<TSource, decimal> selector)
+        public Sink(Func<TSource, decimal> selector)
         {
             _selector = selector;
         }
@@ -446,43 +577,29 @@ namespace EnumerationQuest.Consumers
             return _count > 0 ? _sum / _count : throw new InvalidOperationException("Sequence was empty");
         }
     }
-
-    internal class AverageOfDoubleSink : IEnumerableSink<double, double>
-    {
-        private int _count;
-        private double _sum;
-
-        public bool AcceptFirst(double element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(double element)
-        {
-            _count++;
-            _sum += element;
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public double GetResult()
-        {
-            return _count > 0 ? _sum / _count : throw new InvalidOperationException("Sequence was empty");
-        }
     }
+    internal class AverageOfDoubleWithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, double>
+    {
+        private readonly Func<TSource, double> _selector;
 
-    internal class AverageOfDoubleSink<TSource> : IEnumerableSink<TSource, double>
+        public AverageOfDoubleWithSelectorConsumer(Func<TSource, double> selector)
+        {
+            _selector = selector;
+        }
+
+        public IEnumerableSink<TSource, double> GetSink()
+        {
+            return new Sink(_selector);
+        }
+
+    internal class Sink : IEnumerableSink<TSource, double>
     {
         private readonly Func<TSource, double> _selector;
 
         private int _count;
         private double _sum;
 
-        public AverageOfDoubleSink(Func<TSource, double> selector)
+        public Sink(Func<TSource, double> selector)
         {
             _selector = selector;
         }
@@ -509,43 +626,29 @@ namespace EnumerationQuest.Consumers
             return _count > 0 ? _sum / _count : throw new InvalidOperationException("Sequence was empty");
         }
     }
-
-    internal class AverageOfSingleSink : IEnumerableSink<float, float>
-    {
-        private int _count;
-        private float _sum;
-
-        public bool AcceptFirst(float element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(float element)
-        {
-            _count++;
-            _sum += element;
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public float GetResult()
-        {
-            return _count > 0 ? _sum / _count : throw new InvalidOperationException("Sequence was empty");
-        }
     }
+    internal class AverageOfSingleWithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, float>
+    {
+        private readonly Func<TSource, float> _selector;
 
-    internal class AverageOfSingleSink<TSource> : IEnumerableSink<TSource, float>
+        public AverageOfSingleWithSelectorConsumer(Func<TSource, float> selector)
+        {
+            _selector = selector;
+        }
+
+        public IEnumerableSink<TSource, float> GetSink()
+        {
+            return new Sink(_selector);
+        }
+
+    internal class Sink : IEnumerableSink<TSource, float>
     {
         private readonly Func<TSource, float> _selector;
 
         private int _count;
         private float _sum;
 
-        public AverageOfSingleSink(Func<TSource, float> selector)
+        public Sink(Func<TSource, float> selector)
         {
             _selector = selector;
         }
@@ -572,43 +675,29 @@ namespace EnumerationQuest.Consumers
             return _count > 0 ? _sum / _count : throw new InvalidOperationException("Sequence was empty");
         }
     }
-
-    internal class AverageOfInt32Sink : IEnumerableSink<int, double>
-    {
-        private int _count;
-        private double _sum;
-
-        public bool AcceptFirst(int element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(int element)
-        {
-            _count++;
-            _sum += element;
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public double GetResult()
-        {
-            return _count > 0 ? _sum / _count : throw new InvalidOperationException("Sequence was empty");
-        }
     }
+    internal class AverageOfInt32WithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, double>
+    {
+        private readonly Func<TSource, int> _selector;
 
-    internal class AverageOfInt32Sink<TSource> : IEnumerableSink<TSource, double>
+        public AverageOfInt32WithSelectorConsumer(Func<TSource, int> selector)
+        {
+            _selector = selector;
+        }
+
+        public IEnumerableSink<TSource, double> GetSink()
+        {
+            return new Sink(_selector);
+        }
+
+    internal class Sink : IEnumerableSink<TSource, double>
     {
         private readonly Func<TSource, int> _selector;
 
         private int _count;
         private double _sum;
 
-        public AverageOfInt32Sink(Func<TSource, int> selector)
+        public Sink(Func<TSource, int> selector)
         {
             _selector = selector;
         }
@@ -635,43 +724,29 @@ namespace EnumerationQuest.Consumers
             return _count > 0 ? _sum / _count : throw new InvalidOperationException("Sequence was empty");
         }
     }
-
-    internal class AverageOfInt64Sink : IEnumerableSink<long, double>
-    {
-        private int _count;
-        private double _sum;
-
-        public bool AcceptFirst(long element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(long element)
-        {
-            _count++;
-            _sum += element;
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public double GetResult()
-        {
-            return _count > 0 ? _sum / _count : throw new InvalidOperationException("Sequence was empty");
-        }
     }
+    internal class AverageOfInt64WithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, double>
+    {
+        private readonly Func<TSource, long> _selector;
 
-    internal class AverageOfInt64Sink<TSource> : IEnumerableSink<TSource, double>
+        public AverageOfInt64WithSelectorConsumer(Func<TSource, long> selector)
+        {
+            _selector = selector;
+        }
+
+        public IEnumerableSink<TSource, double> GetSink()
+        {
+            return new Sink(_selector);
+        }
+
+    internal class Sink : IEnumerableSink<TSource, double>
     {
         private readonly Func<TSource, long> _selector;
 
         private int _count;
         private double _sum;
 
-        public AverageOfInt64Sink(Func<TSource, long> selector)
+        public Sink(Func<TSource, long> selector)
         {
             _selector = selector;
         }
@@ -698,46 +773,29 @@ namespace EnumerationQuest.Consumers
             return _count > 0 ? _sum / _count : throw new InvalidOperationException("Sequence was empty");
         }
     }
-
-    internal class AverageOfNullableDecimalSink : IEnumerableSink<decimal?, decimal?>
-    {
-        private int _count;
-        private decimal _sum;
-
-        public bool AcceptFirst(decimal? element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(decimal? element)
-        {
-            if (element.HasValue)
-            {
-                _count++;
-                _sum += element.Value;
-            }
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public decimal? GetResult()
-        {
-            return _count > 0 ? _sum / _count : null;
-        }
     }
+    internal class AverageOfNullableDecimalWithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, decimal?>
+    {
+        private readonly Func<TSource, decimal?> _selector;
 
-    internal class AverageOfNullableDecimalSink<TSource> : IEnumerableSink<TSource, decimal?>
+        public AverageOfNullableDecimalWithSelectorConsumer(Func<TSource, decimal?> selector)
+        {
+            _selector = selector;
+        }
+
+        public IEnumerableSink<TSource, decimal?> GetSink()
+        {
+            return new Sink(_selector);
+        }
+
+    private class Sink : IEnumerableSink<TSource, decimal?>
     {
         private readonly Func<TSource, decimal?> _selector;
 
         private int _count;
         private decimal _sum;
 
-        public AverageOfNullableDecimalSink(Func<TSource, decimal?> selector)
+        public Sink(Func<TSource, decimal?> selector)
         {
             _selector = selector;
         }
@@ -768,46 +826,29 @@ namespace EnumerationQuest.Consumers
             return _count > 0 ? _sum / _count : null;
         }
     }
-
-    internal class AverageOfNullableDoubleSink : IEnumerableSink<double?, double?>
-    {
-        private int _count;
-        private double _sum;
-
-        public bool AcceptFirst(double? element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(double? element)
-        {
-            if (element.HasValue)
-            {
-                _count++;
-                _sum += element.Value;
-            }
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public double? GetResult()
-        {
-            return _count > 0 ? _sum / _count : null;
-        }
     }
+    internal class AverageOfNullableDoubleWithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, double?>
+    {
+        private readonly Func<TSource, double?> _selector;
 
-    internal class AverageOfNullableDoubleSink<TSource> : IEnumerableSink<TSource, double?>
+        public AverageOfNullableDoubleWithSelectorConsumer(Func<TSource, double?> selector)
+        {
+            _selector = selector;
+        }
+
+        public IEnumerableSink<TSource, double?> GetSink()
+        {
+            return new Sink(_selector);
+        }
+
+    private class Sink : IEnumerableSink<TSource, double?>
     {
         private readonly Func<TSource, double?> _selector;
 
         private int _count;
         private double _sum;
 
-        public AverageOfNullableDoubleSink(Func<TSource, double?> selector)
+        public Sink(Func<TSource, double?> selector)
         {
             _selector = selector;
         }
@@ -838,46 +879,29 @@ namespace EnumerationQuest.Consumers
             return _count > 0 ? _sum / _count : null;
         }
     }
-
-    internal class AverageOfNullableSingleSink : IEnumerableSink<float?, float?>
-    {
-        private int _count;
-        private float _sum;
-
-        public bool AcceptFirst(float? element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(float? element)
-        {
-            if (element.HasValue)
-            {
-                _count++;
-                _sum += element.Value;
-            }
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public float? GetResult()
-        {
-            return _count > 0 ? _sum / _count : null;
-        }
     }
+    internal class AverageOfNullableSingleWithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, float?>
+    {
+        private readonly Func<TSource, float?> _selector;
 
-    internal class AverageOfNullableSingleSink<TSource> : IEnumerableSink<TSource, float?>
+        public AverageOfNullableSingleWithSelectorConsumer(Func<TSource, float?> selector)
+        {
+            _selector = selector;
+        }
+
+        public IEnumerableSink<TSource, float?> GetSink()
+        {
+            return new Sink(_selector);
+        }
+
+    private class Sink : IEnumerableSink<TSource, float?>
     {
         private readonly Func<TSource, float?> _selector;
 
         private int _count;
         private float _sum;
 
-        public AverageOfNullableSingleSink(Func<TSource, float?> selector)
+        public Sink(Func<TSource, float?> selector)
         {
             _selector = selector;
         }
@@ -908,46 +932,29 @@ namespace EnumerationQuest.Consumers
             return _count > 0 ? _sum / _count : null;
         }
     }
-
-    internal class AverageOfNullableInt32Sink : IEnumerableSink<int?, double?>
-    {
-        private int _count;
-        private double _sum;
-
-        public bool AcceptFirst(int? element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(int? element)
-        {
-            if (element.HasValue)
-            {
-                _count++;
-                _sum += element.Value;
-            }
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public double? GetResult()
-        {
-            return _count > 0 ? _sum / _count : null;
-        }
     }
+    internal class AverageOfNullableInt32WithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, double?>
+    {
+        private readonly Func<TSource, int?> _selector;
 
-    internal class AverageOfNullableInt32Sink<TSource> : IEnumerableSink<TSource, double?>
+        public AverageOfNullableInt32WithSelectorConsumer(Func<TSource, int?> selector)
+        {
+            _selector = selector;
+        }
+
+        public IEnumerableSink<TSource, double?> GetSink()
+        {
+            return new Sink(_selector);
+        }
+
+    private class Sink : IEnumerableSink<TSource, double?>
     {
         private readonly Func<TSource, int?> _selector;
 
         private int _count;
         private double _sum;
 
-        public AverageOfNullableInt32Sink(Func<TSource, int?> selector)
+        public Sink(Func<TSource, int?> selector)
         {
             _selector = selector;
         }
@@ -978,46 +985,29 @@ namespace EnumerationQuest.Consumers
             return _count > 0 ? _sum / _count : null;
         }
     }
-
-    internal class AverageOfNullableInt64Sink : IEnumerableSink<long?, double?>
-    {
-        private int _count;
-        private double _sum;
-
-        public bool AcceptFirst(long? element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(long? element)
-        {
-            if (element.HasValue)
-            {
-                _count++;
-                _sum += element.Value;
-            }
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public double? GetResult()
-        {
-            return _count > 0 ? _sum / _count : null;
-        }
     }
+    internal class AverageOfNullableInt64WithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, double?>
+    {
+        private readonly Func<TSource, long?> _selector;
 
-    internal class AverageOfNullableInt64Sink<TSource> : IEnumerableSink<TSource, double?>
+        public AverageOfNullableInt64WithSelectorConsumer(Func<TSource, long?> selector)
+        {
+            _selector = selector;
+        }
+
+        public IEnumerableSink<TSource, double?> GetSink()
+        {
+            return new Sink(_selector);
+        }
+
+    private class Sink : IEnumerableSink<TSource, double?>
     {
         private readonly Func<TSource, long?> _selector;
 
         private int _count;
         private double _sum;
 
-        public AverageOfNullableInt64Sink(Func<TSource, long?> selector)
+        public Sink(Func<TSource, long?> selector)
         {
             _selector = selector;
         }
@@ -1048,5 +1038,5 @@ namespace EnumerationQuest.Consumers
             return _count > 0 ? _sum / _count : null;
         }
     }
-
+    }
 }

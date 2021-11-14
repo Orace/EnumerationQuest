@@ -46,53 +46,49 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, string> GetSink()
         {
-            return new DelimitedStringSink<TSource>(_delimiter);
+            return new Sink(_delimiter);
         }
-    }
 
-    internal class DelimitedStringSink<TSource> : IEnumerableSink<TSource, string>
-    {
-        private readonly string? _delimiter;
+        private class Sink : IEnumerableSink<TSource, string>
+        {
+            private readonly StringBuilder _stringBuilder = new();
+
+            private readonly string? _delimiter;
+
+            public Sink(string? delimiter)
+            {
+                _delimiter = delimiter;
+            }
         
-        private StringBuilder? _stringBuilder;
+            public bool AcceptFirst(TSource element)
+            {
+                _stringBuilder.Append(element);
+                return true;
+            }
 
-        public DelimitedStringSink(string? delimiter)
-        {
-            _delimiter = delimiter;
-        }
-        
-        public bool AcceptFirst(TSource element)
-        {
-            _stringBuilder = new StringBuilder();
-            _stringBuilder.Append(element);
-            return true;
-        }
+            public bool AcceptNext(TSource element)
+            {
+                _stringBuilder.Append(_delimiter);
+                _stringBuilder.Append(element);
 
-        public bool AcceptNext(TSource element)
-        {
-            if (_stringBuilder is null)
-                return false;
+                return true;
+            }
 
-            _stringBuilder.Append(_delimiter);
-            _stringBuilder.Append(element);
+            public void Dispose()
+            {
+            }
 
-            return true;
-        }
-
-        public void Dispose()
-        {
-            _stringBuilder = null;
-        }
-
-        public string GetResult()
-        {
-            return _stringBuilder is null ? string.Empty : _stringBuilder.ToString();
+            public string GetResult()
+            {
+                return _stringBuilder.ToString();
+            }
         }
     }
 
     internal class DelimitedStringWithStringSelectorConsumer<TSource> : IEnumerableConsumer<TSource, string>
     {
         private readonly string? _delimiter;
+
         private readonly Func<TSource, string?> _stringSelector;
 
         public DelimitedStringWithStringSelectorConsumer(string? delimiter, Func<TSource, string?> stringSelector)
@@ -103,49 +99,44 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, string> GetSink()
         {
-            return new DelimitedStringWithStringSelectorSink<TSource>(_delimiter, _stringSelector);
-        }
-    }
-
-    internal class DelimitedStringWithStringSelectorSink<TSource> : IEnumerableSink<TSource, string>
-    {
-        private readonly string? _delimiter;
-        private readonly Func<TSource, string?> _stringSelector;
-        
-        private StringBuilder? _stringBuilder;
-
-        public DelimitedStringWithStringSelectorSink(string? delimiter, Func<TSource, string?> stringSelector)
-        {
-            _delimiter = delimiter;
-            _stringSelector = stringSelector;
+            return new Sink(_delimiter, _stringSelector);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, string>
         {
-            _stringBuilder = new StringBuilder();
-            _stringBuilder.Append(_stringSelector(element));
-            return true;
-        }
+            private readonly StringBuilder _stringBuilder = new();
 
-        public bool AcceptNext(TSource element)
-        {
-            if (_stringBuilder is null)
-                return false;
+            private readonly string? _delimiter;
+            private readonly Func<TSource, string?> _stringSelector;
 
-            _stringBuilder.Append(_delimiter);
-            _stringBuilder.Append(_stringSelector(element));
+            public Sink(string? delimiter, Func<TSource, string?> stringSelector)
+            {
+                _delimiter = delimiter;
+                _stringSelector = stringSelector;
+            }
 
-            return true;
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                _stringBuilder.Append(_stringSelector(element));
+                return true;
+            }
 
-        public void Dispose()
-        {
-            _stringBuilder = null;
-        }
+            public bool AcceptNext(TSource element)
+            {
+                _stringBuilder.Append(_delimiter);
+                _stringBuilder.Append(_stringSelector(element));
 
-        public string GetResult()
-        {
-            return _stringBuilder is null ? string.Empty : _stringBuilder.ToString();
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public string GetResult()
+            {
+                return _stringBuilder.ToString();
+            }
         }
     }
 }

@@ -39,6 +39,7 @@ namespace EnumerationQuest.Consumers
     internal class ContainsConsumer<TSource> : IEnumerableConsumer<TSource, bool>
     {
         private readonly TSource _value;
+
         private readonly IEqualityComparer<TSource> _comparer;
 
         public ContainsConsumer(TSource value, IEqualityComparer<TSource> comparer)
@@ -49,47 +50,47 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, bool> GetSink()
         {
-            return new ContainsComparer<TSource>(_value, _comparer);
-        }
-    }
-
-    internal class ContainsComparer<TSource> : IEnumerableSink<TSource, bool>
-    {
-        private readonly TSource _value;
-        private readonly IEqualityComparer<TSource> _comparer;
-
-        private bool _result;
-
-        public ContainsComparer(TSource value, IEqualityComparer<TSource> comparer)
-        {
-            _value = value;
-            _comparer = comparer;
+            return new Sink(_value, _comparer);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, bool>
         {
-            return AcceptNext(element);
-        }
+            private readonly TSource _value;
+            private readonly IEqualityComparer<TSource> _comparer;
 
-        public bool AcceptNext(TSource element)
-        {
-            if (_result)
+            private bool _result;
+
+            public Sink(TSource value, IEqualityComparer<TSource> comparer)
+            {
+                _value = value;
+                _comparer = comparer;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                if (_result)
+                    return false;
+
+                if (!_comparer.Equals(_value, element))
+                    return true;
+
+                _result = true;
                 return false;
+            }
 
-            if (!_comparer.Equals(_value, element))
-                return true;
+            public void Dispose()
+            {
+            }
 
-            _result = true;
-            return false;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public bool GetResult()
-        {
-            return _result;
+            public bool GetResult()
+            {
+                return _result;
+            }
         }
     }
 }

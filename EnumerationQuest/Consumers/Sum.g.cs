@@ -27,25 +27,9 @@ namespace EnumerationQuest.Consumers
             return new SumOfDecimalConsumer();
         }
 
-        public static IEnumerableConsumer<TSource, decimal> SumOfDecimal<TSource>(Func<TSource, decimal> selector)
-        {
-            if (selector is null)
-                throw new ArgumentNullException(nameof(selector));
-
-            return new SumOfDecimalConsumer<TSource>(selector);
-        }
-
         public static IEnumerableConsumer<double, double> SumOfDouble()
         {
             return new SumOfDoubleConsumer();
-        }
-
-        public static IEnumerableConsumer<TSource, double> SumOfDouble<TSource>(Func<TSource, double> selector)
-        {
-            if (selector is null)
-                throw new ArgumentNullException(nameof(selector));
-
-            return new SumOfDoubleConsumer<TSource>(selector);
         }
 
         public static IEnumerableConsumer<float, float> SumOfSingle()
@@ -53,25 +37,9 @@ namespace EnumerationQuest.Consumers
             return new SumOfSingleConsumer();
         }
 
-        public static IEnumerableConsumer<TSource, float> SumOfSingle<TSource>(Func<TSource, float> selector)
-        {
-            if (selector is null)
-                throw new ArgumentNullException(nameof(selector));
-
-            return new SumOfSingleConsumer<TSource>(selector);
-        }
-
         public static IEnumerableConsumer<int, int> SumOfInt32()
         {
             return new SumOfInt32Consumer();
-        }
-
-        public static IEnumerableConsumer<TSource, int> SumOfInt32<TSource>(Func<TSource, int> selector)
-        {
-            if (selector is null)
-                throw new ArgumentNullException(nameof(selector));
-
-            return new SumOfInt32Consumer<TSource>(selector);
         }
 
         public static IEnumerableConsumer<long, long> SumOfInt64()
@@ -79,25 +47,9 @@ namespace EnumerationQuest.Consumers
             return new SumOfInt64Consumer();
         }
 
-        public static IEnumerableConsumer<TSource, long> SumOfInt64<TSource>(Func<TSource, long> selector)
-        {
-            if (selector is null)
-                throw new ArgumentNullException(nameof(selector));
-
-            return new SumOfInt64Consumer<TSource>(selector);
-        }
-
         public static IEnumerableConsumer<decimal?, decimal?> SumOfNullableDecimal()
         {
             return new SumOfNullableDecimalConsumer();
-        }
-
-        public static IEnumerableConsumer<TSource, decimal?> SumOfNullableDecimal<TSource>(Func<TSource, decimal?> selector)
-        {
-            if (selector is null)
-                throw new ArgumentNullException(nameof(selector));
-
-            return new SumOfNullableDecimalConsumer<TSource>(selector);
         }
 
         public static IEnumerableConsumer<double?, double?> SumOfNullableDouble()
@@ -105,25 +57,9 @@ namespace EnumerationQuest.Consumers
             return new SumOfNullableDoubleConsumer();
         }
 
-        public static IEnumerableConsumer<TSource, double?> SumOfNullableDouble<TSource>(Func<TSource, double?> selector)
-        {
-            if (selector is null)
-                throw new ArgumentNullException(nameof(selector));
-
-            return new SumOfNullableDoubleConsumer<TSource>(selector);
-        }
-
         public static IEnumerableConsumer<float?, float?> SumOfNullableSingle()
         {
             return new SumOfNullableSingleConsumer();
-        }
-
-        public static IEnumerableConsumer<TSource, float?> SumOfNullableSingle<TSource>(Func<TSource, float?> selector)
-        {
-            if (selector is null)
-                throw new ArgumentNullException(nameof(selector));
-
-            return new SumOfNullableSingleConsumer<TSource>(selector);
         }
 
         public static IEnumerableConsumer<int?, int?> SumOfNullableInt32()
@@ -131,17 +67,81 @@ namespace EnumerationQuest.Consumers
             return new SumOfNullableInt32Consumer();
         }
 
+        public static IEnumerableConsumer<long?, long?> SumOfNullableInt64()
+        {
+            return new SumOfNullableInt64Consumer();
+        }
+
+        public static IEnumerableConsumer<TSource, decimal> SumOfDecimal<TSource>(Func<TSource, decimal> selector)
+        {
+            if (selector is null)
+                throw new ArgumentNullException(nameof(selector));
+
+            return new SumOfDecimalWithSelectorConsumer<TSource>(selector);
+        }
+
+        public static IEnumerableConsumer<TSource, double> SumOfDouble<TSource>(Func<TSource, double> selector)
+        {
+            if (selector is null)
+                throw new ArgumentNullException(nameof(selector));
+
+            return new SumOfDoubleWithSelectorConsumer<TSource>(selector);
+        }
+
+        public static IEnumerableConsumer<TSource, float> SumOfSingle<TSource>(Func<TSource, float> selector)
+        {
+            if (selector is null)
+                throw new ArgumentNullException(nameof(selector));
+
+            return new SumOfSingleWithSelectorConsumer<TSource>(selector);
+        }
+
+        public static IEnumerableConsumer<TSource, int> SumOfInt32<TSource>(Func<TSource, int> selector)
+        {
+            if (selector is null)
+                throw new ArgumentNullException(nameof(selector));
+
+            return new SumOfInt32WithSelectorConsumer<TSource>(selector);
+        }
+
+        public static IEnumerableConsumer<TSource, long> SumOfInt64<TSource>(Func<TSource, long> selector)
+        {
+            if (selector is null)
+                throw new ArgumentNullException(nameof(selector));
+
+            return new SumOfInt64WithSelectorConsumer<TSource>(selector);
+        }
+
+        public static IEnumerableConsumer<TSource, decimal?> SumOfNullableDecimal<TSource>(Func<TSource, decimal?> selector)
+        {
+            if (selector is null)
+                throw new ArgumentNullException(nameof(selector));
+
+            return new SumOfNullableDecimalWithSelectorConsumer<TSource>(selector);
+        }
+
+        public static IEnumerableConsumer<TSource, double?> SumOfNullableDouble<TSource>(Func<TSource, double?> selector)
+        {
+            if (selector is null)
+                throw new ArgumentNullException(nameof(selector));
+
+            return new SumOfNullableDoubleWithSelectorConsumer<TSource>(selector);
+        }
+
+        public static IEnumerableConsumer<TSource, float?> SumOfNullableSingle<TSource>(Func<TSource, float?> selector)
+        {
+            if (selector is null)
+                throw new ArgumentNullException(nameof(selector));
+
+            return new SumOfNullableSingleWithSelectorConsumer<TSource>(selector);
+        }
+
         public static IEnumerableConsumer<TSource, int?> SumOfNullableInt32<TSource>(Func<TSource, int?> selector)
         {
             if (selector is null)
                 throw new ArgumentNullException(nameof(selector));
 
-            return new SumOfNullableInt32Consumer<TSource>(selector);
-        }
-
-        public static IEnumerableConsumer<long?, long?> SumOfNullableInt64()
-        {
-            return new SumOfNullableInt64Consumer();
+            return new SumOfNullableInt32WithSelectorConsumer<TSource>(selector);
         }
 
         public static IEnumerableConsumer<TSource, long?> SumOfNullableInt64<TSource>(Func<TSource, long?> selector)
@@ -149,7 +149,7 @@ namespace EnumerationQuest.Consumers
             if (selector is null)
                 throw new ArgumentNullException(nameof(selector));
 
-            return new SumOfNullableInt64Consumer<TSource>(selector);
+            return new SumOfNullableInt64WithSelectorConsumer<TSource>(selector);
         }
 
     }
@@ -158,22 +158,84 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<decimal, decimal> GetSink()
         {
-            return new SumOfDecimalSink();
+            return new Sink();
+        }
+
+        private class Sink : IEnumerableSink<decimal, decimal>
+        {
+            private decimal _sum;
+
+            public bool AcceptFirst(decimal element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(decimal element)
+            {
+                _sum += element;
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public decimal GetContent()
+            {
+                return _sum;
+            }
+
+            public decimal GetResult()
+            {
+                return _sum;
+            }
         }
     }
 
-    internal class SumOfDecimalConsumer<TSource> : IEnumerableConsumer<TSource, decimal>
+    internal class SumOfDecimalWithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, decimal>
     {
         private readonly Func<TSource, decimal> _selector;
 
-        public SumOfDecimalConsumer(Func<TSource, decimal> selector)
+        public SumOfDecimalWithSelectorConsumer(Func<TSource, decimal> selector)
         {
             _selector = selector;
         }
 
         public IEnumerableSink<TSource, decimal> GetSink()
         {
-            return new SumOfDecimalSink<TSource>(_selector);
+            return new Sink(_selector);
+        }
+
+        private class Sink : IEnumerableSink<TSource, decimal>
+        {
+            private readonly Func<TSource, decimal> _selector;
+
+            private decimal _sum;
+
+            public Sink(Func<TSource, decimal> selector)
+            {
+                _selector = selector;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                _sum += _selector(element);
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public decimal GetResult()
+            {
+                return _sum;
+            }
         }
     }
 
@@ -181,22 +243,84 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<double, double> GetSink()
         {
-            return new SumOfDoubleSink();
+            return new Sink();
+        }
+
+        private class Sink : IEnumerableSink<double, double>
+        {
+            private double _sum;
+
+            public bool AcceptFirst(double element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(double element)
+            {
+                _sum += element;
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public double GetContent()
+            {
+                return _sum;
+            }
+
+            public double GetResult()
+            {
+                return _sum;
+            }
         }
     }
 
-    internal class SumOfDoubleConsumer<TSource> : IEnumerableConsumer<TSource, double>
+    internal class SumOfDoubleWithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, double>
     {
         private readonly Func<TSource, double> _selector;
 
-        public SumOfDoubleConsumer(Func<TSource, double> selector)
+        public SumOfDoubleWithSelectorConsumer(Func<TSource, double> selector)
         {
             _selector = selector;
         }
 
         public IEnumerableSink<TSource, double> GetSink()
         {
-            return new SumOfDoubleSink<TSource>(_selector);
+            return new Sink(_selector);
+        }
+
+        private class Sink : IEnumerableSink<TSource, double>
+        {
+            private readonly Func<TSource, double> _selector;
+
+            private double _sum;
+
+            public Sink(Func<TSource, double> selector)
+            {
+                _selector = selector;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                _sum += _selector(element);
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public double GetResult()
+            {
+                return _sum;
+            }
         }
     }
 
@@ -204,22 +328,84 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<float, float> GetSink()
         {
-            return new SumOfSingleSink();
+            return new Sink();
+        }
+
+        private class Sink : IEnumerableSink<float, float>
+        {
+            private float _sum;
+
+            public bool AcceptFirst(float element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(float element)
+            {
+                _sum += element;
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public float GetContent()
+            {
+                return _sum;
+            }
+
+            public float GetResult()
+            {
+                return _sum;
+            }
         }
     }
 
-    internal class SumOfSingleConsumer<TSource> : IEnumerableConsumer<TSource, float>
+    internal class SumOfSingleWithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, float>
     {
         private readonly Func<TSource, float> _selector;
 
-        public SumOfSingleConsumer(Func<TSource, float> selector)
+        public SumOfSingleWithSelectorConsumer(Func<TSource, float> selector)
         {
             _selector = selector;
         }
 
         public IEnumerableSink<TSource, float> GetSink()
         {
-            return new SumOfSingleSink<TSource>(_selector);
+            return new Sink(_selector);
+        }
+
+        private class Sink : IEnumerableSink<TSource, float>
+        {
+            private readonly Func<TSource, float> _selector;
+
+            private float _sum;
+
+            public Sink(Func<TSource, float> selector)
+            {
+                _selector = selector;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                _sum += _selector(element);
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public float GetResult()
+            {
+                return _sum;
+            }
         }
     }
 
@@ -227,22 +413,84 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<int, int> GetSink()
         {
-            return new SumOfInt32Sink();
+            return new Sink();
+        }
+
+        private class Sink : IEnumerableSink<int, int>
+        {
+            private int _sum;
+
+            public bool AcceptFirst(int element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(int element)
+            {
+                _sum += element;
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public int GetContent()
+            {
+                return _sum;
+            }
+
+            public int GetResult()
+            {
+                return _sum;
+            }
         }
     }
 
-    internal class SumOfInt32Consumer<TSource> : IEnumerableConsumer<TSource, int>
+    internal class SumOfInt32WithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, int>
     {
         private readonly Func<TSource, int> _selector;
 
-        public SumOfInt32Consumer(Func<TSource, int> selector)
+        public SumOfInt32WithSelectorConsumer(Func<TSource, int> selector)
         {
             _selector = selector;
         }
 
         public IEnumerableSink<TSource, int> GetSink()
         {
-            return new SumOfInt32Sink<TSource>(_selector);
+            return new Sink(_selector);
+        }
+
+        private class Sink : IEnumerableSink<TSource, int>
+        {
+            private readonly Func<TSource, int> _selector;
+
+            private int _sum;
+
+            public Sink(Func<TSource, int> selector)
+            {
+                _selector = selector;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                _sum += _selector(element);
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public int GetResult()
+            {
+                return _sum;
+            }
         }
     }
 
@@ -250,22 +498,84 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<long, long> GetSink()
         {
-            return new SumOfInt64Sink();
+            return new Sink();
+        }
+
+        private class Sink : IEnumerableSink<long, long>
+        {
+            private long _sum;
+
+            public bool AcceptFirst(long element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(long element)
+            {
+                _sum += element;
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public long GetContent()
+            {
+                return _sum;
+            }
+
+            public long GetResult()
+            {
+                return _sum;
+            }
         }
     }
 
-    internal class SumOfInt64Consumer<TSource> : IEnumerableConsumer<TSource, long>
+    internal class SumOfInt64WithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, long>
     {
         private readonly Func<TSource, long> _selector;
 
-        public SumOfInt64Consumer(Func<TSource, long> selector)
+        public SumOfInt64WithSelectorConsumer(Func<TSource, long> selector)
         {
             _selector = selector;
         }
 
         public IEnumerableSink<TSource, long> GetSink()
         {
-            return new SumOfInt64Sink<TSource>(_selector);
+            return new Sink(_selector);
+        }
+
+        private class Sink : IEnumerableSink<TSource, long>
+        {
+            private readonly Func<TSource, long> _selector;
+
+            private long _sum;
+
+            public Sink(Func<TSource, long> selector)
+            {
+                _selector = selector;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                _sum += _selector(element);
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public long GetResult()
+            {
+                return _sum;
+            }
         }
     }
 
@@ -273,22 +583,84 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<decimal?, decimal?> GetSink()
         {
-            return new SumOfNullableDecimalSink();
+            return new Sink();
+        }
+
+        private class Sink : IEnumerableSink<decimal?, decimal?>
+        {
+            private decimal _sum;
+
+            public bool AcceptFirst(decimal? element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(decimal? element)
+            {
+                if (element.HasValue)
+                    _sum += element.Value;
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public decimal? GetResult()
+            {
+                return _sum;
+            }
         }
     }
 
-    internal class SumOfNullableDecimalConsumer<TSource> : IEnumerableConsumer<TSource, decimal?>
+    internal class SumOfNullableDecimalWithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, decimal?>
     {
         private readonly Func<TSource, decimal?> _selector;
 
-        public SumOfNullableDecimalConsumer(Func<TSource, decimal?> selector)
+        public SumOfNullableDecimalWithSelectorConsumer(Func<TSource, decimal?> selector)
         {
             _selector = selector;
         }
 
         public IEnumerableSink<TSource, decimal?> GetSink()
         {
-            return new SumOfNullableDecimalSink<TSource>(_selector);
+            return new Sink(_selector);
+        }
+
+        private class Sink : IEnumerableSink<TSource, decimal?>
+        {
+            private readonly Func<TSource, decimal?> _selector;
+
+            private decimal _sum;
+
+            public Sink(Func<TSource, decimal?> selector)
+            {
+                _selector = selector;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                var nullable = _selector(element);
+                if (nullable.HasValue)
+                    _sum += nullable.Value;
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public decimal? GetResult()
+            {
+                return _sum;
+            }
         }
     }
 
@@ -296,22 +668,84 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<double?, double?> GetSink()
         {
-            return new SumOfNullableDoubleSink();
+            return new Sink();
+        }
+
+        private class Sink : IEnumerableSink<double?, double?>
+        {
+            private double _sum;
+
+            public bool AcceptFirst(double? element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(double? element)
+            {
+                if (element.HasValue)
+                    _sum += element.Value;
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public double? GetResult()
+            {
+                return _sum;
+            }
         }
     }
 
-    internal class SumOfNullableDoubleConsumer<TSource> : IEnumerableConsumer<TSource, double?>
+    internal class SumOfNullableDoubleWithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, double?>
     {
         private readonly Func<TSource, double?> _selector;
 
-        public SumOfNullableDoubleConsumer(Func<TSource, double?> selector)
+        public SumOfNullableDoubleWithSelectorConsumer(Func<TSource, double?> selector)
         {
             _selector = selector;
         }
 
         public IEnumerableSink<TSource, double?> GetSink()
         {
-            return new SumOfNullableDoubleSink<TSource>(_selector);
+            return new Sink(_selector);
+        }
+
+        private class Sink : IEnumerableSink<TSource, double?>
+        {
+            private readonly Func<TSource, double?> _selector;
+
+            private double _sum;
+
+            public Sink(Func<TSource, double?> selector)
+            {
+                _selector = selector;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                var nullable = _selector(element);
+                if (nullable.HasValue)
+                    _sum += nullable.Value;
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public double? GetResult()
+            {
+                return _sum;
+            }
         }
     }
 
@@ -319,22 +753,84 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<float?, float?> GetSink()
         {
-            return new SumOfNullableSingleSink();
+            return new Sink();
+        }
+
+        private class Sink : IEnumerableSink<float?, float?>
+        {
+            private float _sum;
+
+            public bool AcceptFirst(float? element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(float? element)
+            {
+                if (element.HasValue)
+                    _sum += element.Value;
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public float? GetResult()
+            {
+                return _sum;
+            }
         }
     }
 
-    internal class SumOfNullableSingleConsumer<TSource> : IEnumerableConsumer<TSource, float?>
+    internal class SumOfNullableSingleWithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, float?>
     {
         private readonly Func<TSource, float?> _selector;
 
-        public SumOfNullableSingleConsumer(Func<TSource, float?> selector)
+        public SumOfNullableSingleWithSelectorConsumer(Func<TSource, float?> selector)
         {
             _selector = selector;
         }
 
         public IEnumerableSink<TSource, float?> GetSink()
         {
-            return new SumOfNullableSingleSink<TSource>(_selector);
+            return new Sink(_selector);
+        }
+
+        private class Sink : IEnumerableSink<TSource, float?>
+        {
+            private readonly Func<TSource, float?> _selector;
+
+            private float _sum;
+
+            public Sink(Func<TSource, float?> selector)
+            {
+                _selector = selector;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                var nullable = _selector(element);
+                if (nullable.HasValue)
+                    _sum += nullable.Value;
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public float? GetResult()
+            {
+                return _sum;
+            }
         }
     }
 
@@ -342,22 +838,84 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<int?, int?> GetSink()
         {
-            return new SumOfNullableInt32Sink();
+            return new Sink();
+        }
+
+        private class Sink : IEnumerableSink<int?, int?>
+        {
+            private int _sum;
+
+            public bool AcceptFirst(int? element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(int? element)
+            {
+                if (element.HasValue)
+                    _sum += element.Value;
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public int? GetResult()
+            {
+                return _sum;
+            }
         }
     }
 
-    internal class SumOfNullableInt32Consumer<TSource> : IEnumerableConsumer<TSource, int?>
+    internal class SumOfNullableInt32WithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, int?>
     {
         private readonly Func<TSource, int?> _selector;
 
-        public SumOfNullableInt32Consumer(Func<TSource, int?> selector)
+        public SumOfNullableInt32WithSelectorConsumer(Func<TSource, int?> selector)
         {
             _selector = selector;
         }
 
         public IEnumerableSink<TSource, int?> GetSink()
         {
-            return new SumOfNullableInt32Sink<TSource>(_selector);
+            return new Sink(_selector);
+        }
+
+        private class Sink : IEnumerableSink<TSource, int?>
+        {
+            private readonly Func<TSource, int?> _selector;
+
+            private int _sum;
+
+            public Sink(Func<TSource, int?> selector)
+            {
+                _selector = selector;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                var nullable = _selector(element);
+                if (nullable.HasValue)
+                    _sum += nullable.Value;
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public int? GetResult()
+            {
+                return _sum;
+            }
         }
     }
 
@@ -365,642 +923,84 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<long?, long?> GetSink()
         {
-            return new SumOfNullableInt64Sink();
+            return new Sink();
+        }
+
+        private class Sink : IEnumerableSink<long?, long?>
+        {
+            private long _sum;
+
+            public bool AcceptFirst(long? element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(long? element)
+            {
+                if (element.HasValue)
+                    _sum += element.Value;
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public long? GetResult()
+            {
+                return _sum;
+            }
         }
     }
 
-    internal class SumOfNullableInt64Consumer<TSource> : IEnumerableConsumer<TSource, long?>
+    internal class SumOfNullableInt64WithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, long?>
     {
         private readonly Func<TSource, long?> _selector;
 
-        public SumOfNullableInt64Consumer(Func<TSource, long?> selector)
+        public SumOfNullableInt64WithSelectorConsumer(Func<TSource, long?> selector)
         {
             _selector = selector;
         }
 
         public IEnumerableSink<TSource, long?> GetSink()
         {
-            return new SumOfNullableInt64Sink<TSource>(_selector);
+            return new Sink(_selector);
         }
-    }
 
-    internal class SumOfDecimalSink : IEnumerableSink<decimal, decimal>
-    {
-        private decimal _sum;
-
-        public bool AcceptFirst(decimal element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(decimal element)
-        {
-            _sum += element;
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public decimal GetContent()
-        {
-            return _sum;
-        }
-
-        public decimal GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOfDecimalSink<TSource> : IEnumerableSink<TSource, decimal>
-    {
-        private readonly Func<TSource, decimal> _selector;
-
-        private decimal _sum;
-
-        public SumOfDecimalSink(Func<TSource, decimal> selector)
-        {
-            _selector = selector;
-        }
-
-        public bool AcceptFirst(TSource element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(TSource element)
-        {
-            _sum += _selector(element);
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public decimal GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOfDoubleSink : IEnumerableSink<double, double>
-    {
-        private double _sum;
-
-        public bool AcceptFirst(double element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(double element)
-        {
-            _sum += element;
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public double GetContent()
-        {
-            return _sum;
-        }
-
-        public double GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOfDoubleSink<TSource> : IEnumerableSink<TSource, double>
-    {
-        private readonly Func<TSource, double> _selector;
-
-        private double _sum;
-
-        public SumOfDoubleSink(Func<TSource, double> selector)
-        {
-            _selector = selector;
-        }
-
-        public bool AcceptFirst(TSource element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(TSource element)
-        {
-            _sum += _selector(element);
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public double GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOfSingleSink : IEnumerableSink<float, float>
-    {
-        private float _sum;
-
-        public bool AcceptFirst(float element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(float element)
-        {
-            _sum += element;
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public float GetContent()
-        {
-            return _sum;
-        }
-
-        public float GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOfSingleSink<TSource> : IEnumerableSink<TSource, float>
-    {
-        private readonly Func<TSource, float> _selector;
-
-        private float _sum;
-
-        public SumOfSingleSink(Func<TSource, float> selector)
-        {
-            _selector = selector;
-        }
-
-        public bool AcceptFirst(TSource element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(TSource element)
-        {
-            _sum += _selector(element);
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public float GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOfInt32Sink : IEnumerableSink<int, int>
-    {
-        private int _sum;
-
-        public bool AcceptFirst(int element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(int element)
-        {
-            _sum += element;
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public int GetContent()
-        {
-            return _sum;
-        }
-
-        public int GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOfInt32Sink<TSource> : IEnumerableSink<TSource, int>
-    {
-        private readonly Func<TSource, int> _selector;
-
-        private int _sum;
-
-        public SumOfInt32Sink(Func<TSource, int> selector)
-        {
-            _selector = selector;
-        }
-
-        public bool AcceptFirst(TSource element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(TSource element)
-        {
-            _sum += _selector(element);
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public int GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOfInt64Sink : IEnumerableSink<long, long>
-    {
-        private long _sum;
-
-        public bool AcceptFirst(long element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(long element)
-        {
-            _sum += element;
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public long GetContent()
-        {
-            return _sum;
-        }
-
-        public long GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOfInt64Sink<TSource> : IEnumerableSink<TSource, long>
-    {
-        private readonly Func<TSource, long> _selector;
-
-        private long _sum;
-
-        public SumOfInt64Sink(Func<TSource, long> selector)
-        {
-            _selector = selector;
-        }
-
-        public bool AcceptFirst(TSource element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(TSource element)
-        {
-            _sum += _selector(element);
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public long GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOfNullableDecimalSink : IEnumerableSink<decimal?, decimal?>
-    {
-        private decimal _sum;
-
-        public bool AcceptFirst(decimal? element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(decimal? element)
-        {
-            if (element.HasValue)
-                _sum += element.Value;
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public decimal? GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOfNullableDecimalSink<TSource> : IEnumerableSink<TSource, decimal?>
-    {
-        private readonly Func<TSource, decimal?> _selector;
-
-        private decimal _sum;
-
-        public SumOfNullableDecimalSink(Func<TSource, decimal?> selector)
-        {
-            _selector = selector;
-        }
-
-        public bool AcceptFirst(TSource element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(TSource element)
-        {
-            var nullable = _selector(element);
-            if (nullable.HasValue)
-                _sum += nullable.Value;
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public decimal? GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOfNullableDoubleSink : IEnumerableSink<double?, double?>
-    {
-        private double _sum;
-
-        public bool AcceptFirst(double? element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(double? element)
-        {
-            if (element.HasValue)
-                _sum += element.Value;
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public double? GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOfNullableDoubleSink<TSource> : IEnumerableSink<TSource, double?>
-    {
-        private readonly Func<TSource, double?> _selector;
-
-        private double _sum;
-
-        public SumOfNullableDoubleSink(Func<TSource, double?> selector)
-        {
-            _selector = selector;
-        }
-
-        public bool AcceptFirst(TSource element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(TSource element)
-        {
-            var nullable = _selector(element);
-            if (nullable.HasValue)
-                _sum += nullable.Value;
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public double? GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOfNullableSingleSink : IEnumerableSink<float?, float?>
-    {
-        private float _sum;
-
-        public bool AcceptFirst(float? element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(float? element)
-        {
-            if (element.HasValue)
-                _sum += element.Value;
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public float? GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOfNullableSingleSink<TSource> : IEnumerableSink<TSource, float?>
-    {
-        private readonly Func<TSource, float?> _selector;
-
-        private float _sum;
-
-        public SumOfNullableSingleSink(Func<TSource, float?> selector)
-        {
-            _selector = selector;
-        }
-
-        public bool AcceptFirst(TSource element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(TSource element)
-        {
-            var nullable = _selector(element);
-            if (nullable.HasValue)
-                _sum += nullable.Value;
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public float? GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOfNullableInt32Sink : IEnumerableSink<int?, int?>
-    {
-        private int _sum;
-
-        public bool AcceptFirst(int? element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(int? element)
-        {
-            if (element.HasValue)
-                _sum += element.Value;
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public int? GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOfNullableInt32Sink<TSource> : IEnumerableSink<TSource, int?>
-    {
-        private readonly Func<TSource, int?> _selector;
-
-        private int _sum;
-
-        public SumOfNullableInt32Sink(Func<TSource, int?> selector)
-        {
-            _selector = selector;
-        }
-
-        public bool AcceptFirst(TSource element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(TSource element)
-        {
-            var nullable = _selector(element);
-            if (nullable.HasValue)
-                _sum += nullable.Value;
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public int? GetResult()
-        {
-            return _sum;
-        }
-    }
-
-    internal class SumOfNullableInt64Sink : IEnumerableSink<long?, long?>
-    {
-        private long _sum;
-
-        public bool AcceptFirst(long? element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(long? element)
-        {
-            if (element.HasValue)
-                _sum += element.Value;
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public long? GetResult()
+        private class Sink : IEnumerableSink<TSource, long?>
         {
-            return _sum;
-        }
-    }
+            private readonly Func<TSource, long?> _selector;
 
-    internal class SumOfNullableInt64Sink<TSource> : IEnumerableSink<TSource, long?>
-    {
-        private readonly Func<TSource, long?> _selector;
+            private long _sum;
 
-        private long _sum;
+            public Sink(Func<TSource, long?> selector)
+            {
+                _selector = selector;
+            }
 
-        public SumOfNullableInt64Sink(Func<TSource, long?> selector)
-        {
-            _selector = selector;
-        }
-
-        public bool AcceptFirst(TSource element)
-        {
-            return AcceptNext(element);
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
 
-        public bool AcceptNext(TSource element)
-        {
-            var nullable = _selector(element);
-            if (nullable.HasValue)
-                _sum += nullable.Value;
+            public bool AcceptNext(TSource element)
+            {
+                var nullable = _selector(element);
+                if (nullable.HasValue)
+                    _sum += nullable.Value;
 
-            return true;
-        }
+                return true;
+            }
 
-        public void Dispose()
-        {
-        }
+            public void Dispose()
+            {
+            }
 
-        public long? GetResult()
-        {
-            return _sum;
+            public long? GetResult()
+            {
+                return _sum;
+            }
         }
     }
 

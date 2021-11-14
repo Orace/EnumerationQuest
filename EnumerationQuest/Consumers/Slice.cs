@@ -40,283 +40,264 @@ namespace EnumerationQuest.Consumers
         {
             return (_range.Start.IsFromEnd, _range.End.IsFromEnd) switch
             {
-                (false, false) when _range.Start.Value >= _range.End.Value => EmptySliceSink<TSource>.Instance,
-                (true, true) when _range.Start.Value <= _range.End.Value => EmptySliceSink<TSource>.Instance,
-                (false, false) => new SliceSinkFromStartFromStart<TSource>(_range.Start.Value, _range.End.Value),
-                (false, true) => new SliceSinkFromStartFromEnd<TSource>(_range.Start.Value, _range.End.Value),
-                (true, false) => new SliceSinkFromEndFromStart<TSource>(_range.Start.Value, _range.End.Value),
-                (true, true) => new SliceSinkFromEndFromEnd<TSource>(_range.Start.Value, _range.End.Value),
+                (false, false) when _range.Start.Value >= _range.End.Value => SinkForEmpty.Instance,
+                (true, true) when _range.Start.Value <= _range.End.Value => SinkForEmpty.Instance,
+                (false, false) => new SinkForFromStartFromStart(_range.Start.Value, _range.End.Value),
+                (false, true) => new SinkForFromStartFromEnd(_range.Start.Value, _range.End.Value),
+                (true, false) => new SinkForFromEndFromStart(_range.Start.Value, _range.End.Value),
+                (true, true) => new SinkForFromEndFromEnd(_range.Start.Value, _range.End.Value),
             };
         }
-    }
 
-    internal class EmptySliceSink<TSource> : IEnumerableSink<TSource, List<TSource>>
-    {
-        public static EmptySliceSink<TSource> Instance { get; } = new();
-
-        private EmptySliceSink()
+        private class SinkForEmpty : IEnumerableSink<TSource, List<TSource>>
         {
-        }
+            public static SinkForEmpty Instance { get; } = new();
 
-        public bool AcceptFirst(TSource element)
-        {
-            return false;
-        }
+            private SinkForEmpty()
+            {
+            }
 
-        public bool AcceptNext(TSource element)
-        {
-            return false;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public List<TSource> GetResult()
-        {
-            return new List<TSource>();
-        }
-    }
-
-    internal class SliceSinkFromStartFromStart<TSource> : IEnumerableSink<TSource, List<TSource>>
-    {
-        private readonly int _startIndex;
-        private readonly int _endIndex;
-
-        private int _index;
-        private List<TSource>? _result;
-
-        public SliceSinkFromStartFromStart(int startIndex, int endIndex)
-        {
-            _startIndex = startIndex;
-            _endIndex = endIndex;
-        }
-
-        public bool AcceptFirst(TSource element)
-        {
-            _result = new List<TSource>(_endIndex - _startIndex);
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(TSource element)
-        {
-            if (_result is null)
+            public bool AcceptFirst(TSource element)
+            {
                 return false;
+            }
 
-            if (_index >= _endIndex)
+            public bool AcceptNext(TSource element)
+            {
                 return false;
-
-            if (_index >= _startIndex)
-                _result.Add(element);
-
-            _index++;
-
-            return _index < _endIndex;
-        }
-
-        public void Dispose()
-        {
-            _result = null;
-        }
-
-        public List<TSource> GetResult()
-        {
-            _result ??= new List<TSource>();
-            
-            _result.TrimExcess();
-            return _result;
-        }
-    }
-
-    internal class SliceSinkFromStartFromEnd<TSource> : IEnumerableSink<TSource, List<TSource>>
-    {
-        private readonly int _startIndex;
-        private readonly int _endOffset;
-
-        private int _index;
-        private List<TSource>? _result;
-
-        public SliceSinkFromStartFromEnd(int startIndex, int endOffset)
-        {
-            _startIndex = startIndex;
-            _endOffset = endOffset;
-        }
-
-        public bool AcceptFirst(TSource element)
-        {
-            _result = new List<TSource>();
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(TSource element)
-        {
-            if (_result is null)
-                return false;
-
-            if (_index >= _startIndex)
-                _result.Add(element);
-
-            _index++;
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-            _result = null;
-        }
-
-        public List<TSource> GetResult()
-        {
-            _result ??= new List<TSource>();
-
-            var count = _result.Count - _endOffset;
-            if (count <= 0)
-            {
-                _result.Clear();
-            }
-            else
-            {
-                _result.RemoveRange(count, _result.Count - count);
             }
 
-            _result.TrimExcess();
-            return _result;
-        }
-    }
-
-    internal class SliceSinkFromEndFromStart<TSource> : IEnumerableSink<TSource, List<TSource>>
-    {
-        private readonly int _startOffset;
-        private readonly int _endIndex;
-
-        private int _index;
-        private List<TSource>? _result;
-
-        public SliceSinkFromEndFromStart(int startOffset, int endIndex)
-        {
-            _startOffset = startOffset;
-            _endIndex = endIndex;
-        }
-
-        public bool AcceptFirst(TSource element)
-        {
-            _result = new List<TSource>(_endIndex);
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(TSource element)
-        {
-            if (_result is null)
-                return false;
-
-            if (_index < _endIndex)
-                _result.Add(element);
-
-            _index++;
-
-            var startIndex = _index - _startOffset;
-            return startIndex < _endIndex;
-        }
-
-        public void Dispose()
-        {
-            _result = null;
-        }
-
-        public List<TSource> GetResult()
-        {
-            var startIndex = Math.Max(0, _index - _startOffset);
-            var endIndex = Math.Min(_endIndex, _index);
-
-            var count = Math.Max(0, endIndex - startIndex);
-
-            _result ??= new List<TSource>();
-
-            if (count <= 0)
+            public void Dispose()
             {
-                _result.Clear();
-            }
-            else
-            {
-                _result.RemoveRange(0, startIndex);
-                _result.RemoveRange(count, _result.Count - count);
             }
 
-            _result.TrimExcess();
-            return _result;
-        }
-    }
-
-    internal class SliceSinkFromEndFromEnd<TSource> : IEnumerableSink<TSource, List<TSource>>
-    {
-        private readonly int _startOffset;
-        private readonly int _endOffset;
-
-        private int _index;
-        private List<TSource>? _circularBuffer;
-
-        public SliceSinkFromEndFromEnd(int startOffset, int endOffset)
-        {
-            _startOffset = startOffset;
-            _endOffset = endOffset;
-        }
-
-        public bool AcceptFirst(TSource element)
-        {
-            _circularBuffer = new List<TSource>(_startOffset);
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(TSource element)
-        {
-            if (_circularBuffer is null)
-                return false;
-
-            if (_index >= _startOffset)
+            public List<TSource> GetResult()
             {
-                _circularBuffer[_index % _startOffset] = element;
-            }
-            else
-            {
-                _circularBuffer.Add(element);
-            }
-
-            _index++;
-            return true;
-        }
-
-        public void Dispose()
-        {
-            _circularBuffer = null;
-        }
-
-        public List<TSource> GetResult()
-        {
-            var startIndex = Math.Max(0, _index - _startOffset);
-            var endIndex = Math.Max(0, _index - _endOffset);
-            var count = endIndex - startIndex;
-
-            if (_circularBuffer is null || count == 0)
                 return new List<TSource>();
+            }
+        }
 
-            var start1 = _index % _startOffset;
-            var length1 = Math.Min(count, _circularBuffer.Count - start1);
-            if (length1 == count)
+        private class SinkForFromStartFromStart : IEnumerableSink<TSource, List<TSource>>
+        {
+            private readonly List<TSource> _result;
+
+            private readonly int _startIndex;
+            private readonly int _endIndex;
+
+            private int _index;
+
+            public SinkForFromStartFromStart(int startIndex, int endIndex)
             {
+                _result = new List<TSource>(endIndex - startIndex);
+
+                _startIndex = startIndex;
+                _endIndex = endIndex;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                if (_index >= _endIndex)
+                    return false;
+
+                if (_index >= _startIndex)
+                    _result.Add(element);
+
+                _index++;
+
+                return _index < _endIndex;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public List<TSource> GetResult()
+            {
+                _result.TrimExcess();
+                return _result;
+            }
+        }
+
+        private class SinkForFromStartFromEnd : IEnumerableSink<TSource, List<TSource>>
+        {
+            private readonly List<TSource> _result = new();
+
+            private readonly int _startIndex;
+            private readonly int _endOffset;
+
+            private int _index;
+
+            public SinkForFromStartFromEnd(int startIndex, int endOffset)
+            {
+                _startIndex = startIndex;
+                _endOffset = endOffset;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                if (_index >= _startIndex)
+                    _result.Add(element);
+
+                _index++;
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public List<TSource> GetResult()
+            {
+                var count = _result.Count - _endOffset;
+                if (count <= 0)
+                {
+                    _result.Clear();
+                }
+                else
+                {
+                    _result.RemoveRange(count, _result.Count - count);
+                }
+
+                _result.TrimExcess();
+                return _result;
+            }
+        }
+
+        private class SinkForFromEndFromStart : IEnumerableSink<TSource, List<TSource>>
+        {
+            private readonly List<TSource> _result;
+
+            private readonly int _startOffset;
+            private readonly int _endIndex;
+
+            private int _index;
+
+            public SinkForFromEndFromStart(int startOffset, int endIndex)
+            {
+                _result = new List<TSource>(endIndex);
+
+                _startOffset = startOffset;
+                _endIndex = endIndex;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                if (_index < _endIndex)
+                    _result.Add(element);
+
+                _index++;
+
+                var startIndex = _index - _startOffset;
+                return startIndex < _endIndex;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public List<TSource> GetResult()
+            {
+                var startIndex = Math.Max(0, _index - _startOffset);
+                var endIndex = Math.Min(_endIndex, _index);
+
+                var count = Math.Max(0, endIndex - startIndex);
+
+                if (count <= 0)
+                {
+                    _result.Clear();
+                }
+                else
+                {
+                    _result.RemoveRange(0, startIndex);
+                    _result.RemoveRange(count, _result.Count - count);
+                }
+
+                _result.TrimExcess();
+                return _result;
+            }
+        }
+
+        private class SinkForFromEndFromEnd : IEnumerableSink<TSource, List<TSource>>
+        {
+            private readonly List<TSource> _circularBuffer;
+
+            private readonly int _startOffset;
+            private readonly int _endOffset;
+
+            private int _index;
+
+            public SinkForFromEndFromEnd(int startOffset, int endOffset)
+            {
+                _circularBuffer = new List<TSource>(startOffset);
+
+                _startOffset = startOffset;
+                _endOffset = endOffset;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                if (_index >= _startOffset)
+                {
+                    _circularBuffer[_index % _startOffset] = element;
+                }
+                else
+                {
+                    _circularBuffer.Add(element);
+                }
+
+                _index++;
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public List<TSource> GetResult()
+            {
+                var startIndex = Math.Max(0, _index - _startOffset);
+                var endIndex = Math.Max(0, _index - _endOffset);
+                var count = endIndex - startIndex;
+
+                var start1 = _index % _startOffset;
+                var length1 = Math.Min(count, _circularBuffer.Count - start1);
+                if (length1 == count)
+                {
+                    _circularBuffer.RemoveRange(0, start1);
+                    _circularBuffer.RemoveRange(count, _circularBuffer.Count - count);
+                    _circularBuffer.TrimExcess();
+                    return _circularBuffer;
+                }
+
+                var length2 = count - length1;
+                var tmp = new TSource[length2];
+                _circularBuffer.CopyTo(0, tmp, 0, length2);
                 _circularBuffer.RemoveRange(0, start1);
-                _circularBuffer.RemoveRange(count, _circularBuffer.Count - count);
+                _circularBuffer.AddRange(tmp);
                 _circularBuffer.TrimExcess();
                 return _circularBuffer;
             }
-
-            var length2 = count - length1;
-            var tmp = new TSource[length2];
-            _circularBuffer.CopyTo(0, tmp, 0, length2);
-            _circularBuffer.RemoveRange(0, start1);
-            _circularBuffer.AddRange(tmp);
-            _circularBuffer.TrimExcess();
-            return _circularBuffer;
         }
     }
 }

@@ -44,6 +44,7 @@ namespace EnumerationQuest.Consumers
     internal class MinimumsByConsumer<TSource, TKey> : IEnumerableConsumer<TSource, List<TSource>>
     {
         private readonly Func<TSource, TKey> _keySelector;
+
         private readonly IComparer<TKey> _comparer;
 
         public MinimumsByConsumer(Func<TSource, TKey> keySelector, IComparer<TKey> comparer)
@@ -54,70 +55,66 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, List<TSource>> GetSink()
         {
-            return new MinimumsBySink<TSource, TKey>(_keySelector, _comparer);
-        }
-    }
-
-    internal class MinimumsBySink<TSource, TKey> : IEnumerableSink<TSource, List<TSource>>
-    {
-        private readonly Func<TSource, TKey> _keySelector;
-        private readonly IComparer<TKey> _comparer;
-
-        private TKey? _bestKey;
-        private bool _isBestKeyDefined;
-        private List<TSource>? _result;
-
-        public MinimumsBySink(Func<TSource, TKey> keySelector, IComparer<TKey> comparer)
-        {
-            _keySelector = keySelector;
-            _comparer = comparer;
+            return new Sink(_keySelector, _comparer);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, List<TSource>>
         {
-            _result = new List<TSource> { element };
-            return true;
-        }
+            private readonly List<TSource> _result = new();
 
-        public bool AcceptNext(TSource element)
-        {
-            if (_result is null || _result.Count == 0)
-                return false;
+            private readonly Func<TSource, TKey> _keySelector;
+            private readonly IComparer<TKey> _comparer;
 
-            if (!_isBestKeyDefined)
+            private TKey? _bestKey;
+            private bool _isBestKeyDefined;
+
+            public Sink(Func<TSource, TKey> keySelector, IComparer<TKey> comparer)
             {
-                _bestKey = _keySelector(_result[0]);
-                _isBestKeyDefined = true;
+                _keySelector = keySelector;
+                _comparer = comparer;
             }
 
-            var key = _keySelector(element);
-            switch (_comparer.Compare(key, _bestKey!))
+            public bool AcceptFirst(TSource element)
             {
-                case > 0:
-                    return true;
-                case < 0:
-                    _result.Clear();
-                    _bestKey = key;
-                    break;
+                _result.Add(element);
+                return true;
             }
 
-            _result.Add(element);
-            return true;
-        }
+            public bool AcceptNext(TSource element)
+            {
+                if (_result.Count == 0)
+                    return false;
 
-        public void Dispose()
-        {
-            _bestKey = default;
-            _result = default;
-        }
+                if (!_isBestKeyDefined)
+                {
+                    _bestKey = _keySelector(_result[0]);
+                    _isBestKeyDefined = true;
+                }
 
-        public List<TSource> GetResult()
-        {
-            if (_result is null)
-                return new List<TSource>();
+                var key = _keySelector(element);
+                switch (_comparer.Compare(key, _bestKey!))
+                {
+                    case > 0:
+                        return true;
+                    case < 0:
+                        _result.Clear();
+                        _bestKey = key;
+                        break;
+                }
 
-            _result.TrimExcess();
-            return _result;
+                _result.Add(element);
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public List<TSource> GetResult()
+            {
+                _result.TrimExcess();
+                return _result;
+            }
         }
     }
 }

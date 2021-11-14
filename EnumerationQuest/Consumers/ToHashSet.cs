@@ -46,38 +46,37 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, HashSet<TSource>> GetSink()
         {
-            return new ToHashSetSink<TSource>(_comparer);
-        }
-    }
-
-    internal class ToHashSetSink<TSource> : IEnumerableSink<TSource, HashSet<TSource>>
-    {
-        private readonly HashSet<TSource> _hashSet;
-
-        public ToHashSetSink(IEqualityComparer<TSource> comparer)
-        {
-            _hashSet = new HashSet<TSource>(comparer);
+            return new Sink(_comparer);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, HashSet<TSource>>
         {
-            return AcceptNext(element);
-        }
+            private readonly HashSet<TSource> _hashSet;
 
-        public bool AcceptNext(TSource element)
-        {
-            _hashSet.Add(element);
-            return true;
-        }
+            public Sink(IEqualityComparer<TSource> comparer)
+            {
+                _hashSet = new HashSet<TSource>(comparer);
+            }
 
-        public void Dispose()
-        {
-            _hashSet.Clear();
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
 
-        public HashSet<TSource> GetResult()
-        {
-            return _hashSet;
+            public bool AcceptNext(TSource element)
+            {
+                _hashSet.Add(element);
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public HashSet<TSource> GetResult()
+            {
+                return _hashSet;
+            }
         }
     }
 }

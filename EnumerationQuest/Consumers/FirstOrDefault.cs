@@ -58,44 +58,44 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, TSource?> GetSink()
         {
-            return new FirstOrDefaultSink<TSource>(_defaultValue);
-        }
-    }
-
-    internal class FirstOrDefaultSink<TSource> : IEnumerableSink<TSource, TSource?>
-    {
-        private TSource? _result;
-
-        public FirstOrDefaultSink(TSource? defaultValue)
-        {
-            _result = defaultValue;
+            return new Sink(_defaultValue);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, TSource?>
         {
-            _result = element;
-            return false;
-        }
+            private TSource? _result;
 
-        public bool AcceptNext(TSource element)
-        {
-            return false;
-        }
+            public Sink(TSource? defaultValue)
+            {
+                _result = defaultValue;
+            }
 
-        public void Dispose()
-        {
-            _result = default;
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                _result = element;
+                return false;
+            }
 
-        public TSource? GetResult()
-        {
-            return _result;
+            public bool AcceptNext(TSource element)
+            {
+                return false;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public TSource? GetResult()
+            {
+                return _result;
+            }
         }
     }
 
     internal class FirstOrDefaultWithPredicateConsumer<TSource> : IEnumerableConsumer<TSource, TSource?>
     {
         private readonly Func<TSource, bool> _predicate;
+
         private readonly TSource? _defaultValue;
 
         public FirstOrDefaultWithPredicateConsumer(Func<TSource, bool> predicate, TSource? defaultValue)
@@ -106,50 +106,49 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, TSource?> GetSink()
         {
-            return new FirstOrDefaultWithPredicateSink<TSource>(_predicate, _defaultValue);
-        }
-    }
-
-    internal class FirstOrDefaultWithPredicateSink<TSource> : IEnumerableSink<TSource, TSource?>
-    {
-        private readonly Func<TSource, bool> _predicate;
-
-        private bool _hasResult;
-        private TSource? _result;
-
-        public FirstOrDefaultWithPredicateSink(Func<TSource, bool> predicate, TSource? defaultValue)
-        {
-            _predicate = predicate;
-            _result = defaultValue;
+            return new Sink(_predicate, _defaultValue);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, TSource?>
         {
-            return AcceptNext(element);
-        }
+            private readonly Func<TSource, bool> _predicate;
 
-        public bool AcceptNext(TSource element)
-        {
-            if (_hasResult)
+            private bool _hasResult;
+            private TSource? _result;
+
+            public Sink(Func<TSource, bool> predicate, TSource? defaultValue)
+            {
+                _predicate = predicate;
+                _result = defaultValue;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                if (_hasResult)
+                    return false;
+
+                if (!_predicate(element))
+                    return true;
+
+                _result = element;
+                _hasResult = true;
+
                 return false;
+            }
 
-            if (!_predicate(element))
-                return true;
+            public void Dispose()
+            {
+            }
 
-            _result = element;
-            _hasResult = true;
-
-            return false;
-        }
-
-        public void Dispose()
-        {
-            _result = default;
-        }
-
-        public TSource? GetResult()
-        {
-            return _result;
+            public TSource? GetResult()
+            {
+                return _result;
+            }
         }
     }
 }

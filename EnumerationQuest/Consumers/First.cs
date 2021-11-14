@@ -38,37 +38,35 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<TSource, TSource> GetSink()
         {
-            return new FirstSink<TSource>();
-        }
-    }
-
-    internal class FirstSink<TSource> : IEnumerableSink<TSource, TSource>
-    {
-        private bool _hasContent;
-        private TSource? _result;
-
-        public bool AcceptFirst(TSource element)
-        {
-            _hasContent = true;
-            _result = element;
-
-            return false;
+            return new Sink();
         }
 
-        public bool AcceptNext(TSource element)
+        private class Sink : IEnumerableSink<TSource, TSource>
         {
-            return false;
-        }
+            private bool _hasContent;
+            private TSource? _result;
 
-        public void Dispose()
-        {
-            _hasContent = false;
-            _result = default;
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                _hasContent = true;
+                _result = element;
 
-        public TSource GetResult()
-        {
-            return _hasContent ? _result! : throw new InvalidOperationException("Sequence was empty");
+                return false;
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                return false;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public TSource GetResult()
+            {
+                return _hasContent ? _result! : throw new InvalidOperationException("Sequence was empty");
+            }
         }
     }
 
@@ -83,50 +81,48 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, TSource> GetSink()
         {
-            return new FirstWithPredicateSink<TSource>(_predicate);
-        }
-    }
-
-    internal class FirstWithPredicateSink<TSource> : IEnumerableSink<TSource, TSource>
-    {
-        private readonly Func<TSource, bool> _predicate;
-
-        private bool _hasContent;
-        private TSource? _result;
-
-        public FirstWithPredicateSink(Func<TSource, bool> predicate)
-        {
-            _predicate = predicate;
+            return new Sink(_predicate);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, TSource>
         {
-            return AcceptNext(element);
-        }
+            private readonly Func<TSource, bool> _predicate;
 
-        public bool AcceptNext(TSource element)
-        {
-            if (_hasContent)
+            private bool _hasContent;
+            private TSource? _result;
+
+            public Sink(Func<TSource, bool> predicate)
+            {
+                _predicate = predicate;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                if (_hasContent)
+                    return false;
+
+                if (!_predicate(element))
+                    return true;
+
+                _hasContent = true;
+                _result = element;
+
                 return false;
+            }
 
-            if (!_predicate(element))
-                return true;
+            public void Dispose()
+            {
+            }
 
-            _hasContent = true;
-            _result = element;
-
-            return false;
-        }
-
-        public void Dispose()
-        {
-            _hasContent = false;
-            _result = default;
-        }
-
-        public TSource GetResult()
-        {
-            return _hasContent ? _result! : throw new InvalidOperationException("The sequence contains no elements that match the predicate");
+            public TSource GetResult()
+            {
+                return _hasContent ? _result! : throw new InvalidOperationException("The sequence contains no elements that match the predicate");
+            }
         }
     }
 }

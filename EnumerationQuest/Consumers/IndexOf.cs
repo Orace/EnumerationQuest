@@ -38,6 +38,7 @@ namespace EnumerationQuest.Consumers
     internal class IndexOfConsumer<TSource> : IEnumerableConsumer<TSource, int>
     {
         private readonly TSource _value;
+
         private readonly IEqualityComparer<TSource> _comparer;
 
         public IndexOfConsumer(TSource value, IEqualityComparer<TSource> comparer)
@@ -48,57 +49,55 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, int> GetSink()
         {
-            return new IndexOfSink<TSource>(_value, _comparer);
-        }
-    }
-
-    internal class IndexOfSink<TSource> : IEnumerableSink<TSource, int>
-    {
-        private readonly TSource _value;
-        private readonly IEqualityComparer<TSource> _comparer;
-
-        private int _index;
-        private int _result = -1;
-
-        public IndexOfSink(TSource value, IEqualityComparer<TSource> comparer)
-        {
-            _value = value;
-            _comparer = comparer;
+            return new Sink(_value, _comparer);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, int>
         {
-            return AcceptNext(element);
-        }
+            private readonly TSource _value;
+            private readonly IEqualityComparer<TSource> _comparer;
 
-        public bool AcceptNext(TSource element)
-        {
-            if (_result >= 0)
-                return false;
+            private int _index;
+            private int _result = -1;
 
-            if (_comparer.Equals(element, _value))
+            public Sink(TSource value, IEqualityComparer<TSource> comparer)
             {
-                _result = _index;
-                return false;
+                _value = value;
+                _comparer = comparer;
             }
 
-            checked
+            public bool AcceptFirst(TSource element)
             {
-                _index++;
+                return AcceptNext(element);
             }
 
-            return true;
-        }
+            public bool AcceptNext(TSource element)
+            {
+                if (_result >= 0)
+                    return false;
 
-        public void Dispose()
-        {
-            _index = default;
-            _result = default;
-        }
+                if (_comparer.Equals(element, _value))
+                {
+                    _result = _index;
+                    return false;
+                }
 
-        public int GetResult()
-        {
-            return _result;
+                checked
+                {
+                    _index++;
+                }
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public int GetResult()
+            {
+                return _result;
+            }
         }
     }
 }

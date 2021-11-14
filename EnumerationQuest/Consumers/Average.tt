@@ -51,12 +51,14 @@ namespace EnumerationQuest.Consumers
             return new AverageOf<#= n.Name #>Consumer();
         }
 
+<# } #>
+<# foreach (var n in numerics) { #>
         public static IEnumerableConsumer<TSource, <#= n.ReturnType #>> AverageOf<#= n.Name #><TSource>(Func<TSource, <#= n.Type #>> selector)
         {
             if (selector is null)
                 throw new ArgumentNullException(nameof(selector));
 
-            return new AverageOf<#= n.Name #>Consumer<TSource>(selector);
+            return new AverageOf<#= n.Name #>WithSelectorConsumer<TSource>(selector);
         }
 
 <# } #>
@@ -67,131 +69,96 @@ namespace EnumerationQuest.Consumers
     {
         public IEnumerableSink<<#= n.Type #>, <#= n.ReturnType #>> GetSink()
         {
-            return new AverageOf<#= n.Name #>Sink();
+            return new Sink();
         }
+
+<# if(n.IsNullable) { #>
+        private class Sink : IEnumerableSink<<#= n.Type #>, <#= n.ReturnType #>>
+        {
+            private int _count;
+            private <#= n.SumType #> _sum;
+
+            public bool AcceptFirst(<#= n.Type #> element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(<#= n.Type #> element)
+            {
+                if (element.HasValue)
+                {
+                    _count++;
+                    _sum += element.Value;
+                }
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public <#= n.ReturnType #> GetResult()
+            {
+                return _count > 0 ? _sum / _count : null;
+            }
+        }
+<# } else { #>
+        private class Sink : IEnumerableSink<<#= n.Type #>, <#= n.ReturnType #>>
+        {
+            private int _count;
+            private <#= n.SumType #> _sum;
+
+            public bool AcceptFirst(<#= n.Type #> element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(<#= n.Type #> element)
+            {
+                _count++;
+                _sum += element;
+
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public <#= n.ReturnType #> GetResult()
+            {
+                return _count > 0 ? _sum / _count : throw new InvalidOperationException("Sequence was empty");
+            }
+        }
+<# } #>
     }
 
-    internal class AverageOf<#= n.Name #>Consumer<TSource> : IEnumerableConsumer<TSource, <#= n.ReturnType #>>
+<# } #>
+<# foreach (var n in numerics) { #>
+    internal class AverageOf<#= n.Name #>WithSelectorConsumer<TSource> : IEnumerableConsumer<TSource, <#= n.ReturnType #>>
     {
         private readonly Func<TSource, <#= n.Type #>> _selector;
 
-        public AverageOf<#= n.Name #>Consumer(Func<TSource, <#= n.Type #>> selector)
+        public AverageOf<#= n.Name #>WithSelectorConsumer(Func<TSource, <#= n.Type #>> selector)
         {
             _selector = selector;
         }
 
         public IEnumerableSink<TSource, <#= n.ReturnType #>> GetSink()
         {
-            return new AverageOf<#= n.Name #>Sink<TSource>(_selector);
-        }
-    }
-
-<# } #>
-<# foreach (var n in numerics.Where(n => !n.IsNullable)) { #>
-    internal class AverageOf<#= n.Name #>Sink : IEnumerableSink<<#= n.Type #>, <#= n.ReturnType #>>
-    {
-        private int _count;
-        private <#= n.SumType #> _sum;
-
-        public bool AcceptFirst(<#= n.Type #> element)
-        {
-            return AcceptNext(element);
+            return new Sink(_selector);
         }
 
-        public bool AcceptNext(<#= n.Type #> element)
-        {
-            _count++;
-            _sum += element;
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public <#= n.ReturnType #> GetResult()
-        {
-            return _count > 0 ? _sum / _count : throw new InvalidOperationException("Sequence was empty");
-        }
-    }
-
-    internal class AverageOf<#= n.Name #>Sink<TSource> : IEnumerableSink<TSource, <#= n.ReturnType #>>
+<# if(n.IsNullable) { #>
+    private class Sink : IEnumerableSink<TSource, <#= n.ReturnType #>>
     {
         private readonly Func<TSource, <#= n.Type #>> _selector;
 
         private int _count;
         private <#= n.SumType #> _sum;
 
-        public AverageOf<#= n.Name #>Sink(Func<TSource, <#= n.Type #>> selector)
-        {
-            _selector = selector;
-        }
-
-        public bool AcceptFirst(TSource element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(TSource element)
-        {
-            _count++;
-            _sum += _selector(element);
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public <#= n.ReturnType #> GetResult()
-        {
-            return _count > 0 ? _sum / _count : throw new InvalidOperationException("Sequence was empty");
-        }
-    }
-
-<# } #>
-<# foreach (var n in numerics.Where(n => n.IsNullable)) { #>
-    internal class AverageOf<#= n.Name #>Sink : IEnumerableSink<<#= n.Type #>, <#= n.ReturnType #>>
-    {
-        private int _count;
-        private <#= n.SumType #> _sum;
-
-        public bool AcceptFirst(<#= n.Type #> element)
-        {
-            return AcceptNext(element);
-        }
-
-        public bool AcceptNext(<#= n.Type #> element)
-        {
-            if (element.HasValue)
-            {
-                _count++;
-                _sum += element.Value;
-            }
-
-            return true;
-        }
-
-        public void Dispose()
-        {
-        }
-
-        public <#= n.ReturnType #> GetResult()
-        {
-            return _count > 0 ? _sum / _count : null;
-        }
-    }
-
-    internal class AverageOf<#= n.Name #>Sink<TSource> : IEnumerableSink<TSource, <#= n.ReturnType #>>
-    {
-        private readonly Func<TSource, <#= n.Type #>> _selector;
-
-        private int _count;
-        private <#= n.SumType #> _sum;
-
-        public AverageOf<#= n.Name #>Sink(Func<TSource, <#= n.Type #>> selector)
+        public Sink(Func<TSource, <#= n.Type #>> selector)
         {
             _selector = selector;
         }
@@ -222,6 +189,42 @@ namespace EnumerationQuest.Consumers
             return _count > 0 ? _sum / _count : null;
         }
     }
+<# } else { #>
+    internal class Sink : IEnumerableSink<TSource, <#= n.ReturnType #>>
+    {
+        private readonly Func<TSource, <#= n.Type #>> _selector;
 
+        private int _count;
+        private <#= n.SumType #> _sum;
+
+        public Sink(Func<TSource, <#= n.Type #>> selector)
+        {
+            _selector = selector;
+        }
+
+        public bool AcceptFirst(TSource element)
+        {
+            return AcceptNext(element);
+        }
+
+        public bool AcceptNext(TSource element)
+        {
+            _count++;
+            _sum += _selector(element);
+
+            return true;
+        }
+
+        public void Dispose()
+        {
+        }
+
+        public <#= n.ReturnType #> GetResult()
+        {
+            return _count > 0 ? _sum / _count : throw new InvalidOperationException("Sequence was empty");
+        }
+    }
+<# } #>
+    }
 <# } #>
 }

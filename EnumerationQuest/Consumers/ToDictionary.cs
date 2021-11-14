@@ -74,6 +74,7 @@ namespace EnumerationQuest.Consumers
         where TKey : notnull
     {
         private readonly Func<TSource, TKey> _keySelector;
+
         private readonly IEqualityComparer<TKey> _comparer;
 
         public ToDictionaryConsumer(Func<TSource, TKey> keySelector, IEqualityComparer<TKey> comparer)
@@ -84,42 +85,40 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, Dictionary<TKey, TSource>> GetSink()
         {
-            return new ToDictionarySink<TSource, TKey>(_keySelector, _comparer);
-        }
-    }
-
-    internal class ToDictionarySink<TSource, TKey> : IEnumerableSink<TSource, Dictionary<TKey, TSource>>
-        where TKey : notnull
-    {
-        private readonly Dictionary<TKey, TSource> _dictionary;
-        private readonly Func<TSource, TKey> _keySelector;
-
-        public ToDictionarySink(Func<TSource, TKey> keySelector, IEqualityComparer<TKey> comparer)
-        {
-            _keySelector = keySelector;
-
-            _dictionary = new Dictionary<TKey, TSource>(comparer);
+            return new Sink(_keySelector, _comparer);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, Dictionary<TKey, TSource>>
         {
-            return AcceptNext(element);
-        }
+            private readonly Dictionary<TKey, TSource> _result;
+            private readonly Func<TSource, TKey> _keySelector;
 
-        public bool AcceptNext(TSource element)
-        {
-            _dictionary.Add(_keySelector(element), element);
-            return true;
-        }
+            public Sink(Func<TSource, TKey> keySelector, IEqualityComparer<TKey> comparer)
+            {
+                _result = new Dictionary<TKey, TSource>(comparer);
 
-        public void Dispose()
-        {
-            _dictionary.Clear();
-        }
+                _keySelector = keySelector;
+            }
 
-        public Dictionary<TKey, TSource> GetResult()
-        {
-            return _dictionary;
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
+
+            public bool AcceptNext(TSource element)
+            {
+                _result.Add(_keySelector(element), element);
+                return true;
+            }
+
+            public void Dispose()
+            {
+            }
+
+            public Dictionary<TKey, TSource> GetResult()
+            {
+                return _result;
+            }
         }
     }
 
@@ -127,7 +126,9 @@ namespace EnumerationQuest.Consumers
         where TKey : notnull
     {
         private readonly Func<TSource, TKey> _keySelector;
+
         private readonly Func<TSource, TElement> _elementSelector;
+
         private readonly IEqualityComparer<TKey> _comparer;
 
         public ToDictionaryWithElementSelectorConsumer(Func<TSource, TKey> keySelector, Func<TSource, TElement> elementSelector, IEqualityComparer<TKey> comparer)
@@ -139,44 +140,43 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, Dictionary<TKey, TElement>> GetSink()
         {
-            return new ToDictionaryWithElementSelectorSink<TSource, TKey, TElement>(_keySelector, _elementSelector, _comparer);
+            return new Sink(_keySelector, _elementSelector, _comparer);
         }
-    }
 
-    internal class ToDictionaryWithElementSelectorSink<TSource, TKey, TElement> : IEnumerableSink<TSource, Dictionary<TKey, TElement>>
-        where TKey : notnull
-    {
-        private readonly Func<TSource, TElement> _elementSelector;
-        private readonly Dictionary<TKey, TElement> _dictionary;
-        private readonly Func<TSource, TKey> _keySelector;
-
-        public ToDictionaryWithElementSelectorSink(Func<TSource, TKey> keySelector, Func<TSource, TElement> elementSelector, IEqualityComparer<TKey> comparer)
+        private class Sink : IEnumerableSink<TSource, Dictionary<TKey, TElement>>
         {
-            _keySelector = keySelector;
-            _elementSelector = elementSelector;
+            private readonly Dictionary<TKey, TElement> _result;
 
-            _dictionary = new Dictionary<TKey, TElement>(comparer);
-        }
+            private readonly Func<TSource, TElement> _elementSelector;
+            private readonly Func<TSource, TKey> _keySelector;
+
+            public Sink(Func<TSource, TKey> keySelector, Func<TSource, TElement> elementSelector, IEqualityComparer<TKey> comparer)
+            {
+                _result = new Dictionary<TKey, TElement>(comparer);
+
+                _keySelector = keySelector;
+                _elementSelector = elementSelector;
+            }
         
-        public bool AcceptFirst(TSource element)
-        {
-            return AcceptNext(element);
-        }
+            public bool AcceptFirst(TSource element)
+            {
+                return AcceptNext(element);
+            }
 
-        public bool AcceptNext(TSource element)
-        {
-            _dictionary.Add(_keySelector(element), _elementSelector(element));
-            return true;
-        }
+            public bool AcceptNext(TSource element)
+            {
+                _result.Add(_keySelector(element), _elementSelector(element));
+                return true;
+            }
 
-        public void Dispose()
-        {
-            _dictionary.Clear();
-        }
+            public void Dispose()
+            {
+            }
 
-        public Dictionary<TKey, TElement> GetResult()
-        {
-            return _dictionary;
+            public Dictionary<TKey, TElement> GetResult()
+            {
+                return _result;
+            }
         }
     }
 }

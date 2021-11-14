@@ -65,65 +65,64 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, TSource?> GetSink()
         {
-            return new MaxSink<TSource>(_comparer);
-        }
-    }
-
-    internal class MaxSink<TSource> : IEnumerableSink<TSource, TSource?>
-    {
-        private readonly IComparer<TSource> _comparer;
-
-        private bool _hasContent;
-        private TSource? _result;
-
-        public MaxSink(IComparer<TSource> comparer)
-        {
-            _comparer = comparer;
+            return new Sink(_comparer);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, TSource?>
         {
-            _hasContent = true;
-            _result = element;
-            return true;
-        }
+            private readonly IComparer<TSource> _comparer;
 
-        public bool AcceptNext(TSource element)
-        {
-            if (element is null)
-                return true;
+            private bool _hasContent;
+            private TSource? _result;
 
-            if (_result is null)
+            public Sink(IComparer<TSource> comparer)
             {
+                _comparer = comparer;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                _hasContent = true;
                 _result = element;
                 return true;
             }
 
-            _result = _comparer.Compare(element, _result) > 0 ? element : _result;
-            return true;
-        }
+            public bool AcceptNext(TSource element)
+            {
+                if (element is null)
+                    return true;
 
-        public void Dispose()
-        {
-            _hasContent = false;
-            _result = default;
-        }
+                if (_result is null)
+                {
+                    _result = element;
+                    return true;
+                }
 
-        public TSource? GetResult()
-        {
-            if (_hasContent)
-                return _result;
+                _result = _comparer.Compare(element, _result) > 0 ? element : _result;
+                return true;
+            }
 
-            if (default(TSource) is null)
-                return default;
+            public void Dispose()
+            {
+            }
 
-            throw new InvalidOperationException("Sequence was empty");
+            public TSource? GetResult()
+            {
+                if (_hasContent)
+                    return _result;
+
+                if (default(TSource) is null)
+                    return default;
+
+                throw new InvalidOperationException("Sequence was empty");
+            }
         }
     }
 
     internal class MaxWithSelectorConsumer<TSource, TResult> : IEnumerableConsumer<TSource, TResult?>
     {
         private readonly Func<TSource, TResult> _selector;
+
         private readonly IComparer<TResult> _comparer;
 
         public MaxWithSelectorConsumer(Func<TSource, TResult> selector, IComparer<TResult> comparer)
@@ -134,62 +133,60 @@ namespace EnumerationQuest.Consumers
 
         public IEnumerableSink<TSource, TResult?> GetSink()
         {
-            return new MaxWithSelectorSink<TSource, TResult>(_selector, _comparer);
-        }
-    }
-
-    internal class MaxWithSelectorSink<TSource, TResult> : IEnumerableSink<TSource, TResult?>
-    {
-        private readonly Func<TSource, TResult> _selector;
-        private readonly IComparer<TResult> _comparer;
-
-        private bool _hasContent;
-        private TResult? _result;
-
-        public MaxWithSelectorSink(Func<TSource, TResult> selector, IComparer<TResult> comparer)
-        {
-            _selector = selector;
-            _comparer = comparer;
+            return new Sink(_selector, _comparer);
         }
 
-        public bool AcceptFirst(TSource element)
+        private class Sink : IEnumerableSink<TSource, TResult?>
         {
-            _hasContent = true;
-            _result = _selector(element);
-            return true;
-        }
+            private readonly Func<TSource, TResult> _selector;
+            private readonly IComparer<TResult> _comparer;
 
-        public bool AcceptNext(TSource element)
-        {
-            var value = _selector(element);
-            if (value is null)
-                return true;
+            private bool _hasContent;
+            private TResult? _result;
 
-            if (_result is null)
+            public Sink(Func<TSource, TResult> selector, IComparer<TResult> comparer)
             {
-                _result = value;
+                _selector = selector;
+                _comparer = comparer;
+            }
+
+            public bool AcceptFirst(TSource element)
+            {
+                _hasContent = true;
+                _result = _selector(element);
                 return true;
             }
 
-            _result = _comparer.Compare(value, _result) > 0 ? value : _result;
-            return true;
-        }
+            public bool AcceptNext(TSource element)
+            {
+                var value = _selector(element);
+                if (value is null)
+                    return true;
 
-        public void Dispose()
-        {
-            _hasContent = false;
-            _result = default;
-        }
+                if (_result is null)
+                {
+                    _result = value;
+                    return true;
+                }
 
-        public TResult? GetResult()
-        {
-            if (_hasContent)
-                return _result;
+                _result = _comparer.Compare(value, _result) > 0 ? value : _result;
+                return true;
+            }
 
-            if (default(TSource) is null)
-                return default;
+            public void Dispose()
+            {
+            }
 
-            throw new InvalidOperationException("Sequence was empty");
+            public TResult? GetResult()
+            {
+                if (_hasContent)
+                    return _result;
+
+                if (default(TSource) is null)
+                    return default;
+
+                throw new InvalidOperationException("Sequence was empty");
+            }
         }
     }
 }
