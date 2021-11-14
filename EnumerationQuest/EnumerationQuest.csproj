@@ -22,6 +22,10 @@
 EnumerationQuest library allows the evaluation of multiple properties of an IEnumerable in a single enumeration.</Description>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>D:\Sources\github\Orace\EnumerationQuest\EnumerationQuest\EnumerationQuest.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
       <_Parameter1>$(MSBuildProjectName).Test</_Parameter1>
