@@ -92,7 +92,16 @@ namespace EnumerationQuest.Consumers
                 }
 
                 var key = _keySelector(element);
-                switch (_comparer.Compare(key, _bestKey!))
+
+                var comparison = (key, _bestKey) switch
+                {
+                    (null, null) => 0,
+                    (null, _) => 1,
+                    (_, null) => -1,
+                    (_, _) => _comparer.Compare(key, _bestKey!),
+                };
+
+                switch (comparison )
                 {
                     case > 0:
                         return true;
