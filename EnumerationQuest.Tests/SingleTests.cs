@@ -23,6 +23,17 @@ namespace EnumerationQuest.Tests
 {
     public class SingleTests
     {
+        [Test]
+        public void SingleWithFullConsumerTest()
+        {
+            Assert.Throws<EnumerationException>(() =>
+            {
+                var (_, _) = Enumerable.Range(0, 10)
+                                       .GetCount()
+                                       .AndSingle();
+            });
+        }
+
         [TestCaseSource(nameof(SingleTestCases))]
         public Result SingleTest(IEnumerable<int> source)
         {
@@ -36,6 +47,17 @@ namespace EnumerationQuest.Tests
             yield return new TestCaseData(Enumerable.Range(42, 3)) { ExpectedResult = Result.FromException<InvalidOperationException>(), TestName = "More than one element throw" };
             yield return new TestCaseData(Enumerable.Range(42, 1)) { ExpectedResult = Result.FromValue(42), TestName = "Valid result" };
             yield return new TestCaseData(GetYieldThenThrowEnumerable(0, 2)) { ExpectedResult = Result.FromException<InvalidOperationException>(), TestName = "Doesn't enumerate uselessly" };
+        }
+
+        [Test]
+        public void SingleWithPredicateAndFullConsumerTest()
+        {
+            Assert.Throws<EnumerationException>(() =>
+            {
+                var (_, _) = Enumerable.Range(0, 10)
+                                       .GetCount()
+                                       .AndSingle(v => v % 5 == 4);
+            });
         }
 
         [TestCaseSource(nameof(SingleWithPredicateTestCases))]

@@ -24,6 +24,14 @@ namespace EnumerationQuest.Tests
 {
     public class IndexOfTests
     {
+        [Test]
+        public void IndexOfWithFullConsumerTest()
+        {
+            var (count, five) = Enumerable.Range(0, 10).GetCount().AndIndexOf(5);
+            Assert.That(count, Is.EqualTo(10));
+            Assert.That(five, Is.EqualTo(5));
+        }
+
         [TestCaseSource(nameof(IndexOfTestCases))]
         public Result IndexOfTest(IEnumerable<int> source, int value)
         {

@@ -23,6 +23,17 @@ namespace EnumerationQuest.Tests
 {
     public class SingleOrDefaultTests
     {
+        [Test]
+        public void SingleOrDefaultWithFullConsumerTest()
+        {
+            Assert.Throws<EnumerationException>(() =>
+            {
+                var (_, _) = Enumerable.Range(0, 10)
+                                       .GetCount()
+                                       .AndSingleOrDefault();
+            });
+        }
+
         [TestCaseSource(nameof(SingleOrDefaultTestCases))]
         public Result SingleOrDefaultTest(IEnumerable<int> source)
         {
@@ -51,6 +62,17 @@ namespace EnumerationQuest.Tests
             yield return new TestCaseData(Enumerable.Range(42, 3), 69) { ExpectedResult = Result.FromException<InvalidOperationException>(), TestName = "More than one element throw" };
             yield return new TestCaseData(Enumerable.Range(42, 1), 69) { ExpectedResult = Result.FromValue(42), TestName = "Valid result" };
             yield return new TestCaseData(GetYieldThenThrowEnumerable(0, 2), 69) { ExpectedResult = Result.FromException<InvalidOperationException>(), TestName = "Doesn't enumerate uselessly" };
+        }
+
+        [Test]
+        public void SingleOrDefaultWithPredicateAndFullConsumerTest()
+        {
+            Assert.Throws<EnumerationException>(() =>
+            {
+                var (_, _) = Enumerable.Range(0, 10)
+                                       .GetCount()
+                                       .AndSingleOrDefault(v => v % 5 == 4);
+            });
         }
 
         [TestCaseSource(nameof(SingleOrDefaultWithPredicateTestCases))]

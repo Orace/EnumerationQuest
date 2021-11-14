@@ -17,12 +17,25 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Moq;
 using NUnit.Framework;
 
 namespace EnumerationQuest.Tests
 {
     public class AllTests
     {
+        [Test]
+        public void AllWithFullConsumerTest()
+        {
+            var mockFunc = new Mock<Func<int, bool>>();
+            mockFunc.SetupSequence(x => x(It.IsAny<int>())).Returns(true).Returns(true).Returns(false).Returns(true);
+
+            var (count, nope) = Enumerable.Range(0, 10).GetCount().AndAll(mockFunc.Object);
+            Assert.That(count, Is.EqualTo(10));
+            Assert.That(nope, Is.False);
+            mockFunc.Verify(x => x(It.IsAny<int>()), Times.Exactly(3));
+        }
+
         [TestCaseSource(nameof(AllTestCases))]
         public Result AllTest<TSource>(IEnumerable<TSource> source, Func<TSource, bool> predicate)
         {

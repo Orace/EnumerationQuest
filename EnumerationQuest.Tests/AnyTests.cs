@@ -17,12 +17,21 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Moq;
 using NUnit.Framework;
 
 namespace EnumerationQuest.Tests
 {
     public class AnyTests
     {
+        [Test]
+        public void AnyWithFullConsumerTest()
+        {
+            var (count, yep) = Enumerable.Range(0, 10).GetCount().AndAny();
+            Assert.That(count, Is.EqualTo(10));
+            Assert.That(yep, Is.True);
+        }
+
         [TestCaseSource(nameof(AnyTestCases))]
         public Result AnyTest(IEnumerable<int> source)
         {
@@ -35,6 +44,18 @@ namespace EnumerationQuest.Tests
             yield return new TestCaseData(Enumerable.Empty<int>()) { ExpectedResult = Result.FromValue(false), TestName = "Empty source" };
             yield return new TestCaseData(Enumerable.Range(1, 100)) { ExpectedResult = Result.FromValue(true), TestName = "True expected" };
             yield return new TestCaseData(GetZeroThenThrowEnumerable()) { ExpectedResult = Result.FromValue(true), TestName = "Do not call MoveNext uselessly" };
+        }
+
+        [Test]
+        public void AnyWithPredicateAndFullConsumerTest()
+        {
+            var mockFunc = new Mock<Func<int, bool>>();
+            mockFunc.SetupSequence(x => x(It.IsAny<int>())).Returns(false).Returns(false).Returns(true).Returns(false);
+
+            var (count, yep) = Enumerable.Range(0, 10).GetCount().AndAny(mockFunc.Object);
+            Assert.That(count, Is.EqualTo(10));
+            Assert.That(yep, Is.True);
+            mockFunc.Verify(x => x(It.IsAny<int>()), Times.Exactly(3));
         }
 
         [TestCaseSource(nameof(AnyWithPredicateTestCases))]

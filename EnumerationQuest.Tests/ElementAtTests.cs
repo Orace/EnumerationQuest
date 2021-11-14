@@ -23,6 +23,14 @@ namespace EnumerationQuest.Tests
 {
     public class ElementAtTests
     {
+        [Test]
+        public void ElementAtWithFullConsumerTest()
+        {
+            var (count, five) = Enumerable.Range(0, 10).GetCount().AndElementAt(5);
+            Assert.That(count, Is.EqualTo(10));
+            Assert.That(five, Is.EqualTo(5));
+        }
+
         [TestCaseSource(nameof(ElementAtTestCases))]
         public Result ElementAtTest(IEnumerable<int> source, int index)
         {

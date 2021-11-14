@@ -24,6 +24,14 @@ namespace EnumerationQuest.Tests
 {
     public class SequenceEqualTests
     {
+        [Test]
+        public void SequenceEqualWithFullConsumerTest()
+        {
+            var (count, nope) = Enumerable.Range(0, 10).GetCount().AndSequenceEqual(new[] { 0, 1, 2, 2, 3, 4 });
+            Assert.That(count, Is.EqualTo(10));
+            Assert.That(nope, Is.False);
+        }
+
         [TestCaseSource(nameof(SequenceEqualTestCases))]
         public Result SequenceEqualTest(IEnumerable<int> source, IEnumerable<int> other)
         {

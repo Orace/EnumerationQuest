@@ -23,6 +23,14 @@ namespace EnumerationQuest.Tests
 {
     public class FirstOrDefaultTests
     {
+        [Test]
+        public void FirstOrDefaultWithFullConsumerTest()
+        {
+            var (count, first) = Enumerable.Range(0, 10).GetCount().AndFirstOrDefault();
+            Assert.That(count, Is.EqualTo(10));
+            Assert.That(first, Is.EqualTo(0));
+        }
+
         [TestCaseSource(nameof(FirstOrDefaultTestCases))]
         public Result FirstOrDefaultTest(IEnumerable<int> source)
         {
@@ -49,6 +57,14 @@ namespace EnumerationQuest.Tests
             yield return new TestCaseData(Enumerable.Empty<int>(), 69) { ExpectedResult = Result.FromValue(69), TestName = "Empty source" };
             yield return new TestCaseData(Enumerable.Range(42, 3), 69) { ExpectedResult = Result.FromValue(42), TestName = "Valid result" };
             yield return new TestCaseData(GetYieldThenThrowEnumerable(0, 1), 69) { ExpectedResult = Result.FromValue(0), TestName = "Doesn't enumerate uselessly" };
+        }
+
+        [Test]
+        public void FirstOrDefaultWithPredicateAndFullConsumerTest()
+        {
+            var (count, five) = Enumerable.Range(0, 10).GetCount().AndFirstOrDefault(v => v is 5);
+            Assert.That(count, Is.EqualTo(10));
+            Assert.That(five, Is.EqualTo(5));
         }
 
         [TestCaseSource(nameof(FirstOrDefaultWithPredicateTestCases))]

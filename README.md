@@ -3,6 +3,7 @@ Avoids [multiple enumeration](https://www.jetbrains.com/help/resharper/PossibleM
 
 [![appveyor](https://ci.appveyor.com/api/projects/status/github/Orace/EnumerationQuest?svg=true)](https://ci.appveyor.com/project/Orace/EnumerationQuest)
 [![codecov](https://codecov.io/gh/Orace/EnumerationQuest/branch/main/graph/badge.svg)](https://codecov.io/gh/Orace/EnumerationQuest)
+[![nuget](https://img.shields.io/nuget/v/EnumerationQuest.svg)](https://www.nuget.org/packages/EnumerationQuest)
 
 ## Introduction
 

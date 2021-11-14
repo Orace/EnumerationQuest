@@ -23,6 +23,14 @@ namespace EnumerationQuest.Tests
 {
     public class ElementsAtTests
     {
+        [Test]
+        public void ElementAtWithFullConsumerTest()
+        {
+            var (count, yingYang) = Enumerable.Range(0, 10).GetCount().AndElementsAt(new[] { 6, 9 });
+            Assert.That(count, Is.EqualTo(10));
+            CollectionAssert.AreEqual(yingYang, new[] { 6, 9 });
+        }
+
         [TestCaseSource(nameof(ElementsAtTestCases))]
         public Result ElementsAtTest(IEnumerable<int> source, IEnumerable<int> indices)
         {

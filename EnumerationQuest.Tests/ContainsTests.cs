@@ -24,6 +24,14 @@ namespace EnumerationQuest.Tests
 {
     public class ContainsTests
     {
+        [Test]
+        public void ContainsWithFullConsumerTest()
+        {
+            var (count, yep) = Enumerable.Range(0, 10).GetCount().AndContains(5);
+            Assert.That(count, Is.EqualTo(10));
+            Assert.That(yep, Is.True);
+        }
+
         [TestCaseSource(nameof(ContainsTestCases))]
         public Result ContainsTest<TSource>(IEnumerable<TSource> source, TSource value)
         {
