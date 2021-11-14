@@ -61,16 +61,16 @@
 | Max                    | selector, comparer        | &check;         | &check; | &check;       |               |
 | MaxBy                  |                           | &check;         | &check; | &check;       |               |
 | MaxBy                  | comparer                  | &check;         | &check; | &check;       |               |
-| MaximumsBy             |                           | &check;         |         | &check;       |               |
-| MaximumsBy             | comparer                  | &check;         |         | &check;       |               |
+| MaximumsBy             |                           | &check;         | &check; | &check;       |               |
+| MaximumsBy             | comparer                  | &check;         | &check; | &check;       |               |
 | Min                    |                           | &check;         | &check; | &check;       |               |
 | Min                    | comparer                  | &check;         | &check; | &check;       |               |
 | Min                    | selector                  | &check;         | &check; | &check;       |               |
 | Min                    | selector, comparer        | &check;         | &check; | &check;       |               |
 | MinBy                  |                           | &check;         | &check; | &check;       |               |
 | MinBy                  | comparer                  | &check;         | &check; | &check;       |               |
-| MinimumsBy             |                           | &check;         |         | &check;       |               |
-| MinimumsBy             | comparer                  | &check;         |         | &check;       |               |
+| MinimumsBy             |                           | &check;         | &check; | &check;       |               |
+| MinimumsBy             | comparer                  | &check;         | &check; | &check;       |               |
 | SequenceEqual          |                           | &check;         | &check; | &check;       |               |
 | SequenceEqual          | comparer                  | &check;         | &check; | &check;       |               |
 | Single                 |                           | &check;         | &check; | &check;       |               |
