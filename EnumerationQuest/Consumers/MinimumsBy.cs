@@ -88,7 +88,7 @@ namespace EnumerationQuest.Consumers
                     (null, null) => 0,
                     (null, _) => 1,
                     (_, null) => -1,
-                    (_, _) => _comparer.Compare(key, _bestKey!),
+                    (_, _) => _comparer.Compare(key, _bestKey!)
                 };
 
                 switch (comparison )

@@ -87,11 +87,11 @@ namespace EnumerationQuest.Consumers
                 if (key is null)
                     return true;
 
-                if (_bestKey is null || _comparer.Compare(key, _bestKey) > 0)
-                {
-                    _bestKey = key;
-                    _result = element;
-                }
+                if (_bestKey is not null && _comparer.Compare(key, _bestKey) <= 0)
+                    return true;
+
+                _bestKey = key;
+                _result = element;
 
                 return true;
             }

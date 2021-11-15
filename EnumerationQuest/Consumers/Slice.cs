@@ -45,7 +45,7 @@ namespace EnumerationQuest.Consumers
                 (false, false) => new SinkForFromStartFromStart(_range.Start.Value, _range.End.Value),
                 (false, true) => new SinkForFromStartFromEnd(_range.Start.Value, _range.End.Value),
                 (true, false) => new SinkForFromEndFromStart(_range.Start.Value, _range.End.Value),
-                (true, true) => new SinkForFromEndFromEnd(_range.Start.Value, _range.End.Value),
+                (true, true) => new SinkForFromEndFromEnd(_range.Start.Value, _range.End.Value)
             };
         }
 

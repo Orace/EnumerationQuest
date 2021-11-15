@@ -54,7 +54,7 @@ namespace EnumerationQuest.Consumers
 
         private class Sink : IEnumerableSink<TSource, List<int>>
         {
-            private List<int> _result = new();
+            private readonly List<int> _result = new();
 
             private readonly TSource _value;
             private readonly IEqualityComparer<TSource> _comparer;
