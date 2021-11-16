@@ -18,7 +18,7 @@ It's as simple as that:
 ## Tell me more
 
 **EnumerationQuest** provides the same methods as [LINQ to Objects](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/linq-to-objects)
-to evaluate properties of `IEnumerable`.</br>
+to evaluate properties of `IEnumerable`.<br>
 But unlike LINQ, **EnumerationQuest** allows the evaluation of *several* properties *at once*; that's it, in a single enumeration.
 
 To achieve this, **EnumerationQuest** uses fluent pattern to construct an `EnumerationRequests` object.
