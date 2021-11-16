@@ -94,7 +94,7 @@ To achieve this, **EnumerationQuest** uses fluent pattern to construct an `Enume
                   [`TakeLast`](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.takelast)):
    takes a specified range of contiguous elements from a sequence.
  - [Sum](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.sum):
-   computes the average of a sequence of numeric values.
+   computes the sum of a sequence of numeric values.
  - [ToDictionary](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.todictionary):
    creates a `Dictionary<TKey,TValue>` from a sequence.
  - [ToHashSet](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.tohashset):
