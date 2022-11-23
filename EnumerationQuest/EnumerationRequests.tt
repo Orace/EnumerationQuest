@@ -80,18 +80,39 @@ namespace EnumerationQuest
             using var <#= c.sink #> = <#= c._consumer #>.GetSink();
 <# } #>
 
-            Enumerate(_enumerable, <#= string.Join(", ", o.Consumers.Select(c => c.sink)) #>);
+            Enumerate(<#= string.Join(", ", o.Consumers.Select(c => c.sink)) #>);
 
-            var i = 1;
+            var i = 0;
             try
             {
 <# foreach (var c in o.Consumers) { #>
-                <#= c.result #> = <#= c.sink #>.GetResult(); i++;
+                 i++; <#= c.result #> = <#= c.sink #>.GetResult();
 <# } #>
             }
             catch(Exception e)
             {
                 throw new EnumerationException($"The evaluation of Item{i} failed", e);
+            }
+        }
+
+        private void Enumerate(<#= string.Join(", ", o.Consumers.Select(c => $"IEnumerableSink<TSource> {c.sink}")) #>)
+        {
+            using var enumerator = _enumerable.GetEnumerator();
+
+            if (!enumerator.MoveNext())
+                return;
+
+            var shouldContinue = false;
+<# foreach (var c in o.Consumers) { #>
+            shouldContinue |= <#= c.sink #>.AcceptFirst(enumerator.Current);
+<# } #>
+
+            while (shouldContinue && enumerator.MoveNext())
+            {
+                shouldContinue = false;
+<# foreach (var c in o.Consumers) { #>
+                shouldContinue |= <#= c.sink #>.AcceptNext(enumerator.Current);
+<# } #>
             }
         }
     }

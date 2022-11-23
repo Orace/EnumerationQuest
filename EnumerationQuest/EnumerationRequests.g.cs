@@ -51,16 +51,33 @@ namespace EnumerationQuest
         {
             using var sink1 = _consumer1.GetSink();
 
-            Enumerate(_enumerable, sink1);
+            Enumerate(sink1);
 
-            var i = 1;
+            var i = 0;
             try
             {
-                result1 = sink1.GetResult(); i++;
+                 i++; result1 = sink1.GetResult();
             }
             catch(Exception e)
             {
                 throw new EnumerationException($"The evaluation of Item{i} failed", e);
+            }
+        }
+
+        private void Enumerate(IEnumerableSink<TSource> sink1)
+        {
+            using var enumerator = _enumerable.GetEnumerator();
+
+            if (!enumerator.MoveNext())
+                return;
+
+            var shouldContinue = false;
+            shouldContinue |= sink1.AcceptFirst(enumerator.Current);
+
+            while (shouldContinue && enumerator.MoveNext())
+            {
+                shouldContinue = false;
+                shouldContinue |= sink1.AcceptNext(enumerator.Current);
             }
         }
     }
@@ -118,17 +135,36 @@ namespace EnumerationQuest
             using var sink1 = _consumer1.GetSink();
             using var sink2 = _consumer2.GetSink();
 
-            Enumerate(_enumerable, sink1, sink2);
+            Enumerate(sink1, sink2);
 
-            var i = 1;
+            var i = 0;
             try
             {
-                result1 = sink1.GetResult(); i++;
-                result2 = sink2.GetResult(); i++;
+                 i++; result1 = sink1.GetResult();
+                 i++; result2 = sink2.GetResult();
             }
             catch(Exception e)
             {
                 throw new EnumerationException($"The evaluation of Item{i} failed", e);
+            }
+        }
+
+        private void Enumerate(IEnumerableSink<TSource> sink1, IEnumerableSink<TSource> sink2)
+        {
+            using var enumerator = _enumerable.GetEnumerator();
+
+            if (!enumerator.MoveNext())
+                return;
+
+            var shouldContinue = false;
+            shouldContinue |= sink1.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink2.AcceptFirst(enumerator.Current);
+
+            while (shouldContinue && enumerator.MoveNext())
+            {
+                shouldContinue = false;
+                shouldContinue |= sink1.AcceptNext(enumerator.Current);
+                shouldContinue |= sink2.AcceptNext(enumerator.Current);
             }
         }
     }
@@ -192,18 +228,39 @@ namespace EnumerationQuest
             using var sink2 = _consumer2.GetSink();
             using var sink3 = _consumer3.GetSink();
 
-            Enumerate(_enumerable, sink1, sink2, sink3);
+            Enumerate(sink1, sink2, sink3);
 
-            var i = 1;
+            var i = 0;
             try
             {
-                result1 = sink1.GetResult(); i++;
-                result2 = sink2.GetResult(); i++;
-                result3 = sink3.GetResult(); i++;
+                 i++; result1 = sink1.GetResult();
+                 i++; result2 = sink2.GetResult();
+                 i++; result3 = sink3.GetResult();
             }
             catch(Exception e)
             {
                 throw new EnumerationException($"The evaluation of Item{i} failed", e);
+            }
+        }
+
+        private void Enumerate(IEnumerableSink<TSource> sink1, IEnumerableSink<TSource> sink2, IEnumerableSink<TSource> sink3)
+        {
+            using var enumerator = _enumerable.GetEnumerator();
+
+            if (!enumerator.MoveNext())
+                return;
+
+            var shouldContinue = false;
+            shouldContinue |= sink1.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink2.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink3.AcceptFirst(enumerator.Current);
+
+            while (shouldContinue && enumerator.MoveNext())
+            {
+                shouldContinue = false;
+                shouldContinue |= sink1.AcceptNext(enumerator.Current);
+                shouldContinue |= sink2.AcceptNext(enumerator.Current);
+                shouldContinue |= sink3.AcceptNext(enumerator.Current);
             }
         }
     }
@@ -273,19 +330,42 @@ namespace EnumerationQuest
             using var sink3 = _consumer3.GetSink();
             using var sink4 = _consumer4.GetSink();
 
-            Enumerate(_enumerable, sink1, sink2, sink3, sink4);
+            Enumerate(sink1, sink2, sink3, sink4);
 
-            var i = 1;
+            var i = 0;
             try
             {
-                result1 = sink1.GetResult(); i++;
-                result2 = sink2.GetResult(); i++;
-                result3 = sink3.GetResult(); i++;
-                result4 = sink4.GetResult(); i++;
+                 i++; result1 = sink1.GetResult();
+                 i++; result2 = sink2.GetResult();
+                 i++; result3 = sink3.GetResult();
+                 i++; result4 = sink4.GetResult();
             }
             catch(Exception e)
             {
                 throw new EnumerationException($"The evaluation of Item{i} failed", e);
+            }
+        }
+
+        private void Enumerate(IEnumerableSink<TSource> sink1, IEnumerableSink<TSource> sink2, IEnumerableSink<TSource> sink3, IEnumerableSink<TSource> sink4)
+        {
+            using var enumerator = _enumerable.GetEnumerator();
+
+            if (!enumerator.MoveNext())
+                return;
+
+            var shouldContinue = false;
+            shouldContinue |= sink1.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink2.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink3.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink4.AcceptFirst(enumerator.Current);
+
+            while (shouldContinue && enumerator.MoveNext())
+            {
+                shouldContinue = false;
+                shouldContinue |= sink1.AcceptNext(enumerator.Current);
+                shouldContinue |= sink2.AcceptNext(enumerator.Current);
+                shouldContinue |= sink3.AcceptNext(enumerator.Current);
+                shouldContinue |= sink4.AcceptNext(enumerator.Current);
             }
         }
     }
@@ -361,20 +441,45 @@ namespace EnumerationQuest
             using var sink4 = _consumer4.GetSink();
             using var sink5 = _consumer5.GetSink();
 
-            Enumerate(_enumerable, sink1, sink2, sink3, sink4, sink5);
+            Enumerate(sink1, sink2, sink3, sink4, sink5);
 
-            var i = 1;
+            var i = 0;
             try
             {
-                result1 = sink1.GetResult(); i++;
-                result2 = sink2.GetResult(); i++;
-                result3 = sink3.GetResult(); i++;
-                result4 = sink4.GetResult(); i++;
-                result5 = sink5.GetResult(); i++;
+                 i++; result1 = sink1.GetResult();
+                 i++; result2 = sink2.GetResult();
+                 i++; result3 = sink3.GetResult();
+                 i++; result4 = sink4.GetResult();
+                 i++; result5 = sink5.GetResult();
             }
             catch(Exception e)
             {
                 throw new EnumerationException($"The evaluation of Item{i} failed", e);
+            }
+        }
+
+        private void Enumerate(IEnumerableSink<TSource> sink1, IEnumerableSink<TSource> sink2, IEnumerableSink<TSource> sink3, IEnumerableSink<TSource> sink4, IEnumerableSink<TSource> sink5)
+        {
+            using var enumerator = _enumerable.GetEnumerator();
+
+            if (!enumerator.MoveNext())
+                return;
+
+            var shouldContinue = false;
+            shouldContinue |= sink1.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink2.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink3.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink4.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink5.AcceptFirst(enumerator.Current);
+
+            while (shouldContinue && enumerator.MoveNext())
+            {
+                shouldContinue = false;
+                shouldContinue |= sink1.AcceptNext(enumerator.Current);
+                shouldContinue |= sink2.AcceptNext(enumerator.Current);
+                shouldContinue |= sink3.AcceptNext(enumerator.Current);
+                shouldContinue |= sink4.AcceptNext(enumerator.Current);
+                shouldContinue |= sink5.AcceptNext(enumerator.Current);
             }
         }
     }
@@ -456,21 +561,48 @@ namespace EnumerationQuest
             using var sink5 = _consumer5.GetSink();
             using var sink6 = _consumer6.GetSink();
 
-            Enumerate(_enumerable, sink1, sink2, sink3, sink4, sink5, sink6);
+            Enumerate(sink1, sink2, sink3, sink4, sink5, sink6);
 
-            var i = 1;
+            var i = 0;
             try
             {
-                result1 = sink1.GetResult(); i++;
-                result2 = sink2.GetResult(); i++;
-                result3 = sink3.GetResult(); i++;
-                result4 = sink4.GetResult(); i++;
-                result5 = sink5.GetResult(); i++;
-                result6 = sink6.GetResult(); i++;
+                 i++; result1 = sink1.GetResult();
+                 i++; result2 = sink2.GetResult();
+                 i++; result3 = sink3.GetResult();
+                 i++; result4 = sink4.GetResult();
+                 i++; result5 = sink5.GetResult();
+                 i++; result6 = sink6.GetResult();
             }
             catch(Exception e)
             {
                 throw new EnumerationException($"The evaluation of Item{i} failed", e);
+            }
+        }
+
+        private void Enumerate(IEnumerableSink<TSource> sink1, IEnumerableSink<TSource> sink2, IEnumerableSink<TSource> sink3, IEnumerableSink<TSource> sink4, IEnumerableSink<TSource> sink5, IEnumerableSink<TSource> sink6)
+        {
+            using var enumerator = _enumerable.GetEnumerator();
+
+            if (!enumerator.MoveNext())
+                return;
+
+            var shouldContinue = false;
+            shouldContinue |= sink1.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink2.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink3.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink4.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink5.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink6.AcceptFirst(enumerator.Current);
+
+            while (shouldContinue && enumerator.MoveNext())
+            {
+                shouldContinue = false;
+                shouldContinue |= sink1.AcceptNext(enumerator.Current);
+                shouldContinue |= sink2.AcceptNext(enumerator.Current);
+                shouldContinue |= sink3.AcceptNext(enumerator.Current);
+                shouldContinue |= sink4.AcceptNext(enumerator.Current);
+                shouldContinue |= sink5.AcceptNext(enumerator.Current);
+                shouldContinue |= sink6.AcceptNext(enumerator.Current);
             }
         }
     }
@@ -558,22 +690,51 @@ namespace EnumerationQuest
             using var sink6 = _consumer6.GetSink();
             using var sink7 = _consumer7.GetSink();
 
-            Enumerate(_enumerable, sink1, sink2, sink3, sink4, sink5, sink6, sink7);
+            Enumerate(sink1, sink2, sink3, sink4, sink5, sink6, sink7);
 
-            var i = 1;
+            var i = 0;
             try
             {
-                result1 = sink1.GetResult(); i++;
-                result2 = sink2.GetResult(); i++;
-                result3 = sink3.GetResult(); i++;
-                result4 = sink4.GetResult(); i++;
-                result5 = sink5.GetResult(); i++;
-                result6 = sink6.GetResult(); i++;
-                result7 = sink7.GetResult(); i++;
+                 i++; result1 = sink1.GetResult();
+                 i++; result2 = sink2.GetResult();
+                 i++; result3 = sink3.GetResult();
+                 i++; result4 = sink4.GetResult();
+                 i++; result5 = sink5.GetResult();
+                 i++; result6 = sink6.GetResult();
+                 i++; result7 = sink7.GetResult();
             }
             catch(Exception e)
             {
                 throw new EnumerationException($"The evaluation of Item{i} failed", e);
+            }
+        }
+
+        private void Enumerate(IEnumerableSink<TSource> sink1, IEnumerableSink<TSource> sink2, IEnumerableSink<TSource> sink3, IEnumerableSink<TSource> sink4, IEnumerableSink<TSource> sink5, IEnumerableSink<TSource> sink6, IEnumerableSink<TSource> sink7)
+        {
+            using var enumerator = _enumerable.GetEnumerator();
+
+            if (!enumerator.MoveNext())
+                return;
+
+            var shouldContinue = false;
+            shouldContinue |= sink1.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink2.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink3.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink4.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink5.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink6.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink7.AcceptFirst(enumerator.Current);
+
+            while (shouldContinue && enumerator.MoveNext())
+            {
+                shouldContinue = false;
+                shouldContinue |= sink1.AcceptNext(enumerator.Current);
+                shouldContinue |= sink2.AcceptNext(enumerator.Current);
+                shouldContinue |= sink3.AcceptNext(enumerator.Current);
+                shouldContinue |= sink4.AcceptNext(enumerator.Current);
+                shouldContinue |= sink5.AcceptNext(enumerator.Current);
+                shouldContinue |= sink6.AcceptNext(enumerator.Current);
+                shouldContinue |= sink7.AcceptNext(enumerator.Current);
             }
         }
     }
@@ -667,23 +828,54 @@ namespace EnumerationQuest
             using var sink7 = _consumer7.GetSink();
             using var sink8 = _consumer8.GetSink();
 
-            Enumerate(_enumerable, sink1, sink2, sink3, sink4, sink5, sink6, sink7, sink8);
+            Enumerate(sink1, sink2, sink3, sink4, sink5, sink6, sink7, sink8);
 
-            var i = 1;
+            var i = 0;
             try
             {
-                result1 = sink1.GetResult(); i++;
-                result2 = sink2.GetResult(); i++;
-                result3 = sink3.GetResult(); i++;
-                result4 = sink4.GetResult(); i++;
-                result5 = sink5.GetResult(); i++;
-                result6 = sink6.GetResult(); i++;
-                result7 = sink7.GetResult(); i++;
-                result8 = sink8.GetResult(); i++;
+                 i++; result1 = sink1.GetResult();
+                 i++; result2 = sink2.GetResult();
+                 i++; result3 = sink3.GetResult();
+                 i++; result4 = sink4.GetResult();
+                 i++; result5 = sink5.GetResult();
+                 i++; result6 = sink6.GetResult();
+                 i++; result7 = sink7.GetResult();
+                 i++; result8 = sink8.GetResult();
             }
             catch(Exception e)
             {
                 throw new EnumerationException($"The evaluation of Item{i} failed", e);
+            }
+        }
+
+        private void Enumerate(IEnumerableSink<TSource> sink1, IEnumerableSink<TSource> sink2, IEnumerableSink<TSource> sink3, IEnumerableSink<TSource> sink4, IEnumerableSink<TSource> sink5, IEnumerableSink<TSource> sink6, IEnumerableSink<TSource> sink7, IEnumerableSink<TSource> sink8)
+        {
+            using var enumerator = _enumerable.GetEnumerator();
+
+            if (!enumerator.MoveNext())
+                return;
+
+            var shouldContinue = false;
+            shouldContinue |= sink1.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink2.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink3.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink4.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink5.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink6.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink7.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink8.AcceptFirst(enumerator.Current);
+
+            while (shouldContinue && enumerator.MoveNext())
+            {
+                shouldContinue = false;
+                shouldContinue |= sink1.AcceptNext(enumerator.Current);
+                shouldContinue |= sink2.AcceptNext(enumerator.Current);
+                shouldContinue |= sink3.AcceptNext(enumerator.Current);
+                shouldContinue |= sink4.AcceptNext(enumerator.Current);
+                shouldContinue |= sink5.AcceptNext(enumerator.Current);
+                shouldContinue |= sink6.AcceptNext(enumerator.Current);
+                shouldContinue |= sink7.AcceptNext(enumerator.Current);
+                shouldContinue |= sink8.AcceptNext(enumerator.Current);
             }
         }
     }
@@ -783,24 +975,57 @@ namespace EnumerationQuest
             using var sink8 = _consumer8.GetSink();
             using var sink9 = _consumer9.GetSink();
 
-            Enumerate(_enumerable, sink1, sink2, sink3, sink4, sink5, sink6, sink7, sink8, sink9);
+            Enumerate(sink1, sink2, sink3, sink4, sink5, sink6, sink7, sink8, sink9);
 
-            var i = 1;
+            var i = 0;
             try
             {
-                result1 = sink1.GetResult(); i++;
-                result2 = sink2.GetResult(); i++;
-                result3 = sink3.GetResult(); i++;
-                result4 = sink4.GetResult(); i++;
-                result5 = sink5.GetResult(); i++;
-                result6 = sink6.GetResult(); i++;
-                result7 = sink7.GetResult(); i++;
-                result8 = sink8.GetResult(); i++;
-                result9 = sink9.GetResult(); i++;
+                 i++; result1 = sink1.GetResult();
+                 i++; result2 = sink2.GetResult();
+                 i++; result3 = sink3.GetResult();
+                 i++; result4 = sink4.GetResult();
+                 i++; result5 = sink5.GetResult();
+                 i++; result6 = sink6.GetResult();
+                 i++; result7 = sink7.GetResult();
+                 i++; result8 = sink8.GetResult();
+                 i++; result9 = sink9.GetResult();
             }
             catch(Exception e)
             {
                 throw new EnumerationException($"The evaluation of Item{i} failed", e);
+            }
+        }
+
+        private void Enumerate(IEnumerableSink<TSource> sink1, IEnumerableSink<TSource> sink2, IEnumerableSink<TSource> sink3, IEnumerableSink<TSource> sink4, IEnumerableSink<TSource> sink5, IEnumerableSink<TSource> sink6, IEnumerableSink<TSource> sink7, IEnumerableSink<TSource> sink8, IEnumerableSink<TSource> sink9)
+        {
+            using var enumerator = _enumerable.GetEnumerator();
+
+            if (!enumerator.MoveNext())
+                return;
+
+            var shouldContinue = false;
+            shouldContinue |= sink1.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink2.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink3.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink4.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink5.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink6.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink7.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink8.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink9.AcceptFirst(enumerator.Current);
+
+            while (shouldContinue && enumerator.MoveNext())
+            {
+                shouldContinue = false;
+                shouldContinue |= sink1.AcceptNext(enumerator.Current);
+                shouldContinue |= sink2.AcceptNext(enumerator.Current);
+                shouldContinue |= sink3.AcceptNext(enumerator.Current);
+                shouldContinue |= sink4.AcceptNext(enumerator.Current);
+                shouldContinue |= sink5.AcceptNext(enumerator.Current);
+                shouldContinue |= sink6.AcceptNext(enumerator.Current);
+                shouldContinue |= sink7.AcceptNext(enumerator.Current);
+                shouldContinue |= sink8.AcceptNext(enumerator.Current);
+                shouldContinue |= sink9.AcceptNext(enumerator.Current);
             }
         }
     }
@@ -906,25 +1131,60 @@ namespace EnumerationQuest
             using var sink9 = _consumer9.GetSink();
             using var sink10 = _consumer10.GetSink();
 
-            Enumerate(_enumerable, sink1, sink2, sink3, sink4, sink5, sink6, sink7, sink8, sink9, sink10);
+            Enumerate(sink1, sink2, sink3, sink4, sink5, sink6, sink7, sink8, sink9, sink10);
 
-            var i = 1;
+            var i = 0;
             try
             {
-                result1 = sink1.GetResult(); i++;
-                result2 = sink2.GetResult(); i++;
-                result3 = sink3.GetResult(); i++;
-                result4 = sink4.GetResult(); i++;
-                result5 = sink5.GetResult(); i++;
-                result6 = sink6.GetResult(); i++;
-                result7 = sink7.GetResult(); i++;
-                result8 = sink8.GetResult(); i++;
-                result9 = sink9.GetResult(); i++;
-                result10 = sink10.GetResult(); i++;
+                 i++; result1 = sink1.GetResult();
+                 i++; result2 = sink2.GetResult();
+                 i++; result3 = sink3.GetResult();
+                 i++; result4 = sink4.GetResult();
+                 i++; result5 = sink5.GetResult();
+                 i++; result6 = sink6.GetResult();
+                 i++; result7 = sink7.GetResult();
+                 i++; result8 = sink8.GetResult();
+                 i++; result9 = sink9.GetResult();
+                 i++; result10 = sink10.GetResult();
             }
             catch(Exception e)
             {
                 throw new EnumerationException($"The evaluation of Item{i} failed", e);
+            }
+        }
+
+        private void Enumerate(IEnumerableSink<TSource> sink1, IEnumerableSink<TSource> sink2, IEnumerableSink<TSource> sink3, IEnumerableSink<TSource> sink4, IEnumerableSink<TSource> sink5, IEnumerableSink<TSource> sink6, IEnumerableSink<TSource> sink7, IEnumerableSink<TSource> sink8, IEnumerableSink<TSource> sink9, IEnumerableSink<TSource> sink10)
+        {
+            using var enumerator = _enumerable.GetEnumerator();
+
+            if (!enumerator.MoveNext())
+                return;
+
+            var shouldContinue = false;
+            shouldContinue |= sink1.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink2.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink3.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink4.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink5.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink6.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink7.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink8.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink9.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink10.AcceptFirst(enumerator.Current);
+
+            while (shouldContinue && enumerator.MoveNext())
+            {
+                shouldContinue = false;
+                shouldContinue |= sink1.AcceptNext(enumerator.Current);
+                shouldContinue |= sink2.AcceptNext(enumerator.Current);
+                shouldContinue |= sink3.AcceptNext(enumerator.Current);
+                shouldContinue |= sink4.AcceptNext(enumerator.Current);
+                shouldContinue |= sink5.AcceptNext(enumerator.Current);
+                shouldContinue |= sink6.AcceptNext(enumerator.Current);
+                shouldContinue |= sink7.AcceptNext(enumerator.Current);
+                shouldContinue |= sink8.AcceptNext(enumerator.Current);
+                shouldContinue |= sink9.AcceptNext(enumerator.Current);
+                shouldContinue |= sink10.AcceptNext(enumerator.Current);
             }
         }
     }
@@ -1036,26 +1296,63 @@ namespace EnumerationQuest
             using var sink10 = _consumer10.GetSink();
             using var sink11 = _consumer11.GetSink();
 
-            Enumerate(_enumerable, sink1, sink2, sink3, sink4, sink5, sink6, sink7, sink8, sink9, sink10, sink11);
+            Enumerate(sink1, sink2, sink3, sink4, sink5, sink6, sink7, sink8, sink9, sink10, sink11);
 
-            var i = 1;
+            var i = 0;
             try
             {
-                result1 = sink1.GetResult(); i++;
-                result2 = sink2.GetResult(); i++;
-                result3 = sink3.GetResult(); i++;
-                result4 = sink4.GetResult(); i++;
-                result5 = sink5.GetResult(); i++;
-                result6 = sink6.GetResult(); i++;
-                result7 = sink7.GetResult(); i++;
-                result8 = sink8.GetResult(); i++;
-                result9 = sink9.GetResult(); i++;
-                result10 = sink10.GetResult(); i++;
-                result11 = sink11.GetResult(); i++;
+                 i++; result1 = sink1.GetResult();
+                 i++; result2 = sink2.GetResult();
+                 i++; result3 = sink3.GetResult();
+                 i++; result4 = sink4.GetResult();
+                 i++; result5 = sink5.GetResult();
+                 i++; result6 = sink6.GetResult();
+                 i++; result7 = sink7.GetResult();
+                 i++; result8 = sink8.GetResult();
+                 i++; result9 = sink9.GetResult();
+                 i++; result10 = sink10.GetResult();
+                 i++; result11 = sink11.GetResult();
             }
             catch(Exception e)
             {
                 throw new EnumerationException($"The evaluation of Item{i} failed", e);
+            }
+        }
+
+        private void Enumerate(IEnumerableSink<TSource> sink1, IEnumerableSink<TSource> sink2, IEnumerableSink<TSource> sink3, IEnumerableSink<TSource> sink4, IEnumerableSink<TSource> sink5, IEnumerableSink<TSource> sink6, IEnumerableSink<TSource> sink7, IEnumerableSink<TSource> sink8, IEnumerableSink<TSource> sink9, IEnumerableSink<TSource> sink10, IEnumerableSink<TSource> sink11)
+        {
+            using var enumerator = _enumerable.GetEnumerator();
+
+            if (!enumerator.MoveNext())
+                return;
+
+            var shouldContinue = false;
+            shouldContinue |= sink1.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink2.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink3.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink4.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink5.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink6.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink7.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink8.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink9.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink10.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink11.AcceptFirst(enumerator.Current);
+
+            while (shouldContinue && enumerator.MoveNext())
+            {
+                shouldContinue = false;
+                shouldContinue |= sink1.AcceptNext(enumerator.Current);
+                shouldContinue |= sink2.AcceptNext(enumerator.Current);
+                shouldContinue |= sink3.AcceptNext(enumerator.Current);
+                shouldContinue |= sink4.AcceptNext(enumerator.Current);
+                shouldContinue |= sink5.AcceptNext(enumerator.Current);
+                shouldContinue |= sink6.AcceptNext(enumerator.Current);
+                shouldContinue |= sink7.AcceptNext(enumerator.Current);
+                shouldContinue |= sink8.AcceptNext(enumerator.Current);
+                shouldContinue |= sink9.AcceptNext(enumerator.Current);
+                shouldContinue |= sink10.AcceptNext(enumerator.Current);
+                shouldContinue |= sink11.AcceptNext(enumerator.Current);
             }
         }
     }
@@ -1173,27 +1470,66 @@ namespace EnumerationQuest
             using var sink11 = _consumer11.GetSink();
             using var sink12 = _consumer12.GetSink();
 
-            Enumerate(_enumerable, sink1, sink2, sink3, sink4, sink5, sink6, sink7, sink8, sink9, sink10, sink11, sink12);
+            Enumerate(sink1, sink2, sink3, sink4, sink5, sink6, sink7, sink8, sink9, sink10, sink11, sink12);
 
-            var i = 1;
+            var i = 0;
             try
             {
-                result1 = sink1.GetResult(); i++;
-                result2 = sink2.GetResult(); i++;
-                result3 = sink3.GetResult(); i++;
-                result4 = sink4.GetResult(); i++;
-                result5 = sink5.GetResult(); i++;
-                result6 = sink6.GetResult(); i++;
-                result7 = sink7.GetResult(); i++;
-                result8 = sink8.GetResult(); i++;
-                result9 = sink9.GetResult(); i++;
-                result10 = sink10.GetResult(); i++;
-                result11 = sink11.GetResult(); i++;
-                result12 = sink12.GetResult(); i++;
+                 i++; result1 = sink1.GetResult();
+                 i++; result2 = sink2.GetResult();
+                 i++; result3 = sink3.GetResult();
+                 i++; result4 = sink4.GetResult();
+                 i++; result5 = sink5.GetResult();
+                 i++; result6 = sink6.GetResult();
+                 i++; result7 = sink7.GetResult();
+                 i++; result8 = sink8.GetResult();
+                 i++; result9 = sink9.GetResult();
+                 i++; result10 = sink10.GetResult();
+                 i++; result11 = sink11.GetResult();
+                 i++; result12 = sink12.GetResult();
             }
             catch(Exception e)
             {
                 throw new EnumerationException($"The evaluation of Item{i} failed", e);
+            }
+        }
+
+        private void Enumerate(IEnumerableSink<TSource> sink1, IEnumerableSink<TSource> sink2, IEnumerableSink<TSource> sink3, IEnumerableSink<TSource> sink4, IEnumerableSink<TSource> sink5, IEnumerableSink<TSource> sink6, IEnumerableSink<TSource> sink7, IEnumerableSink<TSource> sink8, IEnumerableSink<TSource> sink9, IEnumerableSink<TSource> sink10, IEnumerableSink<TSource> sink11, IEnumerableSink<TSource> sink12)
+        {
+            using var enumerator = _enumerable.GetEnumerator();
+
+            if (!enumerator.MoveNext())
+                return;
+
+            var shouldContinue = false;
+            shouldContinue |= sink1.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink2.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink3.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink4.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink5.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink6.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink7.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink8.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink9.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink10.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink11.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink12.AcceptFirst(enumerator.Current);
+
+            while (shouldContinue && enumerator.MoveNext())
+            {
+                shouldContinue = false;
+                shouldContinue |= sink1.AcceptNext(enumerator.Current);
+                shouldContinue |= sink2.AcceptNext(enumerator.Current);
+                shouldContinue |= sink3.AcceptNext(enumerator.Current);
+                shouldContinue |= sink4.AcceptNext(enumerator.Current);
+                shouldContinue |= sink5.AcceptNext(enumerator.Current);
+                shouldContinue |= sink6.AcceptNext(enumerator.Current);
+                shouldContinue |= sink7.AcceptNext(enumerator.Current);
+                shouldContinue |= sink8.AcceptNext(enumerator.Current);
+                shouldContinue |= sink9.AcceptNext(enumerator.Current);
+                shouldContinue |= sink10.AcceptNext(enumerator.Current);
+                shouldContinue |= sink11.AcceptNext(enumerator.Current);
+                shouldContinue |= sink12.AcceptNext(enumerator.Current);
             }
         }
     }
@@ -1317,28 +1653,69 @@ namespace EnumerationQuest
             using var sink12 = _consumer12.GetSink();
             using var sink13 = _consumer13.GetSink();
 
-            Enumerate(_enumerable, sink1, sink2, sink3, sink4, sink5, sink6, sink7, sink8, sink9, sink10, sink11, sink12, sink13);
+            Enumerate(sink1, sink2, sink3, sink4, sink5, sink6, sink7, sink8, sink9, sink10, sink11, sink12, sink13);
 
-            var i = 1;
+            var i = 0;
             try
             {
-                result1 = sink1.GetResult(); i++;
-                result2 = sink2.GetResult(); i++;
-                result3 = sink3.GetResult(); i++;
-                result4 = sink4.GetResult(); i++;
-                result5 = sink5.GetResult(); i++;
-                result6 = sink6.GetResult(); i++;
-                result7 = sink7.GetResult(); i++;
-                result8 = sink8.GetResult(); i++;
-                result9 = sink9.GetResult(); i++;
-                result10 = sink10.GetResult(); i++;
-                result11 = sink11.GetResult(); i++;
-                result12 = sink12.GetResult(); i++;
-                result13 = sink13.GetResult(); i++;
+                 i++; result1 = sink1.GetResult();
+                 i++; result2 = sink2.GetResult();
+                 i++; result3 = sink3.GetResult();
+                 i++; result4 = sink4.GetResult();
+                 i++; result5 = sink5.GetResult();
+                 i++; result6 = sink6.GetResult();
+                 i++; result7 = sink7.GetResult();
+                 i++; result8 = sink8.GetResult();
+                 i++; result9 = sink9.GetResult();
+                 i++; result10 = sink10.GetResult();
+                 i++; result11 = sink11.GetResult();
+                 i++; result12 = sink12.GetResult();
+                 i++; result13 = sink13.GetResult();
             }
             catch(Exception e)
             {
                 throw new EnumerationException($"The evaluation of Item{i} failed", e);
+            }
+        }
+
+        private void Enumerate(IEnumerableSink<TSource> sink1, IEnumerableSink<TSource> sink2, IEnumerableSink<TSource> sink3, IEnumerableSink<TSource> sink4, IEnumerableSink<TSource> sink5, IEnumerableSink<TSource> sink6, IEnumerableSink<TSource> sink7, IEnumerableSink<TSource> sink8, IEnumerableSink<TSource> sink9, IEnumerableSink<TSource> sink10, IEnumerableSink<TSource> sink11, IEnumerableSink<TSource> sink12, IEnumerableSink<TSource> sink13)
+        {
+            using var enumerator = _enumerable.GetEnumerator();
+
+            if (!enumerator.MoveNext())
+                return;
+
+            var shouldContinue = false;
+            shouldContinue |= sink1.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink2.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink3.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink4.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink5.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink6.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink7.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink8.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink9.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink10.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink11.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink12.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink13.AcceptFirst(enumerator.Current);
+
+            while (shouldContinue && enumerator.MoveNext())
+            {
+                shouldContinue = false;
+                shouldContinue |= sink1.AcceptNext(enumerator.Current);
+                shouldContinue |= sink2.AcceptNext(enumerator.Current);
+                shouldContinue |= sink3.AcceptNext(enumerator.Current);
+                shouldContinue |= sink4.AcceptNext(enumerator.Current);
+                shouldContinue |= sink5.AcceptNext(enumerator.Current);
+                shouldContinue |= sink6.AcceptNext(enumerator.Current);
+                shouldContinue |= sink7.AcceptNext(enumerator.Current);
+                shouldContinue |= sink8.AcceptNext(enumerator.Current);
+                shouldContinue |= sink9.AcceptNext(enumerator.Current);
+                shouldContinue |= sink10.AcceptNext(enumerator.Current);
+                shouldContinue |= sink11.AcceptNext(enumerator.Current);
+                shouldContinue |= sink12.AcceptNext(enumerator.Current);
+                shouldContinue |= sink13.AcceptNext(enumerator.Current);
             }
         }
     }
@@ -1468,29 +1845,72 @@ namespace EnumerationQuest
             using var sink13 = _consumer13.GetSink();
             using var sink14 = _consumer14.GetSink();
 
-            Enumerate(_enumerable, sink1, sink2, sink3, sink4, sink5, sink6, sink7, sink8, sink9, sink10, sink11, sink12, sink13, sink14);
+            Enumerate(sink1, sink2, sink3, sink4, sink5, sink6, sink7, sink8, sink9, sink10, sink11, sink12, sink13, sink14);
 
-            var i = 1;
+            var i = 0;
             try
             {
-                result1 = sink1.GetResult(); i++;
-                result2 = sink2.GetResult(); i++;
-                result3 = sink3.GetResult(); i++;
-                result4 = sink4.GetResult(); i++;
-                result5 = sink5.GetResult(); i++;
-                result6 = sink6.GetResult(); i++;
-                result7 = sink7.GetResult(); i++;
-                result8 = sink8.GetResult(); i++;
-                result9 = sink9.GetResult(); i++;
-                result10 = sink10.GetResult(); i++;
-                result11 = sink11.GetResult(); i++;
-                result12 = sink12.GetResult(); i++;
-                result13 = sink13.GetResult(); i++;
-                result14 = sink14.GetResult(); i++;
+                 i++; result1 = sink1.GetResult();
+                 i++; result2 = sink2.GetResult();
+                 i++; result3 = sink3.GetResult();
+                 i++; result4 = sink4.GetResult();
+                 i++; result5 = sink5.GetResult();
+                 i++; result6 = sink6.GetResult();
+                 i++; result7 = sink7.GetResult();
+                 i++; result8 = sink8.GetResult();
+                 i++; result9 = sink9.GetResult();
+                 i++; result10 = sink10.GetResult();
+                 i++; result11 = sink11.GetResult();
+                 i++; result12 = sink12.GetResult();
+                 i++; result13 = sink13.GetResult();
+                 i++; result14 = sink14.GetResult();
             }
             catch(Exception e)
             {
                 throw new EnumerationException($"The evaluation of Item{i} failed", e);
+            }
+        }
+
+        private void Enumerate(IEnumerableSink<TSource> sink1, IEnumerableSink<TSource> sink2, IEnumerableSink<TSource> sink3, IEnumerableSink<TSource> sink4, IEnumerableSink<TSource> sink5, IEnumerableSink<TSource> sink6, IEnumerableSink<TSource> sink7, IEnumerableSink<TSource> sink8, IEnumerableSink<TSource> sink9, IEnumerableSink<TSource> sink10, IEnumerableSink<TSource> sink11, IEnumerableSink<TSource> sink12, IEnumerableSink<TSource> sink13, IEnumerableSink<TSource> sink14)
+        {
+            using var enumerator = _enumerable.GetEnumerator();
+
+            if (!enumerator.MoveNext())
+                return;
+
+            var shouldContinue = false;
+            shouldContinue |= sink1.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink2.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink3.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink4.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink5.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink6.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink7.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink8.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink9.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink10.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink11.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink12.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink13.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink14.AcceptFirst(enumerator.Current);
+
+            while (shouldContinue && enumerator.MoveNext())
+            {
+                shouldContinue = false;
+                shouldContinue |= sink1.AcceptNext(enumerator.Current);
+                shouldContinue |= sink2.AcceptNext(enumerator.Current);
+                shouldContinue |= sink3.AcceptNext(enumerator.Current);
+                shouldContinue |= sink4.AcceptNext(enumerator.Current);
+                shouldContinue |= sink5.AcceptNext(enumerator.Current);
+                shouldContinue |= sink6.AcceptNext(enumerator.Current);
+                shouldContinue |= sink7.AcceptNext(enumerator.Current);
+                shouldContinue |= sink8.AcceptNext(enumerator.Current);
+                shouldContinue |= sink9.AcceptNext(enumerator.Current);
+                shouldContinue |= sink10.AcceptNext(enumerator.Current);
+                shouldContinue |= sink11.AcceptNext(enumerator.Current);
+                shouldContinue |= sink12.AcceptNext(enumerator.Current);
+                shouldContinue |= sink13.AcceptNext(enumerator.Current);
+                shouldContinue |= sink14.AcceptNext(enumerator.Current);
             }
         }
     }
@@ -1626,30 +2046,75 @@ namespace EnumerationQuest
             using var sink14 = _consumer14.GetSink();
             using var sink15 = _consumer15.GetSink();
 
-            Enumerate(_enumerable, sink1, sink2, sink3, sink4, sink5, sink6, sink7, sink8, sink9, sink10, sink11, sink12, sink13, sink14, sink15);
+            Enumerate(sink1, sink2, sink3, sink4, sink5, sink6, sink7, sink8, sink9, sink10, sink11, sink12, sink13, sink14, sink15);
 
-            var i = 1;
+            var i = 0;
             try
             {
-                result1 = sink1.GetResult(); i++;
-                result2 = sink2.GetResult(); i++;
-                result3 = sink3.GetResult(); i++;
-                result4 = sink4.GetResult(); i++;
-                result5 = sink5.GetResult(); i++;
-                result6 = sink6.GetResult(); i++;
-                result7 = sink7.GetResult(); i++;
-                result8 = sink8.GetResult(); i++;
-                result9 = sink9.GetResult(); i++;
-                result10 = sink10.GetResult(); i++;
-                result11 = sink11.GetResult(); i++;
-                result12 = sink12.GetResult(); i++;
-                result13 = sink13.GetResult(); i++;
-                result14 = sink14.GetResult(); i++;
-                result15 = sink15.GetResult(); i++;
+                 i++; result1 = sink1.GetResult();
+                 i++; result2 = sink2.GetResult();
+                 i++; result3 = sink3.GetResult();
+                 i++; result4 = sink4.GetResult();
+                 i++; result5 = sink5.GetResult();
+                 i++; result6 = sink6.GetResult();
+                 i++; result7 = sink7.GetResult();
+                 i++; result8 = sink8.GetResult();
+                 i++; result9 = sink9.GetResult();
+                 i++; result10 = sink10.GetResult();
+                 i++; result11 = sink11.GetResult();
+                 i++; result12 = sink12.GetResult();
+                 i++; result13 = sink13.GetResult();
+                 i++; result14 = sink14.GetResult();
+                 i++; result15 = sink15.GetResult();
             }
             catch(Exception e)
             {
                 throw new EnumerationException($"The evaluation of Item{i} failed", e);
+            }
+        }
+
+        private void Enumerate(IEnumerableSink<TSource> sink1, IEnumerableSink<TSource> sink2, IEnumerableSink<TSource> sink3, IEnumerableSink<TSource> sink4, IEnumerableSink<TSource> sink5, IEnumerableSink<TSource> sink6, IEnumerableSink<TSource> sink7, IEnumerableSink<TSource> sink8, IEnumerableSink<TSource> sink9, IEnumerableSink<TSource> sink10, IEnumerableSink<TSource> sink11, IEnumerableSink<TSource> sink12, IEnumerableSink<TSource> sink13, IEnumerableSink<TSource> sink14, IEnumerableSink<TSource> sink15)
+        {
+            using var enumerator = _enumerable.GetEnumerator();
+
+            if (!enumerator.MoveNext())
+                return;
+
+            var shouldContinue = false;
+            shouldContinue |= sink1.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink2.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink3.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink4.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink5.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink6.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink7.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink8.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink9.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink10.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink11.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink12.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink13.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink14.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink15.AcceptFirst(enumerator.Current);
+
+            while (shouldContinue && enumerator.MoveNext())
+            {
+                shouldContinue = false;
+                shouldContinue |= sink1.AcceptNext(enumerator.Current);
+                shouldContinue |= sink2.AcceptNext(enumerator.Current);
+                shouldContinue |= sink3.AcceptNext(enumerator.Current);
+                shouldContinue |= sink4.AcceptNext(enumerator.Current);
+                shouldContinue |= sink5.AcceptNext(enumerator.Current);
+                shouldContinue |= sink6.AcceptNext(enumerator.Current);
+                shouldContinue |= sink7.AcceptNext(enumerator.Current);
+                shouldContinue |= sink8.AcceptNext(enumerator.Current);
+                shouldContinue |= sink9.AcceptNext(enumerator.Current);
+                shouldContinue |= sink10.AcceptNext(enumerator.Current);
+                shouldContinue |= sink11.AcceptNext(enumerator.Current);
+                shouldContinue |= sink12.AcceptNext(enumerator.Current);
+                shouldContinue |= sink13.AcceptNext(enumerator.Current);
+                shouldContinue |= sink14.AcceptNext(enumerator.Current);
+                shouldContinue |= sink15.AcceptNext(enumerator.Current);
             }
         }
     }
@@ -1786,31 +2251,78 @@ namespace EnumerationQuest
             using var sink15 = _consumer15.GetSink();
             using var sink16 = _consumer16.GetSink();
 
-            Enumerate(_enumerable, sink1, sink2, sink3, sink4, sink5, sink6, sink7, sink8, sink9, sink10, sink11, sink12, sink13, sink14, sink15, sink16);
+            Enumerate(sink1, sink2, sink3, sink4, sink5, sink6, sink7, sink8, sink9, sink10, sink11, sink12, sink13, sink14, sink15, sink16);
 
-            var i = 1;
+            var i = 0;
             try
             {
-                result1 = sink1.GetResult(); i++;
-                result2 = sink2.GetResult(); i++;
-                result3 = sink3.GetResult(); i++;
-                result4 = sink4.GetResult(); i++;
-                result5 = sink5.GetResult(); i++;
-                result6 = sink6.GetResult(); i++;
-                result7 = sink7.GetResult(); i++;
-                result8 = sink8.GetResult(); i++;
-                result9 = sink9.GetResult(); i++;
-                result10 = sink10.GetResult(); i++;
-                result11 = sink11.GetResult(); i++;
-                result12 = sink12.GetResult(); i++;
-                result13 = sink13.GetResult(); i++;
-                result14 = sink14.GetResult(); i++;
-                result15 = sink15.GetResult(); i++;
-                result16 = sink16.GetResult(); i++;
+                 i++; result1 = sink1.GetResult();
+                 i++; result2 = sink2.GetResult();
+                 i++; result3 = sink3.GetResult();
+                 i++; result4 = sink4.GetResult();
+                 i++; result5 = sink5.GetResult();
+                 i++; result6 = sink6.GetResult();
+                 i++; result7 = sink7.GetResult();
+                 i++; result8 = sink8.GetResult();
+                 i++; result9 = sink9.GetResult();
+                 i++; result10 = sink10.GetResult();
+                 i++; result11 = sink11.GetResult();
+                 i++; result12 = sink12.GetResult();
+                 i++; result13 = sink13.GetResult();
+                 i++; result14 = sink14.GetResult();
+                 i++; result15 = sink15.GetResult();
+                 i++; result16 = sink16.GetResult();
             }
             catch(Exception e)
             {
                 throw new EnumerationException($"The evaluation of Item{i} failed", e);
+            }
+        }
+
+        private void Enumerate(IEnumerableSink<TSource> sink1, IEnumerableSink<TSource> sink2, IEnumerableSink<TSource> sink3, IEnumerableSink<TSource> sink4, IEnumerableSink<TSource> sink5, IEnumerableSink<TSource> sink6, IEnumerableSink<TSource> sink7, IEnumerableSink<TSource> sink8, IEnumerableSink<TSource> sink9, IEnumerableSink<TSource> sink10, IEnumerableSink<TSource> sink11, IEnumerableSink<TSource> sink12, IEnumerableSink<TSource> sink13, IEnumerableSink<TSource> sink14, IEnumerableSink<TSource> sink15, IEnumerableSink<TSource> sink16)
+        {
+            using var enumerator = _enumerable.GetEnumerator();
+
+            if (!enumerator.MoveNext())
+                return;
+
+            var shouldContinue = false;
+            shouldContinue |= sink1.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink2.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink3.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink4.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink5.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink6.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink7.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink8.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink9.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink10.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink11.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink12.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink13.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink14.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink15.AcceptFirst(enumerator.Current);
+            shouldContinue |= sink16.AcceptFirst(enumerator.Current);
+
+            while (shouldContinue && enumerator.MoveNext())
+            {
+                shouldContinue = false;
+                shouldContinue |= sink1.AcceptNext(enumerator.Current);
+                shouldContinue |= sink2.AcceptNext(enumerator.Current);
+                shouldContinue |= sink3.AcceptNext(enumerator.Current);
+                shouldContinue |= sink4.AcceptNext(enumerator.Current);
+                shouldContinue |= sink5.AcceptNext(enumerator.Current);
+                shouldContinue |= sink6.AcceptNext(enumerator.Current);
+                shouldContinue |= sink7.AcceptNext(enumerator.Current);
+                shouldContinue |= sink8.AcceptNext(enumerator.Current);
+                shouldContinue |= sink9.AcceptNext(enumerator.Current);
+                shouldContinue |= sink10.AcceptNext(enumerator.Current);
+                shouldContinue |= sink11.AcceptNext(enumerator.Current);
+                shouldContinue |= sink12.AcceptNext(enumerator.Current);
+                shouldContinue |= sink13.AcceptNext(enumerator.Current);
+                shouldContinue |= sink14.AcceptNext(enumerator.Current);
+                shouldContinue |= sink15.AcceptNext(enumerator.Current);
+                shouldContinue |= sink16.AcceptNext(enumerator.Current);
             }
         }
     }

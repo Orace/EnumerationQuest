@@ -14,47 +14,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-using System;
-using System.Collections.Generic;
-
 namespace EnumerationQuest
 {
     public abstract class EnumerationRequestsBase
     {
         internal EnumerationRequestsBase()
         {
-        }
-
-        internal static void Enumerate<TSource>(IEnumerable<TSource> source, params IEnumerableSink<TSource>[] sinks)
-        {
-            if (source is null)
-                throw new ArgumentNullException(nameof(source));
-
-            if (sinks is null)
-                throw new ArgumentNullException(nameof(sinks));
-
-            if (sinks.Length is 0)
-                return;
-
-            using var enumerator = source.GetEnumerator();
-
-            if (!enumerator.MoveNext())
-                return;
-
-            var shouldContinue = false;
-            foreach (var sink in sinks)
-            {
-                shouldContinue |= sink.AcceptFirst(enumerator.Current);
-            }
-
-            while (shouldContinue && enumerator.MoveNext())
-            {
-                shouldContinue = false;
-                foreach (var sink in sinks)
-                {
-                    shouldContinue |= sink.AcceptNext(enumerator.Current);
-                }
-            }
         }
     }
 }
