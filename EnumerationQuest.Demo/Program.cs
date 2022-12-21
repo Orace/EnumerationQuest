@@ -16,6 +16,7 @@
 
 using System;
 using System.Linq;
+using System.Reactive.Linq;
 
 namespace EnumerationQuest.Demo
 {
@@ -23,6 +24,30 @@ namespace EnumerationQuest.Demo
     {
         private static void Main()
         {
+            var peoples = new[]
+            {
+                new { Age = 40, Gender = Gender.Male, Name = "Bob" },
+                new { Age = 38, Gender = Gender.Female, Name = "Helen" },
+                new { Age = 14, Gender = Gender.Female, Name = "Violet" },
+                new { Age = 10, Gender = Gender.Male, Name = "Dash" },
+                new { Age = 1, Gender = Gender.Male, Name = "Jack-Jack" }
+            };
+
+            var (infants, kids, teenagers, adults, female, male) =
+                peoples.Get(o => o.Where(p => p.Age <= 2).Select(p => p.Name).ToList())
+                       .And(o => o.Where(p => p.Age is > 2 and <= 12).Select(p => p.Name).ToList())
+                       .And(o => o.Where(p => p.Age is > 12 and <= 19).Select(p => p.Name).ToList())
+                       .And(o => o.Where(p => p.Age > 19).Select(p => p.Name).ToList())
+                       .And(o => o.Where(p => p.Gender is Gender.Female).Select(p => p.Name).ToList())
+                       .And(o => o.Where(p => p.Gender is Gender.Male).Select(p => p.Name).ToList());
+
+            Console.WriteLine($"  infants: {string.Join(", ", infants)}");
+            Console.WriteLine($"     kids: {string.Join(", ", kids)}");
+            Console.WriteLine($"teenagers: {string.Join(", ", teenagers)}");
+            Console.WriteLine($"   adults: {string.Join(", ", adults)}");
+            Console.WriteLine($"   female: {string.Join(", ", female)}");
+            Console.WriteLine($"    male : {string.Join(", ", male)}");
+
             var r = new Random();
             var e = Enumerable.Range(0, 1000).Select(_ => r.Next(256));
 
@@ -61,6 +86,12 @@ namespace EnumerationQuest.Demo
                 Console.WriteLine(exception);
                 throw;
             }
+        }
+
+        private enum Gender
+        {
+            Female,
+            Male
         }
     }
 }

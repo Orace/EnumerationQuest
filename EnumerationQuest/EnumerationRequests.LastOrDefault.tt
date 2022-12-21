@@ -13,6 +13,7 @@ var methods = new[]
     new
     {
         Name = "LastOrDefault",
+        ConsumerName = "LastOrDefault",
         Args = "",
         Doc = docForLastOrDefault,
         Generics = "",
@@ -23,6 +24,7 @@ var methods = new[]
     new
     {
         Name = "LastOrDefault",
+        ConsumerName = "LastOrDefault",
         Args = "defaultValue",
         Doc = docForLastOrDefaultWithDefaultValue,
         Generics = "",
@@ -33,6 +35,7 @@ var methods = new[]
     new
     {
         Name = "LastOrDefault",
+        ConsumerName = "LastOrDefault",
         Args = "predicate",
         Doc = docForLastOrDefaultWithPredicate,
         Generics = "",
@@ -43,6 +46,7 @@ var methods = new[]
     new
     {
         Name = "LastOrDefault",
+        ConsumerName = "LastOrDefault",
         Args = "predicate, defaultValue",
         Doc = docForLastOrDefaultWithPredicateAndDefaultValue,
         Generics = "",

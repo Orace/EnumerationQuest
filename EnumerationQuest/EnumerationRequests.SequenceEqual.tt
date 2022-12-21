@@ -13,6 +13,7 @@ var methods = new[]
     new
     {
         Name = "SequenceEqual",
+        ConsumerName = "SequenceEqual",
         Args = "other",
         Doc = docForSequenceEqual,
         Generics = "",
@@ -23,6 +24,7 @@ var methods = new[]
     new
     {
         Name = "SequenceEqual",
+        ConsumerName = "SequenceEqual",
         Args = "other, comparer",
         Doc = docForSequenceEqualWithComparer,
         Generics = "",

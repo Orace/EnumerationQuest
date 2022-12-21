@@ -105,6 +105,10 @@ EnumerationQuest library allows the evaluation of multiple properties of an IEnu
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>EnumerationRequests.FirstOrDefault.g.cs</LastGenOutput>
     </None>
+    <None Update="EnumerationRequests.Get.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.Get.g.cs</LastGenOutput>
+    </None>
     <None Update="EnumerationRequests.IndexOf.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>EnumerationRequests.IndexOf.g.cs</LastGenOutput>
@@ -193,6 +197,10 @@ EnumerationQuest library allows the evaluation of multiple properties of an IEnu
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Reactive" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -294,6 +302,11 @@ EnumerationQuest library allows the evaluation of multiple properties of an IEnu
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>EnumerationRequests.tt</DependentUpon>
+    </Compile>
+    <Compile Update="EnumerationRequests.Get.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.Get.tt</DependentUpon>
     </Compile>
     <Compile Update="EnumerationRequests.IndexOf.g.cs">
       <DesignTime>True</DesignTime>

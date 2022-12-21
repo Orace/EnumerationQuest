@@ -13,6 +13,7 @@ var methods = new[]
     new
     {
         Name = "Contains",
+        ConsumerName = "Contains",
         Args = "value",
         Doc = docForContains,
         Generics = "",
@@ -23,6 +24,7 @@ var methods = new[]
     new
     {
         Name = "Contains",
+        ConsumerName = "Contains",
         Args = "value, comparer",
         Doc = docForContainsWithComparer,
         Generics = "",

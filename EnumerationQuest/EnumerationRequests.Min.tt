@@ -13,6 +13,7 @@ var methods = new[]
     new
     {
         Name = "Min",
+        ConsumerName = "Min",
         Args = "",
         Doc = docForMin,
         Generics = "",
@@ -23,6 +24,7 @@ var methods = new[]
     new
     {
         Name = "Min",
+        ConsumerName = "Min",
         Args = "comparer",
         Doc = docForMinWithComparer,
         Generics = "",
@@ -33,6 +35,7 @@ var methods = new[]
     new
     {
         Name = "Min",
+        ConsumerName = "Min",
         Args = "selector",
         Doc = docForMinWithSelector,
         Generics = ", TResult",
@@ -43,6 +46,7 @@ var methods = new[]
     new
     {
         Name = "Min",
+        ConsumerName = "Min",
         Args = "selector, comparer",
         Doc = docForMinWithSelectorAndComparer,
         Generics = ", TResult",

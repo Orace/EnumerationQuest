@@ -13,6 +13,7 @@ var methods = new[]
     new
     {
         Name = "ElementAtOrDefault",
+        ConsumerName = "ElementAtOrDefault",
         Args = "index",
         Doc = docForElementAtOrDefaultWithIndex,
         Generics = "",
@@ -23,6 +24,7 @@ var methods = new[]
     new
     {
         Name = "ElementAtOrDefault",
+        ConsumerName = "ElementAtOrDefault",
         Args = "index",
         Doc = docForElementAtOrDefaultWithInt32,
         Generics = "",

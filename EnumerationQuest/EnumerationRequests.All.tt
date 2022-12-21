@@ -13,6 +13,7 @@ var methods = new[]
     new
     {
         Name = "All",
+        ConsumerName = "All",
         Args = "predicate",
         Doc = docForAll,
         Generics = "",

@@ -1,0 +1,15 @@
+﻿<#
+
+var docForGet = new []
+{
+    @"<summary>",
+    @"  <para>",
+    @"    Requests the evaluation of a IObservable that emit the original sequence.",
+    @"  </para>",
+    @"  <para>",
+    @"    The result of this request is the last element emited by the IObservable.",
+    @"  </para>",
+    @"</summary>"
+};
+
+#>

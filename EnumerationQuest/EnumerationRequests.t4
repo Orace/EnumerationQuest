@@ -44,7 +44,7 @@ namespace EnumerationQuest
         /// <exception cref="ArgumentNullException"><paramref name="source"/> is <see langword="null"/>.</exception>
         public static EnumerationRequests1<TSource, <#= m.TOut #>> Get<#= m.Name #><TSource<#= m.Generics #>>(this IEnumerable<TSource> source<#= m.Params #>) <#= m.Constraints #>
         {
-            return new EnumerationRequests1<TSource, <#= m.TOut #>>(source, ConsumerFactory.<#= m.Name #><TSource<#= m.Generics #>>(<#= m.Args #>));
+            return new EnumerationRequests1<TSource, <#= m.TOut #>>(source, ConsumerFactory.<#= m.ConsumerName #><TSource<#= m.Generics #>>(<#= m.Args #>));
         }
 
 <# foreach (var o in overloads.Where(o => !o.IsLast)) { #>
@@ -73,7 +73,7 @@ namespace EnumerationQuest
             if (source is null)
                 throw new ArgumentNullException(nameof(source));
 
-            return source.Add(ConsumerFactory.<#= m.Name #><TSource<#= m.Generics #>>(<#= m.Args #>));
+            return source.Add(ConsumerFactory.<#= m.ConsumerName #><TSource<#= m.Generics #>>(<#= m.Args #>));
         }
 
 <# } #>

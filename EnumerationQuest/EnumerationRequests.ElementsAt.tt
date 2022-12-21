@@ -13,6 +13,7 @@ var methods = new[]
     new
     {
         Name = "ElementsAt",
+        ConsumerName = "ElementsAt",
         Args = "indices",
         Doc = docForElementsAt,
         Generics = "",

@@ -13,6 +13,7 @@ var methods = new[]
     new
     {
         Name = "Single",
+        ConsumerName = "Single",
         Args = "",
         Doc = docForSingle,
         Generics = "",
@@ -23,6 +24,7 @@ var methods = new[]
     new
     {
         Name = "Single",
+        ConsumerName = "Single",
         Args = "predicate",
         Doc = docForSingleWithPredicate,
         Generics = "",

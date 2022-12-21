@@ -13,6 +13,7 @@ var methods = new[]
     new
     {
         Name = "MinBy",
+        ConsumerName = "MinBy",
         Args = "keySelector",
         Doc = docForMinBy,
         Generics = ", TKey",
@@ -23,6 +24,7 @@ var methods = new[]
     new
     {
         Name = "MinBy",
+        ConsumerName = "MinBy",
         Args = "keySelector, comparer",
         Doc = docForMinByWithComparer,
         Generics = ", TKey",

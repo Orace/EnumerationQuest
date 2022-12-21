@@ -13,6 +13,7 @@ var methods = new[]
     new
     {
         Name = "MaximumsBy",
+        ConsumerName = "MaximumsBy",
         Args = "keySelector",
         Doc = docForMaximumsBy,
         Generics = ", TKey",
@@ -23,6 +24,7 @@ var methods = new[]
     new
     {
         Name = "MaximumsBy",
+        ConsumerName = "MaximumsBy",
         Args = "keySelector, comparer",
         Doc = docForMaximumsByWithComparer,
         Generics = ", TKey",

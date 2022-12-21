@@ -13,6 +13,7 @@ var methods = new[]
     new
     {
         Name = "Slice",
+        ConsumerName = "Slice",
         Args = "range",
         Doc = docForSlice,
         Generics = "",

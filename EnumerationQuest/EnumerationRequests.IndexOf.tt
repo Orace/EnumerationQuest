@@ -13,6 +13,7 @@ var methods = new[]
     new
     {
         Name = "IndexOf",
+        ConsumerName = "IndexOf",
         Args = "value",
         Doc = docForIndexOf,
         Generics = "",
@@ -23,6 +24,7 @@ var methods = new[]
     new
     {
         Name = "IndexOf",
+        ConsumerName = "IndexOf",
         Args = "value, comparer",
         Doc = docForIndexOfWithComparer,
         Generics = "",
