@@ -62,11 +62,12 @@ namespace EnumerationQuest.Demo
                      .AndCount()
                      .AndAny(i => true)
                      .AndDelimitedString(", ", v => $"{v:000}")
+                     .And(o => o.Select(i => i % 2 == 0).ToList())
                      .AndHasDuplicates();
 
             try
             {
-                var (min, max, i42, avg, slice, at50, first, last, count, any, delimitedString, hasDuplicate) = q;
+                var (min, max, i42, avg, slice, at50, first, last, count, any, delimitedString, evenValues, hasDuplicate) = q;
 
                 Console.WriteLine(min);
                 Console.WriteLine(max);
@@ -79,6 +80,7 @@ namespace EnumerationQuest.Demo
                 Console.WriteLine(count);
                 Console.WriteLine(any);
                 Console.WriteLine(delimitedString);
+                Console.WriteLine(string.Join(", ", evenValues));
                 Console.WriteLine(hasDuplicate);
             }
             catch (Exception exception)

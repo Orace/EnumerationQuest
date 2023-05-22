@@ -26,12 +26,13 @@ To achieve this, **EnumerationQuest** uses fluent pattern to construct an `Enume
  - The following ones are called on `EnumerationRequests` object with the `And` prefix.
  - The enumeration and the evaluations are performed at the [deconstruction](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/functional/deconstruct#user-defined-types) of the `EnumerationRequests` object.
 
-*Et voilà :*
+*Et voilà*:
 ```csharp
-    var (min, avg, max, count) = e.GetMin()
-                                  .AndAverage()
-                                  .AndMax()
-                                  .AndCount();
+    var (min, avg, max, count, evenValues) = e.GetMin()
+                                              .AndAverage()
+                                              .AndMax()
+                                              .AndCount()
+                                              .And(o => o.Select(i => i % 2 == 0).ToList());
 ```
 
 ## Available methods
@@ -60,6 +61,8 @@ To achieve this, **EnumerationQuest** uses fluent pattern to construct an `Enume
    returns the first element of a sequence; or the first element that satisfies a condition.
  - [FirstOrDefault](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.firstordefault):
    returns the first element of a sequence; or the first element that satisfies a condition; or a default value if such an element does not exist .
+ - Get/And: transform the sequence into an `IObservable` and allow to use react extensions methods.
+ - HasDuplicates: determines whether a sequence contains a duplicate element.
  - IndexOf (from [`List<T>`](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.indexof)
             and [`Array`](https://docs.microsoft.com/en-us/dotnet/api/system.array.indexof)):
    returns the zero-based index of the first occurrence of a value in a sequence.
