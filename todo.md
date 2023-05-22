@@ -43,6 +43,12 @@
 | FirstOrDefault         | defaultValue              | &check;         | &check; | &check;       |               |
 | FirstOrDefault         | predicate                 | &check;         | &check; | &check;       |               |
 | FirstOrDefault         | predicate, defaultValue   | &check;         | &check; | &check;       |               |
+| Get / And              |                           | &check;         |         |               |               |
+| HasDuplicate           |                           | &check;         |         |               |               |
+| HasDuplicate           | comparer                  | &check;         |         |               |               |
+| HasDuplicate           | keySelector               | &check;         |         |               |               |
+| HasDuplicate           | keySelector, comparer     | &check;         |         |               |               |
+| FirstOrDefault         | predicate, defaultValue   | &check;         | &check; | &check;       |               |
 | IndexOf                |                           | &check;         | &check; | &check;       |               |
 | IndexOf                | comparer                  | &check;         | &check; | &check;       |               |
 | IndicesOf              |                           | &check;         | &check; | &check;       |               |
