@@ -51,9 +51,6 @@ namespace EnumerationQuest.Demo
             var r = new Random();
             var e = Enumerable.Range(0, 1000).Select(_ => r.Next(256));
 
-            e.GetLongCount();
-            e.LongCount();
-
             var q = e.GetMin()
                      .AndMax()
                      .AndIndexOf(42)
@@ -64,11 +61,12 @@ namespace EnumerationQuest.Demo
                      .AndLast()
                      .AndCount()
                      .AndAny(i => true)
-                     .AndDelimitedString(", ", v => $"{v:000}");
+                     .AndDelimitedString(", ", v => $"{v:000}")
+                     .AndHasDuplicates();
 
             try
             {
-                var (min, max, i42, avg, slice, at50, first, last, count, fCount, hs) = q;
+                var (min, max, i42, avg, slice, at50, first, last, count, any, delimitedString, hasDuplicate) = q;
 
                 Console.WriteLine(min);
                 Console.WriteLine(max);
@@ -79,7 +77,9 @@ namespace EnumerationQuest.Demo
                 Console.WriteLine(first);
                 Console.WriteLine(last);
                 Console.WriteLine(count);
-                Console.WriteLine(hs);
+                Console.WriteLine(any);
+                Console.WriteLine(delimitedString);
+                Console.WriteLine(hasDuplicate);
             }
             catch (Exception exception)
             {

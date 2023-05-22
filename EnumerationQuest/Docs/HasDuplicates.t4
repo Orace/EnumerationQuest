@@ -1,0 +1,67 @@
+<#
+
+var docForHasDuplicates = new []
+{
+    @"<summary>",
+    @"  <para>",
+    @"    Requests the evaluation of a <see cref=""Boolean""/> that represent whether a sequence contains a duplicate element.",
+    @"  </para>",
+    @"  <para>",
+    @"    The result of this request is <see langword=""true""/> if the sequence contains a duplicate element; <see langword=""false""/> otherwise.",
+    @"  </para>",
+    @"</summary>",
+    @"<remarks>",
+    @"  <para>",
+    @"    <see cref=""EqualityComparer{TSource}.Default""/> is used to test elements equality.",
+    @"  </para>",
+    @"</remarks>",
+};
+
+var docForHasDuplicatesWithComparer = new []
+{
+    @"<summary>",
+    @"  <para>",
+    @"    Requests the evaluation of a <see cref=""Boolean""/> that represent whether a sequence contains a duplicate element by using a specified <see cref=""IEqualityComparer{TSource}""/>.",
+    @"  </para>",
+    @"  <para>",
+    @"    The result of this request is <see langword=""true""/> if the sequence contains a duplicate element; <see langword=""false""/> otherwise.",
+    @"  </para>",
+    @"</summary>",
+    @"<param name=""comparer"">An equality comparer to compare values.</param>",
+    @"<exception cref=""ArgumentNullException""><paramref name=""comparer""/> is <see langword=""null""/>.</exception>",
+};
+
+var docForHasDuplicatesWithKeySelector = new []
+{
+    @"<summary>",
+    @"  <para>",
+    @"    Requests the evaluation of a <see cref=""Boolean""/> that represent whether a sequence contains a duplicate key from it's element.",
+    @"  </para>",
+    @"  <para>",
+    @"    The result of this request is <see langword=""true""/> if the sequence contains a duplicates element; <see langword=""false""/> otherwise.",
+    @"  </para>",
+    @"</summary>",
+    @"<param name=""keySelector"">A function to extract the keys from the elements.</param>",
+    @"<remarks>",
+    @"  <para>",
+    @"    <see cref=""EqualityComparer{TKey}.Default""/> is used to test elements equality.",
+    @"  </para>",
+    @"</remarks>",
+};
+
+var docForHasDuplicatesWithKeySelectorAndComparer = new []
+{
+    @"<summary>",
+    @"  <para>",
+    @"    Requests the evaluation of a <see cref=""Boolean""/> that represent whether a sequence contains a duplicate key from it's element by using a specified <see cref=""IEqualityComparer{TSource}""/>.",
+    @"  </para>",
+    @"  <para>",
+    @"    The result of this request is <see langword=""true""/> if the sequence contains a duplicates element; <see langword=""false""/> otherwise.",
+    @"  </para>",
+    @"</summary>",
+    @"<param name=""keySelector"">A function to extract the keys from the elements.</param>",
+    @"<param name=""comparer"">An equality comparer to compare keys.</param>",
+    @"<exception cref=""ArgumentNullException""><paramref name=""comparer""/> is <see langword=""null""/>.</exception>",
+};
+
+#>

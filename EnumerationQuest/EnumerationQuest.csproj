@@ -109,6 +109,10 @@ EnumerationQuest library allows the evaluation of multiple properties of an IEnu
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>EnumerationRequests.Get.g.cs</LastGenOutput>
     </None>
+    <None Update="EnumerationRequests.HasDuplicates.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EnumerationRequests.HasDuplicates.g.cs</LastGenOutput>
+    </None>
     <None Update="EnumerationRequests.IndexOf.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>EnumerationRequests.IndexOf.g.cs</LastGenOutput>
@@ -193,7 +197,7 @@ EnumerationQuest library allows the evaluation of multiple properties of an IEnu
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>EnumerationRequests.Slice.g.cs</LastGenOutput>
     </None>
-      <None Include="..\LICENSE.txt">
+    <None Include="..\LICENSE.txt">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
@@ -308,6 +312,16 @@ EnumerationQuest library allows the evaluation of multiple properties of an IEnu
       <AutoGen>True</AutoGen>
       <DependentUpon>EnumerationRequests.Get.tt</DependentUpon>
     </Compile>
+    <Compile Update="EnumerationRequests.HasDuplicates.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.HasDuplicates.tt</DependentUpon>
+    </Compile>
+    <None Update="EnumerationRequests.HasDuplicate.g.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EnumerationRequests.HasDuplicate.tt</DependentUpon>
+    </None>
     <Compile Update="EnumerationRequests.IndexOf.g.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
